@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Aurora:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "阿萝拉的技能或攻击伤害能从敌人身上抽离出灵物。被抽离灵物跟随阿萝拉并治疗她。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1648720:4038218"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Spirit Abjuration",
+      "name_zh": "驱灵奇术",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Aurora",
+        "source:ddragon:16.16.1:en_US:Aurora",
+        "source:communitydragon:16.16:zh_cn:Aurora",
+        "source:wiki:1648720:4038218"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Aurora's spells and attacks exorcise spirits from the enemies she damages. Exorcised spirits follow Aurora around and heal her.",
+      "summary_zh": "阿萝拉的技能或攻击伤害能从敌人身上抽离出灵物。被抽离灵物跟随阿萝拉并治疗她。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1648720:4038218"
+      ]
+    },
+    {
+      "ability_id": "ability:Aurora:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "发射诅咒能量至一个方向，对敌人们造成【数值】魔法伤害和持续【数值】秒的诅咒。 再次施放：终止诅咒，将该敌人的一部分灵物抽回到自己身上，对途经的敌人造成至多【数值】魔法伤害(基于其已损失生命值)。第一次命中后的伤害被降低至20%。 如果持续时间耗尽，那么阿萝拉将会自动再次施放这个技能。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1648721:4021922"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Twofold Hex",
+      "name_zh": "飞去来咒",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Aurora",
+        "source:ddragon:16.16.1:en_US:Aurora",
+        "source:communitydragon:16.16:zh_cn:Aurora",
+        "source:wiki:1648721:4021922"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Aurora sends out a missile that curses any enemies it hits. She can then recast the ability to draw active curses back toward herself, damaging foes who are hit along the way.",
+      "summary_zh": "阿萝拉放出一道飞弹，诅咒所有命中的敌人。阿萝拉可以再次施放该技能，来将所有激活的诅咒抽回自己身上。诅咒在返回途中会对命中的敌人造成伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1648721:4021922"
+      ]
+    },
+    {
+      "ability_id": "ability:Aurora:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "跳向一个方向。落地时，进入精神领域，隐形【数值】秒并进入双界行者状态、获得【数值】%移动速度。 参与击杀一个敌方英雄后，会重置这个技能的冷却时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1648722:4007570"
+        ]
+      },
+      "markup_tags": [
+        "keywordstealth",
+        "keywordmajor",
+        "speed",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Across the Veil",
+      "name_zh": "灵纱洞开",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Aurora",
+        "source:ddragon:16.16.1:en_US:Aurora",
+        "source:communitydragon:16.16:zh_cn:Aurora",
+        "source:wiki:1648722:4007570"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Aurora leaps in a direction of her choosing, entering the spirit realm upon landing, becoming invisible, and gaining Move Speed for a short duration of time.",
+      "summary_zh": "阿萝拉跳向选定方向，并在落地时进入精神领域，在短时间内进入隐形状态并获得移动速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1648722:4007570"
+      ]
+    },
+    {
+      "ability_id": "ability:Aurora:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "打开界域之窗，施放出一道灵魂魔法洪流，对区域内的所有敌人造成【数值】魔法伤害和持续【数值】秒的【数值】%减速（减速效果持续衰减）。 施放该技能后，阿萝拉会向后位移一小段距离。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1648723:3936382"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "The Weirding",
+      "name_zh": "怪奇喷涌",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Aurora",
+        "source:ddragon:16.16.1:en_US:Aurora",
+        "source:communitydragon:16.16:zh_cn:Aurora",
+        "source:wiki:1648723:3936382"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Aurora converges the realms, sending out a blast of spirit magic that damages and slows enemies before Aurora hops backward to safety.",
+      "summary_zh": "阿萝拉打开界域之窗，施放出一道灵魂魔法洪流，让双界汇聚，放出一道灵物魔法震波，对敌人造成伤害和减速，然后阿萝拉也会向后跳到安全处。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1648723:3936382"
+      ]
+    },
+    {
+      "ability_id": "ability:Aurora:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "跳向一个方向。落地时，阿萝拉将双界合二为一，发出一道灵魂能量激波，对命中的敌人们造成【数值】魔法伤害和持续2秒的【数值】%减速。 交界领域会持续存在【数值】秒，为阿萝拉提供持续【数值】秒的双界行者，让她能够从区域边缘传送至另一侧边缘。 任何尝试进入或离开该区域的敌人都会被施加持续【数值】秒的【数值】%减速。 阿萝拉可以再次施放这个技能来提前结束区域效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Aurora"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Aurora"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Aurora"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1648724:4007571"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "keywordmajor",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Between Worlds",
+      "name_zh": "双界合一",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Aurora",
+        "source:ddragon:16.16.1:en_US:Aurora",
+        "source:communitydragon:16.16:zh_cn:Aurora",
+        "source:wiki:1648724:4007571"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Aurora leaps in a direction of her choosing, releasing a shockwave that damages and slows any enemies it hits. Afterward, she creates an area that slows enemies within it and allows Aurora to teleport from one side of the area to the other.",
+      "summary_zh": "阿萝拉跳向选定方向，释放出一片灵冲击波，对命中的敌人造成伤害和减速。然后，她会创造一个区域来减速其中的敌人们，并且允许阿萝拉从该区域的一侧传送到另一侧。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1648724:4007571"
+      ]
+    }
+  ],
+  "card_id": "champion:Aurora:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Aurora"
+    ],
+    "numeric_key": "893",
+    "official_name_en": "Aurora",
+    "official_name_zh": "阿萝拉",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Aurora",
+      "source:ddragon:16.16.1:en_US:Aurora",
+      "source:communitydragon:16.16:zh_cn:Aurora",
+      "source:riot-champion-page:Aurora:asof-2026-08-21"
+    ],
+    "stable_id": "Aurora",
+    "title_zh": "双界灵兔"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "mage",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Aurora"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:6fdcce918f63a434d36021702919f43d4e3dd99f8f47d189ba6fbac86e0a790d",
+      "sha256:fa1af9345cc90e7d443d2f398e136aed6eaa74469fd59297e0840be32bfabdeb",
+      "sha256:94f0e861975c7784404cc8450729772722937803af679b43419b6db2023320a8",
+      "sha256:8051e7715a35e20276cf91cbbbe137d10eb48737fe50551c18f378a9ec8f719c",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:6fdcce918f63a434d36021702919f43d4e3dd99f8f47d189ba6fbac86e0a790d",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Aurora.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Aurora",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 阿萝拉",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Aurora.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:fa1af9345cc90e7d443d2f398e136aed6eaa74469fd59297e0840be32bfabdeb",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Aurora.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Aurora",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Aurora",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Aurora.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:94f0e861975c7784404cc8450729772722937803af679b43419b6db2023320a8",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/893.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Aurora",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 阿萝拉",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/893.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:8051e7715a35e20276cf91cbbbe137d10eb48737fe50551c18f378a9ec8f719c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/aurora.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Aurora:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Aurora",
+        "url": "https://www.leagueoflegends.com/en-us/champions/aurora/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038218,
+        "revision_timestamp": "2026-06-30T07:30:27Z",
+        "source_ref_id": "source:wiki:1648720:4038218",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038218",
+        "title": "Template:Data Aurora/Spirit Abjuration",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Aurora/Spirit_Abjuration",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4021922,
+        "revision_timestamp": "2026-05-21T23:55:16Z",
+        "source_ref_id": "source:wiki:1648721:4021922",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4021922",
+        "title": "Template:Data Aurora/Twofold Hex",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Aurora/Twofold_Hex",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007570,
+        "revision_timestamp": "2026-04-12T06:35:42Z",
+        "source_ref_id": "source:wiki:1648722:4007570",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007570",
+        "title": "Template:Data Aurora/Across the Veil",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Aurora/Across_the_Veil",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3936382,
+        "revision_timestamp": "2025-07-24T15:39:34Z",
+        "source_ref_id": "source:wiki:1648723:3936382",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3936382",
+        "title": "Template:Data Aurora/The Weirding",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Aurora/The_Weirding",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007571,
+        "revision_timestamp": "2026-04-12T06:36:22Z",
+        "source_ref_id": "source:wiki:1648724:4007571",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007571",
+        "title": "Template:Data Aurora/Between Worlds",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Aurora/Between_Worlds",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

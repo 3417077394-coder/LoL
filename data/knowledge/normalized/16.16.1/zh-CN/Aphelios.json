@@ -1,0 +1,404 @@
+{
+  "as_of": "2026-08-21",
+  "card_id": "champion:Aphelios:ddragon-16.16.1:zh-CN",
+  "champion": {
+    "aliases": [
+      "Aphelios"
+    ],
+    "numeric_key": "523",
+    "official_name": "厄斐琉斯",
+    "resource_type": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Aphelios",
+      "source:ddragon:16.16.1:en_US:Aphelios"
+    ],
+    "stable_id": "Aphelios",
+    "title": "残月之肃"
+  },
+  "ddragon_version": "16.16.1",
+  "knowledge_snapshot_id": "kb-ddragon-16.16.1-pilot-v1",
+  "locale": "zh-CN",
+  "normalized_mechanics": {
+    "ability_mechanics": [
+      {
+        "ability_fact_id": "fact:Aphelios:passive:weapon_system:ddragon-16.16.1",
+        "conditions": [
+          "效果由当前主副手武器、弹药和队列决定"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "unknown"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Aphelios:passive:weapon_system:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Aphelios:passive:weapon_system:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "passive",
+          "self"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Aphelios:q:weapon_system:ddragon-16.16.1",
+        "conditions": [
+          "具体技能由当前主手武器决定",
+          "部分效果会调用副手武器"
+        ],
+        "control_types": [
+          "root"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [
+          "单条组合记录不能替代五种武器技能的后续拆分审核"
+        ],
+        "mechanic_id": "mechanic:Aphelios:q:weapon_system:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Aphelios:q:weapon_system:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "line",
+          "cone",
+          "ground_area",
+          "self_area",
+          "other"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Aphelios:w:weapon_system:ddragon-16.16.1",
+        "conditions": [
+          "需要同时持有两件武器"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Aphelios:w:weapon_system:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Aphelios:w:weapon_system:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "self"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Aphelios:e:weapon_system:ddragon-16.16.1",
+        "conditions": [],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [
+          "不得将 E 槽描述为可主动施放技能"
+        ],
+        "mechanic_id": "mechanic:Aphelios:e:weapon_system:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Aphelios:e:weapon_system:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "passive",
+          "self"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Aphelios:r:weapon_system:ddragon-16.16.1",
+        "conditions": [
+          "附加效果由当前主手武器决定"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Aphelios:r:weapon_system:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Aphelios:r:weapon_system:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "direction",
+          "line",
+          "ground_area"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "generation": {
+      "generated_at": "2026-08-21T09:25:13+00:00",
+      "ingest_method": "semi_automatic",
+      "input_hashes": [
+        "sha256:5d1cc74dce53c4e09f2f141042a90ead29c16d17b487665fc5876e4e5b336900",
+        "sha256:dc8e5e964256444b5d8ad953fe671d4c397adaa1f94639d4bd0c1eb73a913379"
+      ],
+      "script_version": "ddragon-importer-v1"
+    },
+    "sources": [
+      {
+        "content_hash": "sha256:5d1cc74dce53c4e09f2f141042a90ead29c16d17b487665fc5876e4e5b336900",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Aphelios",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN champion data: 厄斐琉斯",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Aphelios.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:dc8e5e964256444b5d8ad953fe671d4c397adaa1f94639d4bd0c1eb73a913379",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Aphelios",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US champion data: Aphelios",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Aphelios.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      }
+    ]
+  },
+  "public_patch_alias": "26.16",
+  "region_scope": "global_pc",
+  "review": {
+    "notes": [
+      "官方名称与技能描述来自固定 Data Dragon 原始响应。",
+      "机制摘要、标准化枚举与战术画像为待人工核验的模型候选，不得用于正式 fixed-KB 实验。"
+    ],
+    "quality_flags": [
+      "manual_review_required",
+      "complex_form"
+    ],
+    "reviewed_at": null,
+    "reviewer_ids": [],
+    "status": "generated"
+  },
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "schema_version": "champion-knowledge-card-v1",
+  "source_facts": {
+    "ability_facts": [
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Aphelios:passive:weapon_system:ddragon-16.16.1",
+        "form_id": "weapon_system",
+        "mechanics_summary": "拥有五件不同武器，同时持有主手和副手；攻击与技能消耗弹药并推动武器队列。",
+        "official_description": "厄斐琉斯拥有5件由他妹妹拉露恩所制的皎月武器。他同一时间可以使用2件：1件主手武器和1件副手武器。每件武器都有1种独特的普攻方式和1个独特的技能。攻击和技能都会消耗该武器的弹药。在弹药耗尽后，厄斐琉斯会弃掉该武器，并且拉露恩会召唤下一件武器给厄斐琉斯。",
+        "official_name": "传知者与真知者",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Aphelios.json",
+        "slot": "passive",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Aphelios",
+          "source:ddragon:16.16.1:en_US:Aphelios"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Aphelios:q:weapon_system:ddragon-16.16.1",
+        "form_id": "weapon_system",
+        "mechanics_summary": "Q 随主手武器变为五种不同技能，可提供远程标记、移动攻击、禁锢、范围攻击或驻灵。",
+        "official_description": "厄斐琉斯拥有5个不同的主动技能，基于他的主手武器： 通碧(步枪)：长距离射击，能够标记目标来跟进一次长距离攻击。 断魄(短镰枪)：在快速奔跑的同时用两把武器攻击附近的敌人。 坠明(加农炮)：禁锢被这把武器减速的所有敌人。 荧焰(喷火器)：引爆锥形范围内的敌人并用你的副手武器攻击他们。 折镜(飞轮刃)：部署一个装备着你副手武器的驻灵。",
+        "official_name": "武器技能",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Aphelios.json",
+        "slot": "q",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Aphelios",
+          "source:ddragon:16.16.1:en_US:Aphelios"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Aphelios:w:weapon_system:ddragon-16.16.1",
+        "form_id": "weapon_system",
+        "mechanics_summary": "交换主手和副手武器，同时改变普攻方式与 Q 技能。",
+        "official_description": "厄斐琉斯将主手武器和副手武器互换，同时替换他的普攻方式和主动技能。",
+        "official_name": "月相轮转",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Aphelios.json",
+        "slot": "w",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Aphelios",
+          "source:ddragon:16.16.1:en_US:Aphelios"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Aphelios:e:weapon_system:ddragon-16.16.1",
+        "form_id": "weapon_system",
+        "mechanics_summary": "该槽位没有主动技能，仅显示下一件将进入队列的武器。",
+        "official_description": "厄斐琉斯没有E技能。这个技能栏位会显示拉露恩将为他提供的下一件武器。武器序列在开始时是固定的，但可以随着游戏时间来变更——在一件武器弹药耗尽后，就会进入序列的末端。",
+        "official_name": "武器队列系统",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Aphelios.json",
+        "slot": "e",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Aphelios",
+          "source:ddragon:16.16.1:en_US:Aphelios"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Aphelios:r:weapon_system:ddragon-16.16.1",
+        "form_id": "weapon_system",
+        "mechanics_summary": "发射月光并在命中敌方英雄后爆炸，随后施加当前主手武器的独特效果。",
+        "official_description": "发射一道凝结的月光来引爆敌方英雄。还会施加厄斐琉斯主手武器的独特效果。",
+        "official_name": "清辉夜凝",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Aphelios.json",
+        "slot": "r",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Aphelios",
+          "source:ddragon:16.16.1:en_US:Aphelios"
+        ]
+      }
+    ]
+  },
+  "tactical_profile": {
+    "attributes": [
+      {
+        "attribute_id": "attribute:Aphelios:sustained_damage:v1",
+        "basis_fact_ids": [
+          "fact:Aphelios:passive:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:q:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:w:weapon_system:ddragon-16.16.1"
+        ],
+        "category": "sustained_damage",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "武器普攻、主副手联动和 Q 技能构成持续输出核心。"
+      },
+      {
+        "attribute_id": "attribute:Aphelios:waveclear:v1",
+        "basis_fact_ids": [
+          "fact:Aphelios:passive:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:q:weapon_system:ddragon-16.16.1"
+        ],
+        "category": "waveclear",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "范围清线能力取决于当前武器，不能视为恒定能力。"
+      },
+      {
+        "attribute_id": "attribute:Aphelios:poke:v1",
+        "basis_fact_ids": [
+          "fact:Aphelios:passive:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:q:weapon_system:ddragon-16.16.1"
+        ],
+        "category": "poke",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "远程消耗能力取决于当前主手武器。"
+      },
+      {
+        "attribute_id": "attribute:Aphelios:pick:v1",
+        "basis_fact_ids": [
+          "fact:Aphelios:q:weapon_system:ddragon-16.16.1"
+        ],
+        "category": "pick",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "特定武器提供减速后的禁锢，但受武器状态约束。"
+      },
+      {
+        "attribute_id": "attribute:Aphelios:objective_damage:v1",
+        "basis_fact_ids": [
+          "fact:Aphelios:passive:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:q:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:w:weapon_system:ddragon-16.16.1"
+        ],
+        "category": "objective_damage",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "武器组合可强化持续目标输出，具体强度需结合当前状态。"
+      }
+    ],
+    "limitations": [
+      {
+        "basis_fact_ids": [
+          "fact:Aphelios:passive:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:q:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:w:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:e:weapon_system:ddragon-16.16.1",
+          "fact:Aphelios:r:weapon_system:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Aphelios:weapon_state:v1",
+        "review_status": "generated",
+        "summary": "阵容上下文若不提供当前武器和队列，只能描述条件化能力。"
+      },
+      {
+        "basis_fact_ids": [
+          "fact:Aphelios:q:weapon_system:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Aphelios:combined_q:v1",
+        "review_status": "generated",
+        "summary": "Data Dragon 将五种 Q 合并描述，正式审核应决定是否拆为子事实。"
+      }
+    ],
+    "positions": []
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Fizz:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "菲兹在移动时可以穿过单位并且从所有来源处受到的伤害都会减少一个固定的数额。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307183:4042251"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Nimble Fighter",
+      "name_zh": "伶俐斗士",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Fizz",
+        "source:ddragon:16.16.1:en_US:Fizz",
+        "source:communitydragon:16.16:zh_cn:Fizz",
+        "source:wiki:1307183:4042251"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Fizz can move through units and takes a flat amount of reduced damage from all sources",
+      "summary_zh": "菲兹在移动时可以穿过单位并且从所有来源处受到的伤害都会减少一个固定的数额。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307183:4042251"
+      ]
+    },
+    {
+      "ability_id": "ability:Fizz:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "magic"
+      ],
+      "detailed_description_zh": "菲兹冲刺并穿过一名敌人，同时造成【数值】物理伤害加上【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307186:3948968"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Urchin Strike",
+      "name_zh": "淘气打击",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Fizz",
+        "source:ddragon:16.16.1:en_US:Fizz",
+        "source:communitydragon:16.16:zh_cn:Fizz",
+        "source:wiki:1307186:3948968"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Fizz dashes through his target, dealing magic damage and applying on hit effects.",
+      "summary_zh": "菲兹穿过他的目标，造成魔法伤害，并施加攻击特效。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307186:3948968"
+      ]
+    },
+    {
+      "ability_id": "ability:Fizz:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：菲兹的攻击会使他的敌人们流血，在【数值】秒里持续造成共【数值】魔法伤害。 主动：菲兹的下次攻击造成额外的【数值】魔法伤害。如果这次攻击将目标击杀，那么菲兹会返还【数值】法力并使这个技能的冷却时间缩短至【数值】秒。如果这次攻击未能造成击杀，那么菲兹的攻击会造成额外的【数值】魔法伤害，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307188:4015181"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicdamage",
+        "br",
+        "spellactive",
+        "scalemana"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Seastone Trident",
+      "name_zh": "海石三叉戟",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Fizz",
+        "source:ddragon:16.16.1:en_US:Fizz",
+        "source:communitydragon:16.16:zh_cn:Fizz",
+        "source:wiki:1307188:4015181"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Fizz's attacks bleed his enemies, dealing magic damage over several seconds. Fizz can empower his next attack to deal bonus damage and empower his further attacks for a short time.",
+      "summary_zh": "菲兹的攻击会让他的敌人们流血，同时造成持续数秒的魔法伤害。菲兹可以强化他的下次普攻来造成额外伤害，并在短时间内强化他的后续普攻。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307188:4015181"
+      ]
+    },
+    {
+      "ability_id": "ability:Fizz:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "菲兹跳到他的三叉戟上，变为【不可被选取】状态0.75秒，随后对附近敌人造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。 菲兹可以在【不可被选取】状态中再次施放这个技能，以再次位移，并提前结束该状态，在一个较小的区域内造成伤害，并且不会造成减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Playful / Trickster",
+      "name_zh": "古灵/精怪",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Fizz",
+        "source:ddragon:16.16.1:en_US:Fizz",
+        "source:communitydragon:16.16:zh_cn:Fizz"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Fizz hops into the air, landing gracefully upon his spear and becoming untargetable. From this position, Fizz can either slam the ground or choose to jump again before smashing back down.",
+      "summary_zh": "菲兹跳到空中，同时优雅地落在他的长矛上，变得不可被选取。在这个姿态下，菲兹可以选择立原地着陆，也可以选择在着陆之前再跳一段距离。",
+      "wiki_source_ref_ids": []
+    },
+    {
+      "ability_id": "ability:Fizz:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "菲兹掷出一只小鱼来吸附到命中的第一个敌方英雄身上。这个英雄会被施加真实视野和减速，减速幅度为40%到80%，基于小鱼在吸附前的位移距离。 在【数值】秒后，一头巨鲨会从目标脚下出现，击飞带着小鱼的目标1秒，击退其它单位，并基于小鱼在吸附前的位移距离造成【数值】到【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Fizz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Fizz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Fizz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307195:4010638"
+        ]
+      },
+      "markup_tags": [
+        "keywordstealth",
+        "status",
+        "br",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Chum the Waters",
+      "name_zh": "巨鲨强袭",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Fizz",
+        "source:ddragon:16.16.1:en_US:Fizz",
+        "source:communitydragon:16.16:zh_cn:Fizz",
+        "source:wiki:1307195:4010638"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "击飞",
+        "击退"
+      ],
+      "summary_en": "Fizz tosses a fish in a direction that attaches to any champion that touches it, slowing the target. After a short delay, a shark erupts from the ground, knocking up the target and knocking any nearby enemies aside. All enemies hit are dealt magic damage and slowed.",
+      "summary_zh": "菲兹朝一个方向放出一条小鱼，小鱼会附身在第一个与它接触的敌方英雄身上，同时减速目标。在短暂的延迟之后，一条巨鲨就会破土而出，击飞目标并将目标附近的敌人震开。被命中的所有敌人都会受到魔法伤害和减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307195:4010638"
+      ]
+    }
+  ],
+  "card_id": "champion:Fizz:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Fizz"
+    ],
+    "numeric_key": "105",
+    "official_name_en": "Fizz",
+    "official_name_zh": "菲兹",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Fizz",
+      "source:ddragon:16.16.1:en_US:Fizz",
+      "source:communitydragon:16.16:zh_cn:Fizz",
+      "source:riot-champion-page:Fizz:asof-2026-08-21"
+    ],
+    "stable_id": "Fizz",
+    "title_zh": "潮汐海灵"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "assassin",
+      "fighter"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Fizz"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:14c7b7d302e4088475297a769070cd2c5a75ba7be684f7ec9db410fab8d01349",
+      "sha256:89013ff902c5c5bfaed2a88a471477a109ae214c28e2f6e03635d68dd17ee07a",
+      "sha256:e58eb9a37e52894da3c7985171ab6160cab450b545d06fed7cd7aea895475ca6",
+      "sha256:2bb178a20fff9dc44b3265f6d1a08b1b3970c4af6a4a6181f2e555966b3623e1",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+      "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:14c7b7d302e4088475297a769070cd2c5a75ba7be684f7ec9db410fab8d01349",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Fizz.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Fizz",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 菲兹",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Fizz.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:89013ff902c5c5bfaed2a88a471477a109ae214c28e2f6e03635d68dd17ee07a",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Fizz.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Fizz",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Fizz",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Fizz.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:e58eb9a37e52894da3c7985171ab6160cab450b545d06fed7cd7aea895475ca6",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/105.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Fizz",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 菲兹",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/105.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:2bb178a20fff9dc44b3265f6d1a08b1b3970c4af6a4a6181f2e555966b3623e1",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/fizz.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Fizz:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Fizz",
+        "url": "https://www.leagueoflegends.com/en-us/champions/fizz/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4042251,
+        "revision_timestamp": "2026-07-13T11:47:29Z",
+        "source_ref_id": "source:wiki:1307183:4042251",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4042251",
+        "title": "Template:Data Fizz/Nimble Fighter",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Fizz/Nimble_Fighter",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3948968,
+        "revision_timestamp": "2025-08-20T15:07:12Z",
+        "source_ref_id": "source:wiki:1307186:3948968",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3948968",
+        "title": "Template:Data Fizz/Urchin Strike",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Fizz/Urchin_Strike",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015181,
+        "revision_timestamp": "2026-05-03T16:22:19Z",
+        "source_ref_id": "source:wiki:1307188:4015181",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015181",
+        "title": "Template:Data Fizz/Seastone Trident",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Fizz/Seastone_Trident",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4010638,
+        "revision_timestamp": "2026-04-19T21:45:27Z",
+        "source_ref_id": "source:wiki:1307195:4010638",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4010638",
+        "title": "Template:Data Fizz/Chum the Waters",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Fizz/Chum_the_Waters",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "wiki_ability_gap:e",
+      "complex_ability_structure",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

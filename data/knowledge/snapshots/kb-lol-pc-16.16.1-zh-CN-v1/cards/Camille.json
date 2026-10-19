@@ -1,0 +1,510 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Camille:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "对敌方英雄发起的普攻会基于该英雄的伤害类型（物理或魔法）提供一层专门吸收该类型伤害的护盾，护盾的生命值相当于卡蜜尔的一部分最大生命值，持续一小段时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1326683:4051341"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Adaptive Defenses",
+      "name_zh": "适应性防御",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Camille",
+        "source:ddragon:16.16.1:en_US:Camille",
+        "source:communitydragon:16.16:zh_cn:Camille",
+        "source:wiki:1326683:4051341"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Basic attacks on champions grant a shield equal to a percentage of Camille's maximum health against their damage type (Physical or Magic) for a brief duration.",
+      "summary_zh": "对敌方英雄发起的普攻会基于该英雄的伤害类型（物理或魔法）提供一层专门吸收该类型伤害的护盾，护盾的生命值相当于卡蜜尔的一部分最大生命值，持续一小段时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1326683:4051341"
+      ]
+    },
+    {
+      "ability_id": "ability:Camille:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "true"
+      ],
+      "detailed_description_zh": "卡蜜尔的下次攻击造成额外的【数值】物理伤害并为她提供【数值】%移动速度，持续【数值】秒。这个技能可以在接下来的【数值】秒里无消耗地再次施放。 如果再次施放的攻击与第一段攻击相距至少【数值】秒，那么额外伤害会提升至【数值】，并且该次攻击的【数值】伤害转化为真实伤害。 这个技能会在造成伤害时触发技能特效。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1326684:3972807"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "speed",
+        "recast",
+        "br",
+        "truedamage",
+        "rules"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Precision Protocol",
+      "name_zh": "精准礼仪",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Camille",
+        "source:ddragon:16.16.1:en_US:Camille",
+        "source:communitydragon:16.16:zh_cn:Camille",
+        "source:wiki:1326684:3972807"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Camille's next attack deals bonus damage and grants bonus Move Speed. This spell can be recast for a short period of time, doing significantly increased bonus damage if Camille delays a period of time between the two attacks.",
+      "summary_zh": "卡蜜尔的下一次普通攻击会斩击敌人，造成额外物理伤害，并为自身提供短暂的爆发性移动速度加成。这个技能可以在释放后的短时间内再次施放，并且如果两次释放之间存在一定的间隔，那么第二段攻击会造成显著的额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1326684:3972807"
+      ]
+    },
+    {
+      "ability_id": "ability:Camille:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "卡蜜尔蓄力然后切割，造成【数值】物理伤害。 被外沿命中的敌人会被减速【数值】%，减速效果会在【数值】秒里持续衰减，并会受到额外的【数值】最大生命值的物理伤害。卡蜜尔会回复对敌方英雄们的【数值】%实际额外伤害值的生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1326685:4051342"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br",
+        "status",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Tactical Sweep",
+      "name_zh": "战术横扫",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Camille",
+        "source:ddragon:16.16.1:en_US:Camille",
+        "source:communitydragon:16.16:zh_cn:Camille",
+        "source:wiki:1326685:4051342"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Camille blasts in a cone after a delay, dealing damage. Enemies in the outer half are slowed and take extra damage, while also healing Camille.",
+      "summary_zh": "卡蜜尔在短暂延迟后引爆一个锥形范围，并造成伤害。外沿的敌人会被减速并且受到额外伤害，同时还会治疗卡蜜尔。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1326685:4051342"
+      ]
+    },
+    {
+      "ability_id": "ability:Camille:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "卡蜜尔发射一个可附着在地形上的钩索，并将卡蜜尔拉到钩索处，并使此技能可以在1秒内再次施放。 再次施放：卡蜜尔从墙体上进行冲刺，与命中的第一个敌方英雄进行碰撞。在着陆时，她获得持续 【数值】秒的【数值】%攻击速度，对附近的敌人们造成【数值】物理伤害，并对附近的敌方英雄们造成【数值】秒晕眩。朝着敌方英雄冲刺时，冲刺距离翻倍。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "recast",
+        "br",
+        "attackspeed",
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Hookshot",
+      "name_zh": "钩索",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Camille",
+        "source:ddragon:16.16.1:en_US:Camille",
+        "source:communitydragon:16.16:zh_cn:Camille"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Camille pulls herself to a wall, leaping off and knocking up enemy champions upon landing.",
+      "summary_zh": "卡蜜尔将她自己拉向一个墙体，然后跳下并在落地时击飞敌方英雄。",
+      "wiki_source_ref_ids": []
+    },
+    {
+      "ability_id": "ability:Camille:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "卡蜜尔暂时变得无法被选取，并且跳向一个敌方英雄，打断引导状态并将该英雄锁定在一个区域内，并且该英雄怎样都无法逃出这个区域，持续【数值】秒。其它敌人会被震开。她的攻击会对目标敌人造成额外的【数值】%当前生命值的魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Camille"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Camille"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Camille"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1326687:4037519"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "The Hextech Ultimatum",
+      "name_zh": "海克斯最后通牒",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Camille",
+        "source:ddragon:16.16.1:en_US:Camille",
+        "source:communitydragon:16.16:zh_cn:Camille",
+        "source:wiki:1326687:4037519"
+      ],
+      "status_terms_zh": [
+        "震开"
+      ],
+      "summary_en": "Camille dashes to target champion, anchoring them to the area. She also deals bonus magic damage to the target with her basic attacks.",
+      "summary_zh": "卡蜜尔冲向目标英雄，并将该英雄锚定在区域中。她对目标英雄发起的普攻还会造成额外的魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1326687:4037519"
+      ]
+    }
+  ],
+  "card_id": "champion:Camille:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Camille"
+    ],
+    "numeric_key": "164",
+    "official_name_en": "Camille",
+    "official_name_zh": "卡蜜尔",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Camille",
+      "source:ddragon:16.16.1:en_US:Camille",
+      "source:communitydragon:16.16:zh_cn:Camille",
+      "source:riot-champion-page:Camille:asof-2026-08-21"
+    ],
+    "stable_id": "Camille",
+    "title_zh": "青钢影"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Camille"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "listed",
+    "text_en": "Camille With roaming supports all the rage, Camille has been queen. We are simultaneously looking to nerf her support roaming power while keeping or (hopefully) actually buffing her top lane. This means trading the raw all in power behind her passive shield early game in favor of significantly lowered cooldowns for better repeatable trading. Base Stats Mana : 339 ⇒ 375 Passive - Adaptive Defenses Shield : 20% Maximum Health ⇒ 10 / 15 / 20 / 25% Maximum Health (levels 1 / 7 / 13 / 19) Cooldown : 18 / 14 / 10 / 6s (levels 1 / 7 / 13 / 19) ⇒ 14 / 11 / 8s (levels 1 / 7 / 13) W - Tactical Sweep Cooldown : 15 / 14 / 13 / 12 / 11s ⇒ 12 / 11.5 / 11 / 10.5 / 10s Outer Cone Bonus Damage : 6 / 6.5 / 7 / 7.5 / 8% (+2.5% per 100 bonus Attack Damage) Target Maximum Health ⇒ 7 / 7.5 / 8 / 8.5 / 9% (+2.5% per 100 bonus Attack Damage) Target Maximum Health"
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:025077c5bc7dfb29a967a0f9374c9ea119a966fda2d0715b3302379c87275fb1",
+      "sha256:1413f1db6088b8a6653033db80f3f3b6cf14a1e2b6d8cff822774206e3eb97d7",
+      "sha256:7374829c3dd950ca5983a81baf8082730ae293536cbc0677202cb5141a8920ee",
+      "sha256:edb0d20fcab52eadcf29f86edfd4418ec1611f6d39124b50a61806f9edc1bb17",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+      "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:025077c5bc7dfb29a967a0f9374c9ea119a966fda2d0715b3302379c87275fb1",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Camille.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Camille",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 卡蜜尔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Camille.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:1413f1db6088b8a6653033db80f3f3b6cf14a1e2b6d8cff822774206e3eb97d7",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Camille.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Camille",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Camille",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Camille.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:7374829c3dd950ca5983a81baf8082730ae293536cbc0677202cb5141a8920ee",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/164.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Camille",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 卡蜜尔",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/164.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:edb0d20fcab52eadcf29f86edfd4418ec1611f6d39124b50a61806f9edc1bb17",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/camille.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Camille:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Camille",
+        "url": "https://www.leagueoflegends.com/en-us/champions/camille/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051341,
+        "revision_timestamp": "2026-08-12T12:00:14Z",
+        "source_ref_id": "source:wiki:1326683:4051341",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051341",
+        "title": "Template:Data Camille/Adaptive Defenses",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Camille/Adaptive_Defenses",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3972807,
+        "revision_timestamp": "2025-12-07T12:15:40Z",
+        "source_ref_id": "source:wiki:1326684:3972807",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3972807",
+        "title": "Template:Data Camille/Precision Protocol",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Camille/Precision_Protocol",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051342,
+        "revision_timestamp": "2026-08-12T12:01:13Z",
+        "source_ref_id": "source:wiki:1326685:4051342",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051342",
+        "title": "Template:Data Camille/Tactical Sweep",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Camille/Tactical_Sweep",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4037519,
+        "revision_timestamp": "2026-06-29T08:16:03Z",
+        "source_ref_id": "source:wiki:1326687:4037519",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4037519",
+        "title": "Template:Data Camille/The Hextech Ultimatum",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Camille/The_Hextech_Ultimatum",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "wiki_ability_gap:e",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

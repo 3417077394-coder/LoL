@@ -1,0 +1,520 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Kassadin:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "卡萨丁所受的魔法伤害减少，并无视单位的碰撞体积。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307712:3913958"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Void Stone",
+      "name_zh": "虚空之石",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kassadin",
+        "source:ddragon:16.16.1:en_US:Kassadin",
+        "source:communitydragon:16.16:zh_cn:Kassadin",
+        "source:wiki:1307712:3913958"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kassadin takes reduced magic damage and ignores unit collision.",
+      "summary_zh": "卡萨丁所受的魔法伤害减少，并无视单位的碰撞体积。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307712:3913958"
+      ]
+    },
+    {
+      "ability_id": "ability:Kassadin:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "卡萨丁发射一颗虚无能量法球，造成【数值】魔法伤害并打断引导技能。卡萨丁还会获得【数值】魔法护盾，持续1.5秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307710:4022981"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Null Sphere",
+      "name_zh": "虚无法球",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kassadin",
+        "source:ddragon:16.16.1:en_US:Kassadin",
+        "source:communitydragon:16.16:zh_cn:Kassadin",
+        "source:wiki:1307710:4022981"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kassadin fires an orb of void energy at a target, dealing damage and interrupting channels. The excess energy forms around himself, granting a temporary shield that absorbs magic damage.",
+      "summary_zh": "卡萨丁向目标发射虚空能量法球，造成伤害并打断目标的技能引导。满溢的能量会在他身边环绕，提供一个可吸收魔法伤害的临时护盾。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307710:4022981"
+      ]
+    },
+    {
+      "ability_id": "ability:Kassadin:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：卡萨丁的攻击造成额外的【数值】魔法伤害。 主动：卡萨丁给他的剑刃充能，使他的下次攻击造成【数值】魔法伤害并回复【数值】%已损失法力值，对抗英雄时提升至【数值】%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307708:4022982"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicdamage",
+        "br",
+        "spellactive",
+        "scalemana"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Nether Blade",
+      "name_zh": "虚空之刃",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kassadin",
+        "source:ddragon:16.16.1:en_US:Kassadin",
+        "source:communitydragon:16.16:zh_cn:Kassadin",
+        "source:wiki:1307708:4022982"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Passive: Kassadin's basic attacks deal bonus magic damage. Active: Kassadin's next basic attack deals significant bonus magic damage and restores Mana.",
+      "summary_zh": "被动：卡萨丁的普通攻击会造成额外魔法伤害。主动：卡萨丁的下次普通攻击会造成显著的额外魔法伤害并回复法力值。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307708:4022982"
+      ]
+    },
+    {
+      "ability_id": "ability:Kassadin:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：卡萨丁附近每有任一个技能施放，能量脉冲的冷却时间就会缩短【数值】秒。 主动：卡萨丁释放一道虚空脉冲，造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307706:4007623"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "spellname",
+        "br",
+        "spellactive",
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Force Pulse",
+      "name_zh": "能量脉冲",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kassadin",
+        "source:ddragon:16.16.1:en_US:Kassadin",
+        "source:communitydragon:16.16:zh_cn:Kassadin",
+        "source:wiki:1307706:4007623"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Kassadin draws energy from spells cast in his vicinity. Upon charging up, Kassadin can use Force Pulse to damage and slow enemies in a cone in front of him.",
+      "summary_zh": "附近有单位施放法术技能时，卡萨丁将吸收能量，当充能完毕后，吸收的能量可转化为脉冲，对面前锥形区域内敌人造成伤害并减速。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307706:4007623"
+      ]
+    },
+    {
+      "ability_id": "ability:Kassadin:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "卡萨丁传送到附近的目标区域，着陆时对身边的所有敌方单位造成【数值】魔法伤害。 每在【数值】秒内连续施放一次虚空行走，法力消耗就会翻倍，并造成额外的【数值】魔法伤害。消耗和伤害提升最多可叠加【数值】次。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kassadin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kassadin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kassadin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307704:3996941"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Riftwalk",
+      "name_zh": "虚空行走",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kassadin",
+        "source:ddragon:16.16.1:en_US:Kassadin",
+        "source:communitydragon:16.16:zh_cn:Kassadin",
+        "source:wiki:1307704:3996941"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kassadin teleports to a nearby location dealing damage to nearby enemy units. Multiple Riftwalks in a short period of time cost additional Mana but also deal additional damage.",
+      "summary_zh": "卡萨丁传送到附近区域，对区域内的敌方单位造成伤害。 在一段时间内连续施放虚空行走技能会消耗更多的法力值，但也会造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307704:3996941"
+      ]
+    }
+  ],
+  "card_id": "champion:Kassadin:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Kassadin"
+    ],
+    "numeric_key": "38",
+    "official_name_en": "Kassadin",
+    "official_name_zh": "卡萨丁",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Kassadin",
+      "source:ddragon:16.16.1:en_US:Kassadin",
+      "source:communitydragon:16.16:zh_cn:Kassadin",
+      "source:riot-champion-page:Kassadin:asof-2026-08-21"
+    ],
+    "stable_id": "Kassadin",
+    "title_zh": "虚空行者"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "assassin",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Kassadin"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:a666beab22ff2bb65e13b562c82d933cd6d672faa2a605a3ee74035347c4d7a9",
+      "sha256:bc40739143df7634451bc0244a9eff24f6fab248f9dbc704abd1e785c9d81576",
+      "sha256:aaec119a7eebef85daf98216820d21f07f5a7def5e0e66ba0a56ce0f326156fe",
+      "sha256:0093e608dc345e9eb86985a8d037b4b8209e94ab24e4d3f824d5c7badd576d04",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:a666beab22ff2bb65e13b562c82d933cd6d672faa2a605a3ee74035347c4d7a9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Kassadin.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Kassadin",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 卡萨丁",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Kassadin.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:bc40739143df7634451bc0244a9eff24f6fab248f9dbc704abd1e785c9d81576",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Kassadin.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Kassadin",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Kassadin",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Kassadin.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:aaec119a7eebef85daf98216820d21f07f5a7def5e0e66ba0a56ce0f326156fe",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/38.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Kassadin",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 卡萨丁",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/38.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:0093e608dc345e9eb86985a8d037b4b8209e94ab24e4d3f824d5c7badd576d04",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/kassadin.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Kassadin:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Kassadin",
+        "url": "https://www.leagueoflegends.com/en-us/champions/kassadin/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3913958,
+        "revision_timestamp": "2025-06-18T17:55:07Z",
+        "source_ref_id": "source:wiki:1307712:3913958",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3913958",
+        "title": "Template:Data Kassadin/Void Stone",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kassadin/Void_Stone",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4022981,
+        "revision_timestamp": "2026-05-27T21:13:55Z",
+        "source_ref_id": "source:wiki:1307710:4022981",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4022981",
+        "title": "Template:Data Kassadin/Null Sphere",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kassadin/Null_Sphere",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4022982,
+        "revision_timestamp": "2026-05-27T21:14:06Z",
+        "source_ref_id": "source:wiki:1307708:4022982",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4022982",
+        "title": "Template:Data Kassadin/Nether Blade",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kassadin/Nether_Blade",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007623,
+        "revision_timestamp": "2026-04-12T07:39:26Z",
+        "source_ref_id": "source:wiki:1307706:4007623",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007623",
+        "title": "Template:Data Kassadin/Force Pulse",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kassadin/Force_Pulse",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3996941,
+        "revision_timestamp": "2026-03-05T21:07:14Z",
+        "source_ref_id": "source:wiki:1307704:3996941",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3996941",
+        "title": "Template:Data Kassadin/Riftwalk",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kassadin/Riftwalk",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

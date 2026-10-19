@@ -1,0 +1,532 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Udyr:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "乌迪尔的四个基础技能会让他在四种姿态之间来回转换，并且再次施放同一技能会带来终极技能助益。此外，在使用一个技能后，乌迪尔的下两次攻击获得攻击速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1534138:3983420"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Bridge Between",
+      "name_zh": "众灵纽带",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Udyr",
+        "source:ddragon:16.16.1:en_US:Udyr",
+        "source:communitydragon:16.16:zh_cn:Udyr",
+        "source:wiki:1534138:3983420"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Udyr has four basic Abilities that swap between Stances and can Recast an Ability to renew it with Ultimate benefits. Additionally, after using an Ability, Udyr's next two Attacks gain Attack Speed.",
+      "summary_zh": "乌迪尔的四个基础技能会让他在四种姿态之间来回转换，并且再次施放同一技能会带来终极技能助益。此外，在使用一个技能后，乌迪尔的下两次攻击获得攻击速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1534138:3983420"
+      ]
+    },
+    {
+      "ability_id": "ability:Udyr:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "magic"
+      ],
+      "detailed_description_zh": "爪击姿态：乌迪尔获得【数值】%攻击速度并且他攻击造成【数值】物理伤害 %i:OnHit%攻击特效，持续【数值】秒。此外，乌迪尔在这个姿态中的下两次攻击造成额外的【数值】最大生命值的物理伤害并获得【数值】距离。 觉醒：将额外攻击速度提升至【数值】并且将百分比生命值伤害提升至【数值】。此外，乌迪尔的下两次攻击会召唤闪电进行6次打击，对落单的目标造成共计【数值】最大生命值的魔法伤害(如果可能的话，闪电打击会弹射至附近的其它目标)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1534139:4049976"
+        ]
+      },
+      "markup_tags": [
+        "spellactive",
+        "attackspeed",
+        "physicaldamage",
+        "onhit",
+        "br",
+        "keywordmajor",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Wilding Claw",
+      "name_zh": "狂暴爪击",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Udyr",
+        "source:ddragon:16.16.1:en_US:Udyr",
+        "source:communitydragon:16.16:zh_cn:Udyr",
+        "source:wiki:1534139:4049976"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Udyr gains attack speed and his next two attacks deal bonus physical damage. Recast: Gain even more attack speed, and the next two attacks call lightning to strike the target.",
+      "summary_zh": "乌迪尔获得攻击速度加成并且他的下两次攻击造成额外的物理伤害。再次施放：获得更多攻击速度加成，并且下两次攻击会召唤闪电打击目标。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1534139:4049976"
+      ]
+    },
+    {
+      "ability_id": "ability:Udyr:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "甲胄姿态：乌迪尔获得持续【数值】秒的【数值】护盾值。此外，乌迪尔的下两次攻击具有【数值】%生命偷取并回复【数值】生命值。 觉醒：获得【数值】护盾值，在【数值】秒里持续回复【数值】生命值，并且乌迪尔的下两次攻击转而具有【数值】%生命偷取并回复【数值】生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1534140:4013279"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "shield",
+        "healing",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Iron Mantle",
+      "name_zh": "坚铁甲胄",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Udyr",
+        "source:ddragon:16.16.1:en_US:Udyr",
+        "source:communitydragon:16.16:zh_cn:Udyr",
+        "source:wiki:1534140:4013279"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Udyr gains a shield and his next two attacks heal him. Recast: Gain an even bigger shield and heal based on max health over the next couple seconds.",
+      "summary_zh": "乌迪尔获得护盾，并且下两次攻击会回复生命值。再次施放：获得更厚的护盾并且在接下来的若干秒内持续获得基于最大生命值的治疗效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1534140:4013279"
+      ]
+    },
+    {
+      "ability_id": "ability:Udyr:e:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "蛮冲姿态：乌迪尔获得在【数值】秒里持续衰减的【数值】移动速度。此外，乌迪尔的攻击会使他冲刺到目标处并造成【数值】秒晕眩。(对每个目标各有【数值】秒冷却时间)。 觉醒：免疫定身和限制效果，并额外提供持续【数值】秒的【数值】移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1534141:4052353"
+        ]
+      },
+      "markup_tags": [
+        "spellactive",
+        "speed",
+        "status",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blazing Stampede",
+      "name_zh": "踏火蛮冲",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Udyr",
+        "source:ddragon:16.16.1:en_US:Udyr",
+        "source:communitydragon:16.16:zh_cn:Udyr",
+        "source:wiki:1534141:4052353"
+      ],
+      "status_terms_zh": [
+        "晕眩",
+        "定身",
+        "限制"
+      ],
+      "summary_en": "Udyr gains movement speed and his first attack against each target will Stun them. Recast: Gain even more movement speed and immunity to immobilizing effects for a couple seconds.",
+      "summary_zh": "乌迪尔获得移动速度并且他对每个目标打出的第一次攻击将造成晕眩。再次施放：获得更多移动速度并在若干秒里免疫定身效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1534141:4052353"
+      ]
+    },
+    {
+      "ability_id": "ability:Udyr:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "飓风姿态：乌迪尔召唤冰川风暴环绕自身【数值】秒，每秒对附近的敌人造成【数值】魔法伤害，并对这些敌人造成【数值】%减速。此外，乌迪尔在这个姿态中的下两次攻击对风暴中的敌人造成【数值】魔法伤害。 觉醒：释放风暴，使它跟随乌迪尔最后攻击的那名敌人，在持续期间造成额外的【数值】最大生命值的魔法伤害，和额外的【数值】减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Udyr"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Udyr"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Udyr"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1534142:4008208"
+        ]
+      },
+      "markup_tags": [
+        "spellactive",
+        "magicdamage",
+        "status",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Wingborne Storm",
+      "name_zh": "极凌飓风",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Udyr",
+        "source:ddragon:16.16.1:en_US:Udyr",
+        "source:communitydragon:16.16:zh_cn:Udyr",
+        "source:wiki:1534142:4008208"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Udyr surrounds himself in a glacial storm, damaging and slowing nearby enemies. Recast: Empower and unleash the storm, causing it to track enemies and deal additional damage.",
+      "summary_zh": "乌迪尔召唤冰川风暴环绕自身，对附近的敌人造成伤害和减速。再次施放：强化并释放风暴，让风暴追踪敌人并造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1534142:4008208"
+      ]
+    }
+  ],
+  "card_id": "champion:Udyr:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Udyr"
+    ],
+    "numeric_key": "77",
+    "official_name_en": "Udyr",
+    "official_name_zh": "乌迪尔",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Udyr",
+      "source:ddragon:16.16.1:en_US:Udyr",
+      "source:communitydragon:16.16:zh_cn:Udyr",
+      "source:riot-champion-page:Udyr:asof-2026-08-21"
+    ],
+    "stable_id": "Udyr",
+    "title_zh": "兽灵行者"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Udyr"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:c0d52bce90df20aa8f7504762ae3a5965343c58b67c37331767c1e7838e515d7",
+      "sha256:44007bd58a79d13befc7009a2aec816202d445117633847ccebe9ed45ce91a8e",
+      "sha256:da1c4fa8b3622d099d0051d3e778cc4cc5141a06d0025f1836cfcef966155cd4",
+      "sha256:8df86131997e058fa5a0a74cf50bf5bf786fca725974704dffe21e2796ff6c7c",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:c0d52bce90df20aa8f7504762ae3a5965343c58b67c37331767c1e7838e515d7",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Udyr.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Udyr",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 乌迪尔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Udyr.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:44007bd58a79d13befc7009a2aec816202d445117633847ccebe9ed45ce91a8e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Udyr.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Udyr",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Udyr",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Udyr.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:da1c4fa8b3622d099d0051d3e778cc4cc5141a06d0025f1836cfcef966155cd4",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/77.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Udyr",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 乌迪尔",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/77.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:8df86131997e058fa5a0a74cf50bf5bf786fca725974704dffe21e2796ff6c7c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/udyr.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Udyr:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Udyr",
+        "url": "https://www.leagueoflegends.com/en-us/champions/udyr/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3983420,
+        "revision_timestamp": "2026-01-12T02:24:27Z",
+        "source_ref_id": "source:wiki:1534138:3983420",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3983420",
+        "title": "Template:Data Udyr/Bridge Between",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Udyr/Bridge_Between",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4049976,
+        "revision_timestamp": "2026-08-04T07:48:03Z",
+        "source_ref_id": "source:wiki:1534139:4049976",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4049976",
+        "title": "Template:Data Udyr/Wilding Claw",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Udyr/Wilding_Claw",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013279,
+        "revision_timestamp": "2026-04-28T22:15:57Z",
+        "source_ref_id": "source:wiki:1534140:4013279",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013279",
+        "title": "Template:Data Udyr/Iron Mantle",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Udyr/Iron_Mantle",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4052353,
+        "revision_timestamp": "2026-08-17T17:19:39Z",
+        "source_ref_id": "source:wiki:1534141:4052353",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4052353",
+        "title": "Template:Data Udyr/Blazing Stampede",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Udyr/Blazing_Stampede",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008208,
+        "revision_timestamp": "2026-04-14T05:41:32Z",
+        "source_ref_id": "source:wiki:1534142:4008208",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008208",
+        "title": "Template:Data Udyr/Wingborne Storm",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Udyr/Wingborne_Storm",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

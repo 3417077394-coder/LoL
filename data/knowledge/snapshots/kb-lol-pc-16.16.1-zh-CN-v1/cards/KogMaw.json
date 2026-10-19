@@ -1,0 +1,521 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:KogMaw:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "在死后4秒，克格莫会爆炸，对周围的敌人造成真实伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307954:4038400"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Icathian Surprise",
+      "name_zh": "来自艾卡西亚的惊喜",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KogMaw",
+        "source:ddragon:16.16.1:en_US:KogMaw",
+        "source:communitydragon:16.16:zh_cn:KogMaw",
+        "source:wiki:1307954:4038400"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "4 seconds after dying, Kogmaw explodes, dealing true damage to surrounding enemies.",
+      "summary_zh": "在死后4秒，克格莫会爆炸，对周围的敌人造成真实伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307954:4038400"
+      ]
+    },
+    {
+      "ability_id": "ability:KogMaw:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：克格莫获得【数值】%攻击速度。 主动：克格莫抛射出一团腐蚀性的唾沫，对命中的第一个敌人造成【数值】魔法伤害，以及持续【数值】秒的【数值】%护甲和魔法抗性击碎。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307956:3960434"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "attackspeed",
+        "br",
+        "spellactive",
+        "magicdamage",
+        "scalearmor",
+        "scalemr"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Caustic Spittle",
+      "name_zh": "腐蚀唾液",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KogMaw",
+        "source:ddragon:16.16.1:en_US:KogMaw",
+        "source:communitydragon:16.16:zh_cn:KogMaw",
+        "source:wiki:1307956:3960434"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kog'Maw launches a corrosive projectile which deals magic damage and corrodes the target's armor and magic resist for a short time. Kog'Maw also gains additional attack speed.",
+      "summary_zh": "克格莫发射一团腐蚀性物质，对目标造成魔法伤害，并暂时腐蚀目标的护甲和魔法抗性。克格莫还会获得额外攻速。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307956:3960434"
+      ]
+    },
+    {
+      "ability_id": "ability:KogMaw:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "克格莫获得【数值】攻击距离，并且他的攻击附带额外的【数值】最大生命值的魔法伤害%i:OnHit% 攻击特效，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307959:4052263"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "onhit"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Bio-Arcane Barrage",
+      "name_zh": "生化弹幕",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KogMaw",
+        "source:ddragon:16.16.1:en_US:KogMaw",
+        "source:communitydragon:16.16:zh_cn:KogMaw",
+        "source:wiki:1307959:4052263"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage %i:OnHit% On-Hit.",
+      "summary_zh": "克格莫的攻击获得额外距离，并且能够对目标造成额外的魔法伤害，伤害值基于目标的最大生命值%i:OnHit% 攻击特效。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307959:4052263"
+      ]
+    },
+    {
+      "ability_id": "ability:KogMaw:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "克格莫呕出胆汁，造成【数值】魔法伤害并留下一条持续【数值】秒的软泥路径。软泥中的敌人们会被减速【数值】%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307961:3965135"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Void Ooze",
+      "name_zh": "虚空淤泥",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KogMaw",
+        "source:ddragon:16.16.1:en_US:KogMaw",
+        "source:communitydragon:16.16:zh_cn:KogMaw",
+        "source:wiki:1307961:3965135"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Kog'Maw launches a peculiar ooze which damages all enemies it passes through and leaves a trail which slows enemies who stand on it.",
+      "summary_zh": "克格莫抛射出一团特殊的分泌物，对经过或停留在分泌物上的敌人造成伤害和减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307961:3965135"
+      ]
+    },
+    {
+      "ability_id": "ability:KogMaw:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "克格莫朝一个区域发射一团酸液，造成【数值】外加【数值】%每1%已损失生命值的魔法伤害并使命中的敌人显形2秒。低于40%生命值的敌人们会转而受到【数值】魔法伤害。 【数值】秒内的后续发射会消耗额外的【数值】法力(最大值：【数值】法力)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KogMaw"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KogMaw"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KogMaw"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307963:4007636"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "healing",
+        "br",
+        "scalemana"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Living Artillery",
+      "name_zh": "活体大炮",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KogMaw",
+        "source:ddragon:16.16.1:en_US:KogMaw",
+        "source:communitydragon:16.16:zh_cn:KogMaw",
+        "source:wiki:1307963:4007636"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kog'Maw fires an artillery shell at a great distance dealing magic damage (increased significantly on low health enemies) and revealing non-stealthed targets. Additionally, multiple Living Artilleries in a short period of time cause them to cost additional Mana.",
+      "summary_zh": "克格莫发射一枚射程极远的活体炮弹，让被命中的敌人暴露在己方视野中，并对目标造成魔法伤害（对低血量目标的伤害会显著提升）。 在短时间内连续使用活体大炮，将消耗额外的法力值。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307963:4007636"
+      ]
+    }
+  ],
+  "card_id": "champion:KogMaw:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Kog'Maw",
+      "KogMaw"
+    ],
+    "numeric_key": "96",
+    "official_name_en": "Kog'Maw",
+    "official_name_zh": "克格莫",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:KogMaw",
+      "source:ddragon:16.16.1:en_US:KogMaw",
+      "source:communitydragon:16.16:zh_cn:KogMaw",
+      "source:riot-champion-page:KogMaw:asof-2026-08-21"
+    ],
+    "stable_id": "KogMaw",
+    "title_zh": "深渊巨口"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:KogMaw"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:6d81906843a8552d2d8f69a6037f9a4b65430b757edc12bbf2bf9f911965bf60",
+      "sha256:0dbfab93f8a18ab976bad3818db099ed7589690b6f880c484faccadfebca62c6",
+      "sha256:8512caad91fba4338117cfab8da45054cb4fe68aebcd92459464a1ab8a6c664c",
+      "sha256:6ac39c861b6b87cd7f7220f28a34ea88e25e9dd716da20ef99f97d7a5a13e6eb",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:6d81906843a8552d2d8f69a6037f9a4b65430b757edc12bbf2bf9f911965bf60",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/KogMaw.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:KogMaw",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 克格莫",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/KogMaw.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:0dbfab93f8a18ab976bad3818db099ed7589690b6f880c484faccadfebca62c6",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/KogMaw.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:KogMaw",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Kog'Maw",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/KogMaw.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:8512caad91fba4338117cfab8da45054cb4fe68aebcd92459464a1ab8a6c664c",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/96.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:KogMaw",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 克格莫",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/96.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:6ac39c861b6b87cd7f7220f28a34ea88e25e9dd716da20ef99f97d7a5a13e6eb",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/kogmaw.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:KogMaw:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Kog'Maw",
+        "url": "https://www.leagueoflegends.com/en-us/champions/kogmaw/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038400,
+        "revision_timestamp": "2026-06-30T09:37:02Z",
+        "source_ref_id": "source:wiki:1307954:4038400",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038400",
+        "title": "Template:Data Kog'Maw/Icathian Surprise",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kog%27Maw/Icathian_Surprise",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3960434,
+        "revision_timestamp": "2025-10-21T19:53:28Z",
+        "source_ref_id": "source:wiki:1307956:3960434",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3960434",
+        "title": "Template:Data Kog'Maw/Caustic Spittle",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kog%27Maw/Caustic_Spittle",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4052263,
+        "revision_timestamp": "2026-08-16T22:07:06Z",
+        "source_ref_id": "source:wiki:1307959:4052263",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4052263",
+        "title": "Template:Data Kog'Maw/Bio-Arcane Barrage",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kog%27Maw/Bio-Arcane_Barrage",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3965135,
+        "revision_timestamp": "2025-11-11T17:05:55Z",
+        "source_ref_id": "source:wiki:1307961:3965135",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3965135",
+        "title": "Template:Data Kog'Maw/Void Ooze",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kog%27Maw/Void_Ooze",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007636,
+        "revision_timestamp": "2026-04-12T08:34:32Z",
+        "source_ref_id": "source:wiki:1307963:4007636",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007636",
+        "title": "Template:Data Kog'Maw/Living Artillery",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kog%27Maw/Living_Artillery",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

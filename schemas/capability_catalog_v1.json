@@ -1,0 +1,216 @@
+{
+  "catalog_version": "capability-taxonomy-v1.1",
+  "scope": "static_post_draft_lineup_analysis",
+  "language": "zh-CN",
+  "capabilities": [
+    {
+      "id": "B01",
+      "layer": "boundary",
+      "name_zh": "阵容实体与位置解析",
+      "in_scope": true,
+      "description": "正确识别双方、位置和英雄，并在全文保持一致。",
+      "primary_dimension_id": "E1"
+    },
+    {
+      "id": "B02",
+      "layer": "boundary",
+      "name_zh": "信息充分性与任务边界",
+      "in_scope": true,
+      "description": "区分输入事实、合理推断和未提供的动态信息。",
+      "primary_dimension_id": "E1"
+    },
+    {
+      "id": "K01",
+      "layer": "knowledge",
+      "name_zh": "英雄定位与能力画像",
+      "in_scope": true,
+      "description": "识别支持阵容分析所需的英雄职责与能力维度。",
+      "primary_dimension_id": "E2"
+    },
+    {
+      "id": "K02",
+      "layer": "knowledge",
+      "name_zh": "英雄机制事实准确性",
+      "in_scope": true,
+      "description": "准确描述关键技能机制、限制与交互。",
+      "primary_dimension_id": "E2"
+    },
+    {
+      "id": "K03",
+      "layer": "knowledge",
+      "name_zh": "地图、资源与经济规则",
+      "in_scope": true,
+      "description": "正确使用静态阵容推演所需的线权、视野、地形、节奏和资源规则。",
+      "primary_dimension_id": "E2"
+    },
+    {
+      "id": "R01",
+      "layer": "relation",
+      "name_zh": "对线与小规模关系",
+      "in_scope": true,
+      "description": "用机制与条件解释关键对线和小规模交互。",
+      "primary_dimension_id": "E3"
+    },
+    {
+      "id": "R02",
+      "layer": "relation",
+      "name_zh": "跨阵营克制与反制",
+      "in_scope": true,
+      "description": "识别双方关键工具之间的克制与反制关系。",
+      "primary_dimension_id": "E3"
+    },
+    {
+      "id": "R03",
+      "layer": "relation",
+      "name_zh": "队内协同与技能链",
+      "in_scope": true,
+      "description": "解释先手、跟进、伤害、保护与拉扯如何形成协同。",
+      "primary_dimension_id": "E3"
+    },
+    {
+      "id": "C01",
+      "layer": "composition",
+      "name_zh": "阵容画像聚合",
+      "in_scope": true,
+      "description": "把个体能力聚合为团队级结构画像。",
+      "primary_dimension_id": "E4"
+    },
+    {
+      "id": "C02",
+      "layer": "composition",
+      "name_zh": "阵容原型与结构短板",
+      "in_scope": true,
+      "description": "识别主要或混合阵容原型及其条件性短板。",
+      "primary_dimension_id": "E4"
+    },
+    {
+      "id": "T01",
+      "layer": "tempo",
+      "name_zh": "前中后期强度曲线",
+      "in_scope": true,
+      "description": "根据成型条件与组合关系推演相对发力期。",
+      "primary_dimension_id": "E4"
+    },
+    {
+      "id": "T02",
+      "layer": "tempo",
+      "name_zh": "线权与资源转换",
+      "in_scope": true,
+      "description": "解释先动权如何在条件允许时转换为地图收益。",
+      "primary_dimension_id": "E4"
+    },
+    {
+      "id": "P01",
+      "layer": "planning",
+      "name_zh": "双方制胜条件",
+      "in_scope": true,
+      "description": "为双方推导有机制依据且彼此区分的获胜路径。",
+      "primary_dimension_id": "E5"
+    },
+    {
+      "id": "P02",
+      "layer": "planning",
+      "name_zh": "分阶段可执行计划",
+      "in_scope": true,
+      "description": "把制胜条件转化为不同阶段的目标和避险点。",
+      "primary_dimension_id": "E5"
+    },
+    {
+      "id": "P03",
+      "layer": "planning",
+      "name_zh": "双向博弈与对手应对",
+      "in_scope": true,
+      "description": "预判对方反制并给出条件化调整。",
+      "primary_dimension_id": "E5"
+    },
+    {
+      "id": "P04",
+      "layer": "planning",
+      "name_zh": "局部到全局因果闭环",
+      "in_scope": true,
+      "description": "保持机制、局部关系、阵容结构、资源与策略之间的因果一致。",
+      "primary_dimension_id": "E5"
+    },
+    {
+      "id": "Q01",
+      "layer": "quality",
+      "name_zh": "不确定性、版本与假设校准",
+      "in_scope": true,
+      "description": "恰当地表达版本、非常规分路和缺失前提的不确定性。",
+      "primary_dimension_id": "E2"
+    },
+    {
+      "id": "Q02",
+      "layer": "quality",
+      "name_zh": "具体性与证据锚定",
+      "in_scope": true,
+      "description": "把关键判断锚定到输入中的英雄、机制或阵容结构。",
+      "primary_dimension_id": "E5"
+    },
+    {
+      "id": "Q03",
+      "layer": "quality",
+      "name_zh": "输出契约与字段完整性",
+      "in_scope": true,
+      "description": "稳定满足版本化输出 Schema 和字段要求。",
+      "primary_dimension_id": "E1"
+    }
+  ],
+  "hierarchy": "5 primary evaluation dimensions with 19 secondary diagnostic labels",
+  "primary_dimensions": [
+    {
+      "id": "E1",
+      "name_zh": "输入与输出契约",
+      "role": "quality_gate",
+      "capability_ids": [
+        "B01",
+        "B02",
+        "Q03"
+      ]
+    },
+    {
+      "id": "E2",
+      "name_zh": "机制事实准确性",
+      "role": "knowledge_diagnostic",
+      "capability_ids": [
+        "K01",
+        "K02",
+        "K03",
+        "Q01"
+      ]
+    },
+    {
+      "id": "E3",
+      "name_zh": "阵容交互推理",
+      "role": "sft_core",
+      "capability_ids": [
+        "R01",
+        "R02",
+        "R03"
+      ]
+    },
+    {
+      "id": "E4",
+      "name_zh": "阵容整体推演",
+      "role": "sft_core",
+      "capability_ids": [
+        "C01",
+        "C02",
+        "T01",
+        "T02"
+      ]
+    },
+    {
+      "id": "E5",
+      "name_zh": "制胜条件与因果",
+      "role": "sft_core",
+      "capability_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "Q02"
+      ]
+    }
+  ]
+}

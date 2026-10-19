@@ -1,0 +1,520 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Leona:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "技能会在敌人身上施加【日光】效果，持续1.5秒。在此期间，蕾欧娜友军对这些目标造成伤害时，会触发【日光】，使目标受到额外的魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308164:4038401"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Sunlight",
+      "name_zh": "日光",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Leona",
+        "source:ddragon:16.16.1:en_US:Leona",
+        "source:communitydragon:16.16:zh_cn:Leona",
+        "source:wiki:1308164:4038401"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Damaging spells afflict enemies with Sunlight for 1.5 seconds. When allied Champions deal damage to those targets, they consume the Sunlight to deal additional magic damage.",
+      "summary_zh": "技能会在敌人身上施加【日光】效果，持续1.5秒。在此期间，蕾欧娜友军对这些目标造成伤害时，会触发【日光】，使目标受到额外的魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308164:4038401"
+      ]
+    },
+    {
+      "ability_id": "ability:Leona:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "蕾欧娜的下次攻击会晕眩目标【数值】秒，并造成额外的【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308166:4001219"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Shield of Daybreak",
+      "name_zh": "破晓之盾",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Leona",
+        "source:ddragon:16.16.1:en_US:Leona",
+        "source:communitydragon:16.16:zh_cn:Leona",
+        "source:wiki:1308166:4001219"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Leona uses her shield to perform her next basic attack, dealing bonus magic damage and stunning the target.",
+      "summary_zh": "蕾欧娜用盾进行下次普通攻击，造成额外魔法伤害并晕眩目标。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308166:4001219"
+      ]
+    },
+    {
+      "ability_id": "ability:Leona:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "蕾欧娜举起她的盾牌，使即将到来的伤害降低【数值】并获得【数值】护甲和【数值】魔法抗性，持续【数值】秒。之后，她的盾牌会爆炸，对附近的敌人造成【数值】魔法伤害。如果她命中了至少一名敌人，那么她会将该护甲和魔法抗性加成延续额外的【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308168:4042253"
+        ]
+      },
+      "markup_tags": [
+        "scalearmor",
+        "scalemr",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Eclipse",
+      "name_zh": "日蚀",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Leona",
+        "source:ddragon:16.16.1:en_US:Leona",
+        "source:communitydragon:16.16:zh_cn:Leona",
+        "source:wiki:1308168:4042253"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Leona raises her shield to gain Damage Reduction, Armor, and Magic Resist. When the duration first ends, if there are nearby enemies, she will deal magic damage to them and prolong the duration of the effect.",
+      "summary_zh": "蕾欧娜举起盾牌，提供伤害减免、护甲和魔法抗性。当持续时间首次结束时，如果附近有敌人，那么她会对其造成魔法伤害并延长效果的持续时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308168:4042253"
+      ]
+    },
+    {
+      "ability_id": "ability:Leona:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "蕾欧娜用光明之剑进行猛刺，造成【数值】魔法伤害。最后一个被命中的英雄将会被禁锢【数值】秒，并且蕾欧娜将会冲向该英雄。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308170:4007645"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Zenith Blade",
+      "name_zh": "天顶之刃",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Leona",
+        "source:ddragon:16.16.1:en_US:Leona",
+        "source:communitydragon:16.16:zh_cn:Leona",
+        "source:wiki:1308170:4007645"
+      ],
+      "status_terms_zh": [
+        "禁锢"
+      ],
+      "summary_en": "Leona projects a solar image of her sword, dealing magic damage to all enemies in a line. When the image fades, the last enemy champion struck will be briefly immobilized and Leona will dash to them.",
+      "summary_zh": "蕾欧娜投掷一束日光，对直线上的所有敌人造成魔法伤害。当效果消失时，蕾欧娜会冲向最后一个被击中的敌人并使其无法移动。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308170:4007645"
+      ]
+    },
+    {
+      "ability_id": "ability:Leona:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "蕾欧娜召唤一道太阳光束，造成【数值】魔法伤害并使敌人减速【数值】%，持续【数值】秒。处于区域正中的敌人会受到晕眩效果而非减速效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Leona"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Leona"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Leona"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308171:4007649"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Solar Flare",
+      "name_zh": "日炎耀斑",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Leona",
+        "source:ddragon:16.16.1:en_US:Leona",
+        "source:communitydragon:16.16:zh_cn:Leona",
+        "source:wiki:1308171:4007649"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "晕眩"
+      ],
+      "summary_en": "Leona calls down a beam of solar energy, dealing damage to enemies in an area. Enemies in the center of the area are stunned, while enemies on the outside are slowed.",
+      "summary_zh": "蕾欧娜召唤一道太阳光束，对区域内的敌人造成伤害。区域中心的敌人会被晕眩，并且外围的敌人会被减速。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308171:4007649"
+      ]
+    }
+  ],
+  "card_id": "champion:Leona:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Leona"
+    ],
+    "numeric_key": "89",
+    "official_name_en": "Leona",
+    "official_name_zh": "蕾欧娜",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Leona",
+      "source:ddragon:16.16.1:en_US:Leona",
+      "source:communitydragon:16.16:zh_cn:Leona",
+      "source:riot-champion-page:Leona:asof-2026-08-21"
+    ],
+    "stable_id": "Leona",
+    "title_zh": "曙光女神"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 1,
+      "durability": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "tank",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Leona"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:6ae7f52d509f0475c70b559c7c17238fb04faad7e0695e42bd3f704d390c9551",
+      "sha256:067d14b2e98c492fcd6f35001b275258930ea07bf9e85ff3680545aa075e0e98",
+      "sha256:604a44e23fe1a0a2a1488004f764a6bed2f38c2ff0a7cb8cf40610f9a8b7394c",
+      "sha256:4fa5422b74c5fa431464a121374c6a8f876b2462c945566205b951d211985246",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:6ae7f52d509f0475c70b559c7c17238fb04faad7e0695e42bd3f704d390c9551",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Leona.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Leona",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 蕾欧娜",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Leona.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:067d14b2e98c492fcd6f35001b275258930ea07bf9e85ff3680545aa075e0e98",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Leona.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Leona",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Leona",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Leona.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:604a44e23fe1a0a2a1488004f764a6bed2f38c2ff0a7cb8cf40610f9a8b7394c",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/89.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Leona",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 蕾欧娜",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/89.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:4fa5422b74c5fa431464a121374c6a8f876b2462c945566205b951d211985246",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/leona.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Leona:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Leona",
+        "url": "https://www.leagueoflegends.com/en-us/champions/leona/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038401,
+        "revision_timestamp": "2026-06-30T09:37:55Z",
+        "source_ref_id": "source:wiki:1308164:4038401",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038401",
+        "title": "Template:Data Leona/Sunlight",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Leona/Sunlight",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4001219,
+        "revision_timestamp": "2026-03-19T23:34:40Z",
+        "source_ref_id": "source:wiki:1308166:4001219",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4001219",
+        "title": "Template:Data Leona/Shield of Daybreak",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Leona/Shield_of_Daybreak",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4042253,
+        "revision_timestamp": "2026-07-13T11:48:38Z",
+        "source_ref_id": "source:wiki:1308168:4042253",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4042253",
+        "title": "Template:Data Leona/Eclipse",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Leona/Eclipse",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007645,
+        "revision_timestamp": "2026-04-12T09:57:07Z",
+        "source_ref_id": "source:wiki:1308170:4007645",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007645",
+        "title": "Template:Data Leona/Zenith Blade",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Leona/Zenith_Blade",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007649,
+        "revision_timestamp": "2026-04-12T10:13:04Z",
+        "source_ref_id": "source:wiki:1308171:4007649",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007649",
+        "title": "Template:Data Leona/Solar Flare",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Leona/Solar_Flare",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

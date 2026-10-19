@@ -1,0 +1,521 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Briar:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "贝蕾亚的攻击与技能会造成可叠加的流血效果，同时基于这个效果的伤害治疗自身。她永远处于饥饿状态，会根据自己的已损失生命值获得更高的治疗，但缺乏自带的生命回复。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1594671:4038287"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Crimson Curse",
+      "name_zh": "猩红诅咒",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Briar",
+        "source:ddragon:16.16.1:en_US:Briar",
+        "source:communitydragon:16.16:zh_cn:Briar",
+        "source:wiki:1594671:4038287"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Briar's attacks and abilities apply a stacking bleed that heals her for a portion of the damage it deals. Perpetually hungry, she gains increased healing based on her missing Health, but lacks innate Health Regeneration.",
+      "summary_zh": "贝蕾亚的攻击与技能会造成可叠加的流血效果，同时基于这个效果的伤害治疗自身。她永远处于饥饿状态，会根据自己的已损失生命值获得更高的治疗，但缺乏自带的生命回复。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1594671:4038287"
+      ]
+    },
+    {
+      "ability_id": "ability:Briar:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "贝蕾亚跃向一个单位，将其晕眩【数值】秒，造成【数值】物理伤害和持续【数值】秒的【数值】%护甲削减与魔抗削减。 如果贝蕾亚在血莽期间对一个小兵或野怪施放这个技能，那么她会停止将英雄作为优先目标。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1594672:3989856"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "physicaldamage",
+        "scalearmor",
+        "scalemr",
+        "br",
+        "rules",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Head Rush",
+      "name_zh": "冲头",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Briar",
+        "source:ddragon:16.16.1:en_US:Briar",
+        "source:communitydragon:16.16:zh_cn:Briar",
+        "source:wiki:1594672:3989856"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Briar leaps to a unit and hits enemies with The Heel Wheel (of Pain), stunning them and breaking their Armor.",
+      "summary_zh": "贝蕾亚跃向一个单位并用她的（痛苦之）脚镣命中敌人们，将他们晕眩并削减他们的护甲。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1594672:3989856"
+      ]
+    },
+    {
+      "ability_id": "ability:Briar:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "贝蕾亚跳跃并进入一种血莽状态，自我嘲讽至相距最近的那个敌人，持续【数值】秒，优先以英雄为目标。在血莽状态下，她获得【数值】%攻击速度和【数值】%移动速度，并且她的攻击会对目标四周的敌人们造成【数值】物理伤害。 贝蕾亚可以再次施放这个技能来强化她的下一次攻击。这次攻击造成【数值】 + 【数值】%已损失生命值的物理伤害并为贝蕾亚提供【数值】+【数值】%已造成伤害值的治疗效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "attackspeed",
+        "speed",
+        "physicaldamage",
+        "br",
+        "recast",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blood Frenzy / Snack Attack",
+      "name_zh": "血莽 / 噬击",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Briar",
+        "source:ddragon:16.16.1:en_US:Briar",
+        "source:communitydragon:16.16:zh_cn:Briar"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Briar leaps forward and shatters her pillory, entering a Blood Frenzy that causes her to relentlessly pursue the nearest enemy (prioritizing champions). While frenzied, she gains increased Attack Speed and Move Speed, and her attacks deal damage in an area around her target. Briar can reactivate this ability while frenzied to take a CHOMP out of her target on her next attack, dealing additional damage based on their missing Health, and healing Briar based on the damage she deals.",
+      "summary_zh": "贝蕾亚向前跳跃并击碎她的囚枷，进入一种【血莽】状态来使她无休止地追击相距最近的那个敌人（优先以英雄为目标）。在【血莽】状态下，她的攻击速度和移动速度获得提升，并且她的攻击会在她目标四周的一个区域内造成伤害。 贝蕾亚可以在【血莽】状态下再次激活这个技能，来让她的下一次攻击噬咬她的目标，造成基于目标已损失生命值的额外伤害，并且基于她造成的伤害来为她提供治疗效果。",
+      "wiki_source_ref_ids": []
+    },
+    {
+      "ability_id": "ability:Briar:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "开始蓄力：贝蕾亚移除血莽并聚集能量，获得【数值】%伤害减免并在1秒里持续获得共【数值】治疗效果。 释放：贝蕾亚释放一次吼叫，基于蓄力时间造成至多【数值】魔法伤害，以及持续【数值】秒的【数值】%减速。在完全蓄力后，吼叫会击退敌人们，对那些与墙体碰撞的敌人造成【数值】魔法伤害和【数值】秒晕眩。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1594674:4007450"
+        ]
+      },
+      "markup_tags": [
+        "charge",
+        "keywordmajor",
+        "healing",
+        "br",
+        "release",
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Chilling Scream",
+      "name_zh": "惊吼",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Briar",
+        "source:ddragon:16.16.1:en_US:Briar",
+        "source:communitydragon:16.16:zh_cn:Briar",
+        "source:wiki:1594674:4007450"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "击退",
+        "晕眩"
+      ],
+      "summary_en": "Briar refocuses her mind, removing Blood Frenzy and channeling energy into a powerful scream that damages and slows enemies. While charging, she takes reduced damage and heals for a portion of her max Health. A fully charged scream knocks foes back, dealing additional damage and stunning those who collide with a wall.",
+      "summary_zh": "贝蕾亚重新集中她的意志，移除【血莽】并将能量引导为一次强力吼叫，对敌人造成伤害和减速。在蓄力时，她获得伤害减免并回复一部分最大生命值。一次完全蓄力的吼叫会将敌人们击退，对那些与墙体碰撞的敌人造成额外伤害和晕眩。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1594674:4007450"
+      ]
+    },
+    {
+      "ability_id": "ability:Briar:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "贝蕾亚踢出她的囚枷中的血石并飞到被它命中的第一个英雄的位置，将这个英雄标记为她的猎物。在着陆时，她对附近的一切造成【数值】魔法伤害并使那些并非她猎物的敌人们逃跑【数值】秒。她随后会进入一个强化版血莽状态并将追击她的猎物直至阵亡才罢休。在此期间，她获得【数值】护甲 和魔法抗性、【数值】%生命偷取和额外的【数值】%移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Briar"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Briar"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Briar"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1594675:4051322"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "keywordmajor",
+        "scalearmor",
+        "scalemr",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Certain Death",
+      "name_zh": "毙除",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Briar",
+        "source:ddragon:16.16.1:en_US:Briar",
+        "source:communitydragon:16.16:zh_cn:Briar",
+        "source:wiki:1594675:4051322"
+      ],
+      "status_terms_zh": [
+        "逃跑"
+      ],
+      "summary_en": "Briar kicks her pillory's hemolith gemstone, marking the first champion it hits as her prey. She then beelines straight to them, fearing other surrounding enemies upon arriving at her target, and enters a state of complete hemomania. She will pursue her prey until death, gaining the benefits of Blood Frenzy as well as additional Armor, Magic Resistance, Life Steal, and Move Speed.",
+      "summary_zh": "贝蕾亚踢出她的囚枷中的血石，让被它命中的第一个英雄成为她的猎物。她随后会径直走向该目标，在抵达目标处时恐惧周围的其它敌人们，并进入一个彻底血狂的状态。她将追击她的猎物直至阵亡才罢休，获得【血莽】的助益以及额外的护甲、魔抗、生命偷取和移动速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1594675:4051322"
+      ]
+    }
+  ],
+  "card_id": "champion:Briar:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Briar"
+    ],
+    "numeric_key": "233",
+    "official_name_en": "Briar",
+    "official_name_zh": "贝蕾亚",
+    "resource_type_zh": "怒气",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Briar",
+      "source:ddragon:16.16.1:en_US:Briar",
+      "source:communitydragon:16.16:zh_cn:Briar",
+      "source:riot-champion-page:Briar:asof-2026-08-21"
+    ],
+    "stable_id": "Briar",
+    "title_zh": "狂厄蔷薇"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 2,
+      "durability": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Briar"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:74f3d31aab09caf0c51267f64fac978baa711411ab5b170a93d99c428fd5781d",
+      "sha256:6c6722da80da970da8e3d0ae1114ec998c0f8eb45b71f8104b9ca256697af17c",
+      "sha256:050ce7a4825ae14eaa7c56d1819ce1ce75fd08bff0851570c7a01c6e2220fa0f",
+      "sha256:51dcfc6e5490a109a6eed3f85a6d1d5066267365aa652deea26361540fa85585",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:74f3d31aab09caf0c51267f64fac978baa711411ab5b170a93d99c428fd5781d",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Briar.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Briar",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 贝蕾亚",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Briar.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6c6722da80da970da8e3d0ae1114ec998c0f8eb45b71f8104b9ca256697af17c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Briar.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Briar",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Briar",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Briar.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:050ce7a4825ae14eaa7c56d1819ce1ce75fd08bff0851570c7a01c6e2220fa0f",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/233.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Briar",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 贝蕾亚",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/233.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:51dcfc6e5490a109a6eed3f85a6d1d5066267365aa652deea26361540fa85585",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/briar.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Briar:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Briar",
+        "url": "https://www.leagueoflegends.com/en-us/champions/briar/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038287,
+        "revision_timestamp": "2026-06-30T08:04:12Z",
+        "source_ref_id": "source:wiki:1594671:4038287",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038287",
+        "title": "Template:Data Briar/Crimson Curse",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Briar/Crimson_Curse",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3989856,
+        "revision_timestamp": "2026-02-03T23:18:24Z",
+        "source_ref_id": "source:wiki:1594672:3989856",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3989856",
+        "title": "Template:Data Briar/Head Rush",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Briar/Head_Rush",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007450,
+        "revision_timestamp": "2026-04-11T19:27:00Z",
+        "source_ref_id": "source:wiki:1594674:4007450",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007450",
+        "title": "Template:Data Briar/Chilling Scream",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Briar/Chilling_Scream",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051322,
+        "revision_timestamp": "2026-08-12T05:39:43Z",
+        "source_ref_id": "source:wiki:1594675:4051322",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051322",
+        "title": "Template:Data Briar/Certain Death",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Briar/Certain_Death",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "wiki_ability_gap:w",
+      "complex_ability_structure",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

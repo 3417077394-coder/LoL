@@ -1,0 +1,62 @@
+{
+  "approved_count": 0,
+  "card_count": 5,
+  "cards": [
+    {
+      "card_id": "champion:Poppy:ddragon-16.16.1:zh-CN",
+      "champion_id": "Poppy",
+      "path": "data/knowledge/normalized/16.16.1/zh-CN/Poppy.json",
+      "quality_flags": [
+        "manual_review_required"
+      ],
+      "review_status": "generated",
+      "sha256": "13f454e15cc5370710743966c98fa6cf92fb3b81abf3d4b2140b7d73a144968b"
+    },
+    {
+      "card_id": "champion:Camille:ddragon-16.16.1:zh-CN",
+      "champion_id": "Camille",
+      "path": "data/knowledge/normalized/16.16.1/zh-CN/Camille.json",
+      "quality_flags": [
+        "manual_review_required"
+      ],
+      "review_status": "generated",
+      "sha256": "e1f4bad937a0236a67e5dbe03c80ba55827b7117368dd6f2a7339289f2a749d6"
+    },
+    {
+      "card_id": "champion:Jayce:ddragon-16.16.1:zh-CN",
+      "champion_id": "Jayce",
+      "path": "data/knowledge/normalized/16.16.1/zh-CN/Jayce.json",
+      "quality_flags": [
+        "manual_review_required",
+        "complex_form"
+      ],
+      "review_status": "generated",
+      "sha256": "77f267b18b6634d1d0dd1168e658c2604ca0d501aed4f667014c3baa8fdc6717"
+    },
+    {
+      "card_id": "champion:Aphelios:ddragon-16.16.1:zh-CN",
+      "champion_id": "Aphelios",
+      "path": "data/knowledge/normalized/16.16.1/zh-CN/Aphelios.json",
+      "quality_flags": [
+        "manual_review_required",
+        "complex_form"
+      ],
+      "review_status": "generated",
+      "sha256": "f65cf410fbc726ad0e40fd2dd12bc4a8e30ad56cf50302fb9b20e27e2e7f534d"
+    },
+    {
+      "card_id": "champion:Lulu:ddragon-16.16.1:zh-CN",
+      "champion_id": "Lulu",
+      "path": "data/knowledge/normalized/16.16.1/zh-CN/Lulu.json",
+      "quality_flags": [
+        "manual_review_required"
+      ],
+      "review_status": "generated",
+      "sha256": "6b79da142cee654461ce99205c7d222e3ed7152fad8ef2fc47841c484e6f787a"
+    }
+  ],
+  "generated_at": "2026-08-21T09:25:13+00:00",
+  "knowledge_snapshot_id": "kb-ddragon-16.16.1-pilot-v1",
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "schema_version": "knowledge-pilot-report-v1"
+}

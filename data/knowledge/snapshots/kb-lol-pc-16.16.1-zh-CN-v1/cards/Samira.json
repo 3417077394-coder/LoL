@@ -1,0 +1,517 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Samira:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "莎弥拉可通过用不同的技能或攻击命中敌人来构建一次连招。莎弥拉在近战距离的攻击会造成额外的魔法伤害。莎弥拉在对被定身的敌人进行攻击时，将冲刺到她的最大攻击距离处。如果该敌人已被击飞，她还会使其短暂保持击飞状态。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1459314:4051977"
+        ]
+      },
+      "markup_tags": [
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Daredevil Impulse",
+      "name_zh": "悍勇本色",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Samira",
+        "source:ddragon:16.16.1:en_US:Samira",
+        "source:communitydragon:16.16:zh_cn:Samira",
+        "source:wiki:1459314:4051977"
+      ],
+      "status_terms_zh": [
+        "定身",
+        "击飞"
+      ],
+      "summary_en": "Samira builds a combo by hitting attacks or abilities unique from the previous hit. Samira's attacks in melee range deal additional magic damage. Samira's attacks against enemies affected by Immobilizing effects will dash her to her attack range. If the enemy is Knocked Up, she also keeps them Knocked Up briefly.",
+      "summary_zh": "莎弥拉可通过用不同的技能或攻击命中敌人来构建一次连招。莎弥拉在近战距离的攻击会造成额外的魔法伤害。莎弥拉在对被定身的敌人进行攻击时，将冲刺到她的最大攻击距离处。如果该敌人已被击飞，她还会使其短暂保持击飞状态。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1459314:4051977"
+      ]
+    },
+    {
+      "ability_id": "ability:Samira:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "莎弥拉进行一次射击，对命中的第一个敌人造成【数值】物理伤害。如果朝着近战距离内的一名敌人施放这个技能，那么莎弥拉会转而用她的剑进行斩击，造成【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1459315:4008027"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Flair",
+      "name_zh": "交火",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Samira",
+        "source:ddragon:16.16.1:en_US:Samira",
+        "source:communitydragon:16.16:zh_cn:Samira",
+        "source:wiki:1459315:4008027"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Samira fires a shot or swings her sword, dealing damage. If cast during Wild Rush, strike all enemies in her path upon completion.",
+      "summary_zh": "莎弥拉进行一次射击或斩击，造成伤害。如果在【狂飙】期间施放，那么会在完成时打击沿途的所有敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1459315:4008027"
+      ]
+    },
+    {
+      "ability_id": "ability:Samira:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "莎弥拉斩击她的周围【数值】秒，对敌人造成2段伤害，每段为【数值】物理伤害并摧毁任何进入该区域的敌方飞行道具。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1459316:3936240"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blade Whirl",
+      "name_zh": "锋旋",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Samira",
+        "source:ddragon:16.16.1:en_US:Samira",
+        "source:communitydragon:16.16:zh_cn:Samira",
+        "source:wiki:1459316:3936240"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Samira slashes around her, damaging enemies and destroying enemy missiles.",
+      "summary_zh": "莎弥拉斩击她的周围，对敌人造成伤害并摧毁敌人的飞行道具。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1459316:3936240"
+      ]
+    },
+    {
+      "ability_id": "ability:Samira:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "莎弥拉冲刺经过一名敌人（包括建筑物），斩击沿途的敌人来造成【数值】魔法伤害并获得持续【数值】秒的【数值】%攻击速度。 如果敌方英雄在被莎弥拉造成伤害后的3秒内被击杀，那么这个技能的冷却时间将重置。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1459317:4008028"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "attackspeed",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Wild Rush",
+      "name_zh": "狂飙",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Samira",
+        "source:ddragon:16.16.1:en_US:Samira",
+        "source:communitydragon:16.16:zh_cn:Samira",
+        "source:wiki:1459317:4008028"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Samira dashes through an enemy (including structures), slashing enemies she passes through and gaining Attack Speed. Killing an enemy champion refreshes this ability's cooldown.",
+      "summary_zh": "莎弥拉冲刺并越过一名敌人（包含建筑物），斩击沿途的敌人并获得攻击速度。击杀一名敌方英雄会刷新这个技能的冷却时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1459317:4008028"
+      ]
+    },
+    {
+      "ability_id": "ability:Samira:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "莎弥拉只能在她当前的评价等级为S时使用这个技能。使用这个技能会消耗掉所有评价等级。 莎弥拉的武器倾泻出大量的子弹，狂野地在2秒里持续对她周围的所有敌人进行10次射击，每次射击造成【数值】物理伤害并施加【数值】%效能的生命偷取。这些射击也可以产生暴击。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Samira"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Samira"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Samira"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1459318:3992663"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "br",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Inferno Trigger",
+      "name_zh": "炼狱扳机",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Samira",
+        "source:ddragon:16.16.1:en_US:Samira",
+        "source:communitydragon:16.16:zh_cn:Samira",
+        "source:wiki:1459318:3992663"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Samira unleashes a torrent of shots from her weapons, wildly shooting all enemies surrounding her.",
+      "summary_zh": "莎弥拉的武器倾泻出大量的子弹，狂野地射击她周围的所有敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1459318:3992663"
+      ]
+    }
+  ],
+  "card_id": "champion:Samira:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Samira"
+    ],
+    "numeric_key": "360",
+    "official_name_en": "Samira",
+    "official_name_zh": "莎弥拉",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Samira",
+      "source:ddragon:16.16.1:en_US:Samira",
+      "source:communitydragon:16.16:zh_cn:Samira",
+      "source:riot-champion-page:Samira:asof-2026-08-21"
+    ],
+    "stable_id": "Samira",
+    "title_zh": "沙漠玫瑰"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Samira"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:87a141b1a35d55abb0ed9dbcb77c0a9f9bf53c7ea7340c1cd44c7d0295143e4d",
+      "sha256:4faf0e48e3d90cced9fcbd7363d6a39397d56ca4487cd6d4a709e097e0a5c924",
+      "sha256:84296782c2a4baea78b0549a3d3395f3545d912d80e8419f10156293c418292a",
+      "sha256:1e0948006128d3cd88c8eddb9743ae1722d35af6810b041e6569282508b11f98",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:87a141b1a35d55abb0ed9dbcb77c0a9f9bf53c7ea7340c1cd44c7d0295143e4d",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Samira.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Samira",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 莎弥拉",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Samira.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:4faf0e48e3d90cced9fcbd7363d6a39397d56ca4487cd6d4a709e097e0a5c924",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Samira.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Samira",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Samira",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Samira.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:84296782c2a4baea78b0549a3d3395f3545d912d80e8419f10156293c418292a",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/360.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Samira",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 莎弥拉",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/360.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:1e0948006128d3cd88c8eddb9743ae1722d35af6810b041e6569282508b11f98",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/samira.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Samira:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Samira",
+        "url": "https://www.leagueoflegends.com/en-us/champions/samira/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051977,
+        "revision_timestamp": "2026-08-14T22:21:12Z",
+        "source_ref_id": "source:wiki:1459314:4051977",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051977",
+        "title": "Template:Data Samira/Daredevil Impulse",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Samira/Daredevil_Impulse",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008027,
+        "revision_timestamp": "2026-04-13T03:58:01Z",
+        "source_ref_id": "source:wiki:1459315:4008027",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008027",
+        "title": "Template:Data Samira/Flair",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Samira/Flair",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3936240,
+        "revision_timestamp": "2025-07-24T10:58:34Z",
+        "source_ref_id": "source:wiki:1459316:3936240",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3936240",
+        "title": "Template:Data Samira/Blade Whirl",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Samira/Blade_Whirl",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008028,
+        "revision_timestamp": "2026-04-13T04:00:01Z",
+        "source_ref_id": "source:wiki:1459317:4008028",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008028",
+        "title": "Template:Data Samira/Wild Rush",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Samira/Wild_Rush",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3992663,
+        "revision_timestamp": "2026-02-18T20:44:59Z",
+        "source_ref_id": "source:wiki:1459318:3992663",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3992663",
+        "title": "Template:Data Samira/Inferno Trigger",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Samira/Inferno_Trigger",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

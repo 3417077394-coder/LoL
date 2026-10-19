@@ -1,0 +1,518 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Vayne:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "薇恩毫不留情的猎杀世间邪恶，向附近敌方英雄移动时会获得移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309987:3920984"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Night Hunter",
+      "name_zh": "暗夜猎手",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vayne",
+        "source:ddragon:16.16.1:en_US:Vayne",
+        "source:communitydragon:16.16:zh_cn:Vayne",
+        "source:wiki:1309987:3920984"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Vayne ruthlessly hunts evil-doers, gaining Move Speed when moving toward nearby enemy champions.",
+      "summary_zh": "薇恩毫不留情的猎杀世间邪恶，向附近敌方英雄移动时会获得移动速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309987:3920984"
+      ]
+    },
+    {
+      "ability_id": "ability:Vayne:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "薇恩翻滚一小段距离，并且她的下次普通攻击造成额外的【数值】物理伤害。 这个技能会在造成伤害时触发技能特效。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309988:4015566"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br",
+        "rules"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Tumble",
+      "name_zh": "闪避突袭",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vayne",
+        "source:ddragon:16.16.1:en_US:Vayne",
+        "source:communitydragon:16.16:zh_cn:Vayne",
+        "source:wiki:1309988:4015566"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Vayne tumbles, maneuvering to carefully place her next shot. Her next attack deals bonus damage.",
+      "summary_zh": "薇恩进行翻滚，并小心地填充她的下一发射击。她的下次攻击造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309988:4015566"
+      ]
+    },
+    {
+      "ability_id": "ability:Vayne:w:ddragon-16.16.1",
+      "damage_types": [
+        "true"
+      ],
+      "detailed_description_zh": "被动：对一名敌人的每第三次连续的攻击或技能造成额外的【数值】最大生命值的真实伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309989:3949891"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Silver Bolts",
+      "name_zh": "圣银弩箭",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vayne",
+        "source:ddragon:16.16.1:en_US:Vayne",
+        "source:communitydragon:16.16:zh_cn:Vayne",
+        "source:wiki:1309989:3949891"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Vayne tips her bolts with a rare metal, toxic to evil things. The third consecutive attack or ability against the same target deals a percentage of the target's max health as bonus true damage.",
+      "summary_zh": "薇恩用稀有金属制作弩箭，让邪恶敌人中毒。对同一目标的第3次攻击或技能施放会对其造成额外真实伤害，数值相当于目标最大生命值的一定百分比。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309989:3949891"
+      ]
+    },
+    {
+      "ability_id": "ability:Vayne:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "薇恩发射一根弩箭来击退一个目标并造成【数值】物理伤害。如果目标与地形产生碰撞，那么会受到【数值】额外物理伤害，并且会被晕眩【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309990:4008541"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Condemn",
+      "name_zh": "恶魔审判",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vayne",
+        "source:ddragon:16.16.1:en_US:Vayne",
+        "source:communitydragon:16.16:zh_cn:Vayne",
+        "source:wiki:1309990:4008541"
+      ],
+      "status_terms_zh": [
+        "击退",
+        "晕眩"
+      ],
+      "summary_en": "Vayne draws a heavy crossbow from her back, and fires a huge bolt at her target, knocking them back and dealing damage. If they collide with terrain, they are impaled, dealing bonus damage and stunning them.",
+      "summary_zh": "薇恩从背部展开一张重弩，并且朝她的目标发射一根巨型弩箭，将目标击退并造成伤害。如果目标与地形产生碰撞，那么目标会被贯穿，对其造成额外伤害和晕眩效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309990:4008541"
+      ]
+    },
+    {
+      "ability_id": "ability:Vayne:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "薇恩获得【数值】攻击力，持续【数值】秒，并且如果一个被薇恩所伤害的敌方英雄在【数值】秒内死亡，那么持续时间会延长【数值】秒。此外，在这段持续时间里：暗夜猎手会转而提供【数值】移动速度。闪避突袭的冷却时间缩短【数值】%，并提供持续【数值】秒的隐形。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vayne"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vayne"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vayne"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309991:3807995"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "li",
+        "spellname",
+        "speed",
+        "keywordstealth"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Final Hour",
+      "name_zh": "终极时刻",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vayne",
+        "source:ddragon:16.16.1:en_US:Vayne",
+        "source:communitydragon:16.16:zh_cn:Vayne",
+        "source:wiki:1309991:3807995"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Readying herself for an epic confrontation, Vayne gains increased Attack Damage, Invisibility during Tumble, reduced Tumble cooldown, and more bonus Move Speed from Night Hunter",
+      "summary_zh": "薇恩准备进行史诗般的对决，她的攻击力得到提高，能在闪避突袭期间进入隐形状态，闪避突袭的冷却时间缩短，并且暗夜猎手（被动）提供更多移动速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309991:3807995"
+      ]
+    }
+  ],
+  "card_id": "champion:Vayne:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Vayne"
+    ],
+    "numeric_key": "67",
+    "official_name_en": "Vayne",
+    "official_name_zh": "薇恩",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Vayne",
+      "source:ddragon:16.16.1:en_US:Vayne",
+      "source:communitydragon:16.16:zh_cn:Vayne",
+      "source:riot-champion-page:Vayne:asof-2026-08-21"
+    ],
+    "stable_id": "Vayne",
+    "title_zh": "暗夜猎手"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Vayne"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:c2c21a7771cbf82ce452b60a35e2a227e477c6c46515dd118cde6cb8834def7e",
+      "sha256:dce10f21f33d701243a7fe47d42ef9d6fdce85ba5c87ef631a7c4eeaf0032118",
+      "sha256:90f348552d0400661f5f5b635549aecba394fb3edf220bab404311df62a53817",
+      "sha256:57654b3e2798ca816482340453fdaebd972b281277ff74a079f2d89089da4236",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:c2c21a7771cbf82ce452b60a35e2a227e477c6c46515dd118cde6cb8834def7e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Vayne.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Vayne",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 薇恩",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Vayne.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:dce10f21f33d701243a7fe47d42ef9d6fdce85ba5c87ef631a7c4eeaf0032118",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Vayne.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Vayne",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Vayne",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Vayne.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:90f348552d0400661f5f5b635549aecba394fb3edf220bab404311df62a53817",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/67.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Vayne",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 薇恩",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/67.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:57654b3e2798ca816482340453fdaebd972b281277ff74a079f2d89089da4236",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/vayne.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Vayne:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Vayne",
+        "url": "https://www.leagueoflegends.com/en-us/champions/vayne/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3920984,
+        "revision_timestamp": "2025-06-28T00:17:28Z",
+        "source_ref_id": "source:wiki:1309987:3920984",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3920984",
+        "title": "Template:Data Vayne/Night Hunter",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vayne/Night_Hunter",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015566,
+        "revision_timestamp": "2026-05-05T15:55:50Z",
+        "source_ref_id": "source:wiki:1309988:4015566",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015566",
+        "title": "Template:Data Vayne/Tumble",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vayne/Tumble",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3949891,
+        "revision_timestamp": "2025-08-26T19:47:02Z",
+        "source_ref_id": "source:wiki:1309989:3949891",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3949891",
+        "title": "Template:Data Vayne/Silver Bolts",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vayne/Silver_Bolts",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008541,
+        "revision_timestamp": "2026-04-14T23:45:40Z",
+        "source_ref_id": "source:wiki:1309990:4008541",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008541",
+        "title": "Template:Data Vayne/Condemn",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vayne/Condemn",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3807995,
+        "revision_timestamp": "2024-11-05T22:07:10Z",
+        "source_ref_id": "source:wiki:1309991:3807995",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3807995",
+        "title": "Template:Data Vayne/Final Hour",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vayne/Final_Hour",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

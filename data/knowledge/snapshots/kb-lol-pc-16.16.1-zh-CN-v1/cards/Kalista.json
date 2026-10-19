@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Kalista:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "如果卡莉丝塔在进行普攻或穿刺的同时被下达了移动指令，那么她会在发起进攻的同时朝着这个移动指令的方向位移小段距离。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307664:4024157"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Martial Poise",
+      "name_zh": "武术姿态",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kalista",
+        "source:ddragon:16.16.1:en_US:Kalista",
+        "source:communitydragon:16.16:zh_cn:Kalista",
+        "source:wiki:1307664:4024157"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Enter a movement command while winding up Kalista's basic attack or Pierce to lunge a short distance when she launches her attack.",
+      "summary_zh": "如果卡莉丝塔在进行普攻或穿刺的同时被下达了移动指令，那么她会在发起进攻的同时朝着这个移动指令的方向位移小段距离。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307664:4024157"
+      ]
+    },
+    {
+      "ability_id": "ability:Kalista:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "卡莉丝塔掷出一支长矛，对命中的第一个目标造成【数值】物理伤害。如果这个技能击杀了目标，那么长矛会继续前行，将撕裂的层数带给命中的下一个目标。 卡莉丝塔可以在使用这个技能后使用武术姿态的冲刺。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307666:3997075"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "spellname",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Pierce",
+      "name_zh": "穿刺",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kalista",
+        "source:ddragon:16.16.1:en_US:Kalista",
+        "source:communitydragon:16.16:zh_cn:Kalista",
+        "source:wiki:1307666:3997075"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Throw a fast moving spear that passes through enemies it kills.",
+      "summary_zh": "扔出一个快速移动的长矛。长矛在击杀敌人后会继续飞行。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307666:3997075"
+      ]
+    },
+    {
+      "ability_id": "ability:Kalista:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：当卡莉丝塔和她的誓约者都攻击相同的目标时，她会造成【数值】%最大生命值的魔法伤害。这个效果对每个目标有【数值】秒冷却时间并且对非英雄单位有【数值】的伤害上限。 主动：卡莉丝塔派出一个幽灵去巡视一个地区，持续3个来回。被发现的敌方英雄会被显形4秒。这个技能有2层充能(【数值】秒充能时间)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307668:4007621"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "keywordmajor",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Sentinel",
+      "name_zh": "哨兵",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kalista",
+        "source:ddragon:16.16.1:en_US:Kalista",
+        "source:communitydragon:16.16:zh_cn:Kalista",
+        "source:wiki:1307668:4007621"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Gain bonus damage when Kalista and her Oathsworn strike the same target. Activate to send a soul to scout out the path, revealing the area in front of it.",
+      "summary_zh": "在卡莉丝塔与誓约者一起攻击相同目标时提供额外伤害。 激活此技能可以派出一个灵魂来侦查道路，将它面前的区域显示在玩家的视野内。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307668:4007621"
+      ]
+    },
+    {
+      "ability_id": "ability:Kalista:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "被动：卡莉丝塔的长矛会在目标身上存留4秒，可叠加任意次数。 主动：卡莉丝塔从附近的敌人们身上拔出长矛，造成【数值】外加每根后续长矛【数值】物理伤害。对命中的敌人们造成持续【数值】秒的【数值】减速。 如果这个技能击杀了至少一个目标，那么它的冷却时间会刷新并且它会返还【数值】法力值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307670:4004071"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "br",
+        "spellactive",
+        "physicaldamage",
+        "attention",
+        "status",
+        "scalemana"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Rend",
+      "name_zh": "撕裂",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kalista",
+        "source:ddragon:16.16.1:en_US:Kalista",
+        "source:communitydragon:16.16:zh_cn:Kalista",
+        "source:wiki:1307670:4004071"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Attacks impale their targets with spears. Activate to rip the spears out, slowing and dealing escalating damage.",
+      "summary_zh": "攻击时用长矛来刺穿目标。主动激活可以将长矛扯出，造成减速和逐步上升的伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307670:4004071"
+      ]
+    },
+    {
+      "ability_id": "ability:Kalista:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "卡莉丝塔将她的誓约者置入凝滞状态并将其拖拽到她的身边，至多持续4秒。誓约者可以点击来将自己投放出去，在命中第一个英雄时停止并击退所有附近的敌人。如果誓约者命中了一名英雄，则会被放置在与目标相距其最大攻击距离的位置。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kalista"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kalista"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kalista"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307672:4015001"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Fate's Call",
+      "name_zh": "命运的召唤",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kalista",
+        "source:ddragon:16.16.1:en_US:Kalista",
+        "source:communitydragon:16.16:zh_cn:Kalista",
+        "source:wiki:1307672:4015001"
+      ],
+      "status_terms_zh": [
+        "击退"
+      ],
+      "summary_en": "Kalista teleports the Oathsworn ally to herself. They gain the ability to dash toward a position, knocking enemy champions back.",
+      "summary_zh": "卡莉丝塔传送一位友军到自己身边。该友军随后可以冲向一个地点，并击退命中的敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307672:4015001"
+      ]
+    }
+  ],
+  "card_id": "champion:Kalista:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Kalista"
+    ],
+    "numeric_key": "429",
+    "official_name_en": "Kalista",
+    "official_name_zh": "卡莉丝塔",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Kalista",
+      "source:ddragon:16.16.1:en_US:Kalista",
+      "source:communitydragon:16.16:zh_cn:Kalista",
+      "source:riot-champion-page:Kalista:asof-2026-08-21"
+    ],
+    "stable_id": "Kalista",
+    "title_zh": "复仇之矛"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 2
+    },
+    "roles": [
+      "marksman"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Kalista"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:c9a2ba457e56c8af177b5c405b17fe78d9a837e4cb8361085f83da24ae653d7e",
+      "sha256:883b5431f9d474f81a88aad8ba645b91be9ed11247dace2708a0d210ecd43f6a",
+      "sha256:99260fd9d8c6d53a0a8f90ec832dc6d0a8d43982241351024b2b5acbe09b0f6f",
+      "sha256:d4b472d9d145b4eb7ab6f6e584fd514da1a1510a81369b39bc9aafb20f241df0",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:c9a2ba457e56c8af177b5c405b17fe78d9a837e4cb8361085f83da24ae653d7e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Kalista.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Kalista",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 卡莉丝塔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Kalista.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:883b5431f9d474f81a88aad8ba645b91be9ed11247dace2708a0d210ecd43f6a",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Kalista.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Kalista",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Kalista",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Kalista.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:99260fd9d8c6d53a0a8f90ec832dc6d0a8d43982241351024b2b5acbe09b0f6f",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/429.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Kalista",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 卡莉丝塔",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/429.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:d4b472d9d145b4eb7ab6f6e584fd514da1a1510a81369b39bc9aafb20f241df0",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/kalista.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Kalista:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Kalista",
+        "url": "https://www.leagueoflegends.com/en-us/champions/kalista/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4024157,
+        "revision_timestamp": "2026-05-30T09:35:51Z",
+        "source_ref_id": "source:wiki:1307664:4024157",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4024157",
+        "title": "Template:Data Kalista/Martial Poise",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kalista/Martial_Poise",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3997075,
+        "revision_timestamp": "2026-03-06T15:53:18Z",
+        "source_ref_id": "source:wiki:1307666:3997075",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3997075",
+        "title": "Template:Data Kalista/Pierce",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kalista/Pierce",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007621,
+        "revision_timestamp": "2026-04-12T07:36:44Z",
+        "source_ref_id": "source:wiki:1307668:4007621",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007621",
+        "title": "Template:Data Kalista/Sentinel",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kalista/Sentinel",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4004071,
+        "revision_timestamp": "2026-03-31T19:51:50Z",
+        "source_ref_id": "source:wiki:1307670:4004071",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4004071",
+        "title": "Template:Data Kalista/Rend",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kalista/Rend",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015001,
+        "revision_timestamp": "2026-05-02T10:49:53Z",
+        "source_ref_id": "source:wiki:1307672:4015001",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015001",
+        "title": "Template:Data Kalista/Fate's Call",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kalista/Fate%27s_Call",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

@@ -1,0 +1,521 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Ekko:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "每当艾克对相同目标施放第三次普攻或伤害性技能时，都会造成额外魔法伤害，并且如果目标是英雄，那么艾克还会获得爆发性的移动速度加成。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307084:4022978"
+        ]
+      },
+      "markup_tags": [
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Z-Drive Resonance",
+      "name_zh": "Z型驱动共振",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ekko",
+        "source:ddragon:16.16.1:en_US:Ekko",
+        "source:communitydragon:16.16:zh_cn:Ekko",
+        "source:wiki:1307084:4022978"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion.",
+      "summary_zh": "每当艾克对相同目标施放第三次普攻或伤害性技能时，都会造成额外魔法伤害，并且如果目标是英雄，那么艾克还会获得爆发性的移动速度加成。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307084:4022978"
+      ]
+    },
+    {
+      "ability_id": "ability:Ekko:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "艾克投出一个设备，造成【数值】魔法伤害。在命中一名英雄或到达它的距离终点后，它会扩展为一个领域来使其中的敌人减速【数值】%。在它扩展后，艾克会将其召回，造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307082:4007479"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Timewinder",
+      "name_zh": "时间卷曲器",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ekko",
+        "source:ddragon:16.16.1:en_US:Ekko",
+        "source:communitydragon:16.16:zh_cn:Ekko",
+        "source:wiki:1307082:4007479"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Ekko throws a temporal grenade that expands into a time-distortion field upon hitting an enemy champion, slowing and damaging anyone caught inside. After a delay, the grenade rewinds back to Ekko, dealing damage on its return.",
+      "summary_zh": "艾克扔出一个时光手雷，这个手雷会在命中一个敌方英雄后扩展为一个时间扭曲的力场，对场内的所有敌方单位造成伤害和减速效果。然后它会在短暂的延迟后返回到艾克手上，返回途中会对沿途的敌人造成伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307082:4007479"
+      ]
+    },
+    {
+      "ability_id": "ability:Ekko:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：艾克对生命值低于【数值】%的敌方英雄进行的攻击会造成【数值】已损失生命值的魔法伤害。 主动：在一阵延迟后，艾克放出一颗持续【数值】秒的时空球体来使其中的敌人减速【数值】%。如果艾克进入了球体，那么他会将其引爆，造成【数值】秒晕眩并获得【数值】护盾值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307080:3956502"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicdamage",
+        "br",
+        "spellactive",
+        "status",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Parallel Convergence",
+      "name_zh": "时光交错",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ekko",
+        "source:ddragon:16.16.1:en_US:Ekko",
+        "source:communitydragon:16.16:zh_cn:Ekko",
+        "source:wiki:1307080:3956502"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "晕眩"
+      ],
+      "summary_en": "Ekko's basic attacks deal bonus magic damage to low health enemies. He can cast Parallel Convergence to split the timeline, creating an anomaly after a few seconds that slows enemies caught inside. If Ekko enters the anomaly, he gains shielding and stuns enemies by suspending them in time.",
+      "summary_zh": "艾克的普攻对低生命值的敌人造成额外魔法伤害。他可以施放【时光交错】来分离这条时间线，制造一个不稳定的异常时间点，这个时间点会在数秒后对范围内的敌人造成减速效果。如果艾克进入了这个异常时间点，那么他会获得护盾并让范围内的敌人因悬浮在时间中而陷入晕眩状态。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307080:3956502"
+      ]
+    },
+    {
+      "ability_id": "ability:Ekko:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "艾克突进并强化他的下次攻击，以获得额外距离、将他传送到他的目标处、并造成额外的【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307078:4025604"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Phase Dive",
+      "name_zh": "相位俯冲",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ekko",
+        "source:ddragon:16.16.1:en_US:Ekko",
+        "source:communitydragon:16.16:zh_cn:Ekko",
+        "source:wiki:1307078:4025604"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ekko rolls evasively while charging up his Z-Drive. His next attack deals bonus damage and warps reality, teleporting him to his target.",
+      "summary_zh": "艾克在为Z型驱动充能的同时灵巧地滚动。他的下次攻击将造成魔法伤害并扭曲时间，并让他传送到他的攻击目标旁。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307078:4025604"
+      ]
+    },
+    {
+      "ability_id": "ability:Ekko:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "艾克回到过去的时间点上，进入凝滞状态同时传送回他4秒前所在的位置，并在到达后对附近的所有敌人造成【数值】魔法伤害。此外，艾克会治疗自身【数值】生命值，且最近4秒里每损失1%生命值就会使这个治疗效果提升【数值】%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ekko"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ekko"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ekko"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307076:4012189"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Chronobreak",
+      "name_zh": "时空断裂",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ekko",
+        "source:ddragon:16.16.1:en_US:Ekko",
+        "source:communitydragon:16.16:zh_cn:Ekko",
+        "source:wiki:1307076:4012189"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ekko shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.",
+      "summary_zh": "艾克打破他的时间线，变得不可被选取并回溯到一个更加有利的时间点上。他会回到几秒前的位置，并治疗这几秒内所受的伤势。在完成传送后，传送终点区域附近的敌人都会受到巨量伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307076:4012189"
+      ]
+    }
+  ],
+  "card_id": "champion:Ekko:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Ekko"
+    ],
+    "numeric_key": "245",
+    "official_name_en": "Ekko",
+    "official_name_zh": "艾克",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Ekko",
+      "source:ddragon:16.16.1:en_US:Ekko",
+      "source:communitydragon:16.16:zh_cn:Ekko",
+      "source:riot-champion-page:Ekko:asof-2026-08-21"
+    ],
+    "stable_id": "Ekko",
+    "title_zh": "时间刺客"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 2,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "assassin",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Ekko"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:d6d5ed81cc128a72930071d7c2aa72344f46da654c62426dec76f8497c694b1a",
+      "sha256:3af6b685920efd58793df2c00dd28fcda939bfefd424d1166c4d1436e54f3d85",
+      "sha256:55d08743d89dafab049b56cae51c751e9cbcd26d9380d3836e002e147653f0ba",
+      "sha256:0da9b75d8d6444eb89704946a69340e42f4a75c35364dcb053fdd73642aaa898",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:d6d5ed81cc128a72930071d7c2aa72344f46da654c62426dec76f8497c694b1a",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Ekko.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Ekko",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 艾克",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Ekko.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:3af6b685920efd58793df2c00dd28fcda939bfefd424d1166c4d1436e54f3d85",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Ekko.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Ekko",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Ekko",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Ekko.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:55d08743d89dafab049b56cae51c751e9cbcd26d9380d3836e002e147653f0ba",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/245.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Ekko",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 艾克",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/245.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:0da9b75d8d6444eb89704946a69340e42f4a75c35364dcb053fdd73642aaa898",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/ekko.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Ekko:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Ekko",
+        "url": "https://www.leagueoflegends.com/en-us/champions/ekko/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4022978,
+        "revision_timestamp": "2026-05-27T21:09:50Z",
+        "source_ref_id": "source:wiki:1307084:4022978",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4022978",
+        "title": "Template:Data Ekko/Z-Drive Resonance",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ekko/Z-Drive_Resonance",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007479,
+        "revision_timestamp": "2026-04-11T20:51:17Z",
+        "source_ref_id": "source:wiki:1307082:4007479",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007479",
+        "title": "Template:Data Ekko/Timewinder",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ekko/Timewinder",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3956502,
+        "revision_timestamp": "2025-09-29T02:43:12Z",
+        "source_ref_id": "source:wiki:1307080:3956502",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3956502",
+        "title": "Template:Data Ekko/Parallel Convergence",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ekko/Parallel_Convergence",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4025604,
+        "revision_timestamp": "2026-06-06T15:08:47Z",
+        "source_ref_id": "source:wiki:1307078:4025604",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4025604",
+        "title": "Template:Data Ekko/Phase Dive",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ekko/Phase_Dive",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4012189,
+        "revision_timestamp": "2026-04-25T09:25:23Z",
+        "source_ref_id": "source:wiki:1307076:4012189",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4012189",
+        "title": "Template:Data Ekko/Chronobreak",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ekko/Chronobreak",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

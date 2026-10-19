@@ -1,0 +1,518 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Kayle:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "凯尔的攻击会随着她提升等级和分配技能点而获得增强。她的羽翼将燃起圣焰，逐步提供攻击速度，移动速度，攻击距离，以及攻击附带焰浪。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1388325:4051190"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Divine Ascent",
+      "name_zh": "登神长阶",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kayle",
+        "source:ddragon:16.16.1:en_US:Kayle",
+        "source:communitydragon:16.16:zh_cn:Kayle",
+        "source:wiki:1388325:4051190"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kayle's attacks are empowered by the heavens as she levels up and spends skill points. Her wings are lit aflame as she progressively gains Attack Speed, Move Speed, Attack Range, and waves of fire on her attacks.",
+      "summary_zh": "凯尔的攻击会随着她提升等级和分配技能点而获得增强。她的羽翼将燃起圣焰，逐步提供攻击速度，移动速度，攻击距离，以及攻击附带焰浪。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1388325:4051190"
+      ]
+    },
+    {
+      "ability_id": "ability:Kayle:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "凯尔发射一把星界之剑，它会停留在命中的第一个敌人身上，造成【数值】魔法伤害，持续【数值】秒的【数值】%减速，并移除目标及其后方敌人们的【数值】%护甲和魔法抗性，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1388326:4005105"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "scalearmor",
+        "scalemr"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Radiant Blast",
+      "name_zh": "耀焰冲击",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kayle",
+        "source:ddragon:16.16.1:en_US:Kayle",
+        "source:communitydragon:16.16:zh_cn:Kayle",
+        "source:wiki:1388326:4005105"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Kayle conjures a portal, summoning a celestial sword that pierces through enemies, slowing, damaging, and reducing the resistances of all hit.",
+      "summary_zh": "凯尔召出一个传送门，召唤出一把星界之剑来刺穿敌人，对命中的所有敌人造成减速、伤害和防御属性击碎效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1388326:4005105"
+      ]
+    },
+    {
+      "ability_id": "ability:Kayle:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "凯尔为她自身和一名友方英雄灌注圣光，回复【数值】生命值并提供持续【数值】秒的【数值】移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1388327:3997873"
+        ]
+      },
+      "markup_tags": [
+        "healing",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Celestial Blessing",
+      "name_zh": "星界恩典",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kayle",
+        "source:ddragon:16.16.1:en_US:Kayle",
+        "source:communitydragon:16.16:zh_cn:Kayle",
+        "source:wiki:1388327:3997873"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Blessed by the divine, Kayle heals and grants Move Speed to herself and the nearest ally.",
+      "summary_zh": "通过神圣的赐福，凯尔为自己和距她最近的友方英雄提供治疗和移动速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1388327:3997873"
+      ]
+    },
+    {
+      "ability_id": "ability:Kayle:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：攻击造成额外的【数值】魔法伤害。 主动：凯尔的下次攻击变为远程并造成额外的【数值】已损失生命值的魔法伤害。这个攻击会在凯尔到达【数值】级时升级，使它可以在命中目标时爆炸，对附近敌人造成伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1388328:3982990"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicdamage",
+        "br",
+        "spellactive",
+        "scalelevel"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Starfire Spellblade",
+      "name_zh": "星火符刃",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kayle",
+        "source:ddragon:16.16.1:en_US:Kayle",
+        "source:communitydragon:16.16:zh_cn:Kayle",
+        "source:wiki:1388328:3982990"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks. Active: Kayle's next attack smites her target with celestial fire, dealing bonus damage proportionate to their missing health.",
+      "summary_zh": "被动：凯尔的星界之剑，“美德”，会对她在攻击的敌人造成额外伤害。 主动：凯尔的下次攻击将用星火重击她的目标，基于敌人的已损失生命值造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1388328:3982990"
+      ]
+    },
+    {
+      "ability_id": "ability:Kayle:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "凯尔令一名友方英雄免疫伤害【数值】秒，随后会净化该英雄身边的区域并造成【数值】魔法伤害给附近的敌人们。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kayle"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kayle"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kayle"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1388329:3962015"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Divine Judgment",
+      "name_zh": "圣裁之刻",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kayle",
+        "source:ddragon:16.16.1:en_US:Kayle",
+        "source:communitydragon:16.16:zh_cn:Kayle",
+        "source:wiki:1388329:3962015"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kayle makes an ally invulnerable and calls upon former Aspects of Justice to purify the area around her target with a holy rain of swords.",
+      "summary_zh": "凯尔让一名友方英雄免疫伤害，并号召曾经的正义星灵们用一阵神圣剑雨来纯化她目标附近的区域。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1388329:3962015"
+      ]
+    }
+  ],
+  "card_id": "champion:Kayle:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Kayle"
+    ],
+    "numeric_key": "10",
+    "official_name_en": "Kayle",
+    "official_name_zh": "凯尔",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Kayle",
+      "source:ddragon:16.16.1:en_US:Kayle",
+      "source:communitydragon:16.16:zh_cn:Kayle",
+      "source:riot-champion-page:Kayle:asof-2026-08-21"
+    ],
+    "stable_id": "Kayle",
+    "title_zh": "正义天使"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 3
+    },
+    "roles": [
+      "mage",
+      "marksman"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Kayle"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:5d2760b81bd5b1a1ad322b71972b036da8da5e4d7af5c763667e428fd3e299d7",
+      "sha256:5fc9c4898844c9928cb31e6cc32c193684a766e547a8c527962acab84ee09d46",
+      "sha256:c76ee57b964eb1917d9a0cdd1ccf3c9e7576ba598a12fc52935cca00b366bf89",
+      "sha256:0f7d8e992147897f23f84711b0f48fb2a41076b2caa4b4378f2f50b32ef766f1",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+      "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:5d2760b81bd5b1a1ad322b71972b036da8da5e4d7af5c763667e428fd3e299d7",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Kayle.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Kayle",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 凯尔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Kayle.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:5fc9c4898844c9928cb31e6cc32c193684a766e547a8c527962acab84ee09d46",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Kayle.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Kayle",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Kayle",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Kayle.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:c76ee57b964eb1917d9a0cdd1ccf3c9e7576ba598a12fc52935cca00b366bf89",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/10.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Kayle",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 凯尔",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/10.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:0f7d8e992147897f23f84711b0f48fb2a41076b2caa4b4378f2f50b32ef766f1",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/kayle.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Kayle:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Kayle",
+        "url": "https://www.leagueoflegends.com/en-us/champions/kayle/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051190,
+        "revision_timestamp": "2026-08-12T00:12:54Z",
+        "source_ref_id": "source:wiki:1388325:4051190",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051190",
+        "title": "Template:Data Kayle/Divine Ascent",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kayle/Divine_Ascent",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4005105,
+        "revision_timestamp": "2026-04-03T22:20:12Z",
+        "source_ref_id": "source:wiki:1388326:4005105",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4005105",
+        "title": "Template:Data Kayle/Radiant Blast",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kayle/Radiant_Blast",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3997873,
+        "revision_timestamp": "2026-03-09T15:04:29Z",
+        "source_ref_id": "source:wiki:1388327:3997873",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3997873",
+        "title": "Template:Data Kayle/Celestial Blessing",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kayle/Celestial_Blessing",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3982990,
+        "revision_timestamp": "2026-01-10T09:53:22Z",
+        "source_ref_id": "source:wiki:1388328:3982990",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3982990",
+        "title": "Template:Data Kayle/Starfire Spellblade",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kayle/Starfire_Spellblade",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3962015,
+        "revision_timestamp": "2025-10-30T21:50:08Z",
+        "source_ref_id": "source:wiki:1388329:3962015",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3962015",
+        "title": "Template:Data Kayle/Divine Judgment",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kayle/Divine_Judgment",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

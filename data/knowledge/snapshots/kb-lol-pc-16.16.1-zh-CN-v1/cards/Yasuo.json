@@ -1,0 +1,517 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Yasuo:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "亚索的暴击几率提升。此外，亚索在移动时会为一层护盾攒能。护盾会在他受到来自英雄或野怪的伤害时触发。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307207:4051866"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Way of the Wanderer",
+      "name_zh": "浪客之道",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yasuo",
+        "source:ddragon:16.16.1:en_US:Yasuo",
+        "source:communitydragon:16.16:zh_cn:Yasuo",
+        "source:wiki:1307207:4051866"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Yasuo's Critical Strike Chance is increased. Additionally, Yasuo builds toward a shield whenever he is moving. The shield triggers when he takes damage from a champion or monster.",
+      "summary_zh": "亚索的暴击几率提升。此外，亚索在移动时会为一层护盾攒能。护盾会在他受到来自英雄或野怪的伤害时触发。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307207:4051866"
+      ]
+    },
+    {
+      "ability_id": "ability:Yasuo:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "亚索进行戳刺，造成【数值】物理伤害。如果他命中了，那么他会获得一层持续【数值】秒的层数。当他拥有2层时，这个技能的下次施放将会发射出一道远程龙卷风，造成等值伤害和【数值】秒击飞。 如果在冲刺期间施放，那么这个技能会呈环状进行打击而非直接戳刺。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307210:4049047"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Steel Tempest",
+      "name_zh": "斩钢闪",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yasuo",
+        "source:ddragon:16.16.1:en_US:Yasuo",
+        "source:communitydragon:16.16:zh_cn:Yasuo",
+        "source:wiki:1307210:4049047"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Thrusts forward, damaging all enemies in a line. On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Steel Tempest fires a whirlwind that knocks Airborne. Steel Tempest is treated as a basic attack and scales with all the same things.",
+      "summary_zh": "向前出剑，呈直线造成伤害。 在命中时，斩钢闪会获得一层旋风烈斩效果，持续数秒。在积攒2层旋风烈斩效果后，斩钢闪会形成一阵能够击飞敌人的旋风。 斩钢闪被视为普通攻击，并且可以从所有作用于普攻的东西上获得收益。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307210:4049047"
+      ]
+    },
+    {
+      "ability_id": "ability:Yasuo:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "亚索形成一个持续4秒的气流浮墙，来阻挡敌方的飞行道具。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307212:4008635"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Wind Wall",
+      "name_zh": "风之障壁",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yasuo",
+        "source:ddragon:16.16.1:en_US:Yasuo",
+        "source:communitydragon:16.16:zh_cn:Yasuo",
+        "source:wiki:1307212:4008635"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Creates a moving wall that blocks all enemy projectiles for 4 seconds.",
+      "summary_zh": "形成一个持续4秒的气流之墙，来阻挡敌方的飞行道具。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307212:4008635"
+      ]
+    },
+    {
+      "ability_id": "ability:Yasuo:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "亚索冲刺并穿过一个目标，造成【数值】魔法伤害。这个技能每次施放后都会为【数值】秒内的后续施放提供【数值】额外伤害，至多可叠加【数值】次。 这个技能对每个目标有【数值】秒冷却时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307214:4008638"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Sweeping Blade",
+      "name_zh": "踏前斩",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yasuo",
+        "source:ddragon:16.16.1:en_US:Yasuo",
+        "source:communitydragon:16.16:zh_cn:Yasuo",
+        "source:wiki:1307214:4008638"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Dashes through target enemy, dealing magic damage. Each cast increases subsequent dash's damage, up to a max amount. Cannot be re-cast on the same enemy for a few seconds. If Steel Tempest is cast while dashing, it will strike as a circle.",
+      "summary_zh": "向目标敌人突进，造成魔法伤害。每次施法都会提升你的后续突进的伤害，直到抵达上限。 在若干秒内无法对相同敌人重复施放。 如果在突进的过程中施放斩钢闪，那么斩钢闪就会呈环状出剑。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307214:4008638"
+      ]
+    },
+    {
+      "ability_id": "ability:Yasuo:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "亚索传送到一名浮空的敌方英雄身边，造成【数值】物理伤害并使所有附近浮空的敌人们维持此状态至多【数值】秒。亚索还会获得满额剑意，但会失去所有所有斩钢闪层数。 之后，亚索的暴击会无视【数值】%额外护甲，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yasuo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yasuo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yasuo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307216:4027670"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "physicaldamage",
+        "keywordmajor",
+        "spellname",
+        "br",
+        "scalearmor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Last Breath",
+      "name_zh": "狂风绝息斩",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yasuo",
+        "source:ddragon:16.16.1:en_US:Yasuo",
+        "source:communitydragon:16.16:zh_cn:Yasuo",
+        "source:wiki:1307216:4027670"
+      ],
+      "status_terms_zh": [
+        "浮空"
+      ],
+      "summary_en": "Blinks to an Airborne enemy champion, dealing physical damage and holding all Airborne enemies in the area in the air. Grants maximum Flow but resets all stacks of Gathering Storm. For a moderate time afterwards, Yasuo's critical strikes gain significant Bonus Armor Penetration.",
+      "summary_zh": "闪烁到一个浮空的敌方英雄身边，造成物理伤害，并使范围内的所有浮空的敌人滞留在空中。获得满额的剑意值，但会重置旋风烈斩的层数。 在接下来的若干秒里，亚索的暴击会获得显著的额外护甲穿透加成值。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307216:4027670"
+      ]
+    }
+  ],
+  "card_id": "champion:Yasuo:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Yasuo"
+    ],
+    "numeric_key": "157",
+    "official_name_en": "Yasuo",
+    "official_name_zh": "亚索",
+    "resource_type_zh": "剑意",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Yasuo",
+      "source:ddragon:16.16.1:en_US:Yasuo",
+      "source:communitydragon:16.16:zh_cn:Yasuo",
+      "source:riot-champion-page:Yasuo:asof-2026-08-21"
+    ],
+    "stable_id": "Yasuo",
+    "title_zh": "疾风剑豪"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 2
+    },
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Yasuo"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:7ef8ae7574ee7eddea7e125e47e131b1475881aa436a85d655321cc22399cbb4",
+      "sha256:eec8d5a122536f62f0d5eaae97da9a756d264b85712562a59b324aca9f44a11d",
+      "sha256:6b0d6be6a7bfdb60abc849a0ebd4ce736da9498f5f298d0b7081b863844830ba",
+      "sha256:9aed51681401128b83f6dc3e24c44742bb9b5e8282652d16b489377506236804",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:7ef8ae7574ee7eddea7e125e47e131b1475881aa436a85d655321cc22399cbb4",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Yasuo.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Yasuo",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 亚索",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Yasuo.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:eec8d5a122536f62f0d5eaae97da9a756d264b85712562a59b324aca9f44a11d",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Yasuo.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Yasuo",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Yasuo",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Yasuo.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6b0d6be6a7bfdb60abc849a0ebd4ce736da9498f5f298d0b7081b863844830ba",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/157.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Yasuo",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 亚索",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/157.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:9aed51681401128b83f6dc3e24c44742bb9b5e8282652d16b489377506236804",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/yasuo.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Yasuo:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Yasuo",
+        "url": "https://www.leagueoflegends.com/en-us/champions/yasuo/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051866,
+        "revision_timestamp": "2026-08-14T12:16:09Z",
+        "source_ref_id": "source:wiki:1307207:4051866",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051866",
+        "title": "Template:Data Yasuo/Way of the Wanderer",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yasuo/Way_of_the_Wanderer",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4049047,
+        "revision_timestamp": "2026-08-01T20:59:29Z",
+        "source_ref_id": "source:wiki:1307210:4049047",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4049047",
+        "title": "Template:Data Yasuo/Steel Tempest",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yasuo/Steel_Tempest",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008635,
+        "revision_timestamp": "2026-04-15T00:36:22Z",
+        "source_ref_id": "source:wiki:1307212:4008635",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008635",
+        "title": "Template:Data Yasuo/Wind Wall",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yasuo/Wind_Wall",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008638,
+        "revision_timestamp": "2026-04-15T00:36:53Z",
+        "source_ref_id": "source:wiki:1307214:4008638",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008638",
+        "title": "Template:Data Yasuo/Sweeping Blade",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yasuo/Sweeping_Blade",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4027670,
+        "revision_timestamp": "2026-06-12T17:55:41Z",
+        "source_ref_id": "source:wiki:1307216:4027670",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4027670",
+        "title": "Template:Data Yasuo/Last Breath",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yasuo/Last_Breath",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

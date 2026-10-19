@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Renekton:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "雷克顿的攻击会产生【怒气】，在它的生命值较低时产生更多【怒气】。【怒气】可以强化他的基础技能，使它们具有额外效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309204:3961774"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Reign of Anger",
+      "name_zh": "怒之领域",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renekton",
+        "source:ddragon:16.16.1:en_US:Renekton",
+        "source:communitydragon:16.16:zh_cn:Renekton",
+        "source:wiki:1309204:3961774"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Renekton's attacks generate Fury, increased when he is low on life. This Fury can empower his abilities with bonus effects.",
+      "summary_zh": "雷克顿的攻击会产生【怒气】，在它的生命值较低时产生更多【怒气】。【怒气】可以强化他的基础技能，使它们具有额外效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309204:3961774"
+      ]
+    },
+    {
+      "ability_id": "ability:Renekton:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "雷克顿挥舞他的战刃，造成【数值】物理伤害，此外，每命中一个非英雄单位就会回复【数值】生命值，每命中一位英雄就会回复【数值】。他每命中一个非英雄单位还会生成【数值】怒气，且每命中一位英雄生成【数值】怒气。 怒气加成：伤害提升至【数值】物理伤害并且对非英雄单位的治疗效果提升至【数值】生命值，对英雄的治疗效果提升至【数值】生命值。不会生成任何怒气。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309205:4008014"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "healing",
+        "keywordmajor",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Cull the Meek",
+      "name_zh": "巨鳄狂袭",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renekton",
+        "source:ddragon:16.16.1:en_US:Renekton",
+        "source:communitydragon:16.16:zh_cn:Renekton",
+        "source:wiki:1309205:4008014"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Renekton swings his blade, dealing moderate physical damage to all targets around him, and heals for a small portion of the damage dealt. If he has more than 50 Fury, his damage and heal are increased.",
+      "summary_zh": "雷克顿挥动他的武器，对周围所有目标造成中等水平物理伤害，并根据造成的伤害来治疗自己。如果他有50点以上怒气，那么此技能的伤害和治疗效果会得到提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309205:4008014"
+      ]
+    },
+    {
+      "ability_id": "ability:Renekton:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "雷克顿的下次攻击会进行两次打击，造成【数值】秒晕眩和共计【数值】物理伤害。命中一名英雄会生成额外的【数值】怒气。 怒气加成：雷克顿转而进行三次打击，摧毁护盾然后造成【数值】物理伤害和【数值】秒晕眩。不会生成任何怒气。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309200:4015473"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "physicaldamage",
+        "keywordmajor",
+        "br",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Ruthless Predator",
+      "name_zh": "冷酷捕猎",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renekton",
+        "source:ddragon:16.16.1:en_US:Renekton",
+        "source:communitydragon:16.16:zh_cn:Renekton",
+        "source:wiki:1309200:4015473"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Renekton slashes his target twice, dealing moderate physical damage and stuns them for 0.75 seconds. If Renekton has more than 50 Fury, he slashes his target three times, destroying damage shields on the target, dealing high physical damage, and stunning them for 1.5 seconds.",
+      "summary_zh": "雷克顿两次挥击目标，对其造成中等水平物理伤害并晕眩其0.75秒。如果雷克顿有50点以上怒气，他会三次挥击目标，摧毁目标身上的伤害护盾，对其造成高额物理伤害，并晕眩其1.5秒。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309200:4015473"
+      ]
+    },
+    {
+      "ability_id": "ability:Renekton:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "雷克顿进行冲刺，造成【数值】物理伤害。他每命中一名非英雄单位就会生成【数值】怒气，每命中一位英雄就会生成【数值】怒气。如果至少命中一名敌人，那么雷克顿就能在【数值】秒内再次施放这个技能一次。 怒气加成：再次施放的冲刺转而造成【数值】物理伤害并造成持续【数值】秒的【数值】%护甲削减。不会生成怒气。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1706967:3943397"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "keywordmajor",
+        "recast",
+        "br",
+        "scalearmor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Slice and Dice",
+      "name_zh": "横冲直撞",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renekton",
+        "source:ddragon:16.16.1:en_US:Renekton",
+        "source:communitydragon:16.16:zh_cn:Renekton",
+        "source:wiki:1706967:3943397"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Renekton dashes, dealing damage to units along the way. Empowered, Renekton deals bonus damage and reduces the Armor of units hit.",
+      "summary_zh": "雷克顿冲向前方，对沿途的敌人造成伤害。如果雷克顿有50点以上怒气，就会造成额外伤害，并减少沿途敌人的护甲值。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1706967:3943397"
+      ]
+    },
+    {
+      "ability_id": "ability:Renekton:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "雷克顿用黑暗能量笼罩自身，持续【数值】秒，获得【数值】最大生命值和【数值】怒气。在激活时，他每秒造成【数值】魔法伤害并获得【数值】怒气。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renekton"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renekton"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renekton"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309202:3963895"
+        ]
+      },
+      "markup_tags": [
+        "healing",
+        "keywordmajor",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Dominus",
+      "name_zh": "终极统治",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renekton",
+        "source:ddragon:16.16.1:en_US:Renekton",
+        "source:communitydragon:16.16:zh_cn:Renekton",
+        "source:wiki:1309202:3963895"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Renekton transforms into the Tyrant form, gaining bonus Health and dealing damage to enemies around him. While in this form, Renekton gains Fury periodically.",
+      "summary_zh": "雷克顿转换为暴君形态，获得额外生命值，并对周围敌人造成伤害。此形态的雷克顿定时获得怒气。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309202:3963895"
+      ]
+    }
+  ],
+  "card_id": "champion:Renekton:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Renekton"
+    ],
+    "numeric_key": "58",
+    "official_name_en": "Renekton",
+    "official_name_zh": "雷克顿",
+    "resource_type_zh": "怒气",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Renekton",
+      "source:ddragon:16.16.1:en_US:Renekton",
+      "source:communitydragon:16.16:zh_cn:Renekton",
+      "source:riot-champion-page:Renekton:asof-2026-08-21"
+    ],
+    "stable_id": "Renekton",
+    "title_zh": "荒漠屠夫"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Renekton"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:d489f83debacebd92c20bbd93e0de63c6a7689548a16e14c390a9e6491f56021",
+      "sha256:aaaacabe4f98d58901b0b9a5060459cfd1e6785f22b316d517d1495d7e771261",
+      "sha256:629dd69adc692d2252733bae265321e87fc7aa15f99da6793212bd236ce0b02a",
+      "sha256:a2e34330b0d44bc19ee925fa79fadc778c8c7c0d4453ba16b2ed8a529f02e05c",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:d489f83debacebd92c20bbd93e0de63c6a7689548a16e14c390a9e6491f56021",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Renekton.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Renekton",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 雷克顿",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Renekton.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:aaaacabe4f98d58901b0b9a5060459cfd1e6785f22b316d517d1495d7e771261",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Renekton.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Renekton",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Renekton",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Renekton.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:629dd69adc692d2252733bae265321e87fc7aa15f99da6793212bd236ce0b02a",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/58.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Renekton",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 雷克顿",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/58.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:a2e34330b0d44bc19ee925fa79fadc778c8c7c0d4453ba16b2ed8a529f02e05c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/renekton.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Renekton:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Renekton",
+        "url": "https://www.leagueoflegends.com/en-us/champions/renekton/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3961774,
+        "revision_timestamp": "2025-10-29T04:36:45Z",
+        "source_ref_id": "source:wiki:1309204:3961774",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3961774",
+        "title": "Template:Data Renekton/Reign of Anger",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renekton/Reign_of_Anger",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008014,
+        "revision_timestamp": "2026-04-13T03:35:33Z",
+        "source_ref_id": "source:wiki:1309205:4008014",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008014",
+        "title": "Template:Data Renekton/Cull the Meek",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renekton/Cull_the_Meek",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015473,
+        "revision_timestamp": "2026-05-04T21:21:12Z",
+        "source_ref_id": "source:wiki:1309200:4015473",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015473",
+        "title": "Template:Data Renekton/Ruthless Predator",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renekton/Ruthless_Predator",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3943397,
+        "revision_timestamp": "2025-08-08T18:04:56Z",
+        "source_ref_id": "source:wiki:1706967:3943397",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3943397",
+        "title": "Template:Data Renekton/Slice and Dice",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renekton/Slice_and_Dice",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3963895,
+        "revision_timestamp": "2025-11-07T10:15:32Z",
+        "source_ref_id": "source:wiki:1309202:3963895",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3963895",
+        "title": "Template:Data Renekton/Dominus",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renekton/Dominus",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

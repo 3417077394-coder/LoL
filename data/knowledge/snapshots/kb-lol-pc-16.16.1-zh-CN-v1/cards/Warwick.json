@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Warwick:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "沃里克的普攻造成额外魔法伤害。如果沃里克的生命值低于50%，那么他会获得等额的治疗效果。如果他的生命值低于25%，则治疗效果提升至三倍。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1318333:4051829"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Eternal Hunger",
+      "name_zh": "血之饥渴",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Warwick",
+        "source:ddragon:16.16.1:en_US:Warwick",
+        "source:communitydragon:16.16:zh_cn:Warwick",
+        "source:wiki:1318333:4051829"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Warwick's basic attacks deal bonus magic damage. If Warwick is below 50% health, he heals the same amount. If Warwick is below 25% health, this healing triples.",
+      "summary_zh": "沃里克的普攻造成额外魔法伤害。如果沃里克的生命值低于50%，那么他会获得等额的治疗效果。如果他的生命值低于25%，则治疗效果提升至三倍。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1318333:4051829"
+      ]
+    },
+    {
+      "ability_id": "ability:Warwick:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "秒放：沃里克向前猛扑并撕咬，造成【数值】外加【数值】%最大生命值的魔法伤害和【数值】%实际伤害值的治疗效果。 蓄力：沃里克猛扑并用它的狼嘴紧咬目标，并跃到目标身后。在紧咬目标时，沃里克会跟随目标的所有移动。在释放他的蓄力后，他会造成等额伤害和治疗效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1318334:4007380"
+        ]
+      },
+      "markup_tags": [
+        "tap",
+        "magicdamage",
+        "healing",
+        "br",
+        "hold"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Jaws of the Beast",
+      "name_zh": "野兽之口",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Warwick",
+        "source:ddragon:16.16.1:en_US:Warwick",
+        "source:communitydragon:16.16:zh_cn:Warwick",
+        "source:wiki:1318334:4007380"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.",
+      "summary_zh": "沃里克向前猛扑并撕咬他的目标，造成基于目标最大生命值的伤害，并造成基于实际伤害值的治疗效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1318334:4007380"
+      ]
+    },
+    {
+      "ability_id": "ability:Warwick:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "被动：沃里克可以感知生命值低于50%的英雄，朝着其移动时获得【数值】%移动速度。对生命值低于50%的敌人施放技能和攻击可获得【数值】%攻击速度。这些加成在对抗低于25%生命值的敌人们时会提升200%。 主动：沃里克可以暂时感知到所有敌人，并在对抗相距最近的那个英雄时获得这个技能的被动效果，持续8秒，无论该目标有多少生命值。如果没有感知到任何英雄，该技能的冷却时间缩短30%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1318335:4052302"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "speed",
+        "br",
+        "spellactive"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blood Hunt",
+      "name_zh": "鲜血追猎",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Warwick",
+        "source:ddragon:16.16.1:en_US:Warwick",
+        "source:communitydragon:16.16:zh_cn:Warwick",
+        "source:wiki:1318335:4052302"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them. When they fall below 25% health, he frenzies and these bonuses triple.",
+      "summary_zh": "沃里克感知生命值在50%以下的敌人，在朝着这些敌人移动时会获得移动速度加成，并在攻击这些敌人时会获得攻速加成。当这些敌人的生命值在25%以下时，他会狂暴并让这些加成提升至三倍。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1318335:4052302"
+      ]
+    },
+    {
+      "ability_id": "ability:Warwick:e:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "沃里克获得【数值】%伤害减免，持续【数值】秒。在它结束后，沃里克会发出嗥叫，恐惧附近的敌人【数值】秒。沃里克可以再次施放来提前结束这个技能。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1318336:4047663"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Primal Howl",
+      "name_zh": "远祖嗥叫",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Warwick",
+        "source:ddragon:16.16.1:en_US:Warwick",
+        "source:communitydragon:16.16:zh_cn:Warwick",
+        "source:wiki:1318336:4047663"
+      ],
+      "status_terms_zh": [
+        "恐惧"
+      ],
+      "summary_en": "Warwick gains damage reduction for 2.5 seconds. At the end, or if re-activated, he howls, causing nearby enemies to flee for 1 second.",
+      "summary_zh": "沃里克获得持续2.5秒的伤害减免效果。在效果结束时，或者重新激活技能时，沃里克会嗥叫，使附近的敌人因恐惧而逃跑1秒。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1318336:4047663"
+      ]
+    },
+    {
+      "ability_id": "ability:Warwick:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "沃里克跳跃一大段距离(随他的移动速度增长)，并压制碰撞到的第一个敌方英雄【数值】秒并且自身处在引导状态。在此期间他持续攻击该英雄3次，造成【数值】魔法伤害。沃里克在引导期间会获得100%实际伤害值的治疗效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Warwick"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Warwick"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Warwick"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308796:4052859"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "status",
+        "magicdamage",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Infinite Duress",
+      "name_zh": "无尽束缚",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Warwick",
+        "source:ddragon:16.16.1:en_US:Warwick",
+        "source:communitydragon:16.16:zh_cn:Warwick",
+        "source:wiki:1308796:4052859"
+      ],
+      "status_terms_zh": [
+        "压制"
+      ],
+      "summary_en": "Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.",
+      "summary_zh": "沃里克朝一个方向跳跃（跳跃距离可从他的移动速度加成中获益），将他所碰撞到的第一个敌方英雄压制1.5秒。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308796:4052859"
+      ]
+    }
+  ],
+  "card_id": "champion:Warwick:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Warwick"
+    ],
+    "numeric_key": "19",
+    "official_name_en": "Warwick",
+    "official_name_zh": "沃里克",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Warwick",
+      "source:ddragon:16.16.1:en_US:Warwick",
+      "source:communitydragon:16.16:zh_cn:Warwick",
+      "source:riot-champion-page:Warwick:asof-2026-08-21"
+    ],
+    "stable_id": "Warwick",
+    "title_zh": "祖安怒兽"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Warwick"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:a6854b7e97877c6803e8f2d485a453a4fa22d4fd34e6d0928d351e36092e11de",
+      "sha256:75281b21a373a91d2ce06a4ff6d94b67eab19338091d085731152acddd40a8d8",
+      "sha256:38f779fb1890c2912bfbb95a1bc9481361f65e6ee11bad42b2b5dc16fdaac9db",
+      "sha256:2c18270f0974dbf1edd1fe830b7deaf661f5e0bfbdc554e63b9331632e3d4fc3",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:a6854b7e97877c6803e8f2d485a453a4fa22d4fd34e6d0928d351e36092e11de",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Warwick.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Warwick",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 沃里克",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Warwick.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:75281b21a373a91d2ce06a4ff6d94b67eab19338091d085731152acddd40a8d8",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Warwick.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Warwick",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Warwick",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Warwick.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:38f779fb1890c2912bfbb95a1bc9481361f65e6ee11bad42b2b5dc16fdaac9db",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/19.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Warwick",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 沃里克",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/19.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:2c18270f0974dbf1edd1fe830b7deaf661f5e0bfbdc554e63b9331632e3d4fc3",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/warwick.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Warwick:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Warwick",
+        "url": "https://www.leagueoflegends.com/en-us/champions/warwick/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051829,
+        "revision_timestamp": "2026-08-14T05:43:32Z",
+        "source_ref_id": "source:wiki:1318333:4051829",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051829",
+        "title": "Template:Data Warwick/Eternal Hunger",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Warwick/Eternal_Hunger",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007380,
+        "revision_timestamp": "2026-04-11T15:56:25Z",
+        "source_ref_id": "source:wiki:1318334:4007380",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007380",
+        "title": "Template:Data Warwick/Jaws of the Beast",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Warwick/Jaws_of_the_Beast",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4052302,
+        "revision_timestamp": "2026-08-17T06:25:27Z",
+        "source_ref_id": "source:wiki:1318335:4052302",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4052302",
+        "title": "Template:Data Warwick/Blood Hunt",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Warwick/Blood_Hunt",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4047663,
+        "revision_timestamp": "2026-07-30T08:58:13Z",
+        "source_ref_id": "source:wiki:1318336:4047663",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4047663",
+        "title": "Template:Data Warwick/Primal Howl",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Warwick/Primal_Howl",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4052859,
+        "revision_timestamp": "2026-08-20T21:49:21Z",
+        "source_ref_id": "source:wiki:1308796:4052859",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4052859",
+        "title": "Template:Data Warwick/Infinite Duress",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Warwick/Infinite_Duress",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

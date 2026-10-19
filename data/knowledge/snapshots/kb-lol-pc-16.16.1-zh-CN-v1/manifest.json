@@ -1,0 +1,2133 @@
+{
+  "as_of": "2026-08-21",
+  "builder_version": "full-kb-builder-v1",
+  "card_count": 173,
+  "cards": [
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Aatrox.json",
+      "card_sha256": "93827c7643a2b513c64908384d005f36b7e826a6b6eb0414b1d260e1ca0d10ff",
+      "champion_id": "Aatrox",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Aatrox.md",
+      "context_sha256": "467878b450c992f4a8daca6b54739a59f4f3cfd239a63967c1fe87f63a324f1b",
+      "official_name_zh": "亚托克斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ahri.json",
+      "card_sha256": "4b6aed4eec85b1480abc838838017063207ec1e002ddbcbae9acd4032414ed6f",
+      "champion_id": "Ahri",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ahri.md",
+      "context_sha256": "1f0ef8a03516d902a869b7730fd0e93f2f306878444e261ce15936729b38fca9",
+      "official_name_zh": "阿狸",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Akali.json",
+      "card_sha256": "06e60521a97e963dcfff3a84d5a7fd8fbf0392bd58283b830345e9d6cb93e524",
+      "champion_id": "Akali",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Akali.md",
+      "context_sha256": "48e8a4c55c8e048dede98b9a4b400d13ab0b8765ebe5736f5c6497dd5b153844",
+      "official_name_zh": "阿卡丽",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Akshan.json",
+      "card_sha256": "36337c64756c33963f701b82cfa7cf79f2bb95ad6387bb53b36f72d20ec99010",
+      "champion_id": "Akshan",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Akshan.md",
+      "context_sha256": "e777ac90e43a11e3925599d932d401fe1dc2524367808297f74277677f89c323",
+      "official_name_zh": "阿克尚",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Alistar.json",
+      "card_sha256": "b586c8cd1e41efbe92784d8c663e86ff9c6d44f4a4220661317d6182535250be",
+      "champion_id": "Alistar",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Alistar.md",
+      "context_sha256": "b04fa02247a4cc12921ac6cfd455886c840be0768f94e52f8d7f3a42e677eaec",
+      "official_name_zh": "阿利斯塔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ambessa.json",
+      "card_sha256": "7a225e933a9c31c17f04e45982faacbe2256eac563e208280964f1cef0c06311",
+      "champion_id": "Ambessa",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ambessa.md",
+      "context_sha256": "a9c7588396b1ae596c4987c4104432d60bed2f22d88801faf8557a41a71f5be3",
+      "official_name_zh": "安蓓萨",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q",
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Amumu.json",
+      "card_sha256": "64ef099c9d64e72b5cd5f22aa8c609df72048696f37da713f0731e3b7eeb1c3d",
+      "champion_id": "Amumu",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Amumu.md",
+      "context_sha256": "89d828d022a6203a0bf58054039f12c698e2717441ee565b82aa27e4def0e1ce",
+      "official_name_zh": "阿木木",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Anivia.json",
+      "card_sha256": "7bfde8cfbe01e467c383f9f21c9cc832759c70136b7092db7e639b2484ca84f3",
+      "champion_id": "Anivia",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Anivia.md",
+      "context_sha256": "5ff6465bbe6057ab9affaa5bd161d1c5b9479fe458a550dff89b8817de455530",
+      "official_name_zh": "艾尼维亚",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Annie.json",
+      "card_sha256": "cadfb70a661ad968a4683f978dd436d23f51ffc4ef7fee506477d24b775de887",
+      "champion_id": "Annie",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Annie.md",
+      "context_sha256": "0d814f0ffdfecae1279f8a4e6842ba43e87dd069e02224f12f55a096d5fb41b2",
+      "official_name_zh": "安妮",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Aphelios.json",
+      "card_sha256": "3c8bc8eece0c7f275f59bce633f21598545c0c9ca04f9645d5763939afd449a0",
+      "champion_id": "Aphelios",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Aphelios.md",
+      "context_sha256": "6860befff180a3b3445357b65d77295ee70d32af58bfb5b8d5d4bc391a77be29",
+      "official_name_zh": "厄斐琉斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ashe.json",
+      "card_sha256": "b4491ee9fcb08159eeb40b6af2ffab85c10330d4aec1b39d25ba5be8d3cc8cf9",
+      "champion_id": "Ashe",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ashe.md",
+      "context_sha256": "24d57f7b748f639f5048ba39fe1606796edb0315d7ba9d5933937c1ec34d4f44",
+      "official_name_zh": "艾希",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/AurelionSol.json",
+      "card_sha256": "d4fe269d32523abb407fd777692f26357cba666d3f895d332673bc0273274507",
+      "champion_id": "AurelionSol",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/AurelionSol.md",
+      "context_sha256": "b9435947d7de53c8e66b5b9a11c05db097c73319d5e0826d812f7206785fedaa",
+      "official_name_zh": "奥瑞利安·索尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:r",
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Aurora.json",
+      "card_sha256": "f28196b9c7263f1eb47ea5e4ae4009b6e1f326dad72ad2520bbea604b2bcaaa1",
+      "champion_id": "Aurora",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Aurora.md",
+      "context_sha256": "37401718901857ac09296821b61929c2af64b6e697710f8de1739dd174e9a1ed",
+      "official_name_zh": "阿萝拉",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Azir.json",
+      "card_sha256": "ca35972d70f13282942be95b8d21e14a2e0e897ff279dbe10fa22d1e6bc9e27c",
+      "champion_id": "Azir",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Azir.md",
+      "context_sha256": "6d4a8f2a8fd62d724826fbdb5234c621db530067342edafb8d8389a3001575b8",
+      "official_name_zh": "阿兹尔",
+      "patch_change_status": "listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Bard.json",
+      "card_sha256": "ead0c87a796fe9215b1ad62388c2342ab648effca05d4af0a6bfce78808b9a15",
+      "champion_id": "Bard",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Bard.md",
+      "context_sha256": "e348aa093d982c542f2d7853f2e863ebca72385921f79d14b58037f9dfbca66e",
+      "official_name_zh": "巴德",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Belveth.json",
+      "card_sha256": "916ea51c75c4fd8981a14a3ae98306198e420ac00f7646bcf5029f8b5d48de4e",
+      "champion_id": "Belveth",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Belveth.md",
+      "context_sha256": "b8f7df6116d695dde3219c19863a09d7d98d5966d3561696412bd30fd8aec9c8",
+      "official_name_zh": "卑尔维斯",
+      "patch_change_status": "listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Blitzcrank.json",
+      "card_sha256": "8294fa7c9a8bd487bb8f522dab1d34b7007618f1c728ce36c826402b974aa868",
+      "champion_id": "Blitzcrank",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Blitzcrank.md",
+      "context_sha256": "34200afd1d3ef872d403716ee8c3d4c00de8b8b199abf38caccab13e8b2a4f84",
+      "official_name_zh": "布里茨",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Brand.json",
+      "card_sha256": "93186d5b8b0faefd96a3e248103b457f64a46d6f2a6bb37fe8c03e7e7d4cfed3",
+      "champion_id": "Brand",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Brand.md",
+      "context_sha256": "8f8c26f5e5f96db5939c07c6815c1b5db15eed28496e673dd0c9edcb8d25506e",
+      "official_name_zh": "布兰德",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Braum.json",
+      "card_sha256": "6ce1b642b849c8f6cafabe8e97c0fb4215f2ce23fb5ff9564b74636efb303908",
+      "champion_id": "Braum",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Braum.md",
+      "context_sha256": "21baccbc5ffff6c7e71a67bf1ce325787f6ebaa3e519f178433cf1384ada8e0a",
+      "official_name_zh": "布隆",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Briar.json",
+      "card_sha256": "39b434c3eab090a1b53aa2583089ba873dd66477e20c5e62a2754ddd9532f23a",
+      "champion_id": "Briar",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Briar.md",
+      "context_sha256": "2eab291f3f3bb628514c097bbb28c78dfe9c461e7ee7e216ae9f85109a5bddde",
+      "official_name_zh": "贝蕾亚",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:w",
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Caitlyn.json",
+      "card_sha256": "64f480b0f2a80679b2becc0f6ff734d7b5c93766b9b64814eeefca62db223350",
+      "champion_id": "Caitlyn",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Caitlyn.md",
+      "context_sha256": "85d485da60c83e01994bd3cd4c9193c19908ed11f3c8a469b2e657ccd7680ea0",
+      "official_name_zh": "凯特琳",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Camille.json",
+      "card_sha256": "0e09fbc6c040cf99b3ff572cd0fc57ac1880630d52ac0256a1b8b3dab64ec114",
+      "champion_id": "Camille",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Camille.md",
+      "context_sha256": "bbcdf2cf38c1f9d338ebdda898cc51a8fe3586cc15019ed8347d0f197d744ab4",
+      "official_name_zh": "卡蜜尔",
+      "patch_change_status": "listed",
+      "quality_flags": [
+        "wiki_ability_gap:e",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Cassiopeia.json",
+      "card_sha256": "d3318cbaf744d54545f423c4ca3645504d949f0d830efd11523862dec5bb0aab",
+      "champion_id": "Cassiopeia",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Cassiopeia.md",
+      "context_sha256": "400009ab6de2597e676a515506bd9c700caf62bcd6cbf6ce895b99f1d8241864",
+      "official_name_zh": "卡西奥佩娅",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Chogath.json",
+      "card_sha256": "71e36e39b36f4b62fc37f13951daf08b7e7c9530ae1473b2ed23739eb8f61454",
+      "champion_id": "Chogath",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Chogath.md",
+      "context_sha256": "25faeb15a9317d76ace48d351e13eb398510e1f6f5363659bc1698383c29f6d0",
+      "official_name_zh": "科加斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Corki.json",
+      "card_sha256": "8ba51bf2ae11183f290c602f668c74d4f6cf55532de375bc7795d5748fc0c442",
+      "champion_id": "Corki",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Corki.md",
+      "context_sha256": "4c3c5cfe530e91ef400574ad4d1ccc54418ac7b9a4da72011b1fd151dd0c11e4",
+      "official_name_zh": "库奇",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Darius.json",
+      "card_sha256": "de6a9d630961112670d17d7901db008f15875e973f56611e4856da301e5529ce",
+      "champion_id": "Darius",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Darius.md",
+      "context_sha256": "a5c2a002625147db549fd92e9074e5a28ed4fd3c86d3399d3556db40009d8784",
+      "official_name_zh": "德莱厄斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Diana.json",
+      "card_sha256": "24fea7affa5a3224673ac6b735df7dbec11f821a04a6113f0304de39d708a766",
+      "champion_id": "Diana",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Diana.md",
+      "context_sha256": "cebd1539b7f637a17c0f2a00416a364317096e149da0199a1770dd7f320263ee",
+      "official_name_zh": "黛安娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/DrMundo.json",
+      "card_sha256": "adb64ded1791937089a87d00f997bef5765071ffdb97dbf3913463acfbb90f9b",
+      "champion_id": "DrMundo",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/DrMundo.md",
+      "context_sha256": "88ad85e4b38449ff26ccf4ac8928b03763575210cf23c07eb76d06042f1bba90",
+      "official_name_zh": "蒙多医生",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Draven.json",
+      "card_sha256": "f75fa51e7a0fbc693844a8b639932974560d7f9e1549872817521670600fa454",
+      "champion_id": "Draven",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Draven.md",
+      "context_sha256": "981e5f05961af4249d38719421357c125242a40699e15ecc4756862def07c1ca",
+      "official_name_zh": "德莱文",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ekko.json",
+      "card_sha256": "09b99a4dc261636a05fa540ae83315d0401792b85167830fd5c697b955c8d349",
+      "champion_id": "Ekko",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ekko.md",
+      "context_sha256": "f7e6f4e9abe0a849644b49ca54f9750c6cd8073a42012cab784f56a8573923ee",
+      "official_name_zh": "艾克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Elise.json",
+      "card_sha256": "40b26ccead429d1ece0b464ddf175ab07910b549ac804a15a3d6a100657ff9e9",
+      "champion_id": "Elise",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Elise.md",
+      "context_sha256": "415df9aed139772ad01f4b65a231b1ffe4a265b7caf44c6ca876aa04dc02dacd",
+      "official_name_zh": "伊莉丝",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Evelynn.json",
+      "card_sha256": "a3d923362015c041c534814b17cb21cef0b5de8a31170c735f38b0ec31fd6f05",
+      "champion_id": "Evelynn",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Evelynn.md",
+      "context_sha256": "b3824a70e6a66bcebfe2ca1990c92d577f7c41104fb30f8c2d94133748ee4530",
+      "official_name_zh": "伊芙琳",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:e",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ezreal.json",
+      "card_sha256": "ec36c960c8d946417e762d35603e94c47e9a14d9b8c9ca6cfceb77ee4536768f",
+      "champion_id": "Ezreal",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ezreal.md",
+      "context_sha256": "3995f8ff9e38e9f5da9d20b362bfc61517649bd8e2275dca005501c7d8956906",
+      "official_name_zh": "伊泽瑞尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Fiddlesticks.json",
+      "card_sha256": "675e4e581e9cd492c9b236faf3ec2f859567e783e90ce285d746e06fcee1fb31",
+      "champion_id": "Fiddlesticks",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Fiddlesticks.md",
+      "context_sha256": "ab39330902186c9397fd09008a809a59b9003fafa94d8588c9c1ed98b0d07c3d",
+      "official_name_zh": "费德提克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Fiora.json",
+      "card_sha256": "32301eb5a471315264d753f65730fa78533b96ceb05c58268d0cda9deeaecbca",
+      "champion_id": "Fiora",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Fiora.md",
+      "context_sha256": "7c547cab5a16ef101f7898dfe9bdf2ac059772535417d782d2a22b2fe660ec69",
+      "official_name_zh": "菲奥娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Fizz.json",
+      "card_sha256": "40d4a681ba16259bae3482093c5d3aaeafe9e9fe96ba4887f952d786f0e3ebb3",
+      "champion_id": "Fizz",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Fizz.md",
+      "context_sha256": "347a344a299a9ba6dbd5dd35eff425e583f857fd4bc51f4f1f0068ec3dbee04e",
+      "official_name_zh": "菲兹",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:e",
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Galio.json",
+      "card_sha256": "9ccdc78a03153fe26db98ba0be478f06fc39810c4ac8ca993e8b0468b9004312",
+      "champion_id": "Galio",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Galio.md",
+      "context_sha256": "513ab45f84df0c4222d00bdee3db73d744250a139dc63d04c8223737314471e4",
+      "official_name_zh": "加里奥",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Gangplank.json",
+      "card_sha256": "1cba7e1140f7a8746a86047f9f70ed4a70d018632ddb5b92b099e88803ca04fb",
+      "champion_id": "Gangplank",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Gangplank.md",
+      "context_sha256": "8f5ba0d9a5be3985b368541d57c2caa35500486983081ac5d29a8f0793070ece",
+      "official_name_zh": "普朗克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Garen.json",
+      "card_sha256": "72f64c06f1afbe47f51b15197dff304bb6b545085e9f5f15629d1864e6c997e1",
+      "champion_id": "Garen",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Garen.md",
+      "context_sha256": "ef0bd7735534aad3cfcb7a70a95ee41f5508e65e94830931fa1055cb469c673f",
+      "official_name_zh": "盖伦",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Gnar.json",
+      "card_sha256": "ab326937ec163533903b107858bea39c7b4fbc4678fdb4c998d8911f7fa89413",
+      "champion_id": "Gnar",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Gnar.md",
+      "context_sha256": "568214b6438996d07323dca4ce71ff3d9e0d17a94eca7abe462d831bb9422b14",
+      "official_name_zh": "纳尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Gragas.json",
+      "card_sha256": "81e6ca65457a6360390387d23742301fbb60051eef30fbd850012ace15966950",
+      "champion_id": "Gragas",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Gragas.md",
+      "context_sha256": "6926ed16a673d53502ea1b9a48cb9f9e5d51b7b5fe2f38055620d3eac20c9676",
+      "official_name_zh": "古拉加斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Graves.json",
+      "card_sha256": "f561aaf6f90e960fe2ccaee6d2a906d53413fab8635f1bcbe887837c42194e70",
+      "champion_id": "Graves",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Graves.md",
+      "context_sha256": "39211b3e8100c498d14ca412436c5109656d68242bc1409222d98d7ec234b65a",
+      "official_name_zh": "格雷福斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Gwen.json",
+      "card_sha256": "c23f4a22b74d86685916c1df2a153470c16b8d6840a074f154a3f1efc63dcecc",
+      "champion_id": "Gwen",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Gwen.md",
+      "context_sha256": "7d48707611e8f4defee142d7fb6ddde1b8af03dfb1bca32d018e593ac86a40f2",
+      "official_name_zh": "格温",
+      "patch_change_status": "listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Hecarim.json",
+      "card_sha256": "9471a6de239f2af27d9e2bc4d9c5a0981ea3959766e08ffeef2fdf8fe9f7a442",
+      "champion_id": "Hecarim",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Hecarim.md",
+      "context_sha256": "4a7560f83f859db355bcaa47d3061e5fd181a006b2131d3080e1f1fc6cac4f03",
+      "official_name_zh": "赫卡里姆",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Heimerdinger.json",
+      "card_sha256": "e235080f53c59b0700ef771fdad276f6eb3576cc0449d5903ae08c121b757d27",
+      "champion_id": "Heimerdinger",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Heimerdinger.md",
+      "context_sha256": "18e0a1279471b7d561c428795c9d9a593b0f2e4518f3eff001ac63b490f35e52",
+      "official_name_zh": "黑默丁格",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q,w,e",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Hwei.json",
+      "card_sha256": "de6ab5d217ecbeb19c523f7d4f064d6112f69c98a0f993963bdf1cc3cfc6ca97",
+      "champion_id": "Hwei",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Hwei.md",
+      "context_sha256": "28243785a6b340431608651daf40685b285b0cafdbe952d22927814f30bdb49e",
+      "official_name_zh": "彗",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q,w,e",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Illaoi.json",
+      "card_sha256": "3b36f54888ce5a1db289b055a384e360d6a103c5ea25bcd52155be3ed91fa124",
+      "champion_id": "Illaoi",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Illaoi.md",
+      "context_sha256": "6fcb14391ac1ab38888dd936ed05d3d35a38063a75d1f06e93530273cc33bb10",
+      "official_name_zh": "俄洛伊",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Irelia.json",
+      "card_sha256": "939e0ac4ff0177cf251c835b91c2b10c5d6f63618cc72811ce39e363b2d9a8e0",
+      "champion_id": "Irelia",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Irelia.md",
+      "context_sha256": "bd66859f93c111fe77c46950c42453d79f2677f74d2bd8b8635011d580576795",
+      "official_name_zh": "艾瑞莉娅",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ivern.json",
+      "card_sha256": "eb5b4dfbb9b208c85ea26cffcc59a2852f44f10ea3c0c816999e40b2c0701ba0",
+      "champion_id": "Ivern",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ivern.md",
+      "context_sha256": "aa64e930ae035163002fa8572b9e4fcfd55e3b11d4325270b497f82affd4d18f",
+      "official_name_zh": "艾翁",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Janna.json",
+      "card_sha256": "7deb5334cdf3e5ade791b175dd65633561ba0ad22dd4853ae12debd1be7bd5b8",
+      "champion_id": "Janna",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Janna.md",
+      "context_sha256": "c84be908db006f8e9225173064432308c16c0fae769bd9340dac9259aa2e7ebe",
+      "official_name_zh": "迦娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/JarvanIV.json",
+      "card_sha256": "cae1ea0d7f873b53be9cfacc76692429657b35c4904c9303e18c9037158e01bb",
+      "champion_id": "JarvanIV",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/JarvanIV.md",
+      "context_sha256": "277634a5d4f64446d91a727e01ac2f7fbf67bf118b7d3c59a158ecbbf66c06e2",
+      "official_name_zh": "嘉文四世",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Jax.json",
+      "card_sha256": "f0d769c47c1b20905276b335600ff72e1803583c99f4447d31fde0f4276ecee8",
+      "champion_id": "Jax",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Jax.md",
+      "context_sha256": "85b4f29e5c1bf12cbc71eb16bfb2ea4fe07e836c5bd1a0479f68c05f4cb5fbe8",
+      "official_name_zh": "贾克斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Jayce.json",
+      "card_sha256": "4b0fbfa604fc5d84c3e8619ca9d4dc650469e7ef402eb3006bb3f311df3fff8b",
+      "champion_id": "Jayce",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Jayce.md",
+      "context_sha256": "649521ee593e3cf090f4c4c1f38c3fa0f3e78a6efd1a0f2c55e6cecbd3e24621",
+      "official_name_zh": "杰斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Jhin.json",
+      "card_sha256": "c0d45255796dacfeb35faa1abbb59a2d7277eba473d479d7b3727a4b6086fad8",
+      "champion_id": "Jhin",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Jhin.md",
+      "context_sha256": "9b62befc95558d58afcde7d2f6d92e3780a64d0357210a68fdca1b2b09be4f80",
+      "official_name_zh": "烬",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Jinx.json",
+      "card_sha256": "7c509c42a540620c427deeeb1cb1280ce1975e50875734b48c0d0e6f5978d9a7",
+      "champion_id": "Jinx",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Jinx.md",
+      "context_sha256": "ab54ad69d8b27931aa3f652a4bf680a5487e1037a4a2e51208c0f3803f3185a1",
+      "official_name_zh": "金克丝",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/KSante.json",
+      "card_sha256": "2f1283e7f8b5f3aee1497e8f0fa860f8b51d0bd72372ba78ed6bf4a2a0e05d80",
+      "champion_id": "KSante",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/KSante.md",
+      "context_sha256": "0694bda0e7ecd2dbf3fb304c03d6836bc008f93a0d0b44230f37d39f14f2629c",
+      "official_name_zh": "奎桑提",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Kaisa.json",
+      "card_sha256": "e57a42cd62ec116a80ae6d3c8214d59c3a3f44378bcc8bce85759f67000d9466",
+      "champion_id": "Kaisa",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Kaisa.md",
+      "context_sha256": "9dc48e4a5bf09d6a408e0adad989eb6613a376ccc8c3c64d3b736a6e9cd292ed",
+      "official_name_zh": "卡莎",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Kalista.json",
+      "card_sha256": "f4edb23515ab96b94f0e390164f6349536919d7f5552b7f9097186fb67a3fb2e",
+      "champion_id": "Kalista",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Kalista.md",
+      "context_sha256": "c2db62adee7aa7fc28345b5fa41e54101b0836e755283fe9500c84c3531c863c",
+      "official_name_zh": "卡莉丝塔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Karma.json",
+      "card_sha256": "e2cd128bc37400a744fe4e64f1c9e108b7c58928bc07fdfb3cc17547e9c43092",
+      "champion_id": "Karma",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Karma.md",
+      "context_sha256": "e47df7563f73350fe28e38a10f30c346c14ca7d48812bed8577a38cf38bf4fb4",
+      "official_name_zh": "卡尔玛",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q,w,e",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Karthus.json",
+      "card_sha256": "0bb6bc489b13855a5a9368f7819675b1109c98e329f2fa371fec8e4f5e472503",
+      "champion_id": "Karthus",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Karthus.md",
+      "context_sha256": "da8a3380dde2a27b234d615d9cf4565107936bb78fae3611aa636bce8a824981",
+      "official_name_zh": "卡尔萨斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Kassadin.json",
+      "card_sha256": "9f0b26d1311552d5808ef119c2512925165854666a30a470b577824fb1719be8",
+      "champion_id": "Kassadin",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Kassadin.md",
+      "context_sha256": "a6a605ec8edac324743e0a863ad100115a6bac05e562d5cb64b02debff5883bb",
+      "official_name_zh": "卡萨丁",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Katarina.json",
+      "card_sha256": "c667c613738b845955a4a1d32ac0ec87ac07c1928206edf99cfd4d3b11a23994",
+      "champion_id": "Katarina",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Katarina.md",
+      "context_sha256": "8c78a65df3e236eefcd460e736fde4d6cdbaaff1248f0d12c7fe51446ea8034b",
+      "official_name_zh": "卡特琳娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Kayle.json",
+      "card_sha256": "85f48282f88c354b74ecba6d6f46f4a23df2d458196e127c1b554576487007b0",
+      "champion_id": "Kayle",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Kayle.md",
+      "context_sha256": "b8e011a1d2ce81e19ae2c2c054d5b74cb07b1b6cca494a6d9f2afc9813b6b3a4",
+      "official_name_zh": "凯尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Kayn.json",
+      "card_sha256": "88fe4026156bd663af2431423cb0522eba8227c26c28024e5b5ea4dc4541fe43",
+      "champion_id": "Kayn",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Kayn.md",
+      "context_sha256": "dbfd35e2c47820d26157dd55b334c85b15a951117198de26b65db91df955a048",
+      "official_name_zh": "凯隐",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Kennen.json",
+      "card_sha256": "daa9d9017839da9a8e12e5b6e8167a99fe51100b572c63c6d0cafcb993fad089",
+      "champion_id": "Kennen",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Kennen.md",
+      "context_sha256": "3266ef6a9b7303f9b92daeb1309d5d049fdfe0afef8b9c6953b3e6634fc38de7",
+      "official_name_zh": "凯南",
+      "patch_change_status": "listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Khazix.json",
+      "card_sha256": "6682058743bd4eb3fce848c70774ef9a128cafde65399369417247b6962aba52",
+      "champion_id": "Khazix",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Khazix.md",
+      "context_sha256": "bbf3c1cf1d865922ac88b9dc705e30da03106a74dbeba5645e908c4872159eac",
+      "official_name_zh": "卡兹克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q,w,e,r",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Kindred.json",
+      "card_sha256": "0330f7c824ead5e890f619a7c087eaa223fb57c55e84079060b8c452d50e4921",
+      "champion_id": "Kindred",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Kindred.md",
+      "context_sha256": "7463f1c7e53c0d3ed28997cd2060110ea95550386e6ac68d7c6c2addc70bc8ea",
+      "official_name_zh": "千珏",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Kled.json",
+      "card_sha256": "72b22d2d526f72e229dd62b04be5174a903172a6c0d67d0507c8ebecca8aa8cc",
+      "champion_id": "Kled",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Kled.md",
+      "context_sha256": "bfdc11ebd6335c7a2bec9ae8b57b3647ea849651af1f6e6c7519dd548d466af8",
+      "official_name_zh": "克烈",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/KogMaw.json",
+      "card_sha256": "439ecc7f26491625c30bdff1149712607170e7c49b0757f5b482ccb4ba27e3e7",
+      "champion_id": "KogMaw",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/KogMaw.md",
+      "context_sha256": "d97bac28e986196d308fed183cc0c2e41f42688a46f0bfff1c5f150f426c2312",
+      "official_name_zh": "克格莫",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Leblanc.json",
+      "card_sha256": "ef29a72b4f97c0b89f3bccd366c23404337d1a6410e19e48126c15ec7be459fe",
+      "champion_id": "Leblanc",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Leblanc.md",
+      "context_sha256": "1c095d8ce8f215d7afedc476f574d59638b0af77260e15328ce31b0a0d3282e2",
+      "official_name_zh": "乐芙兰",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/LeeSin.json",
+      "card_sha256": "77761e8a2d38d18863ac8ed0b8b8690f6439085979bc591a35017de3353addf8",
+      "champion_id": "LeeSin",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/LeeSin.md",
+      "context_sha256": "3243a36e8875c35d29cc33c2f458e72826b1d84673e21de62dbe56cb31a9fbc2",
+      "official_name_zh": "李青",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q,w,e",
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Leona.json",
+      "card_sha256": "86d8568091defd06748fdbbf4a496672fdbe83af16c6c107372f8059b6ac30a9",
+      "champion_id": "Leona",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Leona.md",
+      "context_sha256": "d33b22593e391db5c477b84d6dd6a0b99e65cb3da77ce7adf21acbf078fd018e",
+      "official_name_zh": "蕾欧娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Lillia.json",
+      "card_sha256": "93e0683b81ce0512b7d5cb1e622e75daedd2b53b111e62e971bffeda18b8dc08",
+      "champion_id": "Lillia",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Lillia.md",
+      "context_sha256": "e8335579c72dd7d61b0a73373bc106bfdb2709148cc6a5dc8eb2bd0508a57d52",
+      "official_name_zh": "莉莉娅",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Lissandra.json",
+      "card_sha256": "54d3a9939911b591733e865b91764df7689829b51613ac5f46673e58cf866799",
+      "champion_id": "Lissandra",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Lissandra.md",
+      "context_sha256": "cc0d30bc8e37fdc066fed6617c43322907af3ecfd795c3722ca61302f16cce19",
+      "official_name_zh": "丽桑卓",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Locke.json",
+      "card_sha256": "6f4b02bc653f46e5286d84ffa21888e2014738987ba413ac2227f2699cb8357f",
+      "champion_id": "Locke",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Locke.md",
+      "context_sha256": "54025da4a060e6f7f5c31541291a44b252811b4fc9963864434bbae5f78de3c8",
+      "official_name_zh": "洛克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Lucian.json",
+      "card_sha256": "e9bc554c056e5a6d94d6e522e3192b19591d8000548d476fbacaac954968f80a",
+      "champion_id": "Lucian",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Lucian.md",
+      "context_sha256": "2703b9c5dd858e9dd6161e595c06a16bd28215f9a633fbc49b2c7fd92064314d",
+      "official_name_zh": "卢锡安",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Lulu.json",
+      "card_sha256": "85c473865ce98a07a9e1ae51d054ea39f4ef2344139ae22aef82ad354c03da03",
+      "champion_id": "Lulu",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Lulu.md",
+      "context_sha256": "d269a335ef206d4cd51c32df52ba710b38c501cb8d10297aa92588bda6e5800d",
+      "official_name_zh": "璐璐",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Lux.json",
+      "card_sha256": "12627e4b99d1fb155cfe3a13fe933f037976d550e9b20acf80d2b8dc711e53b4",
+      "champion_id": "Lux",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Lux.md",
+      "context_sha256": "e03030eeec2af5c4a92245eab13e4818d35c18e013a59daa7cd0ed4e1170bd80",
+      "official_name_zh": "拉克丝",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Malphite.json",
+      "card_sha256": "4d7e7fa5df63b238890f5110258efd5e2d7475bebb8246f61cccf6e4a57544e1",
+      "champion_id": "Malphite",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Malphite.md",
+      "context_sha256": "d6a64cfba68be81c1aa48854b2195c16898aefc16a591476524282e93bbd3594",
+      "official_name_zh": "墨菲特",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Malzahar.json",
+      "card_sha256": "e2284d9c4384c93a9e874a11f6dbeca1c1b95f57b45e6e1e0ea38f43649ecf6a",
+      "champion_id": "Malzahar",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Malzahar.md",
+      "context_sha256": "04f7dd5f122cc240dcac3e3590b8ca7366293de8a1187ab79e5ced876a242d85",
+      "official_name_zh": "玛尔扎哈",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Maokai.json",
+      "card_sha256": "354ca7af34a368e36898e3ed1416c61efb827f9594acd65d6c2766bc8d9d2400",
+      "champion_id": "Maokai",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Maokai.md",
+      "context_sha256": "05ced6acc7cf6237f8d3ee455003b0670974bf03055db5f7da1dba5023c2bb7e",
+      "official_name_zh": "茂凯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/MasterYi.json",
+      "card_sha256": "17f83c21aad00f4ec72407c6d3ee18ebd37165753d11ee0efb84cf4e9945332e",
+      "champion_id": "MasterYi",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/MasterYi.md",
+      "context_sha256": "90564418de5eab783ca3635f56908756dd7fe014c2187c53dd3c6c92943fd241",
+      "official_name_zh": "易",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Mel.json",
+      "card_sha256": "a4536b0fba2ce54e2b5ac0a68e71faa2deae82f6f7094291a44639b39dcb62d4",
+      "champion_id": "Mel",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Mel.md",
+      "context_sha256": "9da32e6769fdc3717b65c666adedcd7d4ce481eb4004948e920fa5c47cc516bb",
+      "official_name_zh": "梅尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Milio.json",
+      "card_sha256": "816b13bd5440bc948d5d90a83f5fb46a210689ac7bbe5d0589cbe7c19afabca8",
+      "champion_id": "Milio",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Milio.md",
+      "context_sha256": "b78cd1d91d8389ab3425f4bb47fdb63565d1ebf8f40f0d520f87e84753a0f5a1",
+      "official_name_zh": "米利欧",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/MissFortune.json",
+      "card_sha256": "01ba8a23708f15f719fd6476fd2305cf9040f1da14fb3a4192b08fcaede3913c",
+      "champion_id": "MissFortune",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/MissFortune.md",
+      "context_sha256": "4b3530d4108d4db69fd81a5191db271eaa677139959a7c0f6007b17ac843a31c",
+      "official_name_zh": "厄运小姐",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/MonkeyKing.json",
+      "card_sha256": "a69580342f9fd1745ec588b24ca2fb1a71964b4f535a17513e6a25cef2c84976",
+      "champion_id": "MonkeyKing",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/MonkeyKing.md",
+      "context_sha256": "bad5094dd522a1b303f754ee748d3b410857daf3a2ea0d8ff91b776f7d0fe932",
+      "official_name_zh": "孙悟空",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Mordekaiser.json",
+      "card_sha256": "b428eff683d95ce6bde5a852ab555d1cd277bfae3594c788a2a5d60e275f29f1",
+      "champion_id": "Mordekaiser",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Mordekaiser.md",
+      "context_sha256": "432feb10294a9cfacba394449b7a4e97137065fcae2577031d798f51ce3b08fc",
+      "official_name_zh": "莫德凯撒",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Morgana.json",
+      "card_sha256": "f3ccf011fcfd491440bb16f9ec5a1bb424041717ca48190cfbb67f8189450995",
+      "champion_id": "Morgana",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Morgana.md",
+      "context_sha256": "8ba00dc7a836a36708051198ec2fa12ea1294b9cb632e3e68ec164275b5c3c1b",
+      "official_name_zh": "莫甘娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Naafiri.json",
+      "card_sha256": "1ca980c574c6ee66fe52fd09cb7c496af36ecbf103dd7b0df37113b0e3531b30",
+      "champion_id": "Naafiri",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Naafiri.md",
+      "context_sha256": "78e5b16cb8361ba4dbdc5396b77c7b5fcbbeed5b2f2a55dbfb77bfac706243f7",
+      "official_name_zh": "纳亚菲利",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Nami.json",
+      "card_sha256": "7423b2951930b40652ebda836aae22b741066a2742dde72c071466f70806b9a4",
+      "champion_id": "Nami",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Nami.md",
+      "context_sha256": "01017e0fe2d7ad95e18a90623846c7b6325d2d6b7fba49bd367433a8cc724562",
+      "official_name_zh": "娜美",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Nasus.json",
+      "card_sha256": "dbb67f5f576f6c931dbd685e724400b5052317dc2e0d38f6fb18a54078873783",
+      "champion_id": "Nasus",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Nasus.md",
+      "context_sha256": "3189aa952bd0a8177222c904527280359ea37dc52e779cbfb8d913dbb3157cf1",
+      "official_name_zh": "内瑟斯",
+      "patch_change_status": "listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Nautilus.json",
+      "card_sha256": "52f02c146ca89ba11a304a8423156f818da75ac3c15d1a65f45039ba4efdc314",
+      "champion_id": "Nautilus",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Nautilus.md",
+      "context_sha256": "77f6dee0f8da2bdf9228de706045d64a0ebdebbe590b6a6c43f34166de3ac468",
+      "official_name_zh": "诺提勒斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Neeko.json",
+      "card_sha256": "45664284753c5ef567430688b831f047240b8f6ea5222012b4338cd9bb70eeec",
+      "champion_id": "Neeko",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Neeko.md",
+      "context_sha256": "e10cbdcc45223fe9cadcddc18f3a234b265539f4e2ad5b393ff2dc33679a5f90",
+      "official_name_zh": "妮蔻",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Nidalee.json",
+      "card_sha256": "6b688ae2beff621b38cdd5da330450e37bdcbe6266f33cea78ed1dd00513ba55",
+      "champion_id": "Nidalee",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Nidalee.md",
+      "context_sha256": "510ccbae2e775e61ea20beca59e53bb9f6c1df9e6ca00c1aeeec075dae969df9",
+      "official_name_zh": "奈德丽",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Nilah.json",
+      "card_sha256": "f35f0ad47d60c8109ef9a9064e918857a5ec0f13cc2a92b9dacc21fabc8dc1d1",
+      "champion_id": "Nilah",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Nilah.md",
+      "context_sha256": "a96d3bbcc9a05935883371f9e35b550b02ecdb506459ee98213907152008e815",
+      "official_name_zh": "尼菈",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Nocturne.json",
+      "card_sha256": "1745b60516aae9329232b7ed9cea396d4c1d899f3bed1ceb01c22b01225ccbe5",
+      "champion_id": "Nocturne",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Nocturne.md",
+      "context_sha256": "4d7e67f5b6d3fc3fed9475e40827d23bdd3622bd622440430cc75bd2f7d0d6a8",
+      "official_name_zh": "魔腾",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Nunu.json",
+      "card_sha256": "6a090e7948641c17d6380f90272f269f5253955c750480225ee8d9735952a569",
+      "champion_id": "Nunu",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Nunu.md",
+      "context_sha256": "5c12db53c0cada6c67f650c29a868a58c2ded20a0896a4a99b7fbefbf2595032",
+      "official_name_zh": "努努和威朗普",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Olaf.json",
+      "card_sha256": "0e7c6392891cb41ad85d0fe4ea61581d3a09cceb0760d2f9cf03fecff62a4c6c",
+      "champion_id": "Olaf",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Olaf.md",
+      "context_sha256": "c29b50d1254b147a579cbf2e878a865b30c17ed93a8d6c3a143e1b251d76f8aa",
+      "official_name_zh": "奥拉夫",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Orianna.json",
+      "card_sha256": "a01356adc3bc78fcdcbe63459579ea494929a2ad49d8553579e936bb96ff9956",
+      "champion_id": "Orianna",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Orianna.md",
+      "context_sha256": "72a73c013d41f6a85078107ecfd8cd98dc11414da9f0cd069784d9940b375fe2",
+      "official_name_zh": "奥莉安娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ornn.json",
+      "card_sha256": "c8f509abcfa981fef0dab7fa14ab4912e94dc210d49ae21d8485107a84384756",
+      "champion_id": "Ornn",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ornn.md",
+      "context_sha256": "c72ba1cd7f4d7471cd5c20498b085d749e72ecdf3af46b468773e27a6b2a7fcd",
+      "official_name_zh": "奥恩",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Pantheon.json",
+      "card_sha256": "f1e668955896c1b203904bbea266b19b12f07911c82b079a75a5e70419247499",
+      "champion_id": "Pantheon",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Pantheon.md",
+      "context_sha256": "0416908c80ca89e505425ff5a061e0c097494650caec088ea973d785e4a3b248",
+      "official_name_zh": "潘森",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Poppy.json",
+      "card_sha256": "1b9ab2c527f566715d48e5b3e5dfa7f2870052be11bfff3eb8596916206cbbf3",
+      "champion_id": "Poppy",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Poppy.md",
+      "context_sha256": "9324b1be3ac9122835cd9a279852fa0015a61d7d1c1786b62f0839371e885f22",
+      "official_name_zh": "波比",
+      "patch_change_status": "listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Pyke.json",
+      "card_sha256": "14fc532eff267f459aeb4c80700e73b5b3f484964dad18b971ee9bee8d1bc45e",
+      "champion_id": "Pyke",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Pyke.md",
+      "context_sha256": "1936d89829660c7db1658a0a0d75316289a325b5154bfdfe7a58c69aa768cb57",
+      "official_name_zh": "派克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Qiyana.json",
+      "card_sha256": "a00fda81d4e6ccae38c3eaaa44eb0137373d33f835748a94216ae9e788bf3bf0",
+      "champion_id": "Qiyana",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Qiyana.md",
+      "context_sha256": "8c97f8a32aa2c4f3d9208da6a80aae1bbae99513f5841bb77babc0b29bed8c1b",
+      "official_name_zh": "奇亚娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q",
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Quinn.json",
+      "card_sha256": "0bc15a39fda047cbe62c536245c32b414dcb0f1d5f72b7c4701c4ac9fa394290",
+      "champion_id": "Quinn",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Quinn.md",
+      "context_sha256": "e507c04d0ba89be329ac03eaa0e2e3e5a35e45f1caa4d906c46b6ed0b870d64c",
+      "official_name_zh": "奎因",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:r",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Rakan.json",
+      "card_sha256": "4bfefde06befe755e8f30977c3e26a892145f1b5408deb6988d6d71a386cbd1c",
+      "champion_id": "Rakan",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Rakan.md",
+      "context_sha256": "05e127f62560e26705ae539b2ca871f352b773ddfb1d0072a629e723331ac12a",
+      "official_name_zh": "洛",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Rammus.json",
+      "card_sha256": "d4e83985ebf3e29a4722ed73363dcd4808d7178a9d6fbd1d40847feae3a1ca68",
+      "champion_id": "Rammus",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Rammus.md",
+      "context_sha256": "bfc3befc49a0498bf43804932b369d61de2e6c31c54c36027948a5a22242e9c0",
+      "official_name_zh": "拉莫斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/RekSai.json",
+      "card_sha256": "e9ba8d6af7d99341e7672ef3106dfbe1daaa35ebbfee6cf1ff66f168f2e850fb",
+      "champion_id": "RekSai",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/RekSai.md",
+      "context_sha256": "f5c0b2c019012a99f354f9b8d63ca4c2f7ae523ec7acf452d8a9fa4f3dd8982d",
+      "official_name_zh": "雷克塞",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Rell.json",
+      "card_sha256": "7b083127575de416aba18cc26088b6ac73bdc5b355a84d04e5d64179c0cd044d",
+      "champion_id": "Rell",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Rell.md",
+      "context_sha256": "304f09c20da9dacb8367e1a3d8fdfed4618685133da379b0dad26077e347d736",
+      "official_name_zh": "芮尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:w",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Renata.json",
+      "card_sha256": "002dc0d4920397918a488a4aec418a054da53d45a3d5018f5be17033538acbee",
+      "champion_id": "Renata",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Renata.md",
+      "context_sha256": "2606cce26e6238b24288eed69cc2ac3a0bcb009f0b56e1416d57f4b9e8f9a388",
+      "official_name_zh": "烈娜塔 · 戈拉斯克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Renekton.json",
+      "card_sha256": "461e51fef437e022b2bba4c4756ebecafb8b253cb43b8582920540c96ee5d8d3",
+      "champion_id": "Renekton",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Renekton.md",
+      "context_sha256": "d0a4fc0cc1587687ce9d4b8e8fa9f0d2cea80dad875e8a5500547afdfbe3e1f5",
+      "official_name_zh": "雷克顿",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Rengar.json",
+      "card_sha256": "e49c5fadf5298987015e73edf2f3bd7a8b220db1264e5f7b4ad078059e0aefda",
+      "champion_id": "Rengar",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Rengar.md",
+      "context_sha256": "eda545e746e9b03647e750f4ba54e7b65e25de8d78b4ba8d1b2ae1ca9116d520",
+      "official_name_zh": "雷恩加尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Riven.json",
+      "card_sha256": "96cda3155faba12f4efb42447d419d6153c42687404d57d21f83dd6660c02e9b",
+      "champion_id": "Riven",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Riven.md",
+      "context_sha256": "fd0f0899393a299e23d9f4a04184e30fb7dd085a2fe1278911eeda706fa4d25d",
+      "official_name_zh": "锐雯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:r",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Rumble.json",
+      "card_sha256": "e6823760607170692ae31d863be032fd0d98bc51f55e4ca497999bdfd626c0f6",
+      "champion_id": "Rumble",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Rumble.md",
+      "context_sha256": "b456dc5a94a127c07fbdfc941853848dce5821bfbcfabbb66cc12022bf4724e8",
+      "official_name_zh": "兰博",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ryze.json",
+      "card_sha256": "bf9d434aa0e0999cd663a352b0ea4419070d39280dc99ee52d13949ea79a8c2d",
+      "champion_id": "Ryze",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ryze.md",
+      "context_sha256": "e16a1e60b273a2affcfcce3a307019b844508f60d9a97b72e549d56f6f8fd054",
+      "official_name_zh": "瑞兹",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Samira.json",
+      "card_sha256": "9ae531add135f1e7b49d428faddb5f747f88ad6c4e3a1c8f9a4f45639452d956",
+      "champion_id": "Samira",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Samira.md",
+      "context_sha256": "56a53ffc0d8add371cd9973b430ddd22e2eb929307179218780a42adc2c5117d",
+      "official_name_zh": "莎弥拉",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Sejuani.json",
+      "card_sha256": "64333ca10f78226a6821f56f77bbed257337f450fa22584d272cc20ec57621ba",
+      "champion_id": "Sejuani",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Sejuani.md",
+      "context_sha256": "63ad200a2ae5959b236c70bc13d79a61c23c11b0e0e50a08110bde10cd95793f",
+      "official_name_zh": "瑟庄妮",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Senna.json",
+      "card_sha256": "1404931dbd3e8c4a6b40753f465b30fdff2121d33879cb744dc25f295e1d9ece",
+      "champion_id": "Senna",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Senna.md",
+      "context_sha256": "2f4f3e7a260402c1a6623b5c2ec661761ba1bcd3012640d3e43ba14b6f9c4a5b",
+      "official_name_zh": "赛娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Seraphine.json",
+      "card_sha256": "b2a655a947dfaeee048a8658986263ad641a1c6330b5782287f90da0dabb0ae2",
+      "champion_id": "Seraphine",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Seraphine.md",
+      "context_sha256": "fceb8666127318d6ac0eddb879517a2252d1e5c8ded9a5ba9331a004ce5e9fca",
+      "official_name_zh": "萨勒芬妮",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Sett.json",
+      "card_sha256": "b0d23ffe1afac40372dc71ce48b0daa2fdaec799e4dec5801492044fbcb7cb08",
+      "champion_id": "Sett",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Sett.md",
+      "context_sha256": "424c447052f1711929de97e1dfc000b2f86df999d92fd4f9fd92c57d5593c8f6",
+      "official_name_zh": "瑟提",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Shaco.json",
+      "card_sha256": "e4b840a32a8a8e5d49dea35bcbe2bc3b7501cde544af65d22539489c95de5602",
+      "champion_id": "Shaco",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Shaco.md",
+      "context_sha256": "0d4501a86eac0c8884b5cf8a9ad1cab52314cb501c8728bead66eb11f26b236a",
+      "official_name_zh": "萨科",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Shen.json",
+      "card_sha256": "ddd22c2037623b0a26557f5e88b21f8560a9ea17a34d71c8e84ce21340a8f306",
+      "champion_id": "Shen",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Shen.md",
+      "context_sha256": "6d54864d4771a43357da86ed622c2ada7b8570500b600cf5ab356c81adf4d958",
+      "official_name_zh": "慎",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Shyvana.json",
+      "card_sha256": "d71b0402799cc758e63f053dae8ec30bf03fe46d0c65f4278b5210aec026355d",
+      "champion_id": "Shyvana",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Shyvana.md",
+      "context_sha256": "85bb6d2dbedd73df8782453a0c9efc69f00a3bcc979c914dacbb84d19fa1d4cc",
+      "official_name_zh": "希瓦娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Singed.json",
+      "card_sha256": "eea52dddd980d2e65bed6cb34d969d6013e189324f3e7bad497f9ddb4c8fa986",
+      "champion_id": "Singed",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Singed.md",
+      "context_sha256": "1b20e81314aa21cf6bebd59e40513087b195ad4de38e43ee1dc598f5d95cee4e",
+      "official_name_zh": "辛吉德",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Sion.json",
+      "card_sha256": "a5df350858288525a6f6c1bc879750c72b47b3763d32a1677bbb0d7468144896",
+      "champion_id": "Sion",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Sion.md",
+      "context_sha256": "f7c78868561dceb87f9f688313f4760cc956436bbbccb0c6e75b34de5e154728",
+      "official_name_zh": "赛恩",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:passive",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Sivir.json",
+      "card_sha256": "7ecbcf6912d9c7429bff3b39412f741b714e5ea063bec8662743bcc026f6ec27",
+      "champion_id": "Sivir",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Sivir.md",
+      "context_sha256": "612a9d2c32506aaffa3888fcb1b2e74cdd2e07ce1b9568b72246661e4ce6f7aa",
+      "official_name_zh": "希维尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Skarner.json",
+      "card_sha256": "859220830e50edfb0febacb2e96230cbdff80f72289b059efaf2e22611c07eb3",
+      "champion_id": "Skarner",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Skarner.md",
+      "context_sha256": "d1107a773c2be12d0b3cdb9e0706f7914b0d8666b3b00fad8c38864a8ad0fd51",
+      "official_name_zh": "斯卡纳",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q",
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Smolder.json",
+      "card_sha256": "9de183994df99b2ab108b69ad074922b89e41925250f7fd088eca1d21f6ad6ba",
+      "champion_id": "Smolder",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Smolder.md",
+      "context_sha256": "48fe05b7ed7657c1556598c51f435ed08baa7a137b20132462503b310cdaf167",
+      "official_name_zh": "斯莫德",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Sona.json",
+      "card_sha256": "f6ba6b3d129670768d85efaa1e5c600847849ddc5af4b3ce56a9b895b4971994",
+      "champion_id": "Sona",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Sona.md",
+      "context_sha256": "d7e77774e777e457bc9a9e968872d3c73a602101bb8b8b95f2abb536e867a651",
+      "official_name_zh": "娑娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Soraka.json",
+      "card_sha256": "f341ebff52b43a02632c6637f5fac9b98f8e7315d76a5bf23182f3c394978917",
+      "champion_id": "Soraka",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Soraka.md",
+      "context_sha256": "c107392d02c6f31c95adafc0659b652802693eda579fc35085a53be37a719f69",
+      "official_name_zh": "索拉卡",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Swain.json",
+      "card_sha256": "8889f24606dcd0e9714e595ae1cd570815aece618b5687bc0f82ee170742509e",
+      "champion_id": "Swain",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Swain.md",
+      "context_sha256": "36d55ecafb432765ba6ad3529d4d26392bf26281afb0d5e45d2b91032d6a7a5d",
+      "official_name_zh": "斯维因",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:r",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Sylas.json",
+      "card_sha256": "a7cf6c2baa800d12e8d357d776ed72ecf0ae15d1f8277a3c5a7dc53a256f11a3",
+      "champion_id": "Sylas",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Sylas.md",
+      "context_sha256": "5fe34b9cd852e9fc0c3b1b2ad7ee9786e71cce8c7e78d456af773639c3eceb0d",
+      "official_name_zh": "塞拉斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:e",
+        "complex_ability_structure",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Syndra.json",
+      "card_sha256": "cfacbd64724283dcdbe5b556cf35cab00567132903551f626d67a76bbab2dc15",
+      "champion_id": "Syndra",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Syndra.md",
+      "context_sha256": "2bab0e7eb847899a68dde32779ad5ab6ce811de2b531b27f78e07eedd1b6b1dc",
+      "official_name_zh": "辛德拉",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/TahmKench.json",
+      "card_sha256": "da4014cadb910f492d7fa765fdb3a8309ebbdb911d6a4d2c5cc9b67d2d0f27b7",
+      "champion_id": "TahmKench",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/TahmKench.md",
+      "context_sha256": "ad7594d773b2ca91ab38411d2916ac66a2225c5f8b193de7765f71b3d247435f",
+      "official_name_zh": "塔姆",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:r",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Taliyah.json",
+      "card_sha256": "9e823b53739ecd73d19d0a520ddf5228d5a027e52527e00e12bc4c1d7d3afe9b",
+      "champion_id": "Taliyah",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Taliyah.md",
+      "context_sha256": "30f5bda273a6add6d8a33f6c9ff4a4f824ab942e3bf3411107bd0286b5566f02",
+      "official_name_zh": "塔莉垭",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Talon.json",
+      "card_sha256": "c6f6b1951be11d0c02ea97002765c034f2e62f1fde73a60c7f6bd79699b4edf8",
+      "champion_id": "Talon",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Talon.md",
+      "context_sha256": "49aa4023d22e08f3783f8b699fc7e28741a4cacd016f92ac7529a5ed78b04e89",
+      "official_name_zh": "泰隆",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Taric.json",
+      "card_sha256": "4e7b578dafb97f050221960726f68a6348744588561aa1a2b2ee3ffca8399eac",
+      "champion_id": "Taric",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Taric.md",
+      "context_sha256": "7d17926d12b94587f1242c958eab5e8432e75682086ab2e7ff966093e8295b4a",
+      "official_name_zh": "塔里克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Teemo.json",
+      "card_sha256": "3c8401b82a3e6d18bff166c97298f4eb97a026123120bd222817fe1b04b13ee5",
+      "champion_id": "Teemo",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Teemo.md",
+      "context_sha256": "ec3ba38b35250bdcc4944ab4c5e1176d50c96d0c4daa79307c252d13563fca1d",
+      "official_name_zh": "提莫",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Thresh.json",
+      "card_sha256": "a3c7f477c11f5aaf128ac945d93eeaca39aae0209d529189f142e82893bdc2fc",
+      "champion_id": "Thresh",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Thresh.md",
+      "context_sha256": "3cd8c1010910d42d20bdb92e077368301c580f635d4f2ff58e779daa05455c24",
+      "official_name_zh": "锤石",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Tristana.json",
+      "card_sha256": "667b3d0de149e7444cc235f0aba7f0dc4ad695e3bca4785985ca6b4519b0d122",
+      "champion_id": "Tristana",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Tristana.md",
+      "context_sha256": "7597c8108ba74c43fea7285dacbb03553442b1674256c5cbbd7069fb7882fb24",
+      "official_name_zh": "崔丝塔娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Trundle.json",
+      "card_sha256": "93dc68c662fe40d1760cffac3f62167f64e399c0721f6e63e9d2ff87d2d6c238",
+      "champion_id": "Trundle",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Trundle.md",
+      "context_sha256": "ea07c5555d56e435291f0c9dbf7ede1bc185a1ed57c5ab60ac39da1450d8b396",
+      "official_name_zh": "特朗德尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Tryndamere.json",
+      "card_sha256": "80335bd86ae78cb3a4613becc5ab6fb3d798b668daee212c73892aeac67d7ac6",
+      "champion_id": "Tryndamere",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Tryndamere.md",
+      "context_sha256": "27bfd7f2b4f4906fb9ca562d70be8f8d21dcb91c1e23176203cc5fd0871fd5d8",
+      "official_name_zh": "泰达米尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/TwistedFate.json",
+      "card_sha256": "e2657621acce7e0cdb528953e86ad02fd70f212fa11015394849a2504327793f",
+      "champion_id": "TwistedFate",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/TwistedFate.md",
+      "context_sha256": "785fb6622ff7e8389563ef0a43a6942914bbacd34ddc499861c098b02d213042",
+      "official_name_zh": "崔斯特",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Twitch.json",
+      "card_sha256": "c7f787a4cd200c753c144df8d28f03507422abeb7994b73c292f4de6e100855a",
+      "champion_id": "Twitch",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Twitch.md",
+      "context_sha256": "e9c6f0e777431a9d2364a2cc1203397ec056818b3205f9e681baf19057780ce5",
+      "official_name_zh": "图奇",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Udyr.json",
+      "card_sha256": "f8e2802b2b92e7b875d3e7ca40cbd08de2d152fe5af04152389cd72469d9d00d",
+      "champion_id": "Udyr",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Udyr.md",
+      "context_sha256": "772ddd8dddb37771a4e728dcb404bc92dba1f2ed26b607a645fe384a067b76f7",
+      "official_name_zh": "乌迪尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Urgot.json",
+      "card_sha256": "724b5bfb7ba55932006192c648ce0a55b6427b605a9fdf94676ef2898b89407a",
+      "champion_id": "Urgot",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Urgot.md",
+      "context_sha256": "87ed3b39556b79b81d5f945f97ea5c15b5aa66a99c59d99b073b6c5e97b5d128",
+      "official_name_zh": "厄加特",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Varus.json",
+      "card_sha256": "d87ada5b5a9ce61d00e26628c3d563be8bc7c337eb4e4852d2daa2cf1086e7fb",
+      "champion_id": "Varus",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Varus.md",
+      "context_sha256": "db82ba35b8c39503a90506cce2b103c7e6cb9296d3dec4538456df88a82fafe0",
+      "official_name_zh": "韦鲁斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Vayne.json",
+      "card_sha256": "cce842a91dfb903074705501e7205555f3f349bbdd1304dfa778b0a61100398b",
+      "champion_id": "Vayne",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Vayne.md",
+      "context_sha256": "c46c54ebcac88fd49b756e9d0cebb4f758c49a3f543c9d50d3e062570c65f443",
+      "official_name_zh": "薇恩",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Veigar.json",
+      "card_sha256": "59b2bd0ddd04d70802c6c145831b7beeeedee3e80142308bced4f7c51f8a594f",
+      "champion_id": "Veigar",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Veigar.md",
+      "context_sha256": "cc3518ad72394f0fe6ddcc25906f526c3e1c1aefeee137325b54813452e1b85f",
+      "official_name_zh": "维迦",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Velkoz.json",
+      "card_sha256": "b06c3e7d7863e69eb31d51026528eafce9f7e3503bd8920a955f71157099e494",
+      "champion_id": "Velkoz",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Velkoz.md",
+      "context_sha256": "3a685fe9473a81fb9dc7789799b9860a2127e6ccb6a378bb723ecbbca6a90295",
+      "official_name_zh": "维克兹",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Vex.json",
+      "card_sha256": "d545177f0dfb36b9e96e8255a0d8c7abb198390ed37f4ed157449a381cdb5b96",
+      "champion_id": "Vex",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Vex.md",
+      "context_sha256": "693b98e3209f5864f2666deba4db32e8e915ae8eb2feabf55dee0830c2ebbd3c",
+      "official_name_zh": "薇古丝",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Vi.json",
+      "card_sha256": "3e7b29d4c65f6039b66becb33663e976b215b6583aacb1e481da72280fb65c9e",
+      "champion_id": "Vi",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Vi.md",
+      "context_sha256": "33649aa19781195ab596d009b9f78b6be87ee88c5659ce593be9dbcb6d3bf186",
+      "official_name_zh": "蔚",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Viego.json",
+      "card_sha256": "40476a39ba58a01cda9b724a1c8695de21db3dd9de2a7797133e8bfc3830f8cd",
+      "champion_id": "Viego",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Viego.md",
+      "context_sha256": "d4ac3d36a71c77c52fb19e147ee9bb7f91c259419deb8441992a4c5b7b41cb77",
+      "official_name_zh": "佛耶戈",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Viktor.json",
+      "card_sha256": "82c47d7f693b704635eb9563bb2fe89ab2101621a9e1f8789efe7085033a8503",
+      "champion_id": "Viktor",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Viktor.md",
+      "context_sha256": "d50ce80ecb559f161c1c008d2fe8ed30c9c8544c65e8d2e8b2530e17e28677fc",
+      "official_name_zh": "维克托",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Vladimir.json",
+      "card_sha256": "be1523d77799b6da89200ad588b5fe935ee76052797025dd57fdc484f6b51434",
+      "champion_id": "Vladimir",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Vladimir.md",
+      "context_sha256": "5c983afc6c0ec3c9d6415bbdf60f8f6f5152ccbfff6d00a354c3063710fc4804",
+      "official_name_zh": "弗拉基米尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Volibear.json",
+      "card_sha256": "c060e3f6101de14f8021e12f6f1bbc2384e4f8b082669ff5149427cb875cb09f",
+      "champion_id": "Volibear",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Volibear.md",
+      "context_sha256": "e0861761fd3bf465ab289b25d51211248c80b029b5c7a3a597e0d183fcbc5bcc",
+      "official_name_zh": "沃利贝尔",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Warwick.json",
+      "card_sha256": "439904d91ce37698a1060f57505885cdb675d994bf224f1f256d05f15d1f0c10",
+      "champion_id": "Warwick",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Warwick.md",
+      "context_sha256": "2513854b8004c0549ab1ac5a5fa7a90688f5f3eac6d6fc2f6cad0c6ff3bfe1a7",
+      "official_name_zh": "沃里克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Xayah.json",
+      "card_sha256": "683f21e842a7075910b04c76b3f0a79a81b904def79fdaf027563dcdd14c6c92",
+      "champion_id": "Xayah",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Xayah.md",
+      "context_sha256": "be321810e88e85cfd54f901e870bab4b0dda80749a80e4ff67aacfa3937022eb",
+      "official_name_zh": "霞",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Xerath.json",
+      "card_sha256": "ff289a8d631b127a6f6273926e142a4344d5ea06e2a053d1c3b72c01727072fb",
+      "champion_id": "Xerath",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Xerath.md",
+      "context_sha256": "ca38f04a4cf8f339c70edb1baa31535c6b5ee96ae5d65976f4e777a36120eefd",
+      "official_name_zh": "泽拉斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/XinZhao.json",
+      "card_sha256": "168baf946c7cadab842c6c4b1b678d2efec094582f0eef0e0836253a8f81ee19",
+      "champion_id": "XinZhao",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/XinZhao.md",
+      "context_sha256": "7bf3cc6ec310830e7f6e5ebbe8b5d6e8f81682d46844ddb8c84ff99fc6be9ea4",
+      "official_name_zh": "赵信",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Yasuo.json",
+      "card_sha256": "d3d24677ac528a1e8060c0a9367fee5322b4d28aa0348f6359cffe107def7183",
+      "champion_id": "Yasuo",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Yasuo.md",
+      "context_sha256": "1d055864b00559ff7686747d5e46e0ab08a53d12b92f303642234dbefd5455fe",
+      "official_name_zh": "亚索",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Yone.json",
+      "card_sha256": "4eba52983ce2ddbacb79b0925c1f880a16645350fc363b645354fe8e57c75a37",
+      "champion_id": "Yone",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Yone.md",
+      "context_sha256": "34557194d589abe445b18314dd55f01118b1e3ceb723a569eff5ad606c80a515",
+      "official_name_zh": "永恩",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Yorick.json",
+      "card_sha256": "2c43e4d81c86a8a91c218c0576d1e0b2f205ec27dc4b90dc2c91110e893cb424",
+      "champion_id": "Yorick",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Yorick.md",
+      "context_sha256": "eb8e509831e0d8618ae1239dcd56cfb6712c6431002797ea08e112e3a1e08394",
+      "official_name_zh": "约里克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:q",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Yunara.json",
+      "card_sha256": "687870d75d6a3f12bbb7c86ecd885c7410df19ee3cdc5cf0ed81e41d9917bdec",
+      "champion_id": "Yunara",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Yunara.md",
+      "context_sha256": "ec2dd725e4b80ccbd17152cdd0e21ab1ca3469125f54ef76d5e00560697daaf9",
+      "official_name_zh": "芸阿娜",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "wiki_ability_gap:w,e",
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Yuumi.json",
+      "card_sha256": "e1be55786367507e99c5df410f77cfbc41c397394f656befab7e4985631c3d35",
+      "champion_id": "Yuumi",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Yuumi.md",
+      "context_sha256": "0e42c2f2ab6f707a1594e9711824b0c826020a18eee5f62633f0bd1504d95b55",
+      "official_name_zh": "悠米",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Zaahen.json",
+      "card_sha256": "5fb114abe3e16962dff4d4c21a4874319ac76cb2d4c85554ba920619702f1e6e",
+      "champion_id": "Zaahen",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Zaahen.md",
+      "context_sha256": "1bf08441549f0d23458809007125628ac78d635124ef6556a65c0c981542d524",
+      "official_name_zh": "亚恒",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Zac.json",
+      "card_sha256": "6305228c75633657793ab388c72cc0dbf170bd2e75ede675ba04066136ea0d7b",
+      "champion_id": "Zac",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Zac.md",
+      "context_sha256": "cd86101e2a8003407a3df0be53ff2ef38900a8d6098c7c889f7d19c8db1e66d0",
+      "official_name_zh": "扎克",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Zed.json",
+      "card_sha256": "81ff983cb68ca7b55f2f547998df825ba0d7ddd1c8c1bcfbf0006a012b46ca33",
+      "champion_id": "Zed",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Zed.md",
+      "context_sha256": "74db3416380c40dbb26eca47c28ab5fbc32124516ca9c123c5097ff04edfffe8",
+      "official_name_zh": "劫",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Zeri.json",
+      "card_sha256": "06943a7e18cf2b5720b1da7ada751bef39e7a36a708b3bd223ede22e3447c050",
+      "champion_id": "Zeri",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Zeri.md",
+      "context_sha256": "8f654e3ef525b09ca35b977ab23481e6d70d3de7a0aebef628fb98e86d4ce905",
+      "official_name_zh": "泽丽",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Ziggs.json",
+      "card_sha256": "a6e2a0a696a393a54e49d7bd48bc3b15437178e4619a42a63f08ee7012d78dcd",
+      "champion_id": "Ziggs",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Ziggs.md",
+      "context_sha256": "e41df630df1a743e6ed022f07e188f27274305d4300a55a736391f4eda2c7cef",
+      "official_name_zh": "吉格斯",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Zilean.json",
+      "card_sha256": "a99550a2bbfa3a6c3d7c802371515ec2f3bf7430ff6a3501b5dba5b6f3c78b7c",
+      "champion_id": "Zilean",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Zilean.md",
+      "context_sha256": "2e210b3a973c11ab39e732db9d2965ded1e6016b6b87b60c2f4a18f7cb05b69b",
+      "official_name_zh": "基兰",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Zoe.json",
+      "card_sha256": "87707d67f58215b9ca63be341452673777466a8e436ed8ce76e317b602fdf850",
+      "champion_id": "Zoe",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Zoe.md",
+      "context_sha256": "8adcc32787b21c84f5cfbc5bab1cdf48d88f413616c270380026eca0b3443f16",
+      "official_name_zh": "佐伊",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    },
+    {
+      "card_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/cards/Zyra.json",
+      "card_sha256": "575554c8ba11c4cda8285b38029690e01eb20bdc85f62f9c53d28c3b14626ad5",
+      "champion_id": "Zyra",
+      "context_path": "data/knowledge/snapshots/kb-lol-pc-16.16.1-zh-CN-v1/contexts/Zyra.md",
+      "context_sha256": "d0650065d51897f6b2d91832b8b384e3b039487a8316dde4023926afd9214bff",
+      "official_name_zh": "婕拉",
+      "patch_change_status": "not_listed",
+      "quality_flags": [
+        "exact_values_omitted_from_context"
+      ]
+    }
+  ],
+  "ddragon_version": "16.16.1",
+  "generated_at": "2026-08-21T14:01:58+00:00",
+  "human_reviewed_count": 0,
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_changed_champion_count": 7,
+  "public_patch_alias": "26.16",
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "schema_version": "knowledge-snapshot-manifest-v1",
+  "source_file_count": 728,
+  "source_grounded_auto_count": 173,
+  "source_snapshot_id": "sources-lol-pc-16.16.1-asof-2026-08-21-v1",
+  "wiki_ability_slot_covered": 831,
+  "wiki_ability_slot_total": 865
+}

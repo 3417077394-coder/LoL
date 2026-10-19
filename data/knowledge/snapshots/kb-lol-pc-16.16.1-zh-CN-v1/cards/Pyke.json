@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Pyke:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "当派克消失在敌人视野外时，他可从所受的来自敌方英雄的伤害中回复显著的生命值。派克无法从任何来源（装备、符文等）中获得额外最大生命值加成，而是会获得攻击力作为替代。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1361232:4007005"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Gift of the Drowned Ones",
+      "name_zh": "溺水之幸",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Pyke",
+        "source:ddragon:16.16.1:en_US:Pyke",
+        "source:communitydragon:16.16:zh_cn:Pyke",
+        "source:wiki:1361232:4007005"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "When Pyke is hidden from enemies, he regenerates damage that he has recently taken from champions. Pyke also cannot gain extra Maximum Health from any source, and instead gains Bonus AD.",
+      "summary_zh": "当派克消失在敌人视野外时，他可从所受的来自敌方英雄的伤害中回复显著的生命值。派克无法从任何来源（装备、符文等）中获得额外最大生命值加成，而是会获得攻击力作为替代。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1361232:4007005"
+      ]
+    },
+    {
+      "ability_id": "ability:Pyke:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "秒放：派克进行戳刺，对命中的第一个敌人造成【数值】物理伤害，优先选择英雄。该目标随后会受到持续【数值】秒的【数值】%减速。 蓄力：派克扔出他的鱼叉，对命中的第一个敌人造成【数值】物理伤害并将其拉拽向他。该目标随后会受到持续【数值】秒的【数值】%减速。 如果派克成功命中一名敌方英雄，或是引导并未成功完成，则会返还【数值】%法力消耗。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1361234:4007993"
+        ]
+      },
+      "markup_tags": [
+        "tap",
+        "physicaldamage",
+        "status",
+        "br",
+        "hold"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Bone Skewer",
+      "name_zh": "透骨尖钉",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Pyke",
+        "source:ddragon:16.16.1:en_US:Pyke",
+        "source:communitydragon:16.16:zh_cn:Pyke",
+        "source:wiki:1361234:4007993"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "拉拽"
+      ],
+      "summary_en": "Pyke either stabs an enemy in front of him or pulls an enemy towards him.",
+      "summary_zh": "派克要么戳刺他前方的一名敌人，要么将一名敌人拽向他。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1361234:4007993"
+      ]
+    },
+    {
+      "ability_id": "ability:Pyke:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "派克获得伪装和在【数值】秒里持续衰减的【数值】%移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1361236:4050339"
+        ]
+      },
+      "markup_tags": [
+        "keywordstealth",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Ghostwater Dive",
+      "name_zh": "幽潭潜行",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Pyke",
+        "source:ddragon:16.16.1:en_US:Pyke",
+        "source:communitydragon:16.16:zh_cn:Pyke",
+        "source:wiki:1361236:4050339"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Pyke enters Camouflage and gains significant Move Speed that decays over time.",
+      "summary_zh": "派克进入伪装状态并获得显著的移动速度加成，此移速加成会逐渐衰减。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1361236:4050339"
+      ]
+    },
+    {
+      "ability_id": "ability:Pyke:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "派克进行冲刺，并在他的身后留下一个很快回到他身边的溺毙魅影。魅影造成【数值】秒晕眩并对英雄造成【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1361238:4044071"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Phantom Undertow",
+      "name_zh": "魅影浪洄",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Pyke",
+        "source:ddragon:16.16.1:en_US:Pyke",
+        "source:communitydragon:16.16:zh_cn:Pyke",
+        "source:wiki:1361238:4044071"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Pyke dashes and leaves behind a phantom that will return to him, stunning enemy champions along its path.",
+      "summary_zh": "派克突进并在身后留下一个幻影。幻影将会返回派克身边，并晕眩沿途的敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1361238:4044071"
+      ]
+    },
+    {
+      "ability_id": "ability:Pyke:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "派克对X型范围内的所有敌方英雄发起一次打击，闪烁并处决低于【数值】生命值的目标们。生命值在处决阈值之上的英雄和非英雄单位会转而受到相当于【数值】%该数额(【数值】)的物理伤害。 当有敌方英雄死在X范围内时，派克可以在【数值】秒内免费地再次施放这个技能。如果派克处决了该英雄，则最后一个提供协助的友方英雄也将获得击杀金币。如果他没有处决该英雄，他将仍然获得击杀金币，就如同他已完成击杀一样。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Pyke"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Pyke"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Pyke"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1361241:4007995"
+        ]
+      },
+      "markup_tags": [
+        "danger",
+        "scalead",
+        "physicaldamage",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Death From Below",
+      "name_zh": "涌泉之恨",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Pyke",
+        "source:ddragon:16.16.1:en_US:Pyke",
+        "source:communitydragon:16.16:zh_cn:Pyke",
+        "source:wiki:1361241:4007995"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.",
+      "summary_zh": "派克进行闪烁以处决低血量的敌人，并且如果处决成功还能再次施放此技能并为一名助攻的友军提供额外的金币。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1361241:4007995"
+      ]
+    }
+  ],
+  "card_id": "champion:Pyke:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Pyke"
+    ],
+    "numeric_key": "555",
+    "official_name_en": "Pyke",
+    "official_name_zh": "派克",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Pyke",
+      "source:ddragon:16.16.1:en_US:Pyke",
+      "source:communitydragon:16.16:zh_cn:Pyke",
+      "source:riot-champion-page:Pyke:asof-2026-08-21"
+    ],
+    "stable_id": "Pyke",
+    "title_zh": "血港鬼影"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 2,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "support",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Pyke"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:42d9110ec5409e239de333a0352cda970b519ce452a9ceebf82cdcd0cfa33bc8",
+      "sha256:b11e7f576b36d5474cbd35b5c445f3ea2278e93f12278649405c7e093b710e5b",
+      "sha256:5c35f7bfa192fdb4d7945e2bd12d93a618bf360dc1a610bb202c99d3a796531a",
+      "sha256:ec31bf5b02e0f37f52b9c8a3a213c42e3fc9c5035e26bbd22a53606898da8216",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:42d9110ec5409e239de333a0352cda970b519ce452a9ceebf82cdcd0cfa33bc8",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Pyke.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Pyke",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 派克",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Pyke.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:b11e7f576b36d5474cbd35b5c445f3ea2278e93f12278649405c7e093b710e5b",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Pyke.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Pyke",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Pyke",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Pyke.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:5c35f7bfa192fdb4d7945e2bd12d93a618bf360dc1a610bb202c99d3a796531a",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/555.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Pyke",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 派克",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/555.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:ec31bf5b02e0f37f52b9c8a3a213c42e3fc9c5035e26bbd22a53606898da8216",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/pyke.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Pyke:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Pyke",
+        "url": "https://www.leagueoflegends.com/en-us/champions/pyke/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007005,
+        "revision_timestamp": "2026-04-09T16:09:25Z",
+        "source_ref_id": "source:wiki:1361232:4007005",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007005",
+        "title": "Template:Data Pyke/Gift of the Drowned Ones",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Pyke/Gift_of_the_Drowned_Ones",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007993,
+        "revision_timestamp": "2026-04-13T02:46:11Z",
+        "source_ref_id": "source:wiki:1361234:4007993",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007993",
+        "title": "Template:Data Pyke/Bone Skewer",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Pyke/Bone_Skewer",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4050339,
+        "revision_timestamp": "2026-08-06T22:37:50Z",
+        "source_ref_id": "source:wiki:1361236:4050339",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4050339",
+        "title": "Template:Data Pyke/Ghostwater Dive",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Pyke/Ghostwater_Dive",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4044071,
+        "revision_timestamp": "2026-07-17T15:13:48Z",
+        "source_ref_id": "source:wiki:1361238:4044071",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4044071",
+        "title": "Template:Data Pyke/Phantom Undertow",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Pyke/Phantom_Undertow",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007995,
+        "revision_timestamp": "2026-04-13T02:47:13Z",
+        "source_ref_id": "source:wiki:1361241:4007995",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007995",
+        "title": "Template:Data Pyke/Death from Below",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Pyke/Death_from_Below",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

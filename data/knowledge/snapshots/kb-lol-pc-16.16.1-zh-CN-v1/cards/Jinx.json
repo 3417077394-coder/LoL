@@ -1,0 +1,516 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Jinx:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "金克丝每当参与击杀或摧毁一名英雄、一个史诗级野怪或一座建筑物后，她的移动速度和攻击速度就会得到显著提升。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307591:3973632"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Get Excited!",
+      "name_zh": "罪恶快感",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jinx",
+        "source:ddragon:16.16.1:en_US:Jinx",
+        "source:communitydragon:16.16:zh_cn:Jinx",
+        "source:wiki:1307591:3973632"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Jinx receives massively increased Move Speed and Attack Speed whenever she helps kill or destroy an enemy champions epic jungle monster, or structure.",
+      "summary_zh": "金克丝每当参与击杀或摧毁一名英雄、一个史诗级野怪或一座建筑物后，她的移动速度和攻击速度就会得到显著提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307591:3973632"
+      ]
+    },
+    {
+      "ability_id": "ability:Jinx:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "金克丝可在【鱼骨头—火箭发射器】和【砰砰枪—轻机枪】之间切换武器。 在使用火箭发射器时，金克丝的攻击会对目标和附近的敌人造成【数值】物理伤害，提升【数值】距离，消耗法力，但所享的攻速加成减少【数值】%。 在使用轻机枪时，金克丝的攻击提供攻击速度，持续【数值】秒，可叠加至多【数值】次(最大攻速加成为+【数值】% %i:scaleAS%)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307593:4052475"
+        ]
+      },
+      "markup_tags": [
+        "br",
+        "physicaldamage",
+        "attackspeed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Switcheroo!",
+      "name_zh": "枪炮交响曲！",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jinx",
+        "source:ddragon:16.16.1:en_US:Jinx",
+        "source:communitydragon:16.16:zh_cn:Jinx",
+        "source:wiki:1307593:4052475"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Jinx modifies her basic attacks by swapping between Pow-Pow, her minigun and Fishbones, her rocket launcher. Attacks with Pow-Pow grant Attack Speed, while attacks with Fishbones deal area of effect damage, gain increased range, but drain Mana and attack slower.",
+      "summary_zh": "金克丝可以通过切换武器来改变普通攻击的方式。在用她的轻机枪“砰砰”攻击时，她的攻击速度会提升。在用她的火箭发射器“鱼骨头”攻击时，她的普通攻击会造成范围伤害，攻击距离提升，但会消耗法力值并且攻击得更慢。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307593:4052475"
+      ]
+    },
+    {
+      "ability_id": "ability:Jinx:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "金克丝发射一束震荡波，对命中的第一个目标造成【数值】物理伤害，使其减速【数值】%并显形，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307598:3907092"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Zap!",
+      "name_zh": "震荡电磁波！",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jinx",
+        "source:ddragon:16.16.1:en_US:Jinx",
+        "source:communitydragon:16.16:zh_cn:Jinx",
+        "source:wiki:1307598:3907092"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Jinx uses Zapper, her shock pistol, to fire a blast that deals damage to the first enemy hit, slowing and revealing it.",
+      "summary_zh": "金克丝使用她的震荡手枪“电磁器”来发射震荡波，让被命中的第一个敌人暴露在己方视野中（可使隐形英雄现形），并对其造成伤害和减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307598:3907092"
+      ]
+    },
+    {
+      "ability_id": "ability:Jinx:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "金克丝扔出3颗持续【数值】秒的嚼火者手雷，手雷会在接触到敌方英雄时爆炸，将其禁锢【数值】秒并对附近敌人造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307600:3993368"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Flame Chompers!",
+      "name_zh": "嚼火者手雷！",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jinx",
+        "source:ddragon:16.16.1:en_US:Jinx",
+        "source:communitydragon:16.16:zh_cn:Jinx",
+        "source:wiki:1307600:3993368"
+      ],
+      "status_terms_zh": [
+        "禁锢"
+      ],
+      "summary_en": "Jinx throws out a line of snare grenades that explode after 5 seconds, lighting enemies on fire. Flame Chompers will bite enemy champions who walk over them, rooting them in place.",
+      "summary_zh": "金克丝扔出一串陷阱手雷。手雷会在5秒后爆炸，让敌人着火。嚼火者手雷将会袭击路过的敌方英雄，并将他们束缚在原地。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307600:3993368"
+      ]
+    },
+    {
+      "ability_id": "ability:Jinx:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "金克丝发射一枚飞弹，在首次命中敌方英雄后爆炸，造成【数值】到【数值】+【数值】%已损失生命值的物理伤害，飞弹在飞行时间超过1秒后会持续提升伤害。目标附近的敌人受到【数值】%伤害。 对野怪的已损失生命值伤害无法超过【数值】。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jinx"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jinx"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jinx"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307602:4007616"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br",
+        "rules"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Super Mega Death Rocket!",
+      "name_zh": "超究极死神飞弹！",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jinx",
+        "source:ddragon:16.16.1:en_US:Jinx",
+        "source:communitydragon:16.16:zh_cn:Jinx",
+        "source:wiki:1307602:4007616"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Jinx fires a super rocket across the map that gains damage as it travels. The rocket will explode upon colliding with an enemy champion, dealing damage to it and surrounding enemies based on their missing Health.",
+      "summary_zh": "金克丝发射一枚能够跨越整个地图的飞弹，并且飞行的时间越长，伤害值越高。飞弹会在命中一名敌方英雄后爆炸，对目标和目标附近的敌人造成伤害，且目标的生命值越低，所受的伤害值越高。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307602:4007616"
+      ]
+    }
+  ],
+  "card_id": "champion:Jinx:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Jinx"
+    ],
+    "numeric_key": "222",
+    "official_name_en": "Jinx",
+    "official_name_zh": "金克丝",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Jinx",
+      "source:ddragon:16.16.1:en_US:Jinx",
+      "source:communitydragon:16.16:zh_cn:Jinx",
+      "source:riot-champion-page:Jinx:asof-2026-08-21"
+    ],
+    "stable_id": "Jinx",
+    "title_zh": "暴走萝莉"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "marksman"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Jinx"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:aad1d880f44efdd58dd99da3e542bb92a65aa30155207ea22da437139146e60e",
+      "sha256:d417db893b0e9c3e45f8067a131b9d5afbec717ff62f0294e0549f4f1af4bf35",
+      "sha256:c9b4f3297a25509924521814faac025f0f56bac4cd06fcc3779dd012e04dc229",
+      "sha256:e25eec6a5f6685f81970b2c8ba67836fd751aed0dba0ffadad58feea975ec2fe",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:aad1d880f44efdd58dd99da3e542bb92a65aa30155207ea22da437139146e60e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Jinx.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Jinx",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 金克丝",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Jinx.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:d417db893b0e9c3e45f8067a131b9d5afbec717ff62f0294e0549f4f1af4bf35",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Jinx.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Jinx",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Jinx",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Jinx.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:c9b4f3297a25509924521814faac025f0f56bac4cd06fcc3779dd012e04dc229",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/222.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Jinx",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 金克丝",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/222.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:e25eec6a5f6685f81970b2c8ba67836fd751aed0dba0ffadad58feea975ec2fe",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/jinx.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Jinx:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Jinx",
+        "url": "https://www.leagueoflegends.com/en-us/champions/jinx/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3973632,
+        "revision_timestamp": "2025-12-11T18:10:58Z",
+        "source_ref_id": "source:wiki:1307591:3973632",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3973632",
+        "title": "Template:Data Jinx/Get Excited!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jinx/Get_Excited!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4052475,
+        "revision_timestamp": "2026-08-19T08:10:18Z",
+        "source_ref_id": "source:wiki:1307593:4052475",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4052475",
+        "title": "Template:Data Jinx/Switcheroo!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jinx/Switcheroo!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3907092,
+        "revision_timestamp": "2025-06-06T17:47:18Z",
+        "source_ref_id": "source:wiki:1307598:3907092",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3907092",
+        "title": "Template:Data Jinx/Zap!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jinx/Zap!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3993368,
+        "revision_timestamp": "2026-02-21T15:35:19Z",
+        "source_ref_id": "source:wiki:1307600:3993368",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3993368",
+        "title": "Template:Data Jinx/Flame Chompers!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jinx/Flame_Chompers!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007616,
+        "revision_timestamp": "2026-04-12T07:29:07Z",
+        "source_ref_id": "source:wiki:1307602:4007616",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007616",
+        "title": "Template:Data Jinx/Super Mega Death Rocket!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jinx/Super_Mega_Death_Rocket!",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

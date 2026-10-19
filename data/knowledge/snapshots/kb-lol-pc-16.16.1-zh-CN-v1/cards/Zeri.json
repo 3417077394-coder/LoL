@@ -1,0 +1,517 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Zeri:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "泽丽的攻击造成魔法伤害并被视为技能。移动和施放【电火迸射】会将能量储存至泽丽的【火花背包】。在完全充能后，她的下次攻击将造成额外伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1517504:4051663"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Living Battery",
+      "name_zh": "内能迁转",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zeri",
+        "source:ddragon:16.16.1:en_US:Zeri",
+        "source:communitydragon:16.16:zh_cn:Zeri",
+        "source:wiki:1517504:4051663"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Zeri's Attacks deal magic damage and are treated as Abilities. Moving and casting Burst Fire stores up energy in Zeri's Sparkpack. When fully charged her next Attack deals bonus damage.",
+      "summary_zh": "泽丽的攻击造成魔法伤害并被视为技能。移动和施放【电火迸射】会将能量储存至泽丽的【火花背包】。在完全充能后，她的下次攻击将造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1517504:4051663"
+      ]
+    },
+    {
+      "ability_id": "ability:Zeri:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "泽丽发射一连串的【数值】颗子弹，来对命中的第一个敌人造成【数值】物理伤害。这个技能会被视为一次攻击。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1517505:4041832"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Burst Fire",
+      "name_zh": "电火迸射",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zeri",
+        "source:ddragon:16.16.1:en_US:Zeri",
+        "source:communitydragon:16.16:zh_cn:Zeri",
+        "source:wiki:1517505:4041832"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Burst Fire shoots a burst of 7 rounds that deal attack damage to the first enemy hit. This Ability is treated as an Attack.",
+      "summary_zh": "【电火迸射】连续发射7发子弹，对命中的首个敌人造成相当于攻击力的物理伤害。这个技能会被视为一次攻击。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1517505:4041832"
+      ]
+    },
+    {
+      "ability_id": "ability:Zeri:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "泽丽发射一道电能脉冲，来对首个命中的敌人造成【数值】物理伤害和持续【数值】秒的【数值】%减速。如果脉冲命中了地形，那么它会延伸为一道激光并在一个区域内施加效果并对英雄和野怪产生暴击以造成【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1517506:4013271"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Ultrashock Laser",
+      "name_zh": "强穿激光",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zeri",
+        "source:ddragon:16.16.1:en_US:Zeri",
+        "source:communitydragon:16.16:zh_cn:Zeri",
+        "source:wiki:1517506:4013271"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Zeri fires an electric pulse that slows and damages the first enemy hit. If the pulse hits a wall it expands into a long range laser.",
+      "summary_zh": "泽丽发射一道电能脉冲，来对首个命中的敌人造成减速和伤害。如果脉冲命中了一个墙体，那么它会延伸为一道长程激光。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1517506:4013271"
+      ]
+    },
+    {
+      "ability_id": "ability:Zeri:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "泽丽冲刺一小段距离，并翻越接触到的任何地形，来极大地延伸冲刺距离。在接下来的【数值】秒，她的电火迸射子弹将获得穿刺效果，对首个敌人之后的敌人们造成【数值】%伤害并对击中的首个目标附加额外的【数值】魔法伤害。 用一次攻击或技能命中一名英雄时，会使这个技能的冷却时间缩短【数值】秒。暴击会转而使该冷却时间缩短【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1517507:4015351"
+        ]
+      },
+      "markup_tags": [
+        "spellname",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Spark Surge",
+      "name_zh": "灿丽花火",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zeri",
+        "source:ddragon:16.16.1:en_US:Zeri",
+        "source:communitydragon:16.16:zh_cn:Zeri",
+        "source:wiki:1517507:4015351"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Zeri dashes a short distance and energizes Burst Fire to pierce through enemies. She will vault and grind over any terrain she touches.",
+      "summary_zh": "泽丽冲刺一小段距离，并激发【电火迸射】，使其获得穿刺敌人的效果。她将在接触任何地形时进行翻越和滑行。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1517507:4015351"
+      ]
+    },
+    {
+      "ability_id": "ability:Zeri:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "magic"
+      ],
+      "detailed_description_zh": "泽丽放出一道电能新星，对附近的敌人们造成【数值】魔法伤害。如果她命中了一名敌方英雄，就会获得持续【数值】秒的【数值】%攻击速度和【数值】%移动速度。用一次攻击或技能命中一名敌方英雄时，会使这个技能的持续时间延长并添加一层持续【数值】秒的超负荷效果。暴击会添加额外的2层效果。每层效果提供【数值】%移动速度。 在此期间，电火迸射会变为一个更快速的3连发，可对附近的敌人们连锁造成【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zeri"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zeri"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zeri"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1517508:4016978"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "attackspeed",
+        "speed",
+        "br",
+        "spellname",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Lightning Crash",
+      "name_zh": "超限爆闪",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zeri",
+        "source:ddragon:16.16.1:en_US:Zeri",
+        "source:communitydragon:16.16:zh_cn:Zeri",
+        "source:wiki:1517508:4016978"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Zeri discharges a nova of electricity and overcharges herself, gaining increased damage and stacking Move Speed that refreshes and gets stronger every time she hits an enemy champion. While overcharged, Burst fire becomes a faster triple shot that chains lightning between enemies.",
+      "summary_zh": "泽丽放出一道电能新星，并且自身进入超负荷状态，来获得伤害提升和可叠加的移动速度，并且这个状态可在她每次命中敌方英雄时刷新持续时间并变得更强。在超负荷状态下。【枪火迸射】会变成一个快速的3连发，并在敌人之间引发连锁闪电。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1517508:4016978"
+      ]
+    }
+  ],
+  "card_id": "champion:Zeri:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Zeri"
+    ],
+    "numeric_key": "221",
+    "official_name_en": "Zeri",
+    "official_name_zh": "泽丽",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Zeri",
+      "source:ddragon:16.16.1:en_US:Zeri",
+      "source:communitydragon:16.16:zh_cn:Zeri",
+      "source:riot-champion-page:Zeri:asof-2026-08-21"
+    ],
+    "stable_id": "Zeri",
+    "title_zh": "祖安花火"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 0
+    },
+    "roles": [
+      "marksman"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Zeri"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:d2277d13e769cf53766572af79bee0634c536f9e102c7cd8088aa3de477eb059",
+      "sha256:6d65aa3a7433d982149c918f1fc62270a8e446bd628b40f9e86d23698334c750",
+      "sha256:94b7666747a4483c14e49d654ae816a061df976b6ad074280e91da2a0b905aab",
+      "sha256:7912b66c3e36d005d4dfc4ba809215ff3db54ebb678cb482adc63ffc9441f7d3",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:d2277d13e769cf53766572af79bee0634c536f9e102c7cd8088aa3de477eb059",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Zeri.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Zeri",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 泽丽",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Zeri.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6d65aa3a7433d982149c918f1fc62270a8e446bd628b40f9e86d23698334c750",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Zeri.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Zeri",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Zeri",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Zeri.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:94b7666747a4483c14e49d654ae816a061df976b6ad074280e91da2a0b905aab",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/221.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Zeri",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 泽丽",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/221.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:7912b66c3e36d005d4dfc4ba809215ff3db54ebb678cb482adc63ffc9441f7d3",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/zeri.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Zeri:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Zeri",
+        "url": "https://www.leagueoflegends.com/en-us/champions/zeri/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-024.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051663,
+        "revision_timestamp": "2026-08-13T11:13:13Z",
+        "source_ref_id": "source:wiki:1517504:4051663",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051663",
+        "title": "Template:Data Zeri/Living Battery",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zeri/Living_Battery",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-024.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4041832,
+        "revision_timestamp": "2026-07-11T21:49:46Z",
+        "source_ref_id": "source:wiki:1517505:4041832",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4041832",
+        "title": "Template:Data Zeri/Burst Fire",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zeri/Burst_Fire",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-024.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013271,
+        "revision_timestamp": "2026-04-28T22:03:40Z",
+        "source_ref_id": "source:wiki:1517506:4013271",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013271",
+        "title": "Template:Data Zeri/Ultrashock Laser",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zeri/Ultrashock_Laser",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-024.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015351,
+        "revision_timestamp": "2026-05-04T10:52:02Z",
+        "source_ref_id": "source:wiki:1517507:4015351",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015351",
+        "title": "Template:Data Zeri/Spark Surge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zeri/Spark_Surge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-024.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4016978,
+        "revision_timestamp": "2026-05-13T14:36:46Z",
+        "source_ref_id": "source:wiki:1517508:4016978",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4016978",
+        "title": "Template:Data Zeri/Lightning Crash",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zeri/Lightning_Crash",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

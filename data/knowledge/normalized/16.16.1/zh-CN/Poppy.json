@@ -1,0 +1,394 @@
+{
+  "as_of": "2026-08-21",
+  "card_id": "champion:Poppy:ddragon-16.16.1:zh-CN",
+  "champion": {
+    "aliases": [
+      "Poppy"
+    ],
+    "numeric_key": "78",
+    "official_name": "波比",
+    "resource_type": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Poppy",
+      "source:ddragon:16.16.1:en_US:Poppy"
+    ],
+    "stable_id": "Poppy",
+    "title": "圣锤之毅"
+  },
+  "ddragon_version": "16.16.1",
+  "knowledge_snapshot_id": "kb-ddragon-16.16.1-pilot-v1",
+  "locale": "zh-CN",
+  "normalized_mechanics": {
+    "ability_mechanics": [
+      {
+        "ability_fact_id": "fact:Poppy:passive:base:ddragon-16.16.1",
+        "conditions": [
+          "需要拾取落地圆盾才能获得护盾"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "shield"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Poppy:passive:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Poppy:passive:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "passive",
+          "targeted_enemy"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Poppy:q:base:ddragon-16.16.1",
+        "conditions": [
+          "第二段伤害存在延迟"
+        ],
+        "control_types": [
+          "slow"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Poppy:q:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Poppy:q:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "ground_area"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Poppy:w:base:ddragon-16.16.1",
+        "conditions": [],
+        "control_types": [
+          "slow",
+          "other"
+        ],
+        "damage_types": [
+          "none"
+        ],
+        "defense_types": [
+          "resistances"
+        ],
+        "limitations": [
+          "只中断符合该技能判定的突进",
+          "缚地在当前枚举中记为 other"
+        ],
+        "mechanic_id": "mechanic:Poppy:w:base:v1",
+        "mobility_types": [
+          "movement_speed"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Poppy:w:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "self",
+          "self_area"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Poppy:e:base:ddragon-16.16.1",
+        "conditions": [
+          "需要将目标推到墙体才能造成晕眩"
+        ],
+        "control_types": [
+          "knockback",
+          "stun"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Poppy:e:base:v1",
+        "mobility_types": [
+          "charge"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Poppy:e:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "targeted_enemy"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Poppy:r:base:ddragon-16.16.1",
+        "conditions": [
+          "引导时长影响击退效果"
+        ],
+        "control_types": [
+          "knockup",
+          "knockback"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Poppy:r:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Poppy:r:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "direction",
+          "line"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "generation": {
+      "generated_at": "2026-08-21T09:25:13+00:00",
+      "ingest_method": "semi_automatic",
+      "input_hashes": [
+        "sha256:874fe4c655302764757ea3bd4dab97034f73d856ab4e787087afdeacf030dbfb",
+        "sha256:5d74b4b0f32d00db28f19ea6b15d809fd75941635f412a1d0f70eb319d0332f0"
+      ],
+      "script_version": "ddragon-importer-v1"
+    },
+    "sources": [
+      {
+        "content_hash": "sha256:874fe4c655302764757ea3bd4dab97034f73d856ab4e787087afdeacf030dbfb",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Poppy",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN champion data: 波比",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Poppy.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:5d74b4b0f32d00db28f19ea6b15d809fd75941635f412a1d0f70eb319d0332f0",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Poppy",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US champion data: Poppy",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Poppy.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      }
+    ]
+  },
+  "public_patch_alias": "26.16",
+  "region_scope": "global_pc",
+  "review": {
+    "notes": [
+      "官方名称与技能描述来自固定 Data Dragon 原始响应。",
+      "机制摘要、标准化枚举与战术画像为待人工核验的模型候选，不得用于正式 fixed-KB 实验。"
+    ],
+    "quality_flags": [
+      "manual_review_required"
+    ],
+    "reviewed_at": null,
+    "reviewer_ids": [],
+    "status": "generated"
+  },
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "schema_version": "champion-knowledge-card-v1",
+  "source_facts": {
+    "ability_facts": [
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Poppy:passive:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "强化普攻会投出圆盾；拾取落地圆盾后获得短暂护盾。",
+        "official_description": "波比扔出她的圆盾，圆盾会在命中目标后弹起。波比可以捡起圆盾来获得一个短暂的护盾效果。",
+        "official_name": "钢铁大使",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Poppy.json",
+        "slot": "passive",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Poppy",
+          "source:ddragon:16.16.1:en_US:Poppy"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Poppy:q:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "锤击目标区域造成物理伤害和减速，区域随后再次爆炸。",
+        "official_description": "波比挥舞她的铁锤，造成伤害并创造一个区域，这个区域会减速敌人并在一段时间后爆炸。",
+        "official_name": "圣锤猛击",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Poppy.json",
+        "slot": "q",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Poppy",
+          "source:ddragon:16.16.1:en_US:Poppy"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Poppy:w:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "被动提供抗性；主动加速并中断附近符合条件的突进，随后施加减速和缚地。",
+        "official_description": "波比被动获得护甲和魔法抗性。这个加成会在她生命值较低时得到提升。波比可以主动施放此技能来获得移动速度加成并中断附近敌人的突进。如果中断了一次突进，那么该敌人还会被减速和缚地。",
+        "official_name": "坚定风采",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Poppy.json",
+        "slot": "w",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Poppy",
+          "source:ddragon:16.16.1:en_US:Poppy"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Poppy:e:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "冲向目标并将其击退；目标撞墙时受到晕眩。",
+        "official_description": "波比冲向目标并把目标推后。如果目标被推到墙上，就会受到晕眩效果。",
+        "official_name": "英勇冲锋",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Poppy.json",
+        "slot": "e",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Poppy",
+          "source:ddragon:16.16.1:en_US:Poppy"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Poppy:r:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "引导锤击，将命中的敌人击飞并击退到远方；快速施放可作近距离击退。",
+        "official_description": "波比引导一次能够把敌人击飞到远方的锤击。",
+        "official_name": "持卫的裁决",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Poppy.json",
+        "slot": "r",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Poppy",
+          "source:ddragon:16.16.1:en_US:Poppy"
+        ]
+      }
+    ]
+  },
+  "tactical_profile": {
+    "attributes": [
+      {
+        "attribute_id": "attribute:Poppy:disengage:v1",
+        "basis_fact_ids": [
+          "fact:Poppy:w:base:ddragon-16.16.1",
+          "fact:Poppy:r:base:ddragon-16.16.1"
+        ],
+        "category": "disengage",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "W 和 R 能分别限制突进与大范围驱离敌人。"
+      },
+      {
+        "attribute_id": "attribute:Poppy:peel:v1",
+        "basis_fact_ids": [
+          "fact:Poppy:w:base:ddragon-16.16.1",
+          "fact:Poppy:e:base:ddragon-16.16.1",
+          "fact:Poppy:r:base:ddragon-16.16.1"
+        ],
+        "category": "peel",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "W、E、R 提供多种保护后排的位移限制。"
+      },
+      {
+        "attribute_id": "attribute:Poppy:engage:v1",
+        "basis_fact_ids": [
+          "fact:Poppy:e:base:ddragon-16.16.1",
+          "fact:Poppy:r:base:ddragon-16.16.1"
+        ],
+        "category": "engage",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "E 撞墙和快速 R 可发起控制，但依赖位置与命中。"
+      },
+      {
+        "attribute_id": "attribute:Poppy:frontline:v1",
+        "basis_fact_ids": [
+          "fact:Poppy:passive:base:ddragon-16.16.1",
+          "fact:Poppy:w:base:ddragon-16.16.1"
+        ],
+        "category": "frontline",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "medium",
+        "review_status": "generated",
+        "summary": "被动护盾与 W 抗性支持前排承伤，但强度受条件影响。"
+      },
+      {
+        "attribute_id": "attribute:Poppy:pick:v1",
+        "basis_fact_ids": [
+          "fact:Poppy:e:base:ddragon-16.16.1"
+        ],
+        "category": "pick",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "E 在墙体附近能将单个目标转化为稳定控制机会。"
+      }
+    ],
+    "limitations": [
+      {
+        "basis_fact_ids": [
+          "fact:Poppy:e:base:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Poppy:wall_dependency:v1",
+        "review_status": "generated",
+        "summary": "E 的完整控制依赖目标撞墙。"
+      },
+      {
+        "basis_fact_ids": [
+          "fact:Poppy:w:base:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Poppy:dash_filter:v1",
+        "review_status": "generated",
+        "summary": "W 不能阻止所有移动技能，需按具体突进判定审核。"
+      }
+    ],
+    "positions": []
+  }
+}

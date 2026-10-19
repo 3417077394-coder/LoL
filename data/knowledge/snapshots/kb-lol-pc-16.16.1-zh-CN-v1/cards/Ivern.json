@@ -1,0 +1,529 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Ivern:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "艾翁无法攻击非史诗野怪，也无法被非史诗野怪攻击。艾翁可以在野怪营地创造神奇的小植被，小植被可以持续成长。当小植被完全成长后，艾翁就可以送走野怪来获得金币和经验。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307541:4038386"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Friend of the Forest",
+      "name_zh": "森林之友",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ivern",
+        "source:ddragon:16.16.1:en_US:Ivern",
+        "source:communitydragon:16.16:zh_cn:Ivern",
+        "source:wiki:1307541:4038386"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ivern cannot attack or be attacked by non-epic monsters. Ivern can create magical groves on jungle camps which grow over time. When the grove is fully grown, Ivern may free the monsters to receive gold and experience.",
+      "summary_zh": "艾翁无法攻击非史诗野怪，也无法被非史诗野怪攻击。艾翁可以在野怪营地创造神奇的小植被，小植被可以持续成长。当小植被完全成长后，艾翁就可以送走野怪来获得金币和经验。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307541:4038386"
+      ]
+    },
+    {
+      "ability_id": "ability:Ivern:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "艾翁召唤一束荆棘，造成【数值】魔法伤害并禁锢命中的第一个敌人【数值】秒。友军在攻击禁锢的敌人时会冲刺到攻击距离处。 再次施放：艾翁直接冲刺到这个被禁锢的敌人身边。 命中非史诗级野怪会使根深敌固的冷却时间缩减50%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307544:4009163"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "recast",
+        "rules",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Rootcaller",
+      "name_zh": "根深敌固",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ivern",
+        "source:ddragon:16.16.1:en_US:Ivern",
+        "source:communitydragon:16.16:zh_cn:Ivern",
+        "source:wiki:1307544:4009163"
+      ],
+      "status_terms_zh": [
+        "禁锢"
+      ],
+      "summary_en": "Ivern conjures a vine, dealing damage and rooting enemy targets hit. Ivern's allies can dash to the rooted target.",
+      "summary_zh": "艾翁召唤出一束荆棘，对命中的敌方单位造成伤害和禁锢效果。艾翁的友军可以突进到禁锢目标附近。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307544:4009163"
+      ]
+    },
+    {
+      "ability_id": "ability:Ivern:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：在草丛中时或离开草丛后的【数值】秒内，艾翁的攻击造成额外的【数值】魔法伤害。附近的友军们将获得持续【数值】秒的此效果，其攻击会因此造成额外的【数值】魔法伤害。 主动：艾翁生成一片草丛，从而将该区域显形【数值】秒。草丛会存留至艾翁的队伍失去它其中的视野，或至多至【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307547:4025374"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicdamage",
+        "br",
+        "spellactive"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Brushmaker",
+      "name_zh": "揠苗助攻",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ivern",
+        "source:ddragon:16.16.1:en_US:Ivern",
+        "source:communitydragon:16.16:zh_cn:Ivern",
+        "source:wiki:1307547:4025374"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "In brush, Ivern and his nearby allies attacks deal bonus magic damage. Ivern can activate this ability to create a patch of brush.",
+      "summary_zh": "在草丛中，艾翁和他附近友军们的攻击将造成额外魔法伤害。艾翁可以激活这个技能来创造一块草丛。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307547:4025374"
+      ]
+    },
+    {
+      "ability_id": "ability:Ivern:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "艾翁为一名友方英雄或小菊提供【数值】护盾值。【数值】秒后，护盾会爆裂，对敌人们造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。 如果在护盾存留时引爆种豆得瓜且没有命中任何敌方英雄，那么该友军将获得持续【数值】秒的【数值】护盾值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307549:3994759"
+        ]
+      },
+      "markup_tags": [
+        "shield",
+        "magicdamage",
+        "status",
+        "br",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Triggerseed",
+      "name_zh": "种豆得瓜",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ivern",
+        "source:ddragon:16.16.1:en_US:Ivern",
+        "source:communitydragon:16.16:zh_cn:Ivern",
+        "source:wiki:1307549:3994759"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Ivern places a shield on an ally which explodes after a short duration slowing and damaging enemies. The shield refreshes if it hits no enemies.",
+      "summary_zh": "艾翁在一个友军身上放置一个护盾，护盾会在短暂延迟后爆炸，减速并伤害敌人。护盾值会在没有命中敌人时刷新。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307549:3994759"
+      ]
+    },
+    {
+      "ability_id": "ability:Ivern:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "艾翁召唤出他的护卫好友小菊跃入纷争，持续【数值】秒。 小菊，猛击！：小菊对相同英雄或史诗级野怪的每第3次连续的攻击将发出一道冲击波，对命中的所有敌人造成 【数值】魔法伤害和【数值】秒击飞。这个效果每【数值】秒仅触发一次。 再次施放：指示小菊进行攻击或移动。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ivern"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ivern"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ivern"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307551:3976509"
+        ]
+      },
+      "markup_tags": [
+        "br",
+        "spellactive",
+        "magicdamage",
+        "status",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Daisy!",
+      "name_zh": "小菊！",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ivern",
+        "source:ddragon:16.16.1:en_US:Ivern",
+        "source:communitydragon:16.16:zh_cn:Ivern",
+        "source:wiki:1307551:3976509"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Ivern summons his Sentinel friend Daisy to fight with him. Re-cast command Daisy to attack or move.",
+      "summary_zh": "艾翁召唤他的护卫好友小菊来与他并肩战斗。再次施放即可指挥小菊进行攻击或移动。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307551:3976509"
+      ]
+    }
+  ],
+  "card_id": "champion:Ivern:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Ivern"
+    ],
+    "numeric_key": "427",
+    "official_name_en": "Ivern",
+    "official_name_zh": "艾翁",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Ivern",
+      "source:ddragon:16.16.1:en_US:Ivern",
+      "source:communitydragon:16.16:zh_cn:Ivern",
+      "source:riot-champion-page:Ivern:asof-2026-08-21"
+    ],
+    "stable_id": "Ivern",
+    "title_zh": "翠神"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 1,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 3
+    },
+    "roles": [
+      "support",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Ivern"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:16be2f576ec3342f9215d4e9b08fd4dc8f6158e4d44728a979e6fb785368e5ca",
+      "sha256:2231804c1e0ed87414d5e1e86918d5994ad34fd1c5d60ddfe67178846d4bc60e",
+      "sha256:6ebc57a51c2291d8f40831dde864698050a03946aa9b9ff51ae7c74e146c0e88",
+      "sha256:94ab88b837661bde601f18d6b1c12ff2b2f2849152e5b174e6a4a1b912f82a5c",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:5ec74374d03c161fe92a249c0c6182feb257660a6a1dc416a3983991fc710857"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:16be2f576ec3342f9215d4e9b08fd4dc8f6158e4d44728a979e6fb785368e5ca",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Ivern.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Ivern",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 艾翁",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Ivern.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:2231804c1e0ed87414d5e1e86918d5994ad34fd1c5d60ddfe67178846d4bc60e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Ivern.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Ivern",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Ivern",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Ivern.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6ebc57a51c2291d8f40831dde864698050a03946aa9b9ff51ae7c74e146c0e88",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/427.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Ivern",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 艾翁",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/427.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:94ab88b837661bde601f18d6b1c12ff2b2f2849152e5b174e6a4a1b912f82a5c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/ivern.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Ivern:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Ivern",
+        "url": "https://www.leagueoflegends.com/en-us/champions/ivern/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:5ec74374d03c161fe92a249c0c6182feb257660a6a1dc416a3983991fc710857",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-007.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038386,
+        "revision_timestamp": "2026-06-30T09:18:12Z",
+        "source_ref_id": "source:wiki:1307541:4038386",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038386",
+        "title": "Template:Data Ivern/Friend of the Forest",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ivern/Friend_of_the_Forest",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:5ec74374d03c161fe92a249c0c6182feb257660a6a1dc416a3983991fc710857",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-007.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4009163,
+        "revision_timestamp": "2026-04-15T22:16:45Z",
+        "source_ref_id": "source:wiki:1307544:4009163",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4009163",
+        "title": "Template:Data Ivern/Rootcaller",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ivern/Rootcaller",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:5ec74374d03c161fe92a249c0c6182feb257660a6a1dc416a3983991fc710857",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-007.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4025374,
+        "revision_timestamp": "2026-06-05T15:07:37Z",
+        "source_ref_id": "source:wiki:1307547:4025374",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4025374",
+        "title": "Template:Data Ivern/Brushmaker",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ivern/Brushmaker",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:5ec74374d03c161fe92a249c0c6182feb257660a6a1dc416a3983991fc710857",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-007.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3994759,
+        "revision_timestamp": "2026-03-02T07:02:53Z",
+        "source_ref_id": "source:wiki:1307549:3994759",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3994759",
+        "title": "Template:Data Ivern/Triggerseed",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ivern/Triggerseed",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:5ec74374d03c161fe92a249c0c6182feb257660a6a1dc416a3983991fc710857",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-007.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3976509,
+        "revision_timestamp": "2025-12-16T09:13:08Z",
+        "source_ref_id": "source:wiki:1307551:3976509",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3976509",
+        "title": "Template:Data Ivern/Daisy!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ivern/Daisy!",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

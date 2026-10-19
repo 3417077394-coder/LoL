@@ -1,0 +1,512 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Skarner:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "斯卡纳的普通攻击、撼地、擎天和毒刺贯体都会施加战栗效果。在满层战栗时，敌人们会在其持续期间内受到最大生命值魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1639013:4050105"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Threads of Vibration",
+      "name_zh": "战栗",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Skarner",
+        "source:ddragon:16.16.1:en_US:Skarner",
+        "source:communitydragon:16.16:zh_cn:Skarner",
+        "source:wiki:1639013:4050105"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Skarner's Attacks, Shattered Earth, Upheaval, and Impale, apply Quaking. At max stacks of Quaking, enemies take max Health magic damage over its duration.",
+      "summary_zh": "斯卡纳的普通攻击、撼地、擎天和毒刺贯体都会施加战栗效果。在满层战栗时，敌人们会在其持续期间内受到最大生命值魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1639013:4050105"
+      ]
+    },
+    {
+      "ability_id": "ability:Skarner:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "斯卡纳从地面掘出一块巨石，使他的下三次攻击拥有【数值】%攻击速度并且对附近敌人们造成【数值】物理伤害。 他的最后一次攻击将对被影响的敌人们造成额外的【数值】%最大生命值物理伤害和持续【数值】秒的【数值】%减速。 再次施放：斯卡纳结束这个技能并扔出他的巨石，对命中的第一个敌人——及其周围的其它敌人们——造成【数值】 + 【数值】%最大生命值物理伤害和持续【数值】秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "attackspeed",
+        "physicaldamage",
+        "status",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Shattered Earth / Upheaval",
+      "name_zh": "撼地 / 擎天",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Skarner",
+        "source:ddragon:16.16.1:en_US:Skarner",
+        "source:communitydragon:16.16:zh_cn:Skarner"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Skarner rips a boulder from the earth that empowers his attacks and can be thrown as a powerful projectile.",
+      "summary_zh": "斯卡纳从地面掘出一块巨石来强化他的普攻，这块巨石可作为飞弹投掷。",
+      "wiki_source_ref_ids": []
+    },
+    {
+      "ability_id": "ability:Skarner:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "斯卡纳获得持续【数值】秒的【数值】护盾值并引发一阵地震，来对附近的敌人们造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1639085:4008046"
+        ]
+      },
+      "markup_tags": [
+        "shield",
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Seismic Bastion",
+      "name_zh": "震地壁垒",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Skarner",
+        "source:ddragon:16.16.1:en_US:Skarner",
+        "source:communitydragon:16.16:zh_cn:Skarner",
+        "source:wiki:1639085:4008046"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Skarner gains a shield and creates an earthquake whose shockwave damages and slows foes.",
+      "summary_zh": "斯卡纳获得一个护盾并生成一阵地震，地震的冲击波会伤害并减速敌人们。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1639085:4008046"
+      ]
+    },
+    {
+      "ability_id": "ability:Skarner:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "斯卡纳向前冲锋，朝着所选方向行驶并无视地形。如果斯卡纳碰上了一个英雄或大型野怪，那么他会在冲锋的剩余期间对其进行拖拽。 拖着一个敌人碰撞到一个墙体时，会对该敌人造成【数值】物理伤害和【数值】秒晕眩。 斯卡纳可以再次释放这个技能来提前结束他的冲锋。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1639092:4000401"
+        ]
+      },
+      "markup_tags": [
+        "br",
+        "physicaldamage",
+        "status",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Ixtal's Impact",
+      "name_zh": "以绪塔尔冲击",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Skarner",
+        "source:ddragon:16.16.1:en_US:Skarner",
+        "source:communitydragon:16.16:zh_cn:Skarner",
+        "source:wiki:1639092:4000401"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Skarner charges forward and passes through terrain. If he collides with a champion or large monster, he'll slam them into the next wall he hits to damage and stun them.",
+      "summary_zh": "斯卡纳向前冲锋并穿过地形。如果他撞击到一个英雄或大型野怪，则可将其猛推到他命中的下一个墙体上，造成伤害和晕眩效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1639092:4000401"
+      ]
+    },
+    {
+      "ability_id": "ability:Skarner:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "斯卡纳向前甩出他的尾巴，对最先命中的3个英雄造成【数值】魔法伤害和【数值】秒压制。那些被命中的英雄会在这个技能的持续期间被斯卡纳拖行。 如果斯卡纳至少命中了一个英雄，那么他会获得持续【数值】秒的【数值】%移动速度。 如果撼地处于激活状态，那么斯卡纳将先施放擎天。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Skarner"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Skarner"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Skarner"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308518:4008047"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "speed",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Impale",
+      "name_zh": "毒刺贯体",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Skarner",
+        "source:ddragon:16.16.1:en_US:Skarner",
+        "source:communitydragon:16.16:zh_cn:Skarner",
+        "source:wiki:1308518:4008047"
+      ],
+      "status_terms_zh": [
+        "压制"
+      ],
+      "summary_en": "Skarner's tails lash forward to suppress enemy champions. Once suppressed, the victims will be dragged along by Skarner as he moves around.",
+      "summary_zh": "斯卡纳向前甩出他的尾巴，以压制敌方英雄们。一旦被压制，猎物们就会在斯卡纳移动时被拖行。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308518:4008047"
+      ]
+    }
+  ],
+  "card_id": "champion:Skarner:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Skarner"
+    ],
+    "numeric_key": "72",
+    "official_name_en": "Skarner",
+    "official_name_zh": "斯卡纳",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Skarner",
+      "source:ddragon:16.16.1:en_US:Skarner",
+      "source:communitydragon:16.16:zh_cn:Skarner",
+      "source:riot-champion-page:Skarner:asof-2026-08-21"
+    ],
+    "stable_id": "Skarner",
+    "title_zh": "上古领主"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 2,
+      "durability": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "tank",
+      "fighter"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Skarner"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:4f091ef7ab1dd4ad5a8d4c1b70c18e00a9112cd50f9ca7c131edf3ec80c630ef",
+      "sha256:e84daa7d88e20c1158d81868fa328ba714b1e3271244cdacd18bc365b53164be",
+      "sha256:d715b042c29d1c390097dc2e8b8ca98e9d3bdfeba92b122799333980213d059d",
+      "sha256:ae5702d5aacb783b4a87091e093d4b4a17a3b5d0c8e1a254e2a93cbe237fa284",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:03da00afc2a58b1fbd9e1c32365812616fca9670d12cec99d4c0d009f2cad397",
+      "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:4f091ef7ab1dd4ad5a8d4c1b70c18e00a9112cd50f9ca7c131edf3ec80c630ef",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Skarner.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Skarner",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 斯卡纳",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Skarner.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:e84daa7d88e20c1158d81868fa328ba714b1e3271244cdacd18bc365b53164be",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Skarner.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Skarner",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Skarner",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Skarner.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:d715b042c29d1c390097dc2e8b8ca98e9d3bdfeba92b122799333980213d059d",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/72.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Skarner",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 斯卡纳",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/72.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:ae5702d5aacb783b4a87091e093d4b4a17a3b5d0c8e1a254e2a93cbe237fa284",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/skarner.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Skarner:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Skarner",
+        "url": "https://www.leagueoflegends.com/en-us/champions/skarner/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:03da00afc2a58b1fbd9e1c32365812616fca9670d12cec99d4c0d009f2cad397",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-018.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4050105,
+        "revision_timestamp": "2026-08-04T20:16:10Z",
+        "source_ref_id": "source:wiki:1639013:4050105",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4050105",
+        "title": "Template:Data Skarner/Threads of Vibration",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Skarner/Threads_of_Vibration",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008046,
+        "revision_timestamp": "2026-04-13T04:35:30Z",
+        "source_ref_id": "source:wiki:1639085:4008046",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008046",
+        "title": "Template:Data Skarner/Seismic Bastion",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Skarner/Seismic_Bastion",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:03da00afc2a58b1fbd9e1c32365812616fca9670d12cec99d4c0d009f2cad397",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-018.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4000401,
+        "revision_timestamp": "2026-03-18T02:49:49Z",
+        "source_ref_id": "source:wiki:1639092:4000401",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4000401",
+        "title": "Template:Data Skarner/Ixtal's Impact",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Skarner/Ixtal%27s_Impact",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:03da00afc2a58b1fbd9e1c32365812616fca9670d12cec99d4c0d009f2cad397",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-018.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008047,
+        "revision_timestamp": "2026-04-13T04:36:04Z",
+        "source_ref_id": "source:wiki:1308518:4008047",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008047",
+        "title": "Template:Data Skarner/Impale",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Skarner/Impale",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "wiki_ability_gap:q",
+      "complex_ability_structure",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

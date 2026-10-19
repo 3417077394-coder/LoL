@@ -1,0 +1,39 @@
+.DS_Store
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local or generated model artifacts
+models/
+*.safetensors
+*.bin
+
+# Active data-engine patch candidates
+data/patches/patch_baseline.jsonl
+data/processed/clean_baseline_candidate.jsonl
+
+# Formal experiment outputs are stored externally or added deliberately.
+experiments/EXP-*/model_outputs.jsonl
+experiments/EXP-*/judge_results.jsonl
+experiments/EXP-*/human_review_sample.jsonl
+experiments/DEV-*/
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.zip
+*.tar
+*.tar.gz
+__pycache__/
+.ipynb_checkpoints/
+wandb/
+outputs/
+checkpoints/

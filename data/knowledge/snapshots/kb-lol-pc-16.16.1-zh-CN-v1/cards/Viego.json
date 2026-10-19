@@ -1,0 +1,526 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Viego:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "倒在佛耶戈面前的敌方英雄们会变为幽魂。通过攻击一个幽魂，佛耶戈可以暂时夺取该英雄躯体的控制权，获得相当于他目标一部分最大生命值的治疗效果并获得该英雄的基础技能和装备的使用权。他会将其终极技能替换为他自己终极技能的一次免费施放。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1482651:4050183"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Sovereign's Domination",
+      "name_zh": "君命已决",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Viego",
+        "source:ddragon:16.16.1:en_US:Viego",
+        "source:communitydragon:16.16:zh_cn:Viego",
+        "source:wiki:1482651:4050183"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Enemies who fall before Viego become wraiths. By attacking a wraith, Viego temporarily seizes control of the dead enemy's body, healing for a percentage of his target's max health and gaining access to their basic abilities and items. He replaces their Ultimate with a free cast of his own.",
+      "summary_zh": "倒在佛耶戈面前的敌方英雄们会变为幽魂。通过攻击一个幽魂，佛耶戈可以暂时夺取该英雄躯体的控制权，获得相当于他目标一部分最大生命值的治疗效果并获得该英雄的基础技能和装备的使用权。他会将其终极技能替换为他自己终极技能的一次免费施放。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1482651:4050183"
+      ]
+    },
+    {
+      "ability_id": "ability:Viego:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "被动：佛耶戈的攻击造成额外的【数值】当前生命值的物理伤害。如果敌人近期被他用一个技能伤害过，那么他对该敌人的第一次攻击会进行两次打击，造成【数值】物理伤害并回复【数值】%实际伤害值的生命值。这些被动加成会在占据期间保留。 主动：佛耶戈向前戳刺，造成【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1482652:4009446"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "physicaldamage",
+        "healing",
+        "keywordmajor",
+        "br",
+        "spellactive"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blade of the Ruined King",
+      "name_zh": "破败王剑",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Viego",
+        "source:ddragon:16.16.1:en_US:Viego",
+        "source:communitydragon:16.16:zh_cn:Viego",
+        "source:wiki:1482652:4009446"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Viego's spectral blade passively deals bonus percent current Health damage On-Hit and strikes twice vs. enemies he recently hit with an Ability, stealing Health. Viego can activate this Ability to thrust his zweihander forward, impaling enemies in front of him.",
+      "summary_zh": "佛耶戈的鬼魅之刃会在被动地在命中时造成额外的百分比当前生命值伤害攻击特效，并对近期被他用一个技能袭击过的敌人进行两次打击，同时窃取生命值。 佛耶戈可以激活这个技能来向前刺出他的双手巨剑，穿刺他前方的所有敌人们。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1482652:4009446"
+      ]
+    },
+    {
+      "ability_id": "ability:Viego:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "开始蓄力：佛耶戈开始聚集黑雾，自身减速【数值】%。 释放：佛耶戈向前冲刺并将已聚集的黑雾猛掷出去。对命中的第一个敌人造成【数值】魔法伤害，并基于蓄力时间对其造成【数值】到【数值】秒晕眩 。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1482653:4008551"
+        ]
+      },
+      "markup_tags": [
+        "charge",
+        "status",
+        "br",
+        "release",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Spectral Maw",
+      "name_zh": "千载幽咽",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Viego",
+        "source:ddragon:16.16.1:en_US:Viego",
+        "source:communitydragon:16.16:zh_cn:Viego",
+        "source:wiki:1482653:4008551"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "晕眩"
+      ],
+      "summary_en": "Viego charges up before dashing forward, releasing a ball of concentrated Black Mist that stuns the first enemy hit.",
+      "summary_zh": "佛耶戈蓄力然后向前冲刺，并释放一个浓缩黑雾之球，来使命中的第一个敌人晕眩。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1482653:4008551"
+      ]
+    },
+    {
+      "ability_id": "ability:Viego:e:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "佛耶戈向前派出一个幽鬼去萦绕命中的第一个地形，用黑雾将其笼罩【数值】秒。佛耶戈在黑雾中时会获得伪装，【数值】移动速度，和【数值】%攻击速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1482654:4052901"
+        ]
+      },
+      "markup_tags": [
+        "keywordstealth",
+        "speed",
+        "attackspeed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Harrowed Path",
+      "name_zh": "茫茫焦土",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Viego",
+        "source:ddragon:16.16.1:en_US:Viego",
+        "source:communitydragon:16.16:zh_cn:Viego",
+        "source:wiki:1482654:4052901"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Viego commands the Black Mist to haunt and surround a piece of terrain. Viego can hide in the Mist as a wraith, gaining camouflage, Move Speed, and Attack Speed.",
+      "summary_zh": "佛耶戈命令黑雾去萦绕并笼罩一块地形。佛耶戈可以如幽魂一般隐藏在黑雾中，获得【伪装】状态、移动速度和攻击速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1482654:4052901"
+      ]
+    },
+    {
+      "ability_id": "ability:Viego:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "佛耶戈遗弃他当前占据的任一灵魂并传送。在抵达时，他会攻击当前生命值百分比最低的英雄，暂时使其减速【数值】%并造成【数值】+【数值】%已损失生命值的物理伤害。附近的其他敌人会被击退并受到【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Viego"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Viego"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Viego"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1482655:4001566"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "status",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Heartbreaker",
+      "name_zh": "痛贯天灵",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Viego",
+        "source:ddragon:16.16.1:en_US:Viego",
+        "source:communitydragon:16.16:zh_cn:Viego",
+        "source:wiki:1482655:4001566"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "击退"
+      ],
+      "summary_en": "Viego teleports to a nearby location and executes an enemy champion on arrival, piercing their heart and causing a destructive shockwave around them that knocks away their allies.",
+      "summary_zh": "佛耶戈传送到一个附近的位置并在抵达时处决一名敌方英雄，将其心脏击碎并在其周围引发一阵毁灭性的冲击波来击退其友军。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1482655:4001566"
+      ]
+    }
+  ],
+  "card_id": "champion:Viego:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Viego"
+    ],
+    "numeric_key": "234",
+    "official_name_en": "Viego",
+    "official_name_zh": "佛耶戈",
+    "resource_type_zh": "无",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Viego",
+      "source:ddragon:16.16.1:en_US:Viego",
+      "source:communitydragon:16.16:zh_cn:Viego",
+      "source:riot-champion-page:Viego:asof-2026-08-21"
+    ],
+    "stable_id": "Viego",
+    "title_zh": "破败之王"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Viego"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:192c4c7e8bc4333966f018947fd048096b633e4c6882e93189e94f59d7beed6f",
+      "sha256:89a7fb0edea37ed6b2decc75a7b5e7b91cbbfb34a0a81e53bf53ca0d56fdc56c",
+      "sha256:54ba43c4c78e4df07d2b7f4867c877097d079e23bdfc102ab83090b931c6331c",
+      "sha256:262f8d8ce500064e9c1056a36be23e5f14fd824858e33cc46f98e5d960f55909",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:192c4c7e8bc4333966f018947fd048096b633e4c6882e93189e94f59d7beed6f",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Viego.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Viego",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 佛耶戈",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Viego.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:89a7fb0edea37ed6b2decc75a7b5e7b91cbbfb34a0a81e53bf53ca0d56fdc56c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Viego.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Viego",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Viego",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Viego.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:54ba43c4c78e4df07d2b7f4867c877097d079e23bdfc102ab83090b931c6331c",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/234.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Viego",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 佛耶戈",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/234.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:262f8d8ce500064e9c1056a36be23e5f14fd824858e33cc46f98e5d960f55909",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/viego.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Viego:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Viego",
+        "url": "https://www.leagueoflegends.com/en-us/champions/viego/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4050183,
+        "revision_timestamp": "2026-08-05T10:41:11Z",
+        "source_ref_id": "source:wiki:1482651:4050183",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4050183",
+        "title": "Template:Data Viego/Sovereign's Domination",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Viego/Sovereign%27s_Domination",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4009446,
+        "revision_timestamp": "2026-04-17T14:17:18Z",
+        "source_ref_id": "source:wiki:1482652:4009446",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4009446",
+        "title": "Template:Data Viego/Blade of the Ruined King",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Viego/Blade_of_the_Ruined_King",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008551,
+        "revision_timestamp": "2026-04-14T23:54:40Z",
+        "source_ref_id": "source:wiki:1482653:4008551",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008551",
+        "title": "Template:Data Viego/Spectral Maw",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Viego/Spectral_Maw",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4052901,
+        "revision_timestamp": "2026-08-21T10:36:17Z",
+        "source_ref_id": "source:wiki:1482654:4052901",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4052901",
+        "title": "Template:Data Viego/Harrowed Path",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Viego/Harrowed_Path",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4001566,
+        "revision_timestamp": "2026-03-21T13:42:34Z",
+        "source_ref_id": "source:wiki:1482655:4001566",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4001566",
+        "title": "Template:Data Viego/Heartbreaker",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Viego/Heartbreaker",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

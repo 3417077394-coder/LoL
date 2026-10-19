@@ -1,0 +1,532 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Smolder:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "用技能命中英雄和用超级灼热龙息 击杀敌人时会提供一层龙之研习。层数会提升斯莫德各基础技能的伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1631182:4025344"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Dragon Practice",
+      "name_zh": "龙之研习",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Smolder",
+        "source:ddragon:16.16.1:en_US:Smolder",
+        "source:communitydragon:16.16:zh_cn:Smolder",
+        "source:wiki:1631182:4025344"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Hitting champions with Abilities and killing enemies with Super Scorcher Breath grants a stack of Dragon Practice. Stacks increase the damage of Smolders basic Abilities.",
+      "summary_zh": "用技能命中英雄和用超级灼热龙息 击杀敌人时会提供一层龙之研习。层数会提升斯莫德各基础技能的伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1631182:4025344"
+      ]
+    },
+    {
+      "ability_id": "ability:Smolder:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "magic",
+        "true"
+      ],
+      "detailed_description_zh": "斯莫德喷出烈焰，造成【数值】物理伤害 + 【数值】魔法伤害。如果目标阵亡，斯莫德会返还【数值】法力值，这个效果在每次施放仅触发一次。 基于龙之研习的层数，这个技能会不断进化，获得以下效果：【数值】层：对目标周围的所有敌人造成伤害。【数值】层：在目标后侧引发【数值】次爆炸，造成此技能【数值】%的伤害。【数值】层：灼烧目标，【数值】秒内持续造成共【数值】最大生命值的真实伤害。 敌方英雄如果在灼烧期间总生命值降至【数值】以下，则会被立刻击杀。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1631183:4030432"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "magicdamage",
+        "scalemana",
+        "br",
+        "spellname",
+        "li",
+        "keywordmajor",
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Super Scorcher Breath",
+      "name_zh": "超级灼热龙息",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Smolder",
+        "source:ddragon:16.16.1:en_US:Smolder",
+        "source:communitydragon:16.16:zh_cn:Smolder",
+        "source:wiki:1631183:4030432"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Smolder breathes fire on an enemy. As he gains more stacks, this ability becomes more powerful.",
+      "summary_zh": "斯莫德在一名敌人身上喷吐烈焰。随着他获得更多层数，这个技能会变得更加强力。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1631183:4030432"
+      ]
+    },
+    {
+      "ability_id": "ability:Smolder:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "magic"
+      ],
+      "detailed_description_zh": "斯莫德发出一个萌萌的烈焰喷嚏，造成【数值】物理伤害和持续【数值】秒的【数值】%减速。 命中英雄时会引发一次爆炸，造成【数值】物理 + 【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1631186:4025346"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status",
+        "br",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Achooo!",
+      "name_zh": "阿嚏！",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Smolder",
+        "source:ddragon:16.16.1:en_US:Smolder",
+        "source:communitydragon:16.16:zh_cn:Smolder",
+        "source:wiki:1631186:4025346"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Smolder lets out an adorable flaming sneeze that explodes when hitting enemy champions.",
+      "summary_zh": "斯莫德发出一个萌萌的烈焰喷嚏，喷嚏会在命中敌人时爆炸。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1631186:4025346"
+      ]
+    },
+    {
+      "ability_id": "ability:Smolder:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "magic"
+      ],
+      "detailed_description_zh": "斯莫德展翅高飞，获得【数值】%移动速度并无视地形，持续【数值】秒。 飞行时，斯莫德轰击生命值最低的敌方英雄【数值】次(向下取整)，每次命中造成【数值】物理伤害 + 【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1631187:4025347"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "br",
+        "spellname",
+        "physicaldamage",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Flap, Flap, Flap",
+      "name_zh": "扑棱，扑棱，扑棱！",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Smolder",
+        "source:ddragon:16.16.1:en_US:Smolder",
+        "source:communitydragon:16.16:zh_cn:Smolder",
+        "source:wiki:1631187:4025347"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Smolder takes flight ignoring terrain and bombarding the lowest health enemy.",
+      "summary_zh": "斯莫德展翅高飞，无视地形并轰击生命值最低的敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1631187:4025347"
+      ]
+    },
+    {
+      "ability_id": "ability:Smolder:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "斯莫德的妈妈从天空喷吐烈焰，造成【数值】物理伤害。中心的敌人们会转而受到【数值】物理伤害和持续【数值】秒的【数值】%减速。 斯莫德的妈妈如果命中了她的儿子，则会为他治疗【数值】生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Smolder"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Smolder"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Smolder"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1631189:4025343"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status",
+        "br",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "MMOOOMMMM!",
+      "name_zh": "妈----！",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Smolder",
+        "source:ddragon:16.16.1:en_US:Smolder",
+        "source:communitydragon:16.16:zh_cn:Smolder",
+        "source:wiki:1631189:4025343"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Smolder calls his mom to breath fire from above, dealing extra damage and slowing enemies in the center of her fire.",
+      "summary_zh": "斯莫德召唤他的妈妈从天空喷吐烈焰，对她的烈焰中心的敌人们造成额外伤害和减速。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1631189:4025343"
+      ]
+    }
+  ],
+  "card_id": "champion:Smolder:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Smolder"
+    ],
+    "numeric_key": "901",
+    "official_name_en": "Smolder",
+    "official_name_zh": "斯莫德",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Smolder",
+      "source:ddragon:16.16.1:en_US:Smolder",
+      "source:communitydragon:16.16:zh_cn:Smolder",
+      "source:riot-champion-page:Smolder:asof-2026-08-21"
+    ],
+    "stable_id": "Smolder",
+    "title_zh": "炽炎雏龙"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Smolder"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:fd6c94d11d41140264b7f5c06f4d9a76bb95327130198c9ba371281553486363",
+      "sha256:84c5e66be59d8b01ec09a90a4ae4c25b344ec035f167b41dcd6390b6cf12ee1f",
+      "sha256:40237df8de30f2f4ad9edf1ae17329418ee4661a4d9a8a4e3b34c1c37ff5aa2a",
+      "sha256:fd40b50472ddd71ca2a78950bd31e6ae1abf96276b30d471eda15b343a299778",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:fd6c94d11d41140264b7f5c06f4d9a76bb95327130198c9ba371281553486363",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Smolder.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Smolder",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 斯莫德",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Smolder.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:84c5e66be59d8b01ec09a90a4ae4c25b344ec035f167b41dcd6390b6cf12ee1f",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Smolder.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Smolder",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Smolder",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Smolder.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:40237df8de30f2f4ad9edf1ae17329418ee4661a4d9a8a4e3b34c1c37ff5aa2a",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/901.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Smolder",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 斯莫德",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/901.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:fd40b50472ddd71ca2a78950bd31e6ae1abf96276b30d471eda15b343a299778",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/smolder.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Smolder:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Smolder",
+        "url": "https://www.leagueoflegends.com/en-us/champions/smolder/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4025344,
+        "revision_timestamp": "2026-06-05T11:06:03Z",
+        "source_ref_id": "source:wiki:1631182:4025344",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4025344",
+        "title": "Template:Data Smolder/Dragon Practice",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Smolder/Dragon_Practice",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4030432,
+        "revision_timestamp": "2026-06-16T02:43:29Z",
+        "source_ref_id": "source:wiki:1631183:4030432",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4030432",
+        "title": "Template:Data Smolder/Super Scorcher Breath",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Smolder/Super_Scorcher_Breath",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4025346,
+        "revision_timestamp": "2026-06-05T11:06:33Z",
+        "source_ref_id": "source:wiki:1631186:4025346",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4025346",
+        "title": "Template:Data Smolder/Achooo!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Smolder/Achooo!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4025347,
+        "revision_timestamp": "2026-06-05T11:06:40Z",
+        "source_ref_id": "source:wiki:1631187:4025347",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4025347",
+        "title": "Template:Data Smolder/Flap, Flap, Flap",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Smolder/Flap%2C_Flap%2C_Flap",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4025343,
+        "revision_timestamp": "2026-06-05T11:05:50Z",
+        "source_ref_id": "source:wiki:1631189:4025343",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4025343",
+        "title": "Template:Data Smolder/MMOOOMMMM!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Smolder/MMOOOMMMM!",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

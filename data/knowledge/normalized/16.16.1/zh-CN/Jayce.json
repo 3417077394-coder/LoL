@@ -1,0 +1,403 @@
+{
+  "as_of": "2026-08-21",
+  "card_id": "champion:Jayce:ddragon-16.16.1:zh-CN",
+  "champion": {
+    "aliases": [
+      "Jayce"
+    ],
+    "numeric_key": "126",
+    "official_name": "杰斯",
+    "resource_type": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Jayce",
+      "source:ddragon:16.16.1:en_US:Jayce"
+    ],
+    "stable_id": "Jayce",
+    "title": "未来守护者"
+  },
+  "ddragon_version": "16.16.1",
+  "knowledge_snapshot_id": "kb-ddragon-16.16.1-pilot-v1",
+  "locale": "zh-CN",
+  "normalized_mechanics": {
+    "ability_mechanics": [
+      {
+        "ability_fact_id": "fact:Jayce:passive:dual_form_combined:ddragon-16.16.1",
+        "conditions": [
+          "需要切换武器形态"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Jayce:passive:dual_form_combined:v1",
+        "mobility_types": [
+          "movement_speed"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Jayce:passive:dual_form_combined:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "passive",
+          "self"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Jayce:q:dual_form_combined:ddragon-16.16.1",
+        "conditions": [
+          "效果取决于当前形态"
+        ],
+        "control_types": [
+          "slow"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Jayce:q:dual_form_combined:v1",
+        "mobility_types": [
+          "leap"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Jayce:q:dual_form_combined:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "targeted_enemy",
+          "direction",
+          "line"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Jayce:w:dual_form_combined:ddragon-16.16.1",
+        "conditions": [
+          "效果取决于当前形态"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "magic"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [
+          "炮形态主要强化普攻，不能只按技能伤害理解"
+        ],
+        "mechanic_id": "mechanic:Jayce:w:dual_form_combined:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Jayce:w:dual_form_combined:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "self",
+          "self_area"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Jayce:e:dual_form_combined:ddragon-16.16.1",
+        "conditions": [
+          "效果取决于当前形态",
+          "Q 穿过加速门后才获得强化"
+        ],
+        "control_types": [
+          "knockback"
+        ],
+        "damage_types": [
+          "magic"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Jayce:e:dual_form_combined:v1",
+        "mobility_types": [
+          "movement_speed"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Jayce:e:dual_form_combined:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "targeted_enemy",
+          "line"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Jayce:r:dual_form_combined:ddragon-16.16.1",
+        "conditions": [
+          "切换方向决定获得的效果"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "magic"
+        ],
+        "defense_types": [
+          "resistances"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Jayce:r:dual_form_combined:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Jayce:r:dual_form_combined:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "self"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "generation": {
+      "generated_at": "2026-08-21T09:25:13+00:00",
+      "ingest_method": "semi_automatic",
+      "input_hashes": [
+        "sha256:f16d07f613eba91b278217eaf1f095091fac7e9313dd851ff02f443649cb795e",
+        "sha256:8eb6c3940b2fdf5d21dc9068752da22790a1559fe05d8e694034e11e9c6129b5"
+      ],
+      "script_version": "ddragon-importer-v1"
+    },
+    "sources": [
+      {
+        "content_hash": "sha256:f16d07f613eba91b278217eaf1f095091fac7e9313dd851ff02f443649cb795e",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Jayce",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN champion data: 杰斯",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Jayce.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:8eb6c3940b2fdf5d21dc9068752da22790a1559fe05d8e694034e11e9c6129b5",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Jayce",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US champion data: Jayce",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Jayce.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      }
+    ]
+  },
+  "public_patch_alias": "26.16",
+  "region_scope": "global_pc",
+  "review": {
+    "notes": [
+      "官方名称与技能描述来自固定 Data Dragon 原始响应。",
+      "机制摘要、标准化枚举与战术画像为待人工核验的模型候选，不得用于正式 fixed-KB 实验。"
+    ],
+    "quality_flags": [
+      "manual_review_required",
+      "complex_form"
+    ],
+    "reviewed_at": null,
+    "reviewer_ids": [],
+    "status": "generated"
+  },
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "schema_version": "champion-knowledge-card-v1",
+  "source_facts": {
+    "ability_facts": [
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Jayce:passive:dual_form_combined:ddragon-16.16.1",
+        "form_id": "dual_form_combined",
+        "mechanics_summary": "切换武器形态后短暂获得移动速度。",
+        "official_description": "每当杰斯切换武器时，他会获得短暂持续的移动速度加成。",
+        "official_name": "海克斯科技电容",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Jayce.json",
+        "slot": "passive",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Jayce",
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Jayce:q:dual_form_combined:ddragon-16.16.1",
+        "form_id": "dual_form_combined",
+        "mechanics_summary": "锤形态跳向目标并减速；炮形态发射可在命中或最远距离爆炸的远程电球。",
+        "official_description": "锤形态：跳向一个敌人，对敌人造成物理伤害和减速效果。 炮形态：发射一团电球，在命中一名敌人或者到达最大射程后爆炸，对命中的敌人造成物理伤害。",
+        "official_name": "苍穹之跃 / 电能震荡",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Jayce.json",
+        "slot": "q",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Jayce",
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Jayce:w:dual_form_combined:ddragon-16.16.1",
+        "form_id": "dual_form_combined",
+        "mechanics_summary": "锤形态创造近身伤害区域并通过攻击回复法力；炮形态强化若干次普攻的攻速。",
+        "official_description": "锤形态：被动：每次攻击回复法力。主动：创造一个闪电领域，在数秒内对附近的敌人造成伤害。 炮形态：杰斯的活力暴涨，将攻击速度提升至最大值，此效果在若干次攻击后消失。",
+        "official_name": "闪电领域 / 超能电荷",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Jayce.json",
+        "slot": "w",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Jayce",
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Jayce:e:dual_form_combined:ddragon-16.16.1",
+        "form_id": "dual_form_combined",
+        "mechanics_summary": "锤形态击退目标；炮形态生成友军加速门，并强化穿过门的 Q 弹道。",
+        "official_description": "锤形态：对一个敌人造成魔法伤害，并将目标击退一小段距离。 炮形态：展开一个加速之门，所有穿过它的友军英雄都会得到移动速度加成。如果电能震荡穿过这个门发射，那么它的弹道速度和射程都会得到提高，并且伤害会提升。",
+        "official_name": "雷霆一击 / 加速之门",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Jayce.json",
+        "slot": "e",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Jayce",
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Jayce:r:dual_form_combined:ddragon-16.16.1",
+        "form_id": "dual_form_combined",
+        "mechanics_summary": "在锤与炮形态之间切换，改变攻击距离、基础技能和切换后的首次攻击效果。",
+        "official_description": "锤形态：将墨丘利之锤变成墨丘利之炮，获得新的技能和远程攻击能力。切换至这个形态后的第一下攻击将会减少目标的护甲和魔法抗性。 炮形态：将墨丘利之炮变成墨丘利之锤，获得新的技能和护甲与魔法抗性加成，切换至这个形态后的第一下攻击将会造成额外的魔法伤害。",
+        "official_name": "墨丘利之炮 / 墨丘利之锤",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Jayce.json",
+        "slot": "r",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Jayce",
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ]
+      }
+    ]
+  },
+  "tactical_profile": {
+    "attributes": [
+      {
+        "attribute_id": "attribute:Jayce:poke:v1",
+        "basis_fact_ids": [
+          "fact:Jayce:q:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:e:dual_form_combined:ddragon-16.16.1"
+        ],
+        "category": "poke",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "炮形态 Q 与 E 的组合提供远距离消耗。"
+      },
+      {
+        "attribute_id": "attribute:Jayce:siege:v1",
+        "basis_fact_ids": [
+          "fact:Jayce:q:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:w:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:e:dual_form_combined:ddragon-16.16.1"
+        ],
+        "category": "siege",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "远程消耗、加速门和强化普攻支持推进与拉扯。"
+      },
+      {
+        "attribute_id": "attribute:Jayce:burst:v1",
+        "basis_fact_ids": [
+          "fact:Jayce:q:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:w:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:e:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:r:dual_form_combined:ddragon-16.16.1"
+        ],
+        "category": "burst",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "双形态技能轮转可集中输出，但依赖形态和连招顺序。"
+      },
+      {
+        "attribute_id": "attribute:Jayce:disengage:v1",
+        "basis_fact_ids": [
+          "fact:Jayce:e:dual_form_combined:ddragon-16.16.1"
+        ],
+        "category": "disengage",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "medium",
+        "review_status": "generated",
+        "summary": "锤形态 E 击退和炮形态 E 加速可帮助拉开。"
+      },
+      {
+        "attribute_id": "attribute:Jayce:mobility:v1",
+        "basis_fact_ids": [
+          "fact:Jayce:passive:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:q:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:e:dual_form_combined:ddragon-16.16.1"
+        ],
+        "category": "mobility",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "medium",
+        "review_status": "generated",
+        "summary": "形态切换加速、锤 Q 跳跃和加速门共同提供机动性。"
+      }
+    ],
+    "limitations": [
+      {
+        "basis_fact_ids": [
+          "fact:Jayce:q:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:w:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:e:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:r:dual_form_combined:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Jayce:form_dependency:v1",
+        "review_status": "generated",
+        "summary": "同一技能槽在两种形态下含义不同，必须结合当前形态解释。"
+      },
+      {
+        "basis_fact_ids": [
+          "fact:Jayce:q:dual_form_combined:ddragon-16.16.1",
+          "fact:Jayce:e:dual_form_combined:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Jayce:gate_combo:v1",
+        "review_status": "generated",
+        "summary": "远程 Q 的最大威胁依赖穿过加速门。"
+      }
+    ],
+    "positions": []
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:TwistedFate:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "在击杀了一名单位后，崔斯特会投掷他的“幸运”骰，随机获得1到6的额外赏金。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309740:4005221"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Loaded Dice",
+      "name_zh": "灌铅骰子",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TwistedFate",
+        "source:ddragon:16.16.1:en_US:TwistedFate",
+        "source:communitydragon:16.16:zh_cn:TwistedFate",
+        "source:wiki:1309740:4005221"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Upon killing a unit, Twisted Fate rolls his 'lucky' dice receiving 1 to 6 bonus gold.",
+      "summary_zh": "在击杀了一名单位后，崔斯特会投掷他的“幸运”骰，随机获得1到6的额外赏金。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309740:4005221"
+      ]
+    },
+    {
+      "ability_id": "ability:TwistedFate:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "崔斯特掷出三张牌，各造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309741:3950864"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Wild Cards",
+      "name_zh": "万能牌",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TwistedFate",
+        "source:ddragon:16.16.1:en_US:TwistedFate",
+        "source:communitydragon:16.16:zh_cn:TwistedFate",
+        "source:wiki:1309741:3950864"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Twisted Fate throws three cards, dealing damage to each enemy unit they pass through.",
+      "summary_zh": "崔斯特扔出三张卡牌，卡牌会对沿途的每个敌方单位造成伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309741:3950864"
+      ]
+    },
+    {
+      "ability_id": "ability:TwistedFate:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "崔斯特开始洗牌，允许他再次施放来从3张牌中锁定一张，并且强化他的下次攻击。 蓝牌造成【数值】魔法伤害并回复【数值】法力。红牌对附近的敌人造成【数值】魔法伤害和持续2.5秒的【数值】%减速。金牌造成【数值】魔法伤害和【数值】秒晕眩。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309742:4004668"
+        ]
+      },
+      "markup_tags": [
+        "recast",
+        "br",
+        "li",
+        "magicdamage",
+        "scalemana",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Pick a Card",
+      "name_zh": "选牌",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TwistedFate",
+        "source:ddragon:16.16.1:en_US:TwistedFate",
+        "source:communitydragon:16.16:zh_cn:TwistedFate",
+        "source:wiki:1309742:4004668"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "晕眩"
+      ],
+      "summary_en": "Twisted Fate chooses a magic card from his deck, and uses that for his next attack, causing bonus effects.",
+      "summary_zh": "崔斯特挑选魔法卡牌，用于下次攻击，并附加额外效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309742:4004668"
+      ]
+    },
+    {
+      "ability_id": "ability:TwistedFate:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：崔斯特获得【数值】%攻击速度并且每第4次攻击造成额外的【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309739:3963571"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "attackspeed",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Stacked Deck",
+      "name_zh": "卡牌骗术",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TwistedFate",
+        "source:ddragon:16.16.1:en_US:TwistedFate",
+        "source:communitydragon:16.16:zh_cn:TwistedFate",
+        "source:wiki:1309739:3963571"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Every 4 attacks, Twisted Fate deals bonus damage. In addition, his Attack Speed is increased.",
+      "summary_zh": "崔斯特每四次攻击附加一次额外伤害。另外，崔斯特的攻击速度得到被动提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309739:3963571"
+      ]
+    },
+    {
+      "ability_id": "ability:TwistedFate:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "崔斯特专注于他的卡牌，提供地图上所有敌方英雄的真实视野，持续【数值】秒，并允许他再次施放。 再次施放：崔斯特传送到【数值】码以内的任何地方。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TwistedFate"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TwistedFate"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TwistedFate"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1326263:4017975"
+        ]
+      },
+      "markup_tags": [
+        "keywordstealth",
+        "recast",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Destiny",
+      "name_zh": "命运",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TwistedFate",
+        "source:ddragon:16.16.1:en_US:TwistedFate",
+        "source:communitydragon:16.16:zh_cn:TwistedFate",
+        "source:wiki:1326263:4017975"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Twisted Fate predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location in 1.5 seconds.",
+      "summary_zh": "崔斯特为他的敌人算卜命运，短时间内显示所有敌方英雄的位置，并可使用传送，让他在引导1.5秒后传送至目标位置。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1326263:4017975"
+      ]
+    }
+  ],
+  "card_id": "champion:TwistedFate:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Twisted Fate",
+      "TwistedFate"
+    ],
+    "numeric_key": "4",
+    "official_name_en": "Twisted Fate",
+    "official_name_zh": "崔斯特",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:TwistedFate",
+      "source:ddragon:16.16.1:en_US:TwistedFate",
+      "source:communitydragon:16.16:zh_cn:TwistedFate",
+      "source:riot-champion-page:TwistedFate:asof-2026-08-21"
+    ],
+    "stable_id": "TwistedFate",
+    "title_zh": "卡牌大师"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 2
+    },
+    "roles": [
+      "mage",
+      "marksman"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:TwistedFate"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:0c4e64e12db79631482bd58f4d823f150637f54a3c173a95a0dbbe04e972af37",
+      "sha256:20bb0819c5dab91e481d4e846661d688f6f641bba24a8f1ad2bc10e756233907",
+      "sha256:7c919f777e22b4b9b9bd31fa356fdf948460164bc73c9d2e1644796c50a8d657",
+      "sha256:2a33b9178a5ed9c7efb6f6408cda48c112f22929a5ce1a7134080ba07df90223",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:0c4e64e12db79631482bd58f4d823f150637f54a3c173a95a0dbbe04e972af37",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/TwistedFate.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:TwistedFate",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 崔斯特",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/TwistedFate.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:20bb0819c5dab91e481d4e846661d688f6f641bba24a8f1ad2bc10e756233907",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/TwistedFate.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:TwistedFate",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Twisted Fate",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/TwistedFate.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:7c919f777e22b4b9b9bd31fa356fdf948460164bc73c9d2e1644796c50a8d657",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/4.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:TwistedFate",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 崔斯特",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/4.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:2a33b9178a5ed9c7efb6f6408cda48c112f22929a5ce1a7134080ba07df90223",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/twistedfate.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:TwistedFate:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Twisted Fate",
+        "url": "https://www.leagueoflegends.com/en-us/champions/twistedfate/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4005221,
+        "revision_timestamp": "2026-04-04T06:08:39Z",
+        "source_ref_id": "source:wiki:1309740:4005221",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4005221",
+        "title": "Template:Data Twisted Fate/Loaded Dice",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Twisted_Fate/Loaded_Dice",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3950864,
+        "revision_timestamp": "2025-08-31T01:31:17Z",
+        "source_ref_id": "source:wiki:1309741:3950864",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3950864",
+        "title": "Template:Data Twisted Fate/Wild Cards",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Twisted_Fate/Wild_Cards",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4004668,
+        "revision_timestamp": "2026-04-02T01:25:16Z",
+        "source_ref_id": "source:wiki:1309742:4004668",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4004668",
+        "title": "Template:Data Twisted Fate/Pick a Card",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Twisted_Fate/Pick_a_Card",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3963571,
+        "revision_timestamp": "2025-11-05T11:54:01Z",
+        "source_ref_id": "source:wiki:1309739:3963571",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3963571",
+        "title": "Template:Data Twisted Fate/Stacked Deck",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Twisted_Fate/Stacked_Deck",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4017975,
+        "revision_timestamp": "2026-05-14T09:17:46Z",
+        "source_ref_id": "source:wiki:1326263:4017975",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4017975",
+        "title": "Template:Data Twisted Fate/Destiny",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Twisted_Fate/Destiny",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

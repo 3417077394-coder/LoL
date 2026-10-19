@@ -1,0 +1,114 @@
+{
+  "as_of": "2026-08-21",
+  "card_locale": "zh-CN",
+  "ddragon_locales": [
+    "zh_CN",
+    "en_US"
+  ],
+  "ddragon_version": "16.16.1",
+  "files": [
+    {
+      "bytes": 5179,
+      "media_type": "application/json",
+      "relative_path": "versions.json",
+      "sha256": "c2eede780ca5a85ab58877fcadcd6af3b43bafaddc4f6169840c18142e5ac382",
+      "url": "https://ddragon.leagueoflegends.com/api/versions.json"
+    },
+    {
+      "bytes": 335,
+      "media_type": "application/json",
+      "relative_path": "realms/na.json",
+      "sha256": "9c01b06d09dc32a52f011f5957333a98c97e36302b24ffccf0b2e69b9c641f56",
+      "url": "https://ddragon.leagueoflegends.com/realms/na.json"
+    },
+    {
+      "bytes": 195561,
+      "media_type": "application/json",
+      "relative_path": "zh_CN/champion.json",
+      "sha256": "203819cff040112e5f30bf586c786e71eb40c89024f0c8fe24588998f59f508f",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion.json"
+    },
+    {
+      "bytes": 13592,
+      "media_type": "application/json",
+      "relative_path": "zh_CN/champion/Poppy.json",
+      "sha256": "874fe4c655302764757ea3bd4dab97034f73d856ab4e787087afdeacf030dbfb",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Poppy.json"
+    },
+    {
+      "bytes": 14452,
+      "media_type": "application/json",
+      "relative_path": "zh_CN/champion/Camille.json",
+      "sha256": "025077c5bc7dfb29a967a0f9374c9ea119a966fda2d0715b3302379c87275fb1",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Camille.json"
+    },
+    {
+      "bytes": 12750,
+      "media_type": "application/json",
+      "relative_path": "zh_CN/champion/Jayce.json",
+      "sha256": "f16d07f613eba91b278217eaf1f095091fac7e9313dd851ff02f443649cb795e",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Jayce.json"
+    },
+    {
+      "bytes": 10787,
+      "media_type": "application/json",
+      "relative_path": "zh_CN/champion/Aphelios.json",
+      "sha256": "5d1cc74dce53c4e09f2f141042a90ead29c16d17b487665fc5876e4e5b336900",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Aphelios.json"
+    },
+    {
+      "bytes": 14857,
+      "media_type": "application/json",
+      "relative_path": "zh_CN/champion/Lulu.json",
+      "sha256": "a7a8a2f3abab56acfc651e92b8aeab637e94c33eba8eee5da21455aad878aefc",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Lulu.json"
+    },
+    {
+      "bytes": 159024,
+      "media_type": "application/json",
+      "relative_path": "en_US/champion.json",
+      "sha256": "970c2b0ead25bd132ff9df260a42130c02e4d1cf3adbeb62f32bc3dc8178a324",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion.json"
+    },
+    {
+      "bytes": 13017,
+      "media_type": "application/json",
+      "relative_path": "en_US/champion/Poppy.json",
+      "sha256": "5d74b4b0f32d00db28f19ea6b15d809fd75941635f412a1d0f70eb319d0332f0",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Poppy.json"
+    },
+    {
+      "bytes": 13561,
+      "media_type": "application/json",
+      "relative_path": "en_US/champion/Camille.json",
+      "sha256": "1413f1db6088b8a6653033db80f3f3b6cf14a1e2b6d8cff822774206e3eb97d7",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Camille.json"
+    },
+    {
+      "bytes": 12366,
+      "media_type": "application/json",
+      "relative_path": "en_US/champion/Jayce.json",
+      "sha256": "8eb6c3940b2fdf5d21dc9068752da22790a1559fe05d8e694034e11e9c6129b5",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Jayce.json"
+    },
+    {
+      "bytes": 10586,
+      "media_type": "application/json",
+      "relative_path": "en_US/champion/Aphelios.json",
+      "sha256": "dc8e5e964256444b5d8ad953fe671d4c397adaa1f94639d4bd0c1eb73a913379",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Aphelios.json"
+    },
+    {
+      "bytes": 13816,
+      "media_type": "application/json",
+      "relative_path": "en_US/champion/Lulu.json",
+      "sha256": "c711a2b50588a2110ee4c374a0280a0e811dada5fa449f412cebce5674a825e9",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Lulu.json"
+    }
+  ],
+  "public_patch_alias": "26.16",
+  "region_scope": "global_pc",
+  "retrieved_at": "2026-08-21T09:25:13+00:00",
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "schema_version": "ddragon-raw-manifest-v1"
+}

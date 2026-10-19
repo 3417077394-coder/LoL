@@ -1,0 +1,529 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Velkoz:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "维克兹的技能会对命中的敌人施加有机体解构效果。如果累积到3层效果，敌人就会受到爆发性的真实伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309993:3986690"
+        ]
+      },
+      "markup_tags": [
+        "keywordname"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Organic Deconstruction",
+      "name_zh": "有机体解构",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Velkoz",
+        "source:ddragon:16.16.1:en_US:Velkoz",
+        "source:communitydragon:16.16:zh_cn:Velkoz",
+        "source:wiki:1309993:3986690"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Vel'Koz's abilities apply Organic Deconstruction to enemies on hit. If 3 stacks are accumulated, the enemy will take a burst of true damage.",
+      "summary_zh": "维克兹的技能会对命中的敌人施加有机体解构效果。如果累积到3层效果，敌人就会受到爆发性的真实伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309993:3986690"
+      ]
+    },
+    {
+      "ability_id": "ability:Velkoz:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "维克兹发射一束等离子，造成【数值】魔法伤害和在【数值】秒里持续衰减的【数值】%减速。在到达它的距离终点，或是命中一个目标，或是再次施放此技能时，等离子束会分裂成新的两束并呈90度角发射出去。 用这个技能击杀一个单位，就会回复【数值】法力。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309994:4008544"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "recast",
+        "br",
+        "scalemana"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Plasma Fission",
+      "name_zh": "等离子裂变",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Velkoz",
+        "source:ddragon:16.16.1:en_US:Velkoz",
+        "source:communitydragon:16.16:zh_cn:Velkoz",
+        "source:wiki:1309994:4008544"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Vel'Koz shoots a bolt of plasma that splits in two on reactivation or upon hitting an enemy. The bolt slows and damages on hit.",
+      "summary_zh": "维克兹发射一束等离子，再次施放此技能或在命中一名敌人后，等离子束会一分为二。等离子束在命中时会造成伤害和减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309994:4008544"
+      ]
+    },
+    {
+      "ability_id": "ability:Velkoz:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "维克兹打开一道虚空裂隙，造成【数值】魔法伤害。然后裂隙会喷发，造成【数值】魔法伤害。 这个技能有2层充能(【数值】秒刷新时间)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309995:4008545"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Void Rift",
+      "name_zh": "虚空裂隙",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Velkoz",
+        "source:ddragon:16.16.1:en_US:Velkoz",
+        "source:communitydragon:16.16:zh_cn:Velkoz",
+        "source:wiki:1309995:4008545"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Vel'Koz opens a rift to the void that deals an initial burst of damage, then explodes for a second burst of damage after a delay.",
+      "summary_zh": "维克兹开启一道虚空裂隙，造成初始爆发伤害，并在短暂的延迟后爆炸，造成第二段爆发伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309995:4008545"
+      ]
+    },
+    {
+      "ability_id": "ability:Velkoz:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "维克兹瓦解一个附近的区域，导致它爆炸，造成【数值】秒击飞和【数值】魔法伤害。靠近维克兹的敌人们将被击退，而不是击飞。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309996:3952590"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Tectonic Disruption",
+      "name_zh": "构造分解",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Velkoz",
+        "source:ddragon:16.16.1:en_US:Velkoz",
+        "source:communitydragon:16.16:zh_cn:Velkoz",
+        "source:wiki:1309996:3952590"
+      ],
+      "status_terms_zh": [
+        "击飞",
+        "击退"
+      ],
+      "summary_en": "Vel'Koz causes an area to explode, knocking up enemies, and knocking close enemies slightly away.",
+      "summary_zh": "维克兹让一个区域爆炸，击飞敌人，并将近处的敌人略微击退。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309996:3952590"
+      ]
+    },
+    {
+      "ability_id": "ability:Velkoz:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic",
+        "true"
+      ],
+      "detailed_description_zh": "维克兹引导一道能量射线来跟随鼠标指针，在2.5秒里持续造成共【数值】魔法伤害和【数值】%减速。对近期被有机体解构伤害过的敌人们造成真实伤害作为替代。 射线内的敌人会周期性地获得解构层数。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Velkoz"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Velkoz"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Velkoz"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309997:4012050"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "spellname",
+        "truedamage",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Life Form Disintegration Ray",
+      "name_zh": "生命形态瓦解射线",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Velkoz",
+        "source:ddragon:16.16.1:en_US:Velkoz",
+        "source:communitydragon:16.16:zh_cn:Velkoz",
+        "source:wiki:1309997:4012050"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Vel'Koz unleashes a channelled beam that follows the cursor for 2.5 seconds that deals magic damage. Organic Deconstruction Researches enemy champions causing them to take true damage instead.",
+      "summary_zh": "维克兹释放一束被引导的光线跟随鼠标指针，可造成魔法伤害，持续2.5秒。【有机体解构】效果会研究敌方英雄，从而使他们受到真实伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309997:4012050"
+      ]
+    }
+  ],
+  "card_id": "champion:Velkoz:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Vel'Koz",
+      "Velkoz"
+    ],
+    "numeric_key": "161",
+    "official_name_en": "Vel'Koz",
+    "official_name_zh": "维克兹",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Velkoz",
+      "source:ddragon:16.16.1:en_US:Velkoz",
+      "source:communitydragon:16.16:zh_cn:Velkoz",
+      "source:riot-champion-page:Velkoz:asof-2026-08-21"
+    ],
+    "stable_id": "Velkoz",
+    "title_zh": "虚空之眼"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "mage",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Velkoz"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:d9fb2dc7cf3d684b5e370342e018191708fefd9b8c6b282075066a1ef1a76fd8",
+      "sha256:a0a2591c31bb28e9c4db8be50a6b2acb9e611d5e260d9c273bcf851910a9466b",
+      "sha256:d97d43b60145272b95015c43228df469697ddc663bed5f8f36c8903bcb5b780d",
+      "sha256:f167565e92516564b3a2c5efa33a6e1679d5c2ab98148d5e2b120571f28579a6",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:d9fb2dc7cf3d684b5e370342e018191708fefd9b8c6b282075066a1ef1a76fd8",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Velkoz.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Velkoz",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 维克兹",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Velkoz.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:a0a2591c31bb28e9c4db8be50a6b2acb9e611d5e260d9c273bcf851910a9466b",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Velkoz.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Velkoz",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Vel'Koz",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Velkoz.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:d97d43b60145272b95015c43228df469697ddc663bed5f8f36c8903bcb5b780d",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/161.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Velkoz",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 维克兹",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/161.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:f167565e92516564b3a2c5efa33a6e1679d5c2ab98148d5e2b120571f28579a6",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/velkoz.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Velkoz:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Vel'Koz",
+        "url": "https://www.leagueoflegends.com/en-us/champions/velkoz/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3986690,
+        "revision_timestamp": "2026-01-22T23:40:58Z",
+        "source_ref_id": "source:wiki:1309993:3986690",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3986690",
+        "title": "Template:Data Vel'Koz/Organic Deconstruction",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vel%27Koz/Organic_Deconstruction",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008544,
+        "revision_timestamp": "2026-04-14T23:47:41Z",
+        "source_ref_id": "source:wiki:1309994:4008544",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008544",
+        "title": "Template:Data Vel'Koz/Plasma Fission",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vel%27Koz/Plasma_Fission",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008545,
+        "revision_timestamp": "2026-04-14T23:48:13Z",
+        "source_ref_id": "source:wiki:1309995:4008545",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008545",
+        "title": "Template:Data Vel'Koz/Void Rift",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vel%27Koz/Void_Rift",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3952590,
+        "revision_timestamp": "2025-09-09T20:14:29Z",
+        "source_ref_id": "source:wiki:1309996:3952590",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3952590",
+        "title": "Template:Data Vel'Koz/Tectonic Disruption",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vel%27Koz/Tectonic_Disruption",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4012050,
+        "revision_timestamp": "2026-04-24T19:07:10Z",
+        "source_ref_id": "source:wiki:1309997:4012050",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4012050",
+        "title": "Template:Data Vel'Koz/Life Form Disintegration Ray",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vel%27Koz/Life_Form_Disintegration_Ray",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

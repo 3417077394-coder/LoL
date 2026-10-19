@@ -1,0 +1,521 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Xerath:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "泽拉斯的普通攻击会周期性地恢复法力值。每当泽拉斯击杀了一个单位时，这个冷却时间就会缩短。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309311:3986753"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Mana Surge",
+      "name_zh": "法力澎湃",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Xerath",
+        "source:ddragon:16.16.1:en_US:Xerath",
+        "source:communitydragon:16.16:zh_cn:Xerath",
+        "source:wiki:1309311:3986753"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Xerath's basic attacks periodically restore Mana. Whenever Xerath kills a unit, this cooldown is reduced.",
+      "summary_zh": "泽拉斯的普通攻击会周期性地恢复法力值。每当泽拉斯击杀了一个单位时，这个冷却时间就会缩短。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309311:3986753"
+      ]
+    },
+    {
+      "ability_id": "ability:Xerath:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "开始蓄力：泽拉斯开始积蓄一次奥术光束，自身逐步减速，至多可达50%。 释放：泽拉斯发射光束，造成【数值】魔法伤害。距离随蓄力时间提升。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309312:3959840"
+        ]
+      },
+      "markup_tags": [
+        "charge",
+        "status",
+        "br",
+        "release",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Arcanopulse",
+      "name_zh": "奥能脉冲",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Xerath",
+        "source:ddragon:16.16.1:en_US:Xerath",
+        "source:communitydragon:16.16:zh_cn:Xerath",
+        "source:wiki:1309312:3959840"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Fires a long-range beam of energy, dealing magic damage to all targets hit.",
+      "summary_zh": "泽拉斯聚集能量，随后发射出一道射程很远的能量光束，对所有命中的目标造成魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309312:3959840"
+      ]
+    },
+    {
+      "ability_id": "ability:Xerath:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "泽拉斯引爆目标区域的奥术能量，造成【数值】魔法伤害并使敌人减速【数值】%，持续【数值】秒。区域中心的敌人会受到【数值】魔法伤害，并被减速【数值】%，减速效果会在【数值】秒里持续衰减。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309315:4008622"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Eye of Destruction",
+      "name_zh": "毁灭之眼",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Xerath",
+        "source:ddragon:16.16.1:en_US:Xerath",
+        "source:communitydragon:16.16:zh_cn:Xerath",
+        "source:wiki:1309315:4008622"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Calls down a barrage of arcane energy, slowing and dealing magic damage to all enemies in an area. Targets in the middle receive additional damage and a stronger slow.",
+      "summary_zh": "在目标区域降下奥术能量的弹幕，对一个区域内的所有敌人造成减速效果和魔法伤害。区域中心的目标会受到额外伤害和一个更强大的减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309315:4008622"
+      ]
+    },
+    {
+      "ability_id": "ability:Xerath:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "泽拉斯发射一颗原生魔法之球，基于飞行距离使命中第一个的敌人晕眩至多【数值】秒，并造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309317:3881560"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Shocking Orb",
+      "name_zh": "冲击法球",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Xerath",
+        "source:ddragon:16.16.1:en_US:Xerath",
+        "source:communitydragon:16.16:zh_cn:Xerath",
+        "source:wiki:1309317:3881560"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Deals magic damage to an enemy and stuns them.",
+      "summary_zh": "对单个敌人造成魔法伤害和晕眩效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309317:3881560"
+      ]
+    },
+    {
+      "ability_id": "ability:Xerath:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "泽拉斯飞升至他的真正形态并引导【数值】秒。在此期间，他可以再次施放此技能至多【数值】次。 再次施放：泽拉斯施放一道魔法炮击，造成【数值】魔法伤害。每次命中英雄时，炮击都会造成额外的【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Xerath"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Xerath"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Xerath"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309319:4002918"
+        ]
+      },
+      "markup_tags": [
+        "recast",
+        "br",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Rite of the Arcane",
+      "name_zh": "奥术仪式",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Xerath",
+        "source:ddragon:16.16.1:en_US:Xerath",
+        "source:communitydragon:16.16:zh_cn:Xerath",
+        "source:wiki:1309319:4002918"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Xerath immobilizes himself and gains numerous long-range barrages.",
+      "summary_zh": "泽拉斯将自己固定在一处魔力之源上，并获得数次远程施法的机会。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309319:4002918"
+      ]
+    }
+  ],
+  "card_id": "champion:Xerath:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Xerath"
+    ],
+    "numeric_key": "101",
+    "official_name_en": "Xerath",
+    "official_name_zh": "泽拉斯",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Xerath",
+      "source:ddragon:16.16.1:en_US:Xerath",
+      "source:communitydragon:16.16:zh_cn:Xerath",
+      "source:riot-champion-page:Xerath:asof-2026-08-21"
+    ],
+    "stable_id": "Xerath",
+    "title_zh": "远古巫灵"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "mage",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Xerath"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:2fbbcbc902437e2fd57a92e72b842af617e1db8f78da55c345ae9bef4b81bb05",
+      "sha256:1c079507930b7917233fc00131e545d6a813beeeb373f9a5a88c3fe96f10f843",
+      "sha256:e862f5c9d4a1e5866c5535902940391928988d2585c56121eb96cb3b41e53469",
+      "sha256:0d403d6a5e11738286d0e8b8c060e2424012096e41df630f6008de3881f3b786",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:2fbbcbc902437e2fd57a92e72b842af617e1db8f78da55c345ae9bef4b81bb05",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Xerath.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Xerath",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 泽拉斯",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Xerath.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:1c079507930b7917233fc00131e545d6a813beeeb373f9a5a88c3fe96f10f843",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Xerath.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Xerath",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Xerath",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Xerath.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:e862f5c9d4a1e5866c5535902940391928988d2585c56121eb96cb3b41e53469",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/101.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Xerath",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 泽拉斯",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/101.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:0d403d6a5e11738286d0e8b8c060e2424012096e41df630f6008de3881f3b786",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/xerath.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Xerath:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Xerath",
+        "url": "https://www.leagueoflegends.com/en-us/champions/xerath/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3986753,
+        "revision_timestamp": "2026-01-23T03:41:50Z",
+        "source_ref_id": "source:wiki:1309311:3986753",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3986753",
+        "title": "Template:Data Xerath/Mana Surge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Xerath/Mana_Surge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3959840,
+        "revision_timestamp": "2025-10-17T10:28:26Z",
+        "source_ref_id": "source:wiki:1309312:3959840",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3959840",
+        "title": "Template:Data Xerath/Arcanopulse",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Xerath/Arcanopulse",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008622,
+        "revision_timestamp": "2026-04-15T00:28:09Z",
+        "source_ref_id": "source:wiki:1309315:4008622",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008622",
+        "title": "Template:Data Xerath/Eye of Destruction",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Xerath/Eye_of_Destruction",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3881560,
+        "revision_timestamp": "2025-04-02T23:32:29Z",
+        "source_ref_id": "source:wiki:1309317:3881560",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3881560",
+        "title": "Template:Data Xerath/Shocking Orb",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Xerath/Shocking_Orb",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4002918,
+        "revision_timestamp": "2026-03-28T02:58:10Z",
+        "source_ref_id": "source:wiki:1309319:4002918",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4002918",
+        "title": "Template:Data Xerath/Rite of the Arcane",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Xerath/Rite_of_the_Arcane",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

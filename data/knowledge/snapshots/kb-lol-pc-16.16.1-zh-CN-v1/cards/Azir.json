@@ -1,0 +1,519 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Azir:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "阿兹尔可以从友方或敌方防御塔的废墟中召唤太阳圆盘。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306848:3962342"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Shurima's Legacy",
+      "name_zh": "恕瑞玛的传承",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Azir",
+        "source:ddragon:16.16.1:en_US:Azir",
+        "source:communitydragon:16.16:zh_cn:Azir",
+        "source:wiki:1306848:3962342"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Azir can summon the Disc of the Sun from the ruins of allied or enemy turrets.",
+      "summary_zh": "阿兹尔可以从友方或敌方防御塔的废墟中召唤太阳圆盘。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306848:3962342"
+      ]
+    },
+    {
+      "ability_id": "ability:Azir:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "阿兹尔把所有黄沙士兵派往一个区域，从而对它们途经的所有敌人造成【数值】魔法伤害，并施加持续1秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306850:4051339"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Conquering Sands",
+      "name_zh": "狂沙猛攻",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Azir",
+        "source:ddragon:16.16.1:en_US:Azir",
+        "source:communitydragon:16.16:zh_cn:Azir",
+        "source:wiki:1306850:4051339"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Azir sends all Sand Soldiers towards a location. Sand Soldiers deal magic damage to enemies they pass through and apply a slow for 1 second.",
+      "summary_zh": "阿兹尔把所有黄沙士兵派往一个地点。黄沙士兵会对沿途的所有敌人造成魔法伤害，并施加持续1秒的减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306850:4051339"
+      ]
+    },
+    {
+      "ability_id": "ability:Azir:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "阿兹尔召唤一个持续【数值】秒的黄沙士兵。当阿兹尔攻击处在一个沙漠士兵附近的敌人时，他会转而命令该士兵进行戳刺，在其方向上造成【数值】魔法伤害。 这个技能拥有【数值】层充能。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306852:4044339"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Arise!",
+      "name_zh": "沙兵现身",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Azir",
+        "source:ddragon:16.16.1:en_US:Azir",
+        "source:communitydragon:16.16:zh_cn:Azir",
+        "source:wiki:1306852:4044339"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Azir summons a Sand Soldier to attack nearby targets for him, replacing his basic attack against targets within the soldier's range. Their attacks deal magic damage to enemies in a line.",
+      "summary_zh": "阿兹尔召唤一个黄沙士兵来为他攻击附近的敌方单位。如果敌方单位在士兵的攻击距离内，那么士兵会代替阿兹尔进行普攻。士兵的攻击会对一条直线上的敌人造成魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306852:4044339"
+      ]
+    },
+    {
+      "ability_id": "ability:Azir:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "阿兹尔为他自身提供持续【数值】秒的【数值】护盾值并冲刺至他的一个黄沙士兵处，从而对他途经的敌人们造成【数值】魔法伤害。 如果阿兹尔命中了一个敌方英雄，那么他会停下并获得一个黄沙士兵充能。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306854:4022609"
+        ]
+      },
+      "markup_tags": [
+        "shield",
+        "keywordmajor",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Shifting Sands",
+      "name_zh": "流沙移形",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Azir",
+        "source:ddragon:16.16.1:en_US:Azir",
+        "source:communitydragon:16.16:zh_cn:Azir",
+        "source:wiki:1306854:4022609"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Azir shields himself briefly and dashes to one of his Sand Soldiers, damaging enemies. If he hits an enemy champion, he instantly readies a new Sand Soldier for deployment and halts his dash.",
+      "summary_zh": "阿兹尔暂时套上一层护盾并冲向他的一个黄沙士兵，伤害敌人。如果他命中了一位敌方英雄，那么他就会准备好一个新的黄沙士兵并中断他的位移。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306854:4022609"
+      ]
+    },
+    {
+      "ability_id": "ability:Azir:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "阿兹尔召唤一道由披甲士兵组成的人墙向前冲锋，对敌人造成【数值】魔法伤害和击退效果。这些士兵会存留【数值】秒，从而阻挡敌人的路径。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Azir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Azir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Azir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306856:4042859"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Emperor's Divide",
+      "name_zh": "禁军之墙",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Azir",
+        "source:ddragon:16.16.1:en_US:Azir",
+        "source:communitydragon:16.16:zh_cn:Azir",
+        "source:wiki:1306856:4042859"
+      ],
+      "status_terms_zh": [
+        "击退"
+      ],
+      "summary_en": "Azir summons a wall of soldiers which charge forward, knocking back and damaging enemies.",
+      "summary_zh": "阿兹尔召唤一道由禁军组成的人墙向前冲锋，对敌人造成伤害和击退效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306856:4042859"
+      ]
+    }
+  ],
+  "card_id": "champion:Azir:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Azir"
+    ],
+    "numeric_key": "268",
+    "official_name_en": "Azir",
+    "official_name_zh": "阿兹尔",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Azir",
+      "source:ddragon:16.16.1:en_US:Azir",
+      "source:communitydragon:16.16:zh_cn:Azir",
+      "source:riot-champion-page:Azir:asof-2026-08-21"
+    ],
+    "stable_id": "Azir",
+    "title_zh": "沙漠皇帝"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "mage",
+      "marksman"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Azir"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "listed",
+    "text_en": "Azir We are continuing to monitor Azir, especially as players continue to pick up Press The Attack as his optimal keystone. For now however, we are going to give him a moderate buff to his laning to help him out. Q - Conquering Sands Damage : 60 / 80 / 100 / 120 / 140 (+35 / 40 / 45 / 50 / 55% AP) ⇒ 75 / 95 / 115 / 135 / 155 (+35 / 40 / 45 / 50 / 55% AP)"
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:4592e3888ffbd6ec213396e04be9d8450c0a396782c21692890111d768bec030",
+      "sha256:3517a0d70d7a89c328b45058c4ef67431845ea081ffd2dedbf350ac75165cdf0",
+      "sha256:bc29c152af99bc7b744f623c3f19a42e9734f9d3660c77fb838d1891d3e69b60",
+      "sha256:859a9f1624e7ad5778fbca522c5057bbaee6d1229443312a9a1b3e3da0251178",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:4592e3888ffbd6ec213396e04be9d8450c0a396782c21692890111d768bec030",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Azir.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Azir",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 阿兹尔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Azir.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:3517a0d70d7a89c328b45058c4ef67431845ea081ffd2dedbf350ac75165cdf0",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Azir.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Azir",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Azir",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Azir.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:bc29c152af99bc7b744f623c3f19a42e9734f9d3660c77fb838d1891d3e69b60",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/268.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Azir",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 阿兹尔",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/268.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:859a9f1624e7ad5778fbca522c5057bbaee6d1229443312a9a1b3e3da0251178",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/azir.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Azir:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Azir",
+        "url": "https://www.leagueoflegends.com/en-us/champions/azir/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3962342,
+        "revision_timestamp": "2025-11-01T10:10:20Z",
+        "source_ref_id": "source:wiki:1306848:3962342",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3962342",
+        "title": "Template:Data Azir/Shurima's Legacy",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Azir/Shurima%27s_Legacy",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051339,
+        "revision_timestamp": "2026-08-12T11:52:36Z",
+        "source_ref_id": "source:wiki:1306850:4051339",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051339",
+        "title": "Template:Data Azir/Conquering Sands",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Azir/Conquering_Sands",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4044339,
+        "revision_timestamp": "2026-07-18T20:38:42Z",
+        "source_ref_id": "source:wiki:1306852:4044339",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4044339",
+        "title": "Template:Data Azir/Arise!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Azir/Arise!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4022609,
+        "revision_timestamp": "2026-05-27T02:51:57Z",
+        "source_ref_id": "source:wiki:1306854:4022609",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4022609",
+        "title": "Template:Data Azir/Shifting Sands",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Azir/Shifting_Sands",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4042859,
+        "revision_timestamp": "2026-07-14T19:34:12Z",
+        "source_ref_id": "source:wiki:1306856:4042859",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4042859",
+        "title": "Template:Data Azir/Emperor's Divide",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Azir/Emperor%27s_Divide",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

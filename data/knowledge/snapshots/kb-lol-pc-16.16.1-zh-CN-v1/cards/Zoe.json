@@ -1,0 +1,517 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Zoe:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "佐伊在施放一次技能后的下次普攻会造成额外魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1342046:3986875"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "More Sparkles!",
+      "name_zh": "烟火四射！",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zoe",
+        "source:ddragon:16.16.1:en_US:Zoe",
+        "source:communitydragon:16.16:zh_cn:Zoe",
+        "source:wiki:1342046:3986875"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Zoe's next basic attack after casting a spell deals bonus magic damage.",
+      "summary_zh": "佐伊在施放一次技能后的下次普攻会造成额外魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1342046:3986875"
+      ]
+    },
+    {
+      "ability_id": "ability:Zoe:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "佐伊发射一颗飞星，基于它的飞行距离来对命中的第一个敌人造成不断提升的伤害 -- 【数值】到【数值】魔法伤害。 佐伊可以再次施放这个技能来将这个飞弹重新导向到佐伊附近的一个新位置。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1342047:4024422"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Paddle Star!",
+      "name_zh": "飞星乱入！",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zoe",
+        "source:ddragon:16.16.1:en_US:Zoe",
+        "source:communitydragon:16.16:zh_cn:Zoe",
+        "source:wiki:1342047:4024422"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Zoe fires a missile that she can redirect in flight. Deals more damage the longer it flies in a straight line.",
+      "summary_zh": "佐伊发射一个可在飞行途中由她重新导向的飞弹。飞弹在直线上飞行的路程越远，造成的伤害就会越高。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1342047:4024422"
+      ]
+    },
+    {
+      "ability_id": "ability:Zoe:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：敌人在使用【召唤师技能】或【主动型装备】时会掉落一个技能碎片。特定小兵也会在被佐伊或一名附近的友方英雄击杀后掉落一个技能碎片。佐伊可以拾取这些碎片来使用一次相应技能。 被动：当佐伊施放这个技能或任一召唤师技能时，她会获得【数值】%移动速度，持续【数值】秒，并对她近期刚攻击过的目标投出3个飞弹。每颗飞弹造成【数值】魔法伤害。 主动：施放一次来自佐伊已拾取的技能碎片的技能。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1342048:4013273"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "br",
+        "speed",
+        "magicdamage",
+        "spellactive"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Spell Thief",
+      "name_zh": "窃法巧手",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zoe",
+        "source:ddragon:16.16.1:en_US:Zoe",
+        "source:communitydragon:16.16:zh_cn:Zoe",
+        "source:wiki:1342048:4013273"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Zoe can pick up the remnants of enemy summoner spell and active item casts and cast them once herself. Whenever she casts a summoner spell, she gains 3 missiles that fire at the nearest target.",
+      "summary_zh": "佐伊可以拾取敌方在施放召唤师技能和主动型装备时产生的法术碎片，从而让她自己能够施放一次性的相应技能或效果。在她施放一次召唤师技能的同时，她会获得3颗飞弹来射向距她最近的目标。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1342048:4013273"
+      ]
+    },
+    {
+      "ability_id": "ability:Zoe:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic",
+        "true"
+      ],
+      "detailed_description_zh": "佐伊踢出一个气泡，可造成【数值】魔法伤害，并会在未命中任何单位时如陷阱一般停留。在飞越墙体后，气泡的距离会得到延长。 如果气泡或陷阱命中了一个敌方英雄，那么她会刷新此技能【数值】%冷却时间。 在一段延迟后，被气泡命中的目标会陷入昏睡状态并降低【数值】%魔法抗性，持续2秒。攻击和技能在命中目标时都会将其惊醒并造成双倍伤害，最多造成【数值】真实伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1342049:4013357"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "br",
+        "status",
+        "scalemr",
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Sleepy Trouble Bubble",
+      "name_zh": "催眠气泡",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zoe",
+        "source:ddragon:16.16.1:en_US:Zoe",
+        "source:communitydragon:16.16:zh_cn:Zoe",
+        "source:wiki:1342049:4013357"
+      ],
+      "status_terms_zh": [
+        "昏睡"
+      ],
+      "summary_en": "Causes the target to become drowsy, then fall asleep. While asleep, the target's Magic Resist is reduced. The first source of damage that breaks the sleep is doubled, up to a cap.",
+      "summary_zh": "困倦使目标进入困倦状态，然后陷入昏睡。在昏睡状态下，目标的魔抗会被降低。打醒目标的第一个伤害来源会造成双倍伤害，但有封顶值。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1342049:4013357"
+      ]
+    },
+    {
+      "ability_id": "ability:Zoe:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "佐伊传送到附近的一个位置1秒。然后，佐伊会传送回原来的位置。在此期间，佐伊可以攻击和使用技能，但无法移动。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Zoe"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Zoe"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Zoe"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1342050:4005248"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Portal Jump",
+      "name_zh": "折返跃迁",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Zoe",
+        "source:ddragon:16.16.1:en_US:Zoe",
+        "source:communitydragon:16.16:zh_cn:Zoe",
+        "source:wiki:1342050:4005248"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Blink to a nearby position for 1 second. Then blink back.",
+      "summary_zh": "闪烁到附近的一个位置1秒。然后闪烁回去。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1342050:4005248"
+      ]
+    }
+  ],
+  "card_id": "champion:Zoe:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Zoe"
+    ],
+    "numeric_key": "142",
+    "official_name_en": "Zoe",
+    "official_name_zh": "佐伊",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Zoe",
+      "source:ddragon:16.16.1:en_US:Zoe",
+      "source:communitydragon:16.16:zh_cn:Zoe",
+      "source:riot-champion-page:Zoe:asof-2026-08-21"
+    ],
+    "stable_id": "Zoe",
+    "title_zh": "暮光星灵"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Zoe"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:cef0feba4d2ece7a7861eec8de4b40a957065f49aa0b5377c91d3c741d75b3ab",
+      "sha256:cf1bdc339213334031edd09d2867dbedeffa969ebccf3f55cdacd38dd612b240",
+      "sha256:eb884ae0907456e0fb1882b513ecc40a6896e74131ce83121c712b09782cddaf",
+      "sha256:06eecd0f66ae6b39a06ae64bf9a4c9da33df923d2eb6410e94ddc3c2ab4a189c",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:cef0feba4d2ece7a7861eec8de4b40a957065f49aa0b5377c91d3c741d75b3ab",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Zoe.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Zoe",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 佐伊",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Zoe.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:cf1bdc339213334031edd09d2867dbedeffa969ebccf3f55cdacd38dd612b240",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Zoe.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Zoe",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Zoe",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Zoe.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:eb884ae0907456e0fb1882b513ecc40a6896e74131ce83121c712b09782cddaf",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/142.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Zoe",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 佐伊",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/142.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:06eecd0f66ae6b39a06ae64bf9a4c9da33df923d2eb6410e94ddc3c2ab4a189c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/zoe.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Zoe:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Zoe",
+        "url": "https://www.leagueoflegends.com/en-us/champions/zoe/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3986875,
+        "revision_timestamp": "2026-01-23T14:40:04Z",
+        "source_ref_id": "source:wiki:1342046:3986875",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3986875",
+        "title": "Template:Data Zoe/More Sparkles!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zoe/More_Sparkles!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4024422,
+        "revision_timestamp": "2026-06-01T05:16:58Z",
+        "source_ref_id": "source:wiki:1342047:4024422",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4024422",
+        "title": "Template:Data Zoe/Paddle Star!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zoe/Paddle_Star!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013273,
+        "revision_timestamp": "2026-04-28T22:05:05Z",
+        "source_ref_id": "source:wiki:1342048:4013273",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013273",
+        "title": "Template:Data Zoe/Spell Thief",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zoe/Spell_Thief",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013357,
+        "revision_timestamp": "2026-04-29T05:39:08Z",
+        "source_ref_id": "source:wiki:1342049:4013357",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013357",
+        "title": "Template:Data Zoe/Sleepy Trouble Bubble",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zoe/Sleepy_Trouble_Bubble",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4005248,
+        "revision_timestamp": "2026-04-04T09:36:50Z",
+        "source_ref_id": "source:wiki:1342050:4005248",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4005248",
+        "title": "Template:Data Zoe/Portal Jump",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Zoe/Portal_Jump",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

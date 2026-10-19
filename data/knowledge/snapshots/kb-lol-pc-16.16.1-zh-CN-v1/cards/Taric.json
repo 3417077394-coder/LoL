@@ -1,0 +1,515 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Taric:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "每次施放技能会强化塔里克的下2次普攻，以造成额外魔法伤害，使他的基础技能的冷却时间减少，并且可以快速地连续攻击。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309752:3986177"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Bravado",
+      "name_zh": "正气凌人",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Taric",
+        "source:ddragon:16.16.1:en_US:Taric",
+        "source:communitydragon:16.16:zh_cn:Taric",
+        "source:wiki:1309752:3986177"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Spellcasts empower Taric's next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession.",
+      "summary_zh": "每次施放技能会强化塔里克的下2次普攻，以造成额外魔法伤害，使他的基础技能的冷却时间减少，并且可以快速地连续攻击。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309752:3986177"
+      ]
+    },
+    {
+      "ability_id": "ability:Taric:q:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "被动：每【数值】秒和打出一次正气凌人攻击时获得一层效果(最多【数值】)。 主动：消耗所有层数来为附近的友方英雄们回复【数值】x层数的生命值(在【数值】层时回复【数值】生命值)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309754:3996427"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "spellname",
+        "br",
+        "spellactive",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Starlight's Touch",
+      "name_zh": "星光之触",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Taric",
+        "source:ddragon:16.16.1:en_US:Taric",
+        "source:communitydragon:16.16:zh_cn:Taric",
+        "source:wiki:1309754:3996427"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Heals nearby allied champions based on charges stored. Bravado-empowered attacks grant a charge of Starlight's Touch.",
+      "summary_zh": "基于已储存的充能来治疗附近的友方英雄。【正气凌人】的强化普攻会为这个技能提供一层充能。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309754:3996427"
+      ]
+    },
+    {
+      "ability_id": "ability:Taric:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "被动：塔里克获得【数值】护甲并在他和被此技能绑定过的友方英雄之间形成一条灵链。只要他们在彼此附近，该友方英雄就会获得【数值】护甲并且塔里克的各个技能也会从他自己和该友方英雄处施放。 主动：塔里克与一名友方英雄进行绑定，提供持续【数值】秒的【数值】%最大生命值的护盾值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309756:3989049"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "scalearmor",
+        "br",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Bastion",
+      "name_zh": "坚毅壁垒",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Taric",
+        "source:ddragon:16.16.1:en_US:Taric",
+        "source:communitydragon:16.16:zh_cn:Taric",
+        "source:wiki:1309756:3989049"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Passively increase the Armor of Taric and any allied champion with Bastion. Actively shields an ally and grants them Bastion for as long as they remain near Taric. Taric's spells also cast off the ally with Bastion.",
+      "summary_zh": "被动提升塔里克和带有【坚毅壁垒】效果的友方英雄的护甲。 主动施放会为一名友方英雄提供护盾和【坚毅壁垒】效果，只要该英雄呆在塔里克身边，【坚毅壁垒】效果会一直持续。塔里克的技能也会从带有【坚毅壁垒】效果的友方英雄身上施放。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309756:3989049"
+      ]
+    },
+    {
+      "ability_id": "ability:Taric:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "塔里克投射一束星光，在【数值】秒后爆裂，以造成【数值】魔法伤害并使敌人们晕眩【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309758:3907336"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Dazzle",
+      "name_zh": "炫光",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Taric",
+        "source:ddragon:16.16.1:en_US:Taric",
+        "source:communitydragon:16.16:zh_cn:Taric",
+        "source:wiki:1309758:3907336"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Taric readies a beam of starlight that, after a brief delay, deals magic damage and stuns enemies.",
+      "summary_zh": "塔里克准备施放一束星光，在短暂的延迟后，会对敌人造成魔法伤害和晕眩效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309758:3907336"
+      ]
+    },
+    {
+      "ability_id": "ability:Taric:r:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "塔里克召唤来自天堂的保护。在【数值】秒后，附近的所有友方英雄都会免疫伤害【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Taric"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Taric"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Taric"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309760:3907334"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Cosmic Radiance",
+      "name_zh": "宇宙之辉",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Taric",
+        "source:ddragon:16.16.1:en_US:Taric",
+        "source:communitydragon:16.16:zh_cn:Taric",
+        "source:wiki:1309760:3907334"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Pulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration.",
+      "summary_zh": "在短暂的延迟后，放射一道宇宙能量到附近的友方英雄身上，让他们免疫伤害一段时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309760:3907334"
+      ]
+    }
+  ],
+  "card_id": "champion:Taric:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Taric"
+    ],
+    "numeric_key": "44",
+    "official_name_en": "Taric",
+    "official_name_zh": "塔里克",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Taric",
+      "source:ddragon:16.16.1:en_US:Taric",
+      "source:communitydragon:16.16:zh_cn:Taric",
+      "source:riot-champion-page:Taric:asof-2026-08-21"
+    ],
+    "stable_id": "Taric",
+    "title_zh": "瓦洛兰之盾"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 1,
+      "durability": 2,
+      "mobility": 1,
+      "utility": 3
+    },
+    "roles": [
+      "support",
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Taric"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:941c420cabe69f5a9394888c2fba85fd01c1267721c566563fce09c5ac37d3b3",
+      "sha256:2bcf769396e766855872fd8a8419f56644527ba77295709df8276893d4b1a2a0",
+      "sha256:4ef6636b8f791369a68e7e649d959dc695c9acb7835f458efd4a02337d6938d7",
+      "sha256:d1c5e0028a41048d48371550b0dd64cbeb49381b3cbda82d6beaa93519a03dde",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:941c420cabe69f5a9394888c2fba85fd01c1267721c566563fce09c5ac37d3b3",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Taric.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Taric",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 塔里克",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Taric.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:2bcf769396e766855872fd8a8419f56644527ba77295709df8276893d4b1a2a0",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Taric.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Taric",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Taric",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Taric.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:4ef6636b8f791369a68e7e649d959dc695c9acb7835f458efd4a02337d6938d7",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/44.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Taric",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 塔里克",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/44.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:d1c5e0028a41048d48371550b0dd64cbeb49381b3cbda82d6beaa93519a03dde",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/taric.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Taric:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Taric",
+        "url": "https://www.leagueoflegends.com/en-us/champions/taric/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3986177,
+        "revision_timestamp": "2026-01-22T03:14:28Z",
+        "source_ref_id": "source:wiki:1309752:3986177",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3986177",
+        "title": "Template:Data Taric/Bravado",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Taric/Bravado",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3996427,
+        "revision_timestamp": "2026-03-04T16:55:47Z",
+        "source_ref_id": "source:wiki:1309754:3996427",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3996427",
+        "title": "Template:Data Taric/Starlight's Touch",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Taric/Starlight%27s_Touch",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3989049,
+        "revision_timestamp": "2026-01-29T18:14:34Z",
+        "source_ref_id": "source:wiki:1309756:3989049",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3989049",
+        "title": "Template:Data Taric/Bastion",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Taric/Bastion",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3907336,
+        "revision_timestamp": "2025-06-06T21:23:47Z",
+        "source_ref_id": "source:wiki:1309758:3907336",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3907336",
+        "title": "Template:Data Taric/Dazzle",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Taric/Dazzle",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3907334,
+        "revision_timestamp": "2025-06-06T21:22:19Z",
+        "source_ref_id": "source:wiki:1309760:3907334",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3907334",
+        "title": "Template:Data Taric/Cosmic Radiance",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Taric/Cosmic_Radiance",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

@@ -1,0 +1,521 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Malphite:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "墨菲特被岩石护盾保护，最多吸收10%最大生命值的伤害，若数秒内墨菲特未受到攻击，护盾将重置。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308213:3973718"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Granite Shield",
+      "name_zh": "花岗岩护盾",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Malphite",
+        "source:ddragon:16.16.1:en_US:Malphite",
+        "source:communitydragon:16.16:zh_cn:Malphite",
+        "source:wiki:1308213:3973718"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health. If Malphite has not been hit for a few seconds, this effect recharges.",
+      "summary_zh": "墨菲特被岩石护盾保护，最多吸收10%最大生命值的伤害，若数秒内墨菲特未受到攻击，护盾将重置。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308213:3973718"
+      ]
+    },
+    {
+      "ability_id": "ability:Malphite:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "墨菲特朝一名敌人发出一块大地碎片，造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。墨菲特还会窃取该被减速的数额，从而将它作为持续【数值】秒的移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308215:4003493"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Seismic Shard",
+      "name_zh": "地震碎片",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Malphite",
+        "source:ddragon:16.16.1:en_US:Malphite",
+        "source:communitydragon:16.16:zh_cn:Malphite",
+        "source:wiki:1308215:4003493"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "被减速"
+      ],
+      "summary_en": "Malphite sends a shard of the earth through the ground at his foe, dealing damage upon impact and stealing Move Speed for 3 seconds.",
+      "summary_zh": "墨菲特发出一块大地碎片穿过他敌人处的地面，在碰撞时造成伤害并且偷取移动速度3秒。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308215:4003493"
+      ]
+    },
+    {
+      "ability_id": "ability:Malphite:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "被动：墨菲特获得【数值】%护甲(%i:scaleArmor%【数值】)。这个效果会在花岗岩护盾激活时提升至【数值】% (%i:scaleArmor%【数值】)。 主动：墨菲特的下次攻击造成额外的【数值】物理伤害 %i:OnHit% 攻击特效，并会引发一阵余震，以在其方向造成【数值】物理伤害 %i:OnHit% 攻击特效。在接下来的【数值】秒内，他的攻击会继续引发余震 %i:OnHit% 攻击特效。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1400612:4013417"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "scalearmor",
+        "spellname",
+        "br",
+        "physicaldamage",
+        "onhit"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Thunderclap",
+      "name_zh": "雷霆拍击",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Malphite",
+        "source:ddragon:16.16.1:en_US:Malphite",
+        "source:communitydragon:16.16:zh_cn:Malphite",
+        "source:wiki:1400612:4013417"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Malphite attacks with such force that it creates a sonic boom. For the next few seconds, his attacks create aftershocks in front of him.",
+      "summary_zh": "墨菲特的攻击蕴含着如此惊人的力道以至于它引发了一次音爆。在接下来的数秒里，他的攻击会在他面前引发余波。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1400612:4013417"
+      ]
+    },
+    {
+      "ability_id": "ability:Malphite:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "墨菲特锤击地面，对周围敌人造成【数值】魔法伤害并减少他们【数值】%攻击速度，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308219:3985874"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "attackspeed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Ground Slam",
+      "name_zh": "大地震颤",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Malphite",
+        "source:ddragon:16.16.1:en_US:Malphite",
+        "source:communitydragon:16.16:zh_cn:Malphite",
+        "source:wiki:1308219:3985874"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Malphite slams the ground, sending out a shockwave that deals magic damage based on his Armor and reduces the Attack Speed of enemies for a short duration.",
+      "summary_zh": "墨菲特锤击地面，放射出冲击波对目标造成基于他护甲值的魔法伤害，同时暂时降低目标攻击速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308219:3985874"
+      ]
+    },
+    {
+      "ability_id": "ability:Malphite:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "墨菲特携着山崩之力冲锋，进行不可阻挡的突进。在突进结束时，墨菲特会击飞【数值】秒并造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Malphite"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Malphite"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Malphite"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308221:4007750"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Unstoppable Force",
+      "name_zh": "势不可挡",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Malphite",
+        "source:ddragon:16.16.1:en_US:Malphite",
+        "source:communitydragon:16.16:zh_cn:Malphite",
+        "source:wiki:1308221:4007750"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Malphite launches himself to a location at high speed, damaging enemies and knocking them into the air.",
+      "summary_zh": "墨菲特自身高速冲向一个区域，对区域内的敌人们造成伤害和击飞效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308221:4007750"
+      ]
+    }
+  ],
+  "card_id": "champion:Malphite:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Malphite"
+    ],
+    "numeric_key": "54",
+    "official_name_en": "Malphite",
+    "official_name_zh": "墨菲特",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Malphite",
+      "source:ddragon:16.16.1:en_US:Malphite",
+      "source:communitydragon:16.16:zh_cn:Malphite",
+      "source:riot-champion-page:Malphite:asof-2026-08-21"
+    ],
+    "stable_id": "Malphite",
+    "title_zh": "熔岩巨兽"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 1,
+      "durability": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "tank",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Malphite"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:dd7bc8a1967491513d881d0b202baf3614bfd3d227ede658fa7a8f1697918bb9",
+      "sha256:ccb9bdcb9601c92196d432d7cb0fb21b2d395a18dc426e17a128fcdfe006ac79",
+      "sha256:207359d27872e01f7f719a0f77f68505b8b65ada4ac15e8e9319c0d328803bf3",
+      "sha256:b82a0b8998f0dc069f33dbd18f3f781c73bf8f5bc03bac37ff250aecada977a5",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:dd7bc8a1967491513d881d0b202baf3614bfd3d227ede658fa7a8f1697918bb9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Malphite.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Malphite",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 墨菲特",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Malphite.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:ccb9bdcb9601c92196d432d7cb0fb21b2d395a18dc426e17a128fcdfe006ac79",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Malphite.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Malphite",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Malphite",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Malphite.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:207359d27872e01f7f719a0f77f68505b8b65ada4ac15e8e9319c0d328803bf3",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/54.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Malphite",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 墨菲特",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/54.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:b82a0b8998f0dc069f33dbd18f3f781c73bf8f5bc03bac37ff250aecada977a5",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/malphite.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Malphite:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Malphite",
+        "url": "https://www.leagueoflegends.com/en-us/champions/malphite/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3973718,
+        "revision_timestamp": "2025-12-12T09:23:57Z",
+        "source_ref_id": "source:wiki:1308213:3973718",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3973718",
+        "title": "Template:Data Malphite/Granite Shield",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Malphite/Granite_Shield",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4003493,
+        "revision_timestamp": "2026-03-29T22:51:33Z",
+        "source_ref_id": "source:wiki:1308215:4003493",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4003493",
+        "title": "Template:Data Malphite/Seismic Shard",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Malphite/Seismic_Shard",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013417,
+        "revision_timestamp": "2026-04-29T06:47:03Z",
+        "source_ref_id": "source:wiki:1400612:4013417",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013417",
+        "title": "Template:Data Malphite/Thunderclap",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Malphite/Thunderclap",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3985874,
+        "revision_timestamp": "2026-01-21T21:27:32Z",
+        "source_ref_id": "source:wiki:1308219:3985874",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3985874",
+        "title": "Template:Data Malphite/Ground Slam",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Malphite/Ground_Slam",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007750,
+        "revision_timestamp": "2026-04-12T14:00:45Z",
+        "source_ref_id": "source:wiki:1308221:4007750",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007750",
+        "title": "Template:Data Malphite/Unstoppable Force",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Malphite/Unstoppable_Force",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

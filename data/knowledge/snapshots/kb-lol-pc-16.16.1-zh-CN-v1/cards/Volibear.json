@@ -1,0 +1,527 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Volibear:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "沃利贝尔的攻击和技能会提供攻击速度，并且最终使他的攻击对附近的敌人们造成额外魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1443998:4046481"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "The Relentless Storm",
+      "name_zh": "狂雷渐起",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Volibear",
+        "source:ddragon:16.16.1:en_US:Volibear",
+        "source:communitydragon:16.16:zh_cn:Volibear",
+        "source:wiki:1443998:4046481"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Volibear's Attacks and abilities grant Attack Speed, and eventually cause his Attacks to deal bonus magic damage to nearby enemies.",
+      "summary_zh": "沃利贝尔的攻击和技能会提供攻击速度，并且最终使他的攻击对附近的敌人们造成额外魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1443998:4046481"
+      ]
+    },
+    {
+      "ability_id": "ability:Volibear:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "沃利贝尔获得【数值】移动速度，在朝着敌方英雄时翻倍至【数值】，持续【数值】秒。在激活时，沃利贝尔的下次攻击会造成【数值】物理伤害并使目标晕眩【数值】秒。 如果在沃利贝尔对一个目标造成晕眩效果前被敌人定身的话，那么他会因发怒而提前结束这个技能但刷新它的冷却时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1443999:4046590"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "physicaldamage",
+        "status",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Thundering Smash",
+      "name_zh": "擂首一击",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Volibear",
+        "source:ddragon:16.16.1:en_US:Volibear",
+        "source:communitydragon:16.16:zh_cn:Volibear",
+        "source:wiki:1443999:4046590"
+      ],
+      "status_terms_zh": [
+        "晕眩",
+        "定身"
+      ],
+      "summary_en": "Volibear gains speed towards enemies, Stunning and damaging the first one he Attacks.",
+      "summary_zh": "沃利贝尔在朝着敌人时会获得移动速度，并且会对他攻击的第一个敌人造成晕眩和伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1443999:4046590"
+      ]
+    },
+    {
+      "ability_id": "ability:Volibear:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "沃利贝尔猛拍一名敌人，造成【数值】物理伤害，并标记目标【数值】秒。 如果这个技能施放在一个被标记的目标身上，那么这个技能的伤害会提升至【数值】，并且沃利贝尔会回复【数值】生命值+他【数值】的已损失生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1444000:4008612"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Frenzied Maul",
+      "name_zh": "暴怒撕咬",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Volibear",
+        "source:ddragon:16.16.1:en_US:Volibear",
+        "source:communitydragon:16.16:zh_cn:Volibear",
+        "source:wiki:1444000:4008612"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Volibear damages an enemy, applying on-hit effects and marking them. Casting this ability again on the same target deals bonus damage and Heals Volibear.",
+      "summary_zh": "沃利贝尔伤害一名敌人，施加攻击特效并将其标记。对相同目标再次施放这个技能，会造成额外伤害并治疗沃利贝尔。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1444000:4008612"
+      ]
+    },
+    {
+      "ability_id": "ability:Volibear:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "沃利贝尔在目标区域召唤一道闪电箭，造成【数值】加上【数值】%最大生命值的魔法伤害并使敌人减速【数值】%，持续【数值】秒。 如果沃利贝尔在闪电落点区域内，他还会获得一层【数值】加上【数值】%最大生命值的护盾，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1444001:4008614"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Sky Splitter",
+      "name_zh": "霹天雳地",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Volibear",
+        "source:ddragon:16.16.1:en_US:Volibear",
+        "source:communitydragon:16.16:zh_cn:Volibear",
+        "source:wiki:1444001:4008614"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Volibear summons a lightning bolt at a location, dealing damage and Slowing enemies while granting Volibear a Shield if he's inside the blast radius.",
+      "summary_zh": "沃利贝尔在目标区域召唤一道闪电箭，对其中的敌人造成魔法伤害和减速效果，并且如果沃利贝尔在闪电落点区域内，他还会获得一层护盾。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1444001:4008614"
+      ]
+    },
+    {
+      "ability_id": "ability:Volibear:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "沃利贝尔变换形态并跃向一个目标区域，获得【数值】生命值和【数值】攻击距离，持续【数值】秒。 在着陆时，附近的敌方防御塔会失效【数值】秒，并受到【数值】物理伤害。附近的敌人会被减速【数值】%，减速效果会在1秒里持续衰减。被沃利贝尔直接压住的敌人们会受到【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Volibear"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Volibear"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Volibear"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1444002:4007765"
+        ]
+      },
+      "markup_tags": [
+        "healing",
+        "br",
+        "status",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Stormbringer",
+      "name_zh": "天声震落",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Volibear",
+        "source:ddragon:16.16.1:en_US:Volibear",
+        "source:communitydragon:16.16:zh_cn:Volibear",
+        "source:wiki:1444002:4007765"
+      ],
+      "status_terms_zh": [
+        "失效",
+        "减速"
+      ],
+      "summary_en": "Volibear leaps to a target location, Slowing and damaging enemies beneath him while gaining bonus Health. Enemy towers near his landing location become temporarily disabled.",
+      "summary_zh": "沃利贝尔跃向一个目标区域，对他身下的敌人们造成伤害和减速效果，同时获得额外生命值。在他着陆时，附近的敌方防御塔也会暂时失效。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1444002:4007765"
+      ]
+    }
+  ],
+  "card_id": "champion:Volibear:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Volibear"
+    ],
+    "numeric_key": "106",
+    "official_name_en": "Volibear",
+    "official_name_zh": "沃利贝尔",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Volibear",
+      "source:ddragon:16.16.1:en_US:Volibear",
+      "source:communitydragon:16.16:zh_cn:Volibear",
+      "source:riot-champion-page:Volibear:asof-2026-08-21"
+    ],
+    "stable_id": "Volibear",
+    "title_zh": "不灭狂雷"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Volibear"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:282f8cdd233a79f674cb43d9458c07975fe0a16f2f5eb6b2948be1288203cece",
+      "sha256:6407c2bdc706732fbfae060ba03ac14f7045c4583dcc5b116b3668126076c342",
+      "sha256:e5e70fb9c8726cd080e39f11f4f5d34669f313ab1cb279adc095eccc3a31c71e",
+      "sha256:ebfc4ba5d325f611649ea91272c62ec41bbedc91bd41c9e1dee3b3da2f7b2cdd",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+      "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:282f8cdd233a79f674cb43d9458c07975fe0a16f2f5eb6b2948be1288203cece",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Volibear.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Volibear",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 沃利贝尔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Volibear.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6407c2bdc706732fbfae060ba03ac14f7045c4583dcc5b116b3668126076c342",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Volibear.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Volibear",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Volibear",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Volibear.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:e5e70fb9c8726cd080e39f11f4f5d34669f313ab1cb279adc095eccc3a31c71e",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/106.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Volibear",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 沃利贝尔",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/106.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:ebfc4ba5d325f611649ea91272c62ec41bbedc91bd41c9e1dee3b3da2f7b2cdd",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/volibear.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Volibear:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Volibear",
+        "url": "https://www.leagueoflegends.com/en-us/champions/volibear/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4046481,
+        "revision_timestamp": "2026-07-28T11:45:59Z",
+        "source_ref_id": "source:wiki:1443998:4046481",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4046481",
+        "title": "Template:Data Volibear/The Relentless Storm",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Volibear/The_Relentless_Storm",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4046590,
+        "revision_timestamp": "2026-07-28T20:04:26Z",
+        "source_ref_id": "source:wiki:1443999:4046590",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4046590",
+        "title": "Template:Data Volibear/Thundering Smash",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Volibear/Thundering_Smash",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008612,
+        "revision_timestamp": "2026-04-15T00:24:14Z",
+        "source_ref_id": "source:wiki:1444000:4008612",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008612",
+        "title": "Template:Data Volibear/Frenzied Maul",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Volibear/Frenzied_Maul",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008614,
+        "revision_timestamp": "2026-04-15T00:24:38Z",
+        "source_ref_id": "source:wiki:1444001:4008614",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008614",
+        "title": "Template:Data Volibear/Sky Splitter",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Volibear/Sky_Splitter",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007765,
+        "revision_timestamp": "2026-04-12T14:23:38Z",
+        "source_ref_id": "source:wiki:1444002:4007765",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007765",
+        "title": "Template:Data Volibear/Stormbringer",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Volibear/Stormbringer",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

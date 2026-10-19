@@ -1,0 +1,784 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.lol-draft-alignment/schemas/champion_knowledge_card_v1.schema.json",
+  "title": "Champion Knowledge Card v1",
+  "description": "Data Dragon-versioned, source-grounded champion facts and reviewed tactical attributes for exact context assembly.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "card_id",
+    "knowledge_snapshot_id",
+    "ruleset_id",
+    "ddragon_version",
+    "public_patch_alias",
+    "as_of",
+    "region_scope",
+    "locale",
+    "champion",
+    "source_facts",
+    "normalized_mechanics",
+    "tactical_profile",
+    "provenance",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "champion-knowledge-card-v1"
+    },
+    "card_id": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "knowledge_snapshot_id": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "ruleset_id": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "ddragon_version": {
+      "$ref": "#/$defs/ddragonVersion"
+    },
+    "public_patch_alias": {
+      "$ref": "#/$defs/publicPatchAlias"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "region_scope": {
+      "$ref": "#/$defs/regionScope"
+    },
+    "locale": {
+      "$ref": "#/$defs/locale"
+    },
+    "champion": {
+      "$ref": "#/$defs/championIdentity"
+    },
+    "source_facts": {
+      "$ref": "#/$defs/sourceFacts"
+    },
+    "normalized_mechanics": {
+      "$ref": "#/$defs/normalizedMechanics"
+    },
+    "tactical_profile": {
+      "$ref": "#/$defs/tacticalProfile"
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    },
+    "review": {
+      "$ref": "#/$defs/review"
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stringArray": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
+      "uniqueItems": true
+    },
+    "ddragonVersion": {
+      "type": "string",
+      "pattern": "^[0-9]{1,2}\\.[0-9]{1,2}\\.[0-9]+$"
+    },
+    "publicPatchAlias": {
+      "type": "string",
+      "pattern": "^[0-9]{1,2}\\.[0-9]{1,2}$"
+    },
+    "regionScope": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*$"
+    },
+    "locale": {
+      "type": "string",
+      "pattern": "^[a-z]{2}(?:-[A-Z]{2})?$"
+    },
+    "championIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stable_id",
+        "official_name",
+        "aliases",
+        "source_ref_ids"
+      ],
+      "properties": {
+        "stable_id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_]*$"
+        },
+        "numeric_key": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9]+$"
+        },
+        "official_name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "aliases": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "resource_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_ref_ids": {
+          "$ref": "#/$defs/nonEmptyIdArray"
+        }
+      }
+    },
+    "sourceFacts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ability_facts"
+      ],
+      "properties": {
+        "ability_facts": {
+          "type": "array",
+          "minItems": 5,
+          "items": {
+            "$ref": "#/$defs/abilityFact"
+          }
+        }
+      }
+    },
+    "abilityFact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fact_id",
+        "slot",
+        "form_id",
+        "official_name",
+        "official_description",
+        "mechanics_summary",
+        "effective_ddragon_version",
+        "source_ref_ids"
+      ],
+      "properties": {
+        "fact_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "slot": {
+          "type": "string",
+          "enum": [
+            "passive",
+            "q",
+            "w",
+            "e",
+            "r"
+          ]
+        },
+        "form_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "official_name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "official_description": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "mechanics_summary": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "effective_ddragon_version": {
+          "$ref": "#/$defs/ddragonVersion"
+        },
+        "effective_public_patch_alias": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/publicPatchAlias"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_ref_ids": {
+          "$ref": "#/$defs/nonEmptyIdArray"
+        },
+        "raw_payload_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "normalizedMechanics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ability_mechanics"
+      ],
+      "properties": {
+        "ability_mechanics": {
+          "type": "array",
+          "minItems": 5,
+          "items": {
+            "$ref": "#/$defs/abilityMechanic"
+          }
+        }
+      }
+    },
+    "abilityMechanic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mechanic_id",
+        "ability_fact_id",
+        "damage_types",
+        "targeting_types",
+        "control_types",
+        "mobility_types",
+        "defense_types",
+        "conditions",
+        "limitations",
+        "source_fact_ids",
+        "normalization_method",
+        "normalization_status"
+      ],
+      "properties": {
+        "mechanic_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "ability_fact_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "damage_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "physical",
+              "magic",
+              "true",
+              "mixed",
+              "none",
+              "unknown"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "targeting_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "passive",
+              "self",
+              "targeted_ally",
+              "targeted_enemy",
+              "direction",
+              "line",
+              "cone",
+              "ground_area",
+              "self_area",
+              "global",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "control_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "slow",
+              "root",
+              "stun",
+              "knockup",
+              "knockback",
+              "suppression",
+              "fear",
+              "charm",
+              "taunt",
+              "silence",
+              "blind",
+              "disarm",
+              "drowsy",
+              "sleep",
+              "polymorph",
+              "displacement",
+              "none",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "mobility_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "dash",
+              "blink",
+              "leap",
+              "charge",
+              "movement_speed",
+              "unstoppable",
+              "none",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "defense_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "shield",
+              "heal",
+              "damage_reduction",
+              "invulnerability",
+              "untargetable",
+              "spell_shield",
+              "resistances",
+              "revive",
+              "none",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "conditions": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "limitations": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "source_fact_ids": {
+          "$ref": "#/$defs/nonEmptyIdArray"
+        },
+        "normalization_method": {
+          "type": "string",
+          "enum": [
+            "rule",
+            "human",
+            "llm_candidate",
+            "imported"
+          ]
+        },
+        "normalization_status": {
+          "type": "string",
+          "enum": [
+            "generated",
+            "reviewed",
+            "approved"
+          ]
+        }
+      }
+    },
+    "tacticalProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "positions",
+        "attributes",
+        "limitations"
+      ],
+      "properties": {
+        "positions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/positionProfile"
+          },
+          "uniqueItems": true
+        },
+        "attributes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/tacticalAttribute"
+          }
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/tacticalLimitation"
+          }
+        }
+      }
+    },
+    "positionProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "position",
+        "usage",
+        "confidence",
+        "basis_fact_ids",
+        "source_ref_ids",
+        "review_status"
+      ],
+      "properties": {
+        "position": {
+          "type": "string",
+          "enum": [
+            "top",
+            "jungle",
+            "mid",
+            "bottom",
+            "support"
+          ]
+        },
+        "usage": {
+          "type": "string",
+          "enum": [
+            "primary",
+            "secondary",
+            "off_meta",
+            "unknown"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "basis_fact_ids": {
+          "$ref": "#/$defs/nonEmptyIdArray"
+        },
+        "source_ref_ids": {
+          "$ref": "#/$defs/nonEmptyIdArray"
+        },
+        "review_status": {
+          "type": "string",
+          "enum": [
+            "generated",
+            "reviewed",
+            "approved"
+          ]
+        }
+      }
+    },
+    "tacticalAttribute": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "attribute_id",
+        "category",
+        "rating",
+        "summary",
+        "conditions",
+        "basis_fact_ids",
+        "derivation_method",
+        "review_status"
+      ],
+      "properties": {
+        "attribute_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "engage",
+            "disengage",
+            "peel",
+            "poke",
+            "burst",
+            "sustained_damage",
+            "waveclear",
+            "frontline",
+            "mobility",
+            "pick",
+            "siege",
+            "split_push",
+            "objective_damage",
+            "objective_setup",
+            "vision_control",
+            "global_pressure",
+            "scaling",
+            "early_pressure",
+            "other"
+          ]
+        },
+        "rating": {
+          "type": "string",
+          "enum": [
+            "none",
+            "low",
+            "medium",
+            "high",
+            "conditional",
+            "unknown"
+          ]
+        },
+        "summary": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "conditions": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "basis_fact_ids": {
+          "$ref": "#/$defs/nonEmptyIdArray"
+        },
+        "derivation_method": {
+          "type": "string",
+          "enum": [
+            "rule",
+            "human",
+            "llm_candidate",
+            "llm_reviewed",
+            "imported"
+          ]
+        },
+        "review_status": {
+          "type": "string",
+          "enum": [
+            "generated",
+            "reviewed",
+            "approved"
+          ]
+        }
+      }
+    },
+    "tacticalLimitation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "limitation_id",
+        "summary",
+        "conditions",
+        "basis_fact_ids",
+        "review_status"
+      ],
+      "properties": {
+        "limitation_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "summary": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "conditions": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "basis_fact_ids": {
+          "$ref": "#/$defs/nonEmptyIdArray"
+        },
+        "review_status": {
+          "type": "string",
+          "enum": [
+            "generated",
+            "reviewed",
+            "approved"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sources",
+        "generation"
+      ],
+      "properties": {
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceReference"
+          }
+        },
+        "generation": {
+          "$ref": "#/$defs/generationInfo"
+        }
+      }
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_ref_id",
+        "source_type",
+        "title",
+        "publisher",
+        "version_namespace",
+        "source_version",
+        "url",
+        "retrieved_at",
+        "content_hash",
+        "usage_basis"
+      ],
+      "properties": {
+        "source_ref_id": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "official_structured",
+            "official_champion_page",
+            "official_patch_notes",
+            "official_rules",
+            "internal_reference",
+            "expert_annotation"
+          ]
+        },
+        "title": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "publisher": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "version_namespace": {
+          "type": "string",
+          "enum": [
+            "ddragon",
+            "public_patch",
+            "internal",
+            "unversioned"
+          ]
+        },
+        "source_version": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 1
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "content_hash": {
+          "type": "string",
+          "pattern": "^sha256:[a-f0-9]{64}$"
+        },
+        "usage_basis": {
+          "type": "string",
+          "enum": [
+            "official_public",
+            "licensed",
+            "internal",
+            "pending"
+          ]
+        }
+      }
+    },
+    "generationInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ingest_method",
+        "script_version",
+        "input_hashes",
+        "generated_at"
+      ],
+      "properties": {
+        "ingest_method": {
+          "type": "string",
+          "enum": [
+            "automatic",
+            "semi_automatic",
+            "manual",
+            "schema_example"
+          ]
+        },
+        "script_version": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "input_hashes": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^sha256:[a-f0-9]{64}$"
+          },
+          "uniqueItems": true
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "reviewer_ids",
+        "reviewed_at",
+        "quality_flags",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "generated",
+            "schema_valid",
+            "fact_checked",
+            "normalized",
+            "reviewed",
+            "approved",
+            "rejected"
+          ]
+        },
+        "reviewer_ids": {
+          "$ref": "#/$defs/stringArray"
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
+        "quality_flags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "missing_source",
+              "version_conflict",
+              "ambiguous_mechanic",
+              "complex_form",
+              "manual_review_required",
+              "source_license_pending",
+              "outdated_source",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "notes": {
+          "$ref": "#/$defs/stringArray"
+        }
+      }
+    },
+    "nonEmptyIdArray": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
+      "uniqueItems": true
+    }
+  }
+}

@@ -1,0 +1,513 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Corki:passive:ddragon-16.16.1",
+      "damage_types": [
+        "true"
+      ],
+      "detailed_description_zh": "库奇普通攻击的一部分伤害会转化为真实伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306949:4050625"
+        ]
+      },
+      "markup_tags": [
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Hextech Munitions",
+      "name_zh": "海克斯科技军备",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Corki",
+        "source:ddragon:16.16.1:en_US:Corki",
+        "source:communitydragon:16.16:zh_cn:Corki",
+        "source:wiki:1306949:4050625"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "A percentage of Corki's basic attack damage is dealt as bonus true damage.",
+      "summary_zh": "库奇普通攻击的一部分伤害会转化为真实伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306949:4050625"
+      ]
+    },
+    {
+      "ability_id": "ability:Corki:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "库奇抛射一颗炸弹，造成【数值】魔法伤害。该区域及命中的敌方英雄会被显形【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306953:4007588"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Phosphorus Bomb",
+      "name_zh": "磷光炸弹",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Corki",
+        "source:ddragon:16.16.1:en_US:Corki",
+        "source:communitydragon:16.16:zh_cn:Corki",
+        "source:wiki:1306953:4007588"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Corki fires a flash bomb at a target location, dealing magic damage to enemies in the area. This attack additionally reveals units in the area for a duration.",
+      "summary_zh": "库奇向目标区域发射一枚闪光弹，对范围内的敌人造成魔法伤害。这个技能还会暂时让目标区域附近的非隐形的单位和英雄现形。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306953:4007588"
+      ]
+    },
+    {
+      "ability_id": "ability:Corki:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "库奇飞越并烧焦一条路径，使其灼烧【数值】秒。火焰中的敌人们在此期间至多受到【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306973:4007589"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Valkyrie",
+      "name_zh": "瓦尔基里俯冲",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Corki",
+        "source:ddragon:16.16.1:en_US:Corki",
+        "source:communitydragon:16.16:zh_cn:Corki",
+        "source:wiki:1306973:4007589"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Corki flies a short distance, dropping bombs that create a trail of fire that damages opponents who remain in it.",
+      "summary_zh": "库奇飞行一小段距离，同时投下炸弹。炸弹会制造出一条毁灭与死亡的路径，对留在路径中的敌人造成伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306973:4007589"
+      ]
+    },
+    {
+      "ability_id": "ability:Corki:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "库奇朝他的前方发射加特林机枪，在【数值】秒里持续造成共【数值】物理伤害并至多击碎【数值】护甲和魔法抗性。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306957:3948411"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "scalearmor",
+        "scalemr"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Gatling Gun",
+      "name_zh": "格林机枪",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Corki",
+        "source:ddragon:16.16.1:en_US:Corki",
+        "source:communitydragon:16.16:zh_cn:Corki",
+        "source:wiki:1306957:3948411"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Corki's gatling gun rapidly fires in a cone in front of him, dealing damage and reducing enemy Armor and Magic Resist.",
+      "summary_zh": "库奇使用格林机枪扫射他面前锥形范围内的敌人，造成伤害并降低敌人护甲和魔法抗性。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306957:3948411"
+      ]
+    },
+    {
+      "ability_id": "ability:Corki:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "库奇发射一颗导弹，导弹会在命中第一个敌人时爆炸，对周围的敌人们造成【数值】物理伤害。每第三颗导弹会转而造成【数值】物理伤害。 这个技能至多有【数值】层充能。每次对英雄的普攻在命中时会使充能时间缩短【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Corki"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Corki"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Corki"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306946:4042863"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br",
+        "attention"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Missile Barrage",
+      "name_zh": "火箭轰击",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Corki",
+        "source:ddragon:16.16.1:en_US:Corki",
+        "source:communitydragon:16.16:zh_cn:Corki",
+        "source:wiki:1306946:4042863"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Corki fires a missile toward his target location that explodes on impact, dealing damage to enemies in an area. Corki stores missiles over time, up to a maximum. Every 3rd missile fired will be a Big One, dealing extra damage.",
+      "summary_zh": "库奇朝着他的目标地点发射一枚导弹。导弹会在命中第一个敌人后爆炸，并对目标周围单位造成伤害。库奇每隔一段时间就会挂载一枚导弹，最多挂载7枚。每发射2枚导弹后，下一次就会发射超级导弹，造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306946:4042863"
+      ]
+    }
+  ],
+  "card_id": "champion:Corki:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Corki"
+    ],
+    "numeric_key": "42",
+    "official_name_en": "Corki",
+    "official_name_zh": "库奇",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Corki",
+      "source:ddragon:16.16.1:en_US:Corki",
+      "source:communitydragon:16.16:zh_cn:Corki",
+      "source:riot-champion-page:Corki:asof-2026-08-21"
+    ],
+    "stable_id": "Corki",
+    "title_zh": "英勇投弹手"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Corki"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:fad1dbf41debcc52afbbfa188a341b613db35592262e6e87e532228a388a7088",
+      "sha256:e50d2f0d17f7cfa1750c5042663ea374aa9aa7088c99e037e748da375d528d46",
+      "sha256:af87336243262a47be989605b161c009febe01d4a607d47c91bc7770e874c47a",
+      "sha256:7ca77c69fe837e7f3f27a3ae8958d222e253a846b115d7bd5cfcae2035f5d8ca",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:fad1dbf41debcc52afbbfa188a341b613db35592262e6e87e532228a388a7088",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Corki.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Corki",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 库奇",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Corki.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:e50d2f0d17f7cfa1750c5042663ea374aa9aa7088c99e037e748da375d528d46",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Corki.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Corki",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Corki",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Corki.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:af87336243262a47be989605b161c009febe01d4a607d47c91bc7770e874c47a",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/42.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Corki",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 库奇",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/42.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:7ca77c69fe837e7f3f27a3ae8958d222e253a846b115d7bd5cfcae2035f5d8ca",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/corki.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Corki:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Corki",
+        "url": "https://www.leagueoflegends.com/en-us/champions/corki/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4050625,
+        "revision_timestamp": "2026-08-08T15:34:39Z",
+        "source_ref_id": "source:wiki:1306949:4050625",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4050625",
+        "title": "Template:Data Corki/Hextech Munitions",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Corki/Hextech_Munitions",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007588,
+        "revision_timestamp": "2026-04-12T06:50:59Z",
+        "source_ref_id": "source:wiki:1306953:4007588",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007588",
+        "title": "Template:Data Corki/Phosphorus Bomb",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Corki/Phosphorus_Bomb",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007589,
+        "revision_timestamp": "2026-04-12T06:52:18Z",
+        "source_ref_id": "source:wiki:1306973:4007589",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007589",
+        "title": "Template:Data Corki/Valkyrie",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Corki/Valkyrie",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3948411,
+        "revision_timestamp": "2025-08-19T14:25:04Z",
+        "source_ref_id": "source:wiki:1306957:3948411",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3948411",
+        "title": "Template:Data Corki/Gatling Gun",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Corki/Gatling_Gun",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4042863,
+        "revision_timestamp": "2026-07-14T19:35:26Z",
+        "source_ref_id": "source:wiki:1306946:4042863",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4042863",
+        "title": "Template:Data Corki/Missile Barrage",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Corki/Missile_Barrage",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

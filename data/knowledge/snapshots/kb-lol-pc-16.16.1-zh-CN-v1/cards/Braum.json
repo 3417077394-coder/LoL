@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Braum:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "布隆的普通攻击会对目标施加震荡猛击效果。一旦施加了第一层震荡猛击，友军的普通攻击也会对目标叠加震荡猛击。 在效果到达4层后，目标会被击晕并受到魔法伤害。在接下来的数秒里，布隆和友军无法再次对目标叠加震荡猛击的层数，但布隆的攻击会对目标造成额外魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306896:4038222"
+        ]
+      },
+      "markup_tags": [
+        "font",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Concussive Blows",
+      "name_zh": "震荡猛击",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Braum",
+        "source:ddragon:16.16.1:en_US:Braum",
+        "source:communitydragon:16.16:zh_cn:Braum",
+        "source:wiki:1306896:4038222"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows. Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.",
+      "summary_zh": "布隆的普通攻击会对目标施加震荡猛击效果。一旦施加了第一层震荡猛击，友军的普通攻击也会对目标叠加震荡猛击。 在效果到达4层后，目标会被击晕并受到魔法伤害。在接下来的数秒里，布隆和友军无法再次对目标叠加震荡猛击的层数，但布隆的攻击会对目标造成额外魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306896:4038222"
+      ]
+    },
+    {
+      "ability_id": "ability:Braum:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "布隆驱动盾牌里的冷冻冰块，对命中的第一个敌人造成【数值】魔法伤害和在【数值】秒里持续衰减的【数值】%减速。 施加一层震荡猛击。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306898:4007579"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Winter's Bite",
+      "name_zh": "寒冬之咬",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Braum",
+        "source:ddragon:16.16.1:en_US:Braum",
+        "source:communitydragon:16.16:zh_cn:Braum",
+        "source:wiki:1306898:4007579"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Braum propels freezing ice from his shield, slowing and dealing magic damage. Applies a stack of Concussive Blows.",
+      "summary_zh": "布隆驱动盾牌中的冷冻冰块，对敌人造成魔法伤害和减速效果。 对目标施加一层震荡猛击。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306898:4007579"
+      ]
+    },
+    {
+      "ability_id": "ability:Braum:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "布隆跃向一名友方英雄或小兵。在抵达时，布隆为目标提供持续【数值】秒的【数值】护甲和【数值】魔法抗性。布隆为他自己提供相同持续时间的【数值】护甲和【数值】魔法抗性。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306900:3906582"
+        ]
+      },
+      "markup_tags": [
+        "scalearmor",
+        "scalemr"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Stand Behind Me",
+      "name_zh": "挺身而出",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Braum",
+        "source:ddragon:16.16.1:en_US:Braum",
+        "source:communitydragon:16.16:zh_cn:Braum",
+        "source:wiki:1306900:3906582"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Braum leaps to a target allied champion or minion. On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.",
+      "summary_zh": "布隆跃向目标友军英雄或小兵。在抵达时，布隆和友军会暂时获得护甲和魔法抗性加成。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306900:3906582"
+      ]
+    },
+    {
+      "ability_id": "ability:Braum:e:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "布隆将他的盾牌举起【数值】秒，拦截来自选定方向的所有敌方弹体，使其命中布隆然后被摧毁。布隆格挡的首个弹体不会造成伤害，并且后续弹体造成的伤害降低【数值】%。 布隆在举盾时获得【数值】%移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306902:4012056"
+        ]
+      },
+      "markup_tags": [
+        "br",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Unbreakable",
+      "name_zh": "坚不可摧",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Braum",
+        "source:ddragon:16.16.1:en_US:Braum",
+        "source:communitydragon:16.16:zh_cn:Braum",
+        "source:wiki:1306902:4012056"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed. He negates the damage of the first attack completely and reduces the damage of all subsequent attacks from this direction.",
+      "summary_zh": "布隆朝一个方向举起盾牌，持续数秒，可以拦截所有敌方飞行道具，并将它们摧毁，但自身要承受这些飞行道具的伤害。在举盾后，布隆将使承受的第一次攻击变得完全无效，并降低来自这个方向的所有后续攻击的伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306902:4012056"
+      ]
+    },
+    {
+      "ability_id": "ability:Braum:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "布隆猛砸地面并向前发出一道裂隙，来击飞沿途和布隆身边的敌人，并造成【数值】魔法伤害。被命中的第一个目标会被击飞【数值】到【数值】秒，取决于其与布隆之间的距离。被命中的其他目标也会被击飞【数值】秒。 裂隙还会留下一个持续【数值】秒的地带，可使敌人减速【数值】%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Braum"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Braum"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Braum"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306904:4007580"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Glacial Fissure",
+      "name_zh": "冰川裂隙",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Braum",
+        "source:ddragon:16.16.1:en_US:Braum",
+        "source:communitydragon:16.16:zh_cn:Braum",
+        "source:wiki:1306904:4007580"
+      ],
+      "status_terms_zh": [
+        "击飞",
+        "减速"
+      ],
+      "summary_en": "Braum slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line that slows enemies.",
+      "summary_zh": "布隆敲击地面，击飞他身边和前方一条直线上的所有敌人。此外，还会在前方的直线上留下一条能让敌方减速的裂隙。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306904:4007580"
+      ]
+    }
+  ],
+  "card_id": "champion:Braum:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Braum"
+    ],
+    "numeric_key": "201",
+    "official_name_en": "Braum",
+    "official_name_zh": "布隆",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Braum",
+      "source:ddragon:16.16.1:en_US:Braum",
+      "source:communitydragon:16.16:zh_cn:Braum",
+      "source:riot-champion-page:Braum:asof-2026-08-21"
+    ],
+    "stable_id": "Braum",
+    "title_zh": "弗雷尔卓德之心"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 1,
+      "durability": 2,
+      "mobility": 1,
+      "utility": 2
+    },
+    "roles": [
+      "tank",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Braum"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:304fb3514b78473a1ef7ac422f6657dd302e9f247c147fd5dda09fa97f0c4a6f",
+      "sha256:f9650bb884228d0c854cbe65a20a75df0dd8119d53888b583896cb2d86227d6b",
+      "sha256:3ce3c532e32b43211a279067a33df38a84b6ab5918e15c767acc488277c7a857",
+      "sha256:8481270b6d22d6df9b43bdae529e48095fa763c70894c6f115ae5cef66536572",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:304fb3514b78473a1ef7ac422f6657dd302e9f247c147fd5dda09fa97f0c4a6f",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Braum.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Braum",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 布隆",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Braum.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:f9650bb884228d0c854cbe65a20a75df0dd8119d53888b583896cb2d86227d6b",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Braum.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Braum",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Braum",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Braum.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:3ce3c532e32b43211a279067a33df38a84b6ab5918e15c767acc488277c7a857",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/201.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Braum",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 布隆",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/201.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:8481270b6d22d6df9b43bdae529e48095fa763c70894c6f115ae5cef66536572",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/braum.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Braum:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Braum",
+        "url": "https://www.leagueoflegends.com/en-us/champions/braum/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038222,
+        "revision_timestamp": "2026-06-30T07:37:06Z",
+        "source_ref_id": "source:wiki:1306896:4038222",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038222",
+        "title": "Template:Data Braum/Concussive Blows",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Braum/Concussive_Blows",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007579,
+        "revision_timestamp": "2026-04-12T06:43:14Z",
+        "source_ref_id": "source:wiki:1306898:4007579",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007579",
+        "title": "Template:Data Braum/Winter's Bite",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Braum/Winter%27s_Bite",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3906582,
+        "revision_timestamp": "2025-06-06T04:36:13Z",
+        "source_ref_id": "source:wiki:1306900:3906582",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3906582",
+        "title": "Template:Data Braum/Stand Behind Me",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Braum/Stand_Behind_Me",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4012056,
+        "revision_timestamp": "2026-04-24T20:26:56Z",
+        "source_ref_id": "source:wiki:1306902:4012056",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4012056",
+        "title": "Template:Data Braum/Unbreakable",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Braum/Unbreakable",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007580,
+        "revision_timestamp": "2026-04-12T06:44:16Z",
+        "source_ref_id": "source:wiki:1306904:4007580",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007580",
+        "title": "Template:Data Braum/Glacial Fissure",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Braum/Glacial_Fissure",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

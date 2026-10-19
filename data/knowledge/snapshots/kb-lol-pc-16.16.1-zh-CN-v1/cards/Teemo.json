@@ -1,0 +1,519 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Teemo:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "如果提莫在短时间内静止站立且不受任何伤害，就会进入无定期的隐形状态。如果提莫在草丛中，他就能在移动的同时进入并保持隐形状态。离开隐形状态后，提莫会获得“出奇制胜”的增益效果，提升攻击速度，持续3秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308210:4010103"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Guerrilla Warfare",
+      "name_zh": "游击队军备",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Teemo",
+        "source:ddragon:16.16.1:en_US:Teemo",
+        "source:communitydragon:16.16:zh_cn:Teemo",
+        "source:wiki:1308210:4010103"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "If Teemo stands still and takes no actions for a short duration, he becomes Invisible indefinitely. If he's in brush, Teemo can enter and maintain his Invisibility while moving. After leaving Invisibility, Teemo gains the Element of Surprise, increasing his Attack Speed for a few seconds.",
+      "summary_zh": "如果提莫在短时间内静止站立且不受任何伤害，就会进入无定期的隐形状态。如果提莫在草丛中，他就能在移动的同时进入并保持隐形状态。离开隐形状态后，提莫会获得“出奇制胜”的增益效果，提升攻击速度，持续3秒。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308210:4010103"
+      ]
+    },
+    {
+      "ability_id": "ability:Teemo:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "提莫发射一根吹箭，对目标造成【数值】秒致盲和【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308208:3948425"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blinding Dart",
+      "name_zh": "致盲吹箭",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Teemo",
+        "source:ddragon:16.16.1:en_US:Teemo",
+        "source:communitydragon:16.16:zh_cn:Teemo",
+        "source:wiki:1308208:3948425"
+      ],
+      "status_terms_zh": [
+        "致盲"
+      ],
+      "summary_en": "Obscures an enemy's vision with a powerful venom, dealing damage to the target unit and blinding it for the duration.",
+      "summary_zh": "用一团强力的毒液来侵蚀一名敌人的视野，对目标单位造成伤害并使目标致盲一段时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308208:3948425"
+      ]
+    },
+    {
+      "ability_id": "ability:Teemo:w:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "被动：提莫获得【数值】%移动速度，前提是在最近【数值】秒内未受到来自敌方英雄或防御塔的伤害。 主动：提莫急速奔跑，获得持续【数值】秒的【数值】%移动速度，在被攻击时也不会移除。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308206:4010102"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "speed",
+        "br",
+        "spellactive"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Move Quick",
+      "name_zh": "小莫快跑",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Teemo",
+        "source:ddragon:16.16.1:en_US:Teemo",
+        "source:communitydragon:16.16:zh_cn:Teemo",
+        "source:wiki:1308206:4010102"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Teemo scampers around, passively increasing his Move Speed until he is struck by an enemy champion or turret. Teemo can sprint to gain bonus Move Speed that isn't stopped by being struck for a short time.",
+      "summary_zh": "提莫动如脱兔，提升移动速度，直到被敌方英雄或防御塔击中为止。提莫可以通过冲刺来获得额外移动速度，且短时间内不会因被击中而使加速效果中止。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308206:4010102"
+      ]
+    },
+    {
+      "ability_id": "ability:Teemo:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：提莫的攻击会施加剧毒%i:OnHit% 攻击特效，造成额外的【数值】魔法伤害外加在【数值】秒里持续造成共【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308204:4022986"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "onhit",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Toxic Shot",
+      "name_zh": "毒性射击",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Teemo",
+        "source:ddragon:16.16.1:en_US:Teemo",
+        "source:communitydragon:16.16:zh_cn:Teemo",
+        "source:wiki:1308204:4022986"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Each of Teemo's attacks will poison the target %i:OnHit% On-Hit, dealing damage on impact and each second after for 4 seconds.",
+      "summary_zh": "提莫每次攻击附带毒液伤害%i:OnHit% 攻击特效，造成持续性伤害，持续4秒。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308204:4022986"
+      ]
+    },
+    {
+      "ability_id": "ability:Teemo:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "提莫投掷一个蘑菇陷阱，它会在被敌方踩中时爆炸。陷阱造成持续【数值】秒的【数值】%减速并在此期间持续造成共【数值】魔法伤害。敌人会被显形相同的时长 。 陷阱持续【数值】分钟并且处于潜行状态。一个蘑菇在被扔到另一个蘑菇上时，会先弹跳然后着陆到它的位置。这个技能有【数值】层充能(【数值】秒充能时间)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Teemo"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Teemo"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Teemo"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308202:4015245"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Noxious Trap",
+      "name_zh": "种蘑菇",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Teemo",
+        "source:ddragon:16.16.1:en_US:Teemo",
+        "source:communitydragon:16.16:zh_cn:Teemo",
+        "source:wiki:1308202:4015245"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Teemo throws an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap, it will release a poisonous cloud, slowing enemies and damaging them over time. If Teemo throws a mushroom onto another mushroom it will bounce, gaining additional range.",
+      "summary_zh": "提莫投掷一个可爆炸的毒性陷阱，需要消耗提莫背包里的一个蘑菇。陷阱会在被敌方踩中时爆炸，释放出一团毒云，对附近的敌人造成减速效果和持续伤害。如果提莫把一个蘑菇扔到另一个蘑菇上，那么这个蘑菇会进行弹跳，获得额外的距离。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308202:4015245"
+      ]
+    }
+  ],
+  "card_id": "champion:Teemo:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Teemo"
+    ],
+    "numeric_key": "17",
+    "official_name_en": "Teemo",
+    "official_name_zh": "提莫",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Teemo",
+      "source:ddragon:16.16.1:en_US:Teemo",
+      "source:communitydragon:16.16:zh_cn:Teemo",
+      "source:riot-champion-page:Teemo:asof-2026-08-21"
+    ],
+    "stable_id": "Teemo",
+    "title_zh": "迅捷斥候"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "roles": [
+      "marksman",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Teemo"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:630fe306cf705cb47694cb33aca297f874f28bb6e012bd0a6c339626fa051f55",
+      "sha256:96afc005ce6efcac6ff5f21812bc596611573f14647be81e71a04807e58eea38",
+      "sha256:5936abcc8da03720aad51e29ee09fd9749f21e1779a5d7b71759a23c7a38f207",
+      "sha256:db0d2b5973d16eae7367d26cbb1f800e3b84fa9ac5948e81c7e88cdfbfd6b5fe",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:630fe306cf705cb47694cb33aca297f874f28bb6e012bd0a6c339626fa051f55",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Teemo.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Teemo",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 提莫",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Teemo.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:96afc005ce6efcac6ff5f21812bc596611573f14647be81e71a04807e58eea38",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Teemo.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Teemo",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Teemo",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Teemo.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:5936abcc8da03720aad51e29ee09fd9749f21e1779a5d7b71759a23c7a38f207",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/17.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Teemo",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 提莫",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/17.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:db0d2b5973d16eae7367d26cbb1f800e3b84fa9ac5948e81c7e88cdfbfd6b5fe",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/teemo.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Teemo:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Teemo",
+        "url": "https://www.leagueoflegends.com/en-us/champions/teemo/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4010103,
+        "revision_timestamp": "2026-04-18T15:10:56Z",
+        "source_ref_id": "source:wiki:1308210:4010103",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4010103",
+        "title": "Template:Data Teemo/Guerrilla Warfare",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Teemo/Guerrilla_Warfare",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3948425,
+        "revision_timestamp": "2025-08-19T15:37:23Z",
+        "source_ref_id": "source:wiki:1308208:3948425",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3948425",
+        "title": "Template:Data Teemo/Blinding Dart",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Teemo/Blinding_Dart",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4010102,
+        "revision_timestamp": "2026-04-18T15:10:43Z",
+        "source_ref_id": "source:wiki:1308206:4010102",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4010102",
+        "title": "Template:Data Teemo/Move Quick",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Teemo/Move_Quick",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4022986,
+        "revision_timestamp": "2026-05-27T21:16:39Z",
+        "source_ref_id": "source:wiki:1308204:4022986",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4022986",
+        "title": "Template:Data Teemo/Toxic Shot",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Teemo/Toxic_Shot",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:250178ef658f0889beadc49cf5e39865dc6e462ec888f0294920408a50a0c560",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-020.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015245,
+        "revision_timestamp": "2026-05-03T21:15:42Z",
+        "source_ref_id": "source:wiki:1308202:4015245",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015245",
+        "title": "Template:Data Teemo/Noxious Trap",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Teemo/Noxious_Trap",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

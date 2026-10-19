@@ -1,0 +1,519 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Draven:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "在接住一把旋转飞斧或者击杀了一个小兵、野怪或防御塔后，德莱文会从他的粉丝那里获得崇拜效果。击杀一名敌方英雄会为德莱文提供额外赏金，赏金的多少取决于他拥有多少层崇拜效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307064:4040578"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "League of Draven",
+      "name_zh": "德莱文联盟",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Draven",
+        "source:ddragon:16.16.1:en_US:Draven",
+        "source:communitydragon:16.16:zh_cn:Draven",
+        "source:wiki:1307064:4040578"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has.",
+      "summary_zh": "在接住一把旋转飞斧或者击杀了一个小兵、野怪或防御塔后，德莱文会从他的粉丝那里获得崇拜效果。击杀一名敌方英雄会为德莱文提供额外赏金，赏金的多少取决于他拥有多少层崇拜效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307064:4040578"
+      ]
+    },
+    {
+      "ability_id": "ability:Draven:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "德莱文准备好一把旋转飞斧，使他的下一次攻击造成额外的【数值】物理伤害然后弹到空中。如果德莱文接住了它，那么他会准备好另一把旋转飞斧。 德莱文可以同时持有2把旋转飞斧。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307066:3997560"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "physicaldamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Spinning Axe",
+      "name_zh": "旋转飞斧",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Draven",
+        "source:ddragon:16.16.1:en_US:Draven",
+        "source:communitydragon:16.16:zh_cn:Draven",
+        "source:wiki:1307066:3997560"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Draven's next attack will deal bonus physical damage. This axe will ricochet off the target high up into the air. If Draven catches it, he automatically readies another Spinning Axe. Draven can have two Spinning Axes at once.",
+      "summary_zh": "德莱文的下次攻击会造成额外物理伤害。这个斧头将会从目标身上弹到高空。如果德莱文接住了它，那么会立刻准备好下一发旋转飞斧。德莱文可以同时拥有2发旋转飞斧。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307066:3997560"
+      ]
+    },
+    {
+      "ability_id": "ability:Draven:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "德莱文进入幽灵状态，获得在【数值】秒里持续衰减的【数值】%移动速度和持续【数值】秒的【数值】%攻击速度。 当德莱文接住一把旋转飞斧时，这个技能的冷却时间就会刷新。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307068:3982566"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "attackspeed",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blood Rush",
+      "name_zh": "血性冲刺",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Draven",
+        "source:ddragon:16.16.1:en_US:Draven",
+        "source:communitydragon:16.16:zh_cn:Draven",
+        "source:wiki:1307068:3982566"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Draven gains increased Move Speed and Attack Speed. The Move Speed bonus decreases rapidly over its duration. Catching a Spinning Axe will refresh the cooldown of Blood Rush.",
+      "summary_zh": "德莱文获得移动速度和攻击速度加成。移动速度加成在持续时间过后会急剧下降。在接到一把旋转飞斧后，血性冲刺会立刻冷却完毕。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307068:3982566"
+      ]
+    },
+    {
+      "ability_id": "ability:Draven:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "德莱文抛掷一柄开山斧，造成【数值】物理伤害，击退，以及持续【数值】秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307070:4034694"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Stand Aside",
+      "name_zh": "开道利斧",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Draven",
+        "source:ddragon:16.16.1:en_US:Draven",
+        "source:communitydragon:16.16:zh_cn:Draven",
+        "source:wiki:1307070:4034694"
+      ],
+      "status_terms_zh": [
+        "击退",
+        "减速"
+      ],
+      "summary_en": "Draven throws his axes, dealing physical damage to targets hit and knocking them aside. Targets hit are slowed.",
+      "summary_zh": "德莱文扔出他的斧头，对命中的目标造成物理伤害，并将他们击退至一边。被命中的目标会受到减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307070:4034694"
+      ]
+    },
+    {
+      "ability_id": "ability:Draven:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "德莱文猛掷出两把巨斧来造成【数值】物理伤害。在命中一名英雄或再次施放之后，巨斧会掉转方向并返回德莱文处。巨斧每命中一个敌人就会降低【数值】%伤害，最低降至【数值】%。 如果冷血追命使一名敌方英雄的生命值低于德莱文目前的【数值】%德莱文联盟层数(【数值】)，那么德莱文会将该英雄处决。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Draven"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Draven"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Draven"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307072:4040576"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "recast",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Whirling Death",
+      "name_zh": "冷血追命",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Draven",
+        "source:ddragon:16.16.1:en_US:Draven",
+        "source:communitydragon:16.16:zh_cn:Draven",
+        "source:wiki:1307072:4040576"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction. Executes enemies who have less health than Draven's number of Adoration stacks.",
+      "summary_zh": "德莱文掷出两柄大斧，对命中的每个单位造成物理伤害。在命中一名敌方英雄后，大斧会缓慢地调转方向，并回到德莱文身边。在斧头正在向外飞的时候，德莱文可以激活该技能来让斧头早点飞回来。每命中一个单位，伤害值就会减少。在斧头调转方向时，伤害值会重置。会处决那些生命值低于德莱文崇拜层数的敌人们。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307072:4040576"
+      ]
+    }
+  ],
+  "card_id": "champion:Draven:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Draven"
+    ],
+    "numeric_key": "119",
+    "official_name_en": "Draven",
+    "official_name_zh": "德莱文",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Draven",
+      "source:ddragon:16.16.1:en_US:Draven",
+      "source:communitydragon:16.16:zh_cn:Draven",
+      "source:riot-champion-page:Draven:asof-2026-08-21"
+    ],
+    "stable_id": "Draven",
+    "title_zh": "荣耀行刑官"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "marksman"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Draven"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:99ddf09cede0be9aaa9252dde1a22dc1e660331af68379762071566222d01e87",
+      "sha256:a1e7ed2aa1b51d385feea416e5f93c78459143f8dd4c34c5dcf2798b87537cda",
+      "sha256:6b321432def15350a66bce668ae1ba18ab43b32c7b1f834c3f9f4bc1b1eff8d6",
+      "sha256:61daefd7568c1cd92277ff7909695bbc65d861e73e182ce97b9de1a350ea23df",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+      "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:99ddf09cede0be9aaa9252dde1a22dc1e660331af68379762071566222d01e87",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Draven.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Draven",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 德莱文",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Draven.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:a1e7ed2aa1b51d385feea416e5f93c78459143f8dd4c34c5dcf2798b87537cda",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Draven.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Draven",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Draven",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Draven.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6b321432def15350a66bce668ae1ba18ab43b32c7b1f834c3f9f4bc1b1eff8d6",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/119.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Draven",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 德莱文",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/119.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:61daefd7568c1cd92277ff7909695bbc65d861e73e182ce97b9de1a350ea23df",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/draven.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Draven:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Draven",
+        "url": "https://www.leagueoflegends.com/en-us/champions/draven/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4040578,
+        "revision_timestamp": "2026-07-06T14:40:30Z",
+        "source_ref_id": "source:wiki:1307064:4040578",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4040578",
+        "title": "Template:Data Draven/League of Draven",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Draven/League_of_Draven",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3997560,
+        "revision_timestamp": "2026-03-08T18:46:41Z",
+        "source_ref_id": "source:wiki:1307066:3997560",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3997560",
+        "title": "Template:Data Draven/Spinning Axe",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Draven/Spinning_Axe",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3982566,
+        "revision_timestamp": "2026-01-09T09:06:22Z",
+        "source_ref_id": "source:wiki:1307068:3982566",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3982566",
+        "title": "Template:Data Draven/Blood Rush",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Draven/Blood_Rush",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4034694,
+        "revision_timestamp": "2026-06-23T21:12:57Z",
+        "source_ref_id": "source:wiki:1307070:4034694",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4034694",
+        "title": "Template:Data Draven/Stand Aside",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Draven/Stand_Aside",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4040576,
+        "revision_timestamp": "2026-07-06T14:27:37Z",
+        "source_ref_id": "source:wiki:1307072:4040576",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4040576",
+        "title": "Template:Data Draven/Whirling Death",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Draven/Whirling_Death",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

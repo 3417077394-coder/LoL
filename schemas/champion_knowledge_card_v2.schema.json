@@ -1,0 +1,292 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.lol-draft-alignment/schemas/champion_knowledge_card_v2.schema.json",
+  "title": "Source-grounded Champion Knowledge Card v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "card_id",
+    "knowledge_snapshot_id",
+    "ruleset",
+    "locale",
+    "champion",
+    "client_classification",
+    "abilities",
+    "patch_change",
+    "provenance",
+    "quality"
+  ],
+  "properties": {
+    "schema_version": {"const": "champion-knowledge-card-v2"},
+    "card_id": {"$ref": "#/$defs/nonEmptyString"},
+    "knowledge_snapshot_id": {"$ref": "#/$defs/nonEmptyString"},
+    "ruleset": {"$ref": "#/$defs/ruleset"},
+    "locale": {"const": "zh-CN"},
+    "champion": {"$ref": "#/$defs/champion"},
+    "client_classification": {"$ref": "#/$defs/clientClassification"},
+    "abilities": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {"$ref": "#/$defs/ability"}
+    },
+    "patch_change": {"$ref": "#/$defs/patchChange"},
+    "provenance": {"$ref": "#/$defs/provenance"},
+    "quality": {"$ref": "#/$defs/quality"}
+  },
+  "$defs": {
+    "nonEmptyString": {"type": "string", "minLength": 1},
+    "stringArray": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/nonEmptyString"},
+      "uniqueItems": true
+    },
+    "idArray": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/nonEmptyString"},
+      "uniqueItems": true
+    },
+    "ruleset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ruleset_id",
+        "ddragon_version",
+        "public_patch_alias",
+        "as_of",
+        "region_scope"
+      ],
+      "properties": {
+        "ruleset_id": {"const": "lol-pc-ddragon-16.16.1-asof-2026-08-21"},
+        "ddragon_version": {"const": "16.16.1"},
+        "public_patch_alias": {"const": "26.16"},
+        "as_of": {"const": "2026-08-21"},
+        "region_scope": {"const": "global_pc"}
+      }
+    },
+    "champion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stable_id",
+        "numeric_key",
+        "official_name_zh",
+        "official_name_en",
+        "title_zh",
+        "aliases",
+        "resource_type_zh",
+        "source_ref_ids"
+      ],
+      "properties": {
+        "stable_id": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_]*$"},
+        "numeric_key": {"type": "string", "pattern": "^[0-9]+$"},
+        "official_name_zh": {"$ref": "#/$defs/nonEmptyString"},
+        "official_name_en": {"$ref": "#/$defs/nonEmptyString"},
+        "title_zh": {"$ref": "#/$defs/nonEmptyString"},
+        "aliases": {"$ref": "#/$defs/stringArray"},
+        "resource_type_zh": {"$ref": "#/$defs/nonEmptyString"},
+        "source_ref_ids": {"$ref": "#/$defs/idArray"}
+      }
+    },
+    "clientClassification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["roles", "attack_type", "difficulty", "playstyle", "source_ref_ids"],
+      "properties": {
+        "roles": {"$ref": "#/$defs/stringArray"},
+        "attack_type": {
+          "type": "string",
+          "enum": ["melee", "ranged", "mixed", "unknown"]
+        },
+        "difficulty": {"type": ["integer", "null"], "minimum": 0},
+        "playstyle": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["damage", "durability", "crowd_control", "mobility", "utility"],
+          "properties": {
+            "damage": {"type": ["integer", "null"]},
+            "durability": {"type": ["integer", "null"]},
+            "crowd_control": {"type": ["integer", "null"]},
+            "mobility": {"type": ["integer", "null"]},
+            "utility": {"type": ["integer", "null"]}
+          }
+        },
+        "source_ref_ids": {"$ref": "#/$defs/idArray"}
+      }
+    },
+    "ability": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ability_id",
+        "slot",
+        "name_zh",
+        "name_en",
+        "summary_zh",
+        "summary_en",
+        "detailed_description_zh",
+        "damage_types",
+        "status_terms_zh",
+        "markup_tags",
+        "mechanism_critical_numbers_preserved",
+        "field_sources",
+        "source_ref_ids",
+        "wiki_source_ref_ids",
+        "extraction"
+      ],
+      "properties": {
+        "ability_id": {"$ref": "#/$defs/nonEmptyString"},
+        "slot": {"type": "string", "enum": ["passive", "q", "w", "e", "r"]},
+        "name_zh": {"$ref": "#/$defs/nonEmptyString"},
+        "name_en": {"$ref": "#/$defs/nonEmptyString"},
+        "summary_zh": {"$ref": "#/$defs/nonEmptyString"},
+        "summary_en": {"$ref": "#/$defs/nonEmptyString"},
+        "detailed_description_zh": {"$ref": "#/$defs/nonEmptyString"},
+        "damage_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["physical", "magic", "true", "mixed", "none", "unknown"]
+          },
+          "uniqueItems": true
+        },
+        "status_terms_zh": {"$ref": "#/$defs/stringArray"},
+        "markup_tags": {"$ref": "#/$defs/stringArray"},
+        "mechanism_critical_numbers_preserved": {"type": "boolean"},
+        "field_sources": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name_zh",
+            "name_en",
+            "summary_zh",
+            "summary_en",
+            "detailed_description_zh",
+            "deterministic_hints",
+            "wiki_supplement"
+          ],
+          "properties": {
+            "name_zh": {"$ref": "#/$defs/idArray"},
+            "name_en": {"$ref": "#/$defs/idArray"},
+            "summary_zh": {"$ref": "#/$defs/idArray"},
+            "summary_en": {"$ref": "#/$defs/idArray"},
+            "detailed_description_zh": {"$ref": "#/$defs/idArray"},
+            "deterministic_hints": {"$ref": "#/$defs/idArray"},
+            "wiki_supplement": {"$ref": "#/$defs/stringArray"}
+          }
+        },
+        "source_ref_ids": {"$ref": "#/$defs/idArray"},
+        "wiki_source_ref_ids": {"$ref": "#/$defs/stringArray"},
+        "extraction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["method", "status", "notes"],
+          "properties": {
+            "method": {"const": "deterministic_client_markup_v1"},
+            "status": {"type": "string", "enum": ["source_grounded", "partial"]},
+            "notes": {"$ref": "#/$defs/stringArray"}
+          }
+        }
+      }
+    },
+    "patchChange": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "text_en", "source_ref_id"],
+      "properties": {
+        "status": {"type": "string", "enum": ["listed", "not_listed"]},
+        "text_en": {"type": ["string", "null"]},
+        "source_ref_id": {"$ref": "#/$defs/nonEmptyString"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sources", "generated_at", "builder_version", "input_hashes"],
+      "properties": {
+        "sources": {
+          "type": "array",
+          "minItems": 5,
+          "items": {"$ref": "#/$defs/source"}
+        },
+        "generated_at": {"type": "string", "format": "date-time"},
+        "builder_version": {"const": "full-kb-builder-v1"},
+        "input_hashes": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+          "uniqueItems": true
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_ref_id",
+        "source_type",
+        "publisher",
+        "title",
+        "url",
+        "version_namespace",
+        "source_version",
+        "retrieved_at",
+        "content_hash",
+        "raw_snapshot_path"
+      ],
+      "properties": {
+        "source_ref_id": {"$ref": "#/$defs/nonEmptyString"},
+        "source_type": {
+          "type": "string",
+          "enum": [
+            "riot_ddragon",
+            "riot_champion_page",
+            "riot_patch_notes",
+            "communitydragon_client_extract",
+            "official_wiki_community_maintained"
+          ]
+        },
+        "publisher": {"$ref": "#/$defs/nonEmptyString"},
+        "title": {"$ref": "#/$defs/nonEmptyString"},
+        "url": {"type": "string", "format": "uri"},
+        "version_namespace": {"$ref": "#/$defs/nonEmptyString"},
+        "source_version": {"$ref": "#/$defs/nonEmptyString"},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "content_hash": {"type": "string", "pattern": "^sha256:[a-f0-9]{64}$"},
+        "raw_snapshot_path": {"$ref": "#/$defs/nonEmptyString"},
+        "revision_id": {"type": ["integer", "null"]},
+        "revision_timestamp": {"type": ["string", "null"], "format": "date-time"}
+      }
+    },
+    "quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "human_reviewed",
+        "source_coverage",
+        "quality_flags",
+        "usage_policy"
+      ],
+      "properties": {
+        "status": {"const": "source_grounded_auto"},
+        "human_reviewed": {"const": false},
+        "source_coverage": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["ddragon", "communitydragon", "riot_champion_page", "official_wiki", "patch_notes"],
+          "properties": {
+            "ddragon": {"type": "boolean"},
+            "communitydragon": {"type": "boolean"},
+            "riot_champion_page": {"type": "boolean"},
+            "official_wiki": {"type": "boolean"},
+            "patch_notes": {"type": "boolean"}
+          }
+        },
+        "quality_flags": {"$ref": "#/$defs/stringArray"},
+        "usage_policy": {"const": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"}
+      }
+    }
+  }
+}

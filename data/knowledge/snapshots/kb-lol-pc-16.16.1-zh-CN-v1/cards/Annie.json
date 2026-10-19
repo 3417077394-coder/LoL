@@ -1,0 +1,519 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Annie:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "在施放4个技能后，安妮的下一次伤害类技能就会对目标造成短暂的晕眩效果。 安妮在游戏开始时和重生时，会带着满层的【嗜火】。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306801:3932255"
+        ]
+      },
+      "markup_tags": [
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Pyromania",
+      "name_zh": "嗜火",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Annie",
+        "source:ddragon:16.16.1:en_US:Annie",
+        "source:communitydragon:16.16:zh_cn:Annie",
+        "source:wiki:1306801:3932255"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "After casting 4 spells, Annie's next offensive spell will stun the target. Annie begins the game and respawns with Pyromania available.",
+      "summary_zh": "在施放4个技能后，安妮的下一次伤害类技能就会对目标造成短暂的晕眩效果。 安妮在游戏开始时和重生时，会带着满层的【嗜火】。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306801:3932255"
+      ]
+    },
+    {
+      "ability_id": "ability:Annie:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "安妮投出一团火球，造成【数值】魔法伤害。如果目标阵亡，那么安妮会返还法力值并缩短50%冷却时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306799:3992633"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Disintegrate",
+      "name_zh": "碎裂之火",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Annie",
+        "source:ddragon:16.16.1:en_US:Annie",
+        "source:communitydragon:16.16:zh_cn:Annie",
+        "source:wiki:1306799:3992633"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Annie hurls a Mana infused fireball, dealing damage and refunding the Mana cost if it destroys the target.",
+      "summary_zh": "安妮向目标投出注入了法力值的火球，对目标造成魔法伤害。如果目标死于碎裂之火，则碎裂之火消耗的法力值会返还给安妮，且碎裂之火的冷却时间减半。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306799:3992633"
+      ]
+    },
+    {
+      "ability_id": "ability:Annie:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "安妮投射出一阵火焰波，造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306797:3952555"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Incinerate",
+      "name_zh": "焚烧",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Annie",
+        "source:ddragon:16.16.1:en_US:Annie",
+        "source:communitydragon:16.16:zh_cn:Annie",
+        "source:wiki:1306797:3952555"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Annie casts a blazing cone of fire, dealing damage to all enemies in the area.",
+      "summary_zh": "安妮向锥形区域施放一道烈焰，对区域内的所有敌人造成伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306797:3952555"
+      ]
+    },
+    {
+      "ability_id": "ability:Annie:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "安妮为一名友方英雄提供持续【数值】秒的【数值】护盾值，以及在【数值】秒里持续衰减的【数值】移动速度。当护盾处于激活状态时，敌人用攻击或技能对护盾造成伤害时会受到【数值】魔法伤害，每个护盾受到一次伤害。 提伯斯在被召唤出来时总会获得熔岩护盾的效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306795:4038214"
+        ]
+      },
+      "markup_tags": [
+        "shield",
+        "speed",
+        "magicdamage",
+        "br",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Molten Shield",
+      "name_zh": "熔岩护盾",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Annie",
+        "source:ddragon:16.16.1:en_US:Annie",
+        "source:communitydragon:16.16:zh_cn:Annie",
+        "source:wiki:1306795:4038214"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Grants Annie or an ally a shield, a burst of Move Speed, and damages enemies who strike her with attacks or spells.",
+      "summary_zh": "为安妮或一名友军提供一层护盾、一个爆发性的移动速度加成并且对任何用攻击或技能袭击她的敌人造成伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306795:4038214"
+      ]
+    },
+    {
+      "ability_id": "ability:Annie:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：安妮获得【数值】%法术穿透。 安妮召唤提伯斯，造成【数值】魔法伤害。在接下来的【数值】秒里，提伯斯会灼烧附近的敌人，每秒造成【数值】魔法伤害。 提伯斯在以下情况下会变得暴怒：在被召唤出来时、在安妮晕眩一名敌方英雄时、以及在安妮阵亡时。在暴怒状态下，提伯斯获得275%攻击速度和在3秒里持续衰减的100%移动速度。 再次施放：手动给提伯斯下达指令。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Annie"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Annie"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Annie"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306793:4012758"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicpen",
+        "br",
+        "magicdamage",
+        "attackspeed",
+        "speed",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Summon: Tibbers",
+      "name_zh": "提伯斯之怒",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Annie",
+        "source:ddragon:16.16.1:en_US:Annie",
+        "source:communitydragon:16.16:zh_cn:Annie",
+        "source:wiki:1306793:4012758"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.",
+      "summary_zh": "安妮召唤地狱火泰迪：提伯斯为其作战，对目标区域造成伤害，提伯斯也会攻击和烧伤站在它周围的敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306793:4012758"
+      ]
+    }
+  ],
+  "card_id": "champion:Annie:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Annie"
+    ],
+    "numeric_key": "1",
+    "official_name_en": "Annie",
+    "official_name_zh": "安妮",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Annie",
+      "source:ddragon:16.16.1:en_US:Annie",
+      "source:communitydragon:16.16:zh_cn:Annie",
+      "source:riot-champion-page:Annie:asof-2026-08-21"
+    ],
+    "stable_id": "Annie",
+    "title_zh": "黑暗之女"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "roles": [
+      "mage",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Annie"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:79c07765938868b6efd75ffd47bc84dfa37899b6acb89722258bb76f3aa9a1b9",
+      "sha256:6c9020db181061942ce810d1861a01d6db4ca73168db85c76a34bbcb6dc7fc02",
+      "sha256:4199ccdb6bb628809833a4007c6bf6566d4206e6839b5d2288d133c0e7e39cee",
+      "sha256:6d1699fb709eea6d1438ff9abfa35d0bbc730f9a1a36fd4d807c41a9b592e6bb",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:79c07765938868b6efd75ffd47bc84dfa37899b6acb89722258bb76f3aa9a1b9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Annie.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Annie",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 安妮",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Annie.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6c9020db181061942ce810d1861a01d6db4ca73168db85c76a34bbcb6dc7fc02",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Annie.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Annie",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Annie",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Annie.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:4199ccdb6bb628809833a4007c6bf6566d4206e6839b5d2288d133c0e7e39cee",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/1.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Annie",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 安妮",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/1.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:6d1699fb709eea6d1438ff9abfa35d0bbc730f9a1a36fd4d807c41a9b592e6bb",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/annie.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Annie:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Annie",
+        "url": "https://www.leagueoflegends.com/en-us/champions/annie/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3932255,
+        "revision_timestamp": "2025-07-18T21:06:25Z",
+        "source_ref_id": "source:wiki:1306801:3932255",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3932255",
+        "title": "Template:Data Annie/Pyromania",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Annie/Pyromania",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3992633,
+        "revision_timestamp": "2026-02-18T20:26:40Z",
+        "source_ref_id": "source:wiki:1306799:3992633",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3992633",
+        "title": "Template:Data Annie/Disintegrate",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Annie/Disintegrate",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3952555,
+        "revision_timestamp": "2025-09-09T20:02:26Z",
+        "source_ref_id": "source:wiki:1306797:3952555",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3952555",
+        "title": "Template:Data Annie/Incinerate",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Annie/Incinerate",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038214,
+        "revision_timestamp": "2026-06-30T07:20:06Z",
+        "source_ref_id": "source:wiki:1306795:4038214",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038214",
+        "title": "Template:Data Annie/Molten Shield",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Annie/Molten_Shield",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4012758,
+        "revision_timestamp": "2026-04-26T04:41:22Z",
+        "source_ref_id": "source:wiki:1306793:4012758",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4012758",
+        "title": "Template:Data Annie/Summon: Tibbers",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Annie/Summon:_Tibbers",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

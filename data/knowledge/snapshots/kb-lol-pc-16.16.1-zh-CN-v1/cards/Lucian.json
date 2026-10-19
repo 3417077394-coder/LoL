@@ -1,0 +1,516 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Lucian:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "每使用一个技能时，卢锡安的下次普通攻击都会连射2次。当卢锡安从另一位友军处获得治疗或护盾、或者有一名附近的敌方英雄被定身时，他的下2次普通攻击造成额外魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308174:4041164"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Lightslinger",
+      "name_zh": "圣光银弹",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lucian",
+        "source:ddragon:16.16.1:en_US:Lucian",
+        "source:communitydragon:16.16:zh_cn:Lucian",
+        "source:wiki:1308174:4041164"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Whenever Lucian uses an ability, his next attack becomes a double-shot. When Lucian is healed or shielded by an ally, or when a nearby enemy Champion is immobilized, his next 2 basic attacks will deal bonus magic damage.",
+      "summary_zh": "每使用一个技能时，卢锡安的下次普通攻击都会连射2次。当卢锡安从另一位友军处获得治疗或护盾、或者有一名附近的敌方英雄被定身时，他的下2次普通攻击造成额外魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308174:4041164"
+      ]
+    },
+    {
+      "ability_id": "ability:Lucian:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "卢锡安发射一束透体圣光，造成【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308176:3982579"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Piercing Light",
+      "name_zh": "透体圣光",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lucian",
+        "source:ddragon:16.16.1:en_US:Lucian",
+        "source:communitydragon:16.16:zh_cn:Lucian",
+        "source:wiki:1308176:3982579"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Lucian shoots a bolt of piercing light through a target.",
+      "summary_zh": "卢锡安射出一束穿透性的圣光穿过他的目标。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308176:3982579"
+      ]
+    },
+    {
+      "ability_id": "ability:Lucian:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "卢锡安发射一颗子弹，子弹会在到达射程终点或命中第一个敌人时爆炸，造成【数值】魔法伤害，暂时显形敌人们并将其标记6秒。 当卢锡安或一名友方英雄对被标记的敌人造成伤害时，卢锡安会获得持续1秒的【数值】移动速度。友方英雄在触发这个效果时，也会为卢锡安提供警惕效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308178:3594941"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "br",
+        "speed",
+        "attention"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Ardent Blaze",
+      "name_zh": "热诚烈弹",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lucian",
+        "source:ddragon:16.16.1:en_US:Lucian",
+        "source:communitydragon:16.16:zh_cn:Lucian",
+        "source:wiki:1308178:3594941"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Lucian shoots a missile that explodes in a star shape, marking and briefly revealing enemies. Lucian gains Move Speed for attacking marked enemies.",
+      "summary_zh": "卢锡安发射一个会呈星形爆炸的飞弹，标记并暂时显形敌人。在卢锡安攻击被标记的敌人时，会获得移动速度加成。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308178:3594941"
+      ]
+    },
+    {
+      "ability_id": "ability:Lucian:e:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "卢锡安进行冲刺。 当卢锡安用圣光银弹命中一名敌人时，这个技能的冷却时间会缩短【数值】秒(对英雄时缩短【数值】秒)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308180:4008455"
+        ]
+      },
+      "markup_tags": [
+        "br",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Relentless Pursuit",
+      "name_zh": "冷酷追击",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lucian",
+        "source:ddragon:16.16.1:en_US:Lucian",
+        "source:communitydragon:16.16:zh_cn:Lucian",
+        "source:wiki:1308180:4008455"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Lucian quickly dashes a short distance. Lightslinger attacks reduce Relentless Pursuit's cooldown.",
+      "summary_zh": "卢锡安冲刺一小段距离。【圣光银弹】的攻击会减少【冷酷追击】的冷却时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308180:4008455"
+      ]
+    },
+    {
+      "ability_id": "ability:Lucian:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "卢锡安朝一个方向快速发射【数值】颗子弹，持续【数值】秒或直到他再次施放。每颗子弹对命中的第一个敌人造成【数值】物理伤害。 在发射时，卢锡安可以使用冷酷追击。 总伤害：【数值】物理伤害",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lucian"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lucian"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lucian"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308182:4007670"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "recast",
+        "physicaldamage",
+        "br",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "The Culling",
+      "name_zh": "圣枪洗礼",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lucian",
+        "source:ddragon:16.16.1:en_US:Lucian",
+        "source:communitydragon:16.16:zh_cn:Lucian",
+        "source:wiki:1308182:4007670"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Lucian unleashes a torrent of shots from his weapons.",
+      "summary_zh": "卢锡安的武器释放出大量的子弹。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308182:4007670"
+      ]
+    }
+  ],
+  "card_id": "champion:Lucian:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Lucian"
+    ],
+    "numeric_key": "236",
+    "official_name_en": "Lucian",
+    "official_name_zh": "卢锡安",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Lucian",
+      "source:ddragon:16.16.1:en_US:Lucian",
+      "source:communitydragon:16.16:zh_cn:Lucian",
+      "source:riot-champion-page:Lucian:asof-2026-08-21"
+    ],
+    "stable_id": "Lucian",
+    "title_zh": "圣枪游侠"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Lucian"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:1f022a85f42fc64f8ee50348b6093f1f30e153cea98dee57d9a0be94c88936df",
+      "sha256:e36f1d627fdd9a323ee154229d5e37879256cae22425a065fb483540b0e08546",
+      "sha256:049911ba8ed0ee4b7b13978a221459ad2133ab3334eb3daeac7700a27c1243dd",
+      "sha256:32c86220f8464e2d7ed35442116e828572969c1ae0e5b1912f8855cf0a1d63b9",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:1f022a85f42fc64f8ee50348b6093f1f30e153cea98dee57d9a0be94c88936df",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Lucian.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Lucian",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 卢锡安",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Lucian.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:e36f1d627fdd9a323ee154229d5e37879256cae22425a065fb483540b0e08546",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Lucian.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Lucian",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Lucian",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Lucian.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:049911ba8ed0ee4b7b13978a221459ad2133ab3334eb3daeac7700a27c1243dd",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/236.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Lucian",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 卢锡安",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/236.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:32c86220f8464e2d7ed35442116e828572969c1ae0e5b1912f8855cf0a1d63b9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/lucian.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Lucian:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Lucian",
+        "url": "https://www.leagueoflegends.com/en-us/champions/lucian/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4041164,
+        "revision_timestamp": "2026-07-07T23:40:10Z",
+        "source_ref_id": "source:wiki:1308174:4041164",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4041164",
+        "title": "Template:Data Lucian/Lightslinger",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lucian/Lightslinger",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3982579,
+        "revision_timestamp": "2026-01-09T09:22:29Z",
+        "source_ref_id": "source:wiki:1308176:3982579",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3982579",
+        "title": "Template:Data Lucian/Piercing Light",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lucian/Piercing_Light",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3594941,
+        "revision_timestamp": "2023-09-12T19:08:23Z",
+        "source_ref_id": "source:wiki:1308178:3594941",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3594941",
+        "title": "Template:Data Lucian/Ardent Blaze",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lucian/Ardent_Blaze",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008455,
+        "revision_timestamp": "2026-04-14T19:17:14Z",
+        "source_ref_id": "source:wiki:1308180:4008455",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008455",
+        "title": "Template:Data Lucian/Relentless Pursuit",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lucian/Relentless_Pursuit",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007670,
+        "revision_timestamp": "2026-04-12T10:40:21Z",
+        "source_ref_id": "source:wiki:1308182:4007670",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007670",
+        "title": "Template:Data Lucian/The Culling",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lucian/The_Culling",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

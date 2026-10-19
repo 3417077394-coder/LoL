@@ -1,0 +1,508 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Swain:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "斯维因的鸦群会收集魂屑来治疗斯维因并永久提升他的最大生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308746:4008055"
+        ]
+      },
+      "markup_tags": [
+        "i"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Ravenous Flock",
+      "name_zh": "狂食鸦群",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Swain",
+        "source:ddragon:16.16.1:en_US:Swain",
+        "source:communitydragon:16.16:zh_cn:Swain",
+        "source:wiki:1308746:4008055"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health.",
+      "summary_zh": "斯维因的鸦群会收集魂屑来治疗斯维因并永久提升他的最大生命值。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308746:4008055"
+      ]
+    },
+    {
+      "ability_id": "ability:Swain:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "斯维因释放5道恶魔之力，造成【数值】魔法伤害，第一道之后的每道恶魔之力造成【数值】魔法伤害(最大伤害为【数值】魔法伤害)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1352569:4042686"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Death's Hand",
+      "name_zh": "解脱之触",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Swain",
+        "source:ddragon:16.16.1:en_US:Swain",
+        "source:communitydragon:16.16:zh_cn:Swain",
+        "source:wiki:1352569:4042686"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Swain unleashes several bolts of eldritch power that pierce through enemies. Enemies hit take more damage for each bolt they are struck by.",
+      "summary_zh": "斯维因释放多道恶魔之力，这种力量可以穿透命中的目标。被一道以上的恶魔之力所命中的敌人，会受到基于恶魔之力数量的更多伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1352569:4042686"
+      ]
+    },
+    {
+      "ability_id": "ability:Swain:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "斯维因睁开一只恶魔之眼，来使一个位置显形1.5秒，然后造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。 被命中的英雄会为斯维因提供一片魂屑并显形【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1352570:3992667"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "font"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Vision of Empire",
+      "name_zh": "帝国视界",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Swain",
+        "source:ddragon:16.16.1:en_US:Swain",
+        "source:communitydragon:16.16:zh_cn:Swain",
+        "source:wiki:1352570:3992667"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Swain opens a demon eye that deals damage and slows enemies. Champions hit are revealed and also grant Swain a Soul Fragment.",
+      "summary_zh": "斯维因睁开恶魔之眼来对敌人造成伤害和减速效果。在命中敌方英雄时会使该英雄显形，并为斯维因提供一片魂屑。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1352570:3992667"
+      ]
+    },
+    {
+      "ability_id": "ability:Swain:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "斯维因发射一道会折返的恶魔能量波，在命中的第一个敌人身上引爆，对一个区域内的敌人造成【数值】魔法伤害和【数值】秒禁锢。 用这个技能禁锢一名英雄后，可使斯维因再次施放这个技能来拉拽所有被永不复行禁锢的英雄们，并且每个被他拉拽的英雄将为他提供一个魂屑。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308742:4008056"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "spellname",
+        "font"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Nevermove",
+      "name_zh": "永不复行",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Swain",
+        "source:ddragon:16.16.1:en_US:Swain",
+        "source:communitydragon:16.16:zh_cn:Swain",
+        "source:wiki:1308742:4008056"
+      ],
+      "status_terms_zh": [
+        "禁锢"
+      ],
+      "summary_en": "Swain launches a wave of demonic power forward. It then returns to Swain and roots enemies it hits. Swain can then choose to pull all rooted champions closer. This ability has a shorter cooldown during Demonic Ascension.",
+      "summary_zh": "斯维因释放一道恶魔之手向前击出。手臂随后会返回至斯维因处，并禁锢它命中的敌人。斯维因之后可以选择将所有被禁锢的英雄们拉拽得更靠近他。这个技能在【恶魔升华】期间会有一个更短的冷却时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308742:4008056"
+      ]
+    },
+    {
+      "ability_id": "ability:Swain:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "斯维因使体内的恶魔解脱，每秒造成【数值】魔法伤害并从附近的敌人们身上汲取【数值】生命值。他的恶魔能量会持续消耗，但可通过汲取敌方英雄来无限期地充能并且会在参与击杀英雄后完全回复。 在【数值】秒后以及之后的每【数值】秒，斯维因能够在变身状态下施放恶魔耀光来对敌人们造成【数值】魔法伤害和在【数值】秒里持续衰减的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Swain"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Swain"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Swain"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "magicdamage",
+        "healing",
+        "br",
+        "spellname",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Demonic Ascension",
+      "name_zh": "恶魔升华",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Swain",
+        "source:ddragon:16.16.1:en_US:Swain",
+        "source:communitydragon:16.16:zh_cn:Swain"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Swain transforms into a demon and drains health from nearby enemy champions, minions, and neutral monsters. Swain can cast Demonflare to decimate and slow nearby enemies with a nova of soulfire. This form is indefinite as long as Swain drains enemy champions.",
+      "summary_zh": "斯维因变身为恶魔并从附近的敌方英雄、小兵和中立野怪身上汲取生命值。斯维因能施放【恶魔耀光】来用一道魂焰新星残害并减速附近的敌人们。这个形态可以在斯维因汲取敌方英雄时无限持续。",
+      "wiki_source_ref_ids": []
+    }
+  ],
+  "card_id": "champion:Swain:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Swain"
+    ],
+    "numeric_key": "50",
+    "official_name_en": "Swain",
+    "official_name_zh": "斯维因",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Swain",
+      "source:ddragon:16.16.1:en_US:Swain",
+      "source:communitydragon:16.16:zh_cn:Swain",
+      "source:riot-champion-page:Swain:asof-2026-08-21"
+    ],
+    "stable_id": "Swain",
+    "title_zh": "诺克萨斯统领"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "mage",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Swain"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:30f17dbfb8dc4330c70889ce63f35d342774b2adbe971d23bfc840a30f85df2d",
+      "sha256:975e8958fc08ba7a820e48b51ff76e74b8f28ae5ac7e1b0705e5f7c6684c4c43",
+      "sha256:16a41468f16634d17f26f1616387fa75fdb4825010b2e8ce5d569054a4831d1a",
+      "sha256:b054a3cdbbea97fa1de6cf99cc7515a3532617b13a8ec7b1f3413bbaa00eedd0",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:30f17dbfb8dc4330c70889ce63f35d342774b2adbe971d23bfc840a30f85df2d",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Swain.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Swain",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 斯维因",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Swain.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:975e8958fc08ba7a820e48b51ff76e74b8f28ae5ac7e1b0705e5f7c6684c4c43",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Swain.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Swain",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Swain",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Swain.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:16a41468f16634d17f26f1616387fa75fdb4825010b2e8ce5d569054a4831d1a",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/50.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Swain",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 斯维因",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/50.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:b054a3cdbbea97fa1de6cf99cc7515a3532617b13a8ec7b1f3413bbaa00eedd0",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/swain.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Swain:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Swain",
+        "url": "https://www.leagueoflegends.com/en-us/champions/swain/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008055,
+        "revision_timestamp": "2026-04-13T04:44:38Z",
+        "source_ref_id": "source:wiki:1308746:4008055",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008055",
+        "title": "Template:Data Swain/Ravenous Flock",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Swain/Ravenous_Flock",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4042686,
+        "revision_timestamp": "2026-07-14T09:15:35Z",
+        "source_ref_id": "source:wiki:1352569:4042686",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4042686",
+        "title": "Template:Data Swain/Death's Hand",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Swain/Death%27s_Hand",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3992667,
+        "revision_timestamp": "2026-02-18T20:46:17Z",
+        "source_ref_id": "source:wiki:1352570:3992667",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3992667",
+        "title": "Template:Data Swain/Vision of Empire",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Swain/Vision_of_Empire",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008056,
+        "revision_timestamp": "2026-04-13T04:45:42Z",
+        "source_ref_id": "source:wiki:1308742:4008056",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008056",
+        "title": "Template:Data Swain/Nevermove",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Swain/Nevermove",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "wiki_ability_gap:r",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

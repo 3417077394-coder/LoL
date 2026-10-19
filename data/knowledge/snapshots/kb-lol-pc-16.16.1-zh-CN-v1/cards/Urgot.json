@@ -1,0 +1,529 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Urgot:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "厄加特的普攻和【净除】会周期性地触发他腿上的烈焰喷射，造成物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1330040:4051193"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Echoing Flames",
+      "name_zh": "回响烈焰",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Urgot",
+        "source:ddragon:16.16.1:en_US:Urgot",
+        "source:communitydragon:16.16:zh_cn:Urgot",
+        "source:wiki:1330040:4051193"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Urgot's basic attacks and Purge periodically trigger blasts of flame from his legs, dealing physical damage.",
+      "summary_zh": "厄加特的普攻和【净除】会周期性地触发他腿上的烈焰喷射，造成物理伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1330040:4051193"
+      ]
+    },
+    {
+      "ability_id": "ability:Urgot:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "厄加特发射一个爆炸性的电荷，对爆炸波及到的敌人造成【数值】物理伤害和持续【数值】秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1330041:3952903"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Corrosive Charge",
+      "name_zh": "腐蚀电荷",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Urgot",
+        "source:ddragon:16.16.1:en_US:Urgot",
+        "source:communitydragon:16.16:zh_cn:Urgot",
+        "source:wiki:1330041:3952903"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Fires an explosive charge at the target location, dealing physical damage and slowing enemies caught in the explosion.",
+      "summary_zh": "发射一个可爆炸的电荷至目标位置，对爆炸波及到的敌人造成物理伤害和减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1330041:3952903"
+      ]
+    },
+    {
+      "ability_id": "ability:Urgot:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "被动：厄加特的其它技能会将命中的最后一名敌方英雄标记5秒。 主动：厄加特开始用他的链枪朝着相距最近的敌人开火，优先选择被标记的敌人。他每秒攻击目标【数值】次并且每次射击造成【数值】物理伤害。厄加特可以在开火时移动，并且拥有【数值】%减速抗性，但会失去【数值】移动速度。 这个技能在点满技能等级后，可无限持续并且能切换开启状态和关闭状态。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1330042:4008209"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "br",
+        "spellactive",
+        "physicaldamage",
+        "status",
+        "speed",
+        "toggle"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Purge",
+      "name_zh": "净除",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Urgot",
+        "source:ddragon:16.16.1:en_US:Urgot",
+        "source:communitydragon:16.16:zh_cn:Urgot",
+        "source:wiki:1330042:4008209"
+      ],
+      "status_terms_zh": [
+        "减速抗性"
+      ],
+      "summary_en": "Urgot slows himself while he unloads his weapon on nearby enemies. Prioritizes enemy champions Urgot has recently struck with other abilities and triggers Echoing Flames.",
+      "summary_zh": "厄加特减速自身的同时对附近的敌人们火力全开。优先攻击被厄加特近期用其它技能命中过的敌方英雄，并触发回响烈焰。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1330042:4008209"
+      ]
+    },
+    {
+      "ability_id": "ability:Urgot:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "厄加特向前冲锋，获得持续【数值】秒的【数值】护盾值。命中的第一个英雄会被晕眩【数值】秒并被投向厄加特的身后。厄加特碰撞到的所有敌人都会受到【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1330043:4008211"
+        ]
+      },
+      "markup_tags": [
+        "shield",
+        "status",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Disdain",
+      "name_zh": "鄙弃",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Urgot",
+        "source:ddragon:16.16.1:en_US:Urgot",
+        "source:communitydragon:16.16:zh_cn:Urgot",
+        "source:wiki:1330043:4008211"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Urgot charges in a direction, shielding himself and trampling non-champion enemies. If he catches an enemy champion, he will stop and hurl them out of his way.",
+      "summary_zh": "厄加特向一个方向冲锋，为自身提供护盾并践踏非英雄的敌人。如果他捕捉到一个敌方英雄，他将会停下并将该英雄抛到他的另一侧。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1330043:4008211"
+      ]
+    },
+    {
+      "ability_id": "ability:Urgot:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "厄加特发射一个炼金钻头来刺穿命中的第一个敌方英雄。造成【数值】物理伤害和持续【数值】秒的减速，幅度为每1%已损失生命值提供1%，至多为【数值】%。 如果目标的生命值在被刺穿状态下跌至【数值】%生命值以下，厄加特就可以再次施放这个技能，来压制目标并将其拖过来。在接触到厄加特后，目标会被击杀并且附近敌人会被恐惧【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Urgot"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Urgot"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Urgot"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1330044:4015146"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Fear Beyond Death",
+      "name_zh": "超越死亡的恐惧",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Urgot",
+        "source:ddragon:16.16.1:en_US:Urgot",
+        "source:communitydragon:16.16:zh_cn:Urgot",
+        "source:wiki:1330044:4015146"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "压制",
+        "恐惧"
+      ],
+      "summary_en": "Urgot fires a chem-drill that impales the first enemy champion hit. If that champion falls below a health threshold, Urgot judges them weak and can execute them.",
+      "summary_zh": "厄加特发射一个化学钻头，刺穿命中的第一个敌方英雄。如果该英雄的生命值低于一定阈值，那么厄加特就会将该英雄评判为弱者并将其处决。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1330044:4015146"
+      ]
+    }
+  ],
+  "card_id": "champion:Urgot:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Urgot"
+    ],
+    "numeric_key": "6",
+    "official_name_en": "Urgot",
+    "official_name_zh": "厄加特",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Urgot",
+      "source:ddragon:16.16.1:en_US:Urgot",
+      "source:communitydragon:16.16:zh_cn:Urgot",
+      "source:riot-champion-page:Urgot:asof-2026-08-21"
+    ],
+    "stable_id": "Urgot",
+    "title_zh": "无畏战车"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Urgot"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:7d5dfadbc4f27e3ac870d1acf04aee65a134813f44788de23caa53c8690524e9",
+      "sha256:1dc1d8f4bd5064dd8d97c7b34d9abcf5af086431a919d5cfc1b184620e09843b",
+      "sha256:83a8c520806d9f193f60a60f8b013a258c58ba80922cd5ef13cd7125aac1226c",
+      "sha256:0ea7a2bacd5dc3f07099e58c48442bd78c42e652b7aaa996d4e0568337bfc02b",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:7d5dfadbc4f27e3ac870d1acf04aee65a134813f44788de23caa53c8690524e9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Urgot.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Urgot",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 厄加特",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Urgot.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:1dc1d8f4bd5064dd8d97c7b34d9abcf5af086431a919d5cfc1b184620e09843b",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Urgot.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Urgot",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Urgot",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Urgot.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:83a8c520806d9f193f60a60f8b013a258c58ba80922cd5ef13cd7125aac1226c",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/6.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Urgot",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 厄加特",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/6.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:0ea7a2bacd5dc3f07099e58c48442bd78c42e652b7aaa996d4e0568337bfc02b",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/urgot.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Urgot:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Urgot",
+        "url": "https://www.leagueoflegends.com/en-us/champions/urgot/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051193,
+        "revision_timestamp": "2026-08-12T00:23:15Z",
+        "source_ref_id": "source:wiki:1330040:4051193",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051193",
+        "title": "Template:Data Urgot/Echoing Flames",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Urgot/Echoing_Flames",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3952903,
+        "revision_timestamp": "2025-09-10T13:16:17Z",
+        "source_ref_id": "source:wiki:1330041:3952903",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3952903",
+        "title": "Template:Data Urgot/Corrosive Charge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Urgot/Corrosive_Charge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008209,
+        "revision_timestamp": "2026-04-14T05:42:03Z",
+        "source_ref_id": "source:wiki:1330042:4008209",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008209",
+        "title": "Template:Data Urgot/Purge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Urgot/Purge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008211,
+        "revision_timestamp": "2026-04-14T05:42:53Z",
+        "source_ref_id": "source:wiki:1330043:4008211",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008211",
+        "title": "Template:Data Urgot/Disdain",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Urgot/Disdain",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015146,
+        "revision_timestamp": "2026-05-03T12:31:26Z",
+        "source_ref_id": "source:wiki:1330044:4015146",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015146",
+        "title": "Template:Data Urgot/Fear Beyond Death",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Urgot/Fear_Beyond_Death",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

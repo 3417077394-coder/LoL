@@ -1,0 +1,527 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Renata:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "烈娜塔的攻击会造成额外伤害并标记敌人。烈娜塔的队友在对被标记的敌人造成伤害时可以造成额外伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1518556:3997432"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Leverage",
+      "name_zh": "物尽其用",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renata",
+        "source:ddragon:16.16.1:en_US:Renata",
+        "source:communitydragon:16.16:zh_cn:Renata",
+        "source:wiki:1518556:3997432"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Renata's Attacks deal bonus damage and mark enemies. Renata's allies can damage marked enemies to deal bonus damage.",
+      "summary_zh": "烈娜塔的攻击会造成额外伤害并标记敌人。烈娜塔的队友在对被标记的敌人造成伤害时可以造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1518556:3997432"
+      ]
+    },
+    {
+      "ability_id": "ability:Renata:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "烈娜塔发射一颗飞弹来禁锢命中的第一个敌人【数值】秒，并造成【数值】魔法伤害。 再次施放：烈娜塔将敌人朝一个方向拉拽，对被其碰到的敌人们造成【数值】魔法伤害，并且如果被拉拽的敌人是一个英雄，那么还会造成【数值】秒晕眩。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1518557:4008011"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Handshake",
+      "name_zh": "铁腕竞合",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renata",
+        "source:ddragon:16.16.1:en_US:Renata",
+        "source:communitydragon:16.16:zh_cn:Renata",
+        "source:wiki:1518557:4008011"
+      ],
+      "status_terms_zh": [
+        "禁锢",
+        "拉拽",
+        "晕眩"
+      ],
+      "summary_en": "Renata sends out a missile rooting the first enemy hit, and can recast the ability to throw the unit in a direction.",
+      "summary_zh": "烈娜塔发射一颗飞弹来禁锢命中的第一个敌人，并且可以再次施放这个技能来将该目标朝一个方向投掷。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1518557:4008011"
+      ]
+    },
+    {
+      "ability_id": "ability:Renata:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "烈娜塔为一名友方英雄注入药剂，为其提供【数值】攻击速度和朝敌人时的【数值】移动速度，这个加成会在【数值】秒里持续提升至【数值】攻击速度和【数值】移动速度。参与击杀后会刷新这个增益的持续时间。 如果该友方英雄阵亡，就会带着满额生命值归来，然后这些生命值会在3秒里持续衰减。 如果该友方英雄在衰减期间参与了一次击杀，那么就会回复至【数值】%最大生命值并停止衰减。 该英雄在衰减状态下的死亡，可通过治疗或相似效果来延缓，但无法防止，除非该英雄参与了一次击杀。英雄仅可延缓一次死亡。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1518558:3908415"
+        ]
+      },
+      "markup_tags": [
+        "attackspeed",
+        "speed",
+        "br",
+        "healing",
+        "rules"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Bailout",
+      "name_zh": "及时救难",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renata",
+        "source:ddragon:16.16.1:en_US:Renata",
+        "source:communitydragon:16.16:zh_cn:Renata",
+        "source:wiki:1518558:3908415"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Renata buffs an allied champion to fight harder, delaying their death and potentially saving them if they get a takedown.",
+      "summary_zh": "烈娜塔增益一名友方英雄，让其打得更猛，延缓其死亡并且在其参与一次击杀后将其救活。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1518558:3908415"
+      ]
+    },
+    {
+      "ability_id": "ability:Renata:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "烈娜塔发射一对炼金科技飞弹，在命中敌人时对该敌人及周围的敌人们造成【数值】魔法伤害和持续【数值】秒的30%减速。在命中友军时提供持续【数值】秒的【数值】护盾值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1518559:4008012"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Loyalty Program",
+      "name_zh": "忠诚激励",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renata",
+        "source:ddragon:16.16.1:en_US:Renata",
+        "source:communitydragon:16.16:zh_cn:Renata",
+        "source:wiki:1518559:4008012"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Renata sends out a pair of chemtech missiles, shielding allies and damaging and slowing enemies hit.",
+      "summary_zh": "烈娜塔发射一对炼金科技飞弹，在命中时为友军提供护盾并对敌人造成伤害和减速。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1518559:4008012"
+      ]
+    },
+    {
+      "ability_id": "ability:Renata:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "烈娜塔发射一道炼金波纹，让命中的敌人们狂暴【数值】秒，来使他们攻击相距最近的单位并优先以他们的友军为目标。 在狂暴状态下，敌人们会获得【数值】%攻击速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Renata"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Renata"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Renata"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1518560:4050286"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "br",
+        "attackspeed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Hostile Takeover",
+      "name_zh": "恶意收购",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Renata",
+        "source:ddragon:16.16.1:en_US:Renata",
+        "source:communitydragon:16.16:zh_cn:Renata",
+        "source:wiki:1518560:4050286"
+      ],
+      "status_terms_zh": [
+        "狂暴"
+      ],
+      "summary_en": "Renata sends out a wave of chemicals, causing any enemies hit to go Berserk.",
+      "summary_zh": "烈娜塔发射一道炼金波纹，使命中的敌人们都陷入狂暴状态。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1518560:4050286"
+      ]
+    }
+  ],
+  "card_id": "champion:Renata:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Renata Glasc",
+      "Renata"
+    ],
+    "numeric_key": "888",
+    "official_name_en": "Renata Glasc",
+    "official_name_zh": "烈娜塔 · 戈拉斯克",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Renata",
+      "source:ddragon:16.16.1:en_US:Renata",
+      "source:communitydragon:16.16:zh_cn:Renata",
+      "source:riot-champion-page:Renata:asof-2026-08-21"
+    ],
+    "stable_id": "Renata",
+    "title_zh": "炼金男爵"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 2,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "roles": [
+      "support",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Renata"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:673ac81d2a1c8a7a3f1a1933cdf14a243754bbf90a7ff98fce8819874842f8f2",
+      "sha256:64cad50dcfcc4b0bf62a5fb0bff8f03fb41ac846d43171f89c2b4df0e79de746",
+      "sha256:fe68dc0a6f6216521ed4b6a9f0fdff6e283f185d735a5ecce7488cedfd599293",
+      "sha256:d0a5a8b0dd76a2d547ad299b6ad5ca056f9e0d05af2e50fc0ef9effb88210827",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:673ac81d2a1c8a7a3f1a1933cdf14a243754bbf90a7ff98fce8819874842f8f2",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Renata.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Renata",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 烈娜塔 · 戈拉斯克",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Renata.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:64cad50dcfcc4b0bf62a5fb0bff8f03fb41ac846d43171f89c2b4df0e79de746",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Renata.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Renata",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Renata Glasc",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Renata.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:fe68dc0a6f6216521ed4b6a9f0fdff6e283f185d735a5ecce7488cedfd599293",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/888.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Renata",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 烈娜塔 · 戈拉斯克",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/888.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:d0a5a8b0dd76a2d547ad299b6ad5ca056f9e0d05af2e50fc0ef9effb88210827",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/renata.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Renata:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Renata Glasc",
+        "url": "https://www.leagueoflegends.com/en-us/champions/renata/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3997432,
+        "revision_timestamp": "2026-03-08T05:09:55Z",
+        "source_ref_id": "source:wiki:1518556:3997432",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3997432",
+        "title": "Template:Data Renata Glasc/Leverage",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renata_Glasc/Leverage",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008011,
+        "revision_timestamp": "2026-04-13T03:25:37Z",
+        "source_ref_id": "source:wiki:1518557:4008011",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008011",
+        "title": "Template:Data Renata Glasc/Handshake",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renata_Glasc/Handshake",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3908415,
+        "revision_timestamp": "2025-06-09T13:19:31Z",
+        "source_ref_id": "source:wiki:1518558:3908415",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3908415",
+        "title": "Template:Data Renata Glasc/Bailout",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renata_Glasc/Bailout",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008012,
+        "revision_timestamp": "2026-04-13T03:26:17Z",
+        "source_ref_id": "source:wiki:1518559:4008012",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008012",
+        "title": "Template:Data Renata Glasc/Loyalty Program",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renata_Glasc/Loyalty_Program",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4050286,
+        "revision_timestamp": "2026-08-06T02:02:44Z",
+        "source_ref_id": "source:wiki:1518560:4050286",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4050286",
+        "title": "Template:Data Renata Glasc/Hostile Takeover",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Renata_Glasc/Hostile_Takeover",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

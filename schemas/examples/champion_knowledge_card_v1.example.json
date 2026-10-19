@@ -1,0 +1,320 @@
+{
+  "schema_version": "champion-knowledge-card-v1",
+  "card_id": "champion:SchemaExampleDoNotIngest:ddragon-16.16.1:zh-CN",
+  "knowledge_snapshot_id": "kb-ddragon-16.16.1-schema-example",
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "ddragon_version": "16.16.1",
+  "public_patch_alias": "26.16",
+  "as_of": "2026-08-21",
+  "region_scope": "global_pc",
+  "locale": "zh-CN",
+  "champion": {
+    "stable_id": "SchemaExampleDoNotIngest",
+    "numeric_key": null,
+    "official_name": "结构示例英雄（非游戏事实）",
+    "title": null,
+    "aliases": [
+      "SCHEMA_EXAMPLE_ONLY"
+    ],
+    "resource_type": null,
+    "source_ref_ids": [
+      "source:schema-example"
+    ]
+  },
+  "source_facts": {
+    "ability_facts": [
+      {
+        "fact_id": "fact:SchemaExampleDoNotIngest:passive:base:ddragon-16.16.1",
+        "slot": "passive",
+        "form_id": "base",
+        "official_name": "示例被动",
+        "official_description": "仅用于验证 Schema，不代表任何真实英雄机制。",
+        "mechanics_summary": "非游戏事实占位内容。",
+        "source_ref_ids": [
+          "source:schema-example"
+        ],
+        "raw_payload_path": null,
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16"
+      },
+      {
+        "fact_id": "fact:SchemaExampleDoNotIngest:q:base:ddragon-16.16.1",
+        "slot": "q",
+        "form_id": "base",
+        "official_name": "示例 Q",
+        "official_description": "仅用于验证 Schema，不代表任何真实英雄机制。",
+        "mechanics_summary": "非游戏事实占位内容。",
+        "source_ref_ids": [
+          "source:schema-example"
+        ],
+        "raw_payload_path": null,
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16"
+      },
+      {
+        "fact_id": "fact:SchemaExampleDoNotIngest:w:base:ddragon-16.16.1",
+        "slot": "w",
+        "form_id": "base",
+        "official_name": "示例 W",
+        "official_description": "仅用于验证 Schema，不代表任何真实英雄机制。",
+        "mechanics_summary": "非游戏事实占位内容。",
+        "source_ref_ids": [
+          "source:schema-example"
+        ],
+        "raw_payload_path": null,
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16"
+      },
+      {
+        "fact_id": "fact:SchemaExampleDoNotIngest:e:base:ddragon-16.16.1",
+        "slot": "e",
+        "form_id": "base",
+        "official_name": "示例 E",
+        "official_description": "仅用于验证 Schema，不代表任何真实英雄机制。",
+        "mechanics_summary": "非游戏事实占位内容。",
+        "source_ref_ids": [
+          "source:schema-example"
+        ],
+        "raw_payload_path": null,
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16"
+      },
+      {
+        "fact_id": "fact:SchemaExampleDoNotIngest:r:base:ddragon-16.16.1",
+        "slot": "r",
+        "form_id": "base",
+        "official_name": "示例 R",
+        "official_description": "仅用于验证 Schema，不代表任何真实英雄机制。",
+        "mechanics_summary": "非游戏事实占位内容。",
+        "source_ref_ids": [
+          "source:schema-example"
+        ],
+        "raw_payload_path": null,
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16"
+      }
+    ]
+  },
+  "normalized_mechanics": {
+    "ability_mechanics": [
+      {
+        "mechanic_id": "mechanic:example:passive",
+        "ability_fact_id": "fact:SchemaExampleDoNotIngest:passive:base:ddragon-16.16.1",
+        "damage_types": [
+          "unknown"
+        ],
+        "targeting_types": [
+          "passive"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "mobility_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "conditions": [],
+        "limitations": [
+          "非游戏事实占位内容"
+        ],
+        "source_fact_ids": [
+          "fact:SchemaExampleDoNotIngest:passive:base:ddragon-16.16.1"
+        ],
+        "normalization_method": "human",
+        "normalization_status": "generated"
+      },
+      {
+        "mechanic_id": "mechanic:example:q",
+        "ability_fact_id": "fact:SchemaExampleDoNotIngest:q:base:ddragon-16.16.1",
+        "damage_types": [
+          "unknown"
+        ],
+        "targeting_types": [
+          "other"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "mobility_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "conditions": [],
+        "limitations": [
+          "非游戏事实占位内容"
+        ],
+        "source_fact_ids": [
+          "fact:SchemaExampleDoNotIngest:q:base:ddragon-16.16.1"
+        ],
+        "normalization_method": "human",
+        "normalization_status": "generated"
+      },
+      {
+        "mechanic_id": "mechanic:example:w",
+        "ability_fact_id": "fact:SchemaExampleDoNotIngest:w:base:ddragon-16.16.1",
+        "damage_types": [
+          "unknown"
+        ],
+        "targeting_types": [
+          "other"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "mobility_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "conditions": [],
+        "limitations": [
+          "非游戏事实占位内容"
+        ],
+        "source_fact_ids": [
+          "fact:SchemaExampleDoNotIngest:w:base:ddragon-16.16.1"
+        ],
+        "normalization_method": "human",
+        "normalization_status": "generated"
+      },
+      {
+        "mechanic_id": "mechanic:example:e",
+        "ability_fact_id": "fact:SchemaExampleDoNotIngest:e:base:ddragon-16.16.1",
+        "damage_types": [
+          "unknown"
+        ],
+        "targeting_types": [
+          "other"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "mobility_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "conditions": [],
+        "limitations": [
+          "非游戏事实占位内容"
+        ],
+        "source_fact_ids": [
+          "fact:SchemaExampleDoNotIngest:e:base:ddragon-16.16.1"
+        ],
+        "normalization_method": "human",
+        "normalization_status": "generated"
+      },
+      {
+        "mechanic_id": "mechanic:example:r",
+        "ability_fact_id": "fact:SchemaExampleDoNotIngest:r:base:ddragon-16.16.1",
+        "damage_types": [
+          "unknown"
+        ],
+        "targeting_types": [
+          "other"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "mobility_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "conditions": [],
+        "limitations": [
+          "非游戏事实占位内容"
+        ],
+        "source_fact_ids": [
+          "fact:SchemaExampleDoNotIngest:r:base:ddragon-16.16.1"
+        ],
+        "normalization_method": "human",
+        "normalization_status": "generated"
+      }
+    ]
+  },
+  "tactical_profile": {
+    "positions": [
+      {
+        "position": "top",
+        "usage": "unknown",
+        "confidence": 0,
+        "basis_fact_ids": [
+          "fact:SchemaExampleDoNotIngest:passive:base:ddragon-16.16.1"
+        ],
+        "source_ref_ids": [
+          "source:schema-example"
+        ],
+        "review_status": "generated"
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_id": "attribute:example:other",
+        "category": "other",
+        "rating": "unknown",
+        "summary": "非游戏事实占位内容。",
+        "conditions": [
+          "仅用于 Schema 测试"
+        ],
+        "basis_fact_ids": [
+          "fact:SchemaExampleDoNotIngest:passive:base:ddragon-16.16.1"
+        ],
+        "derivation_method": "human",
+        "review_status": "generated"
+      }
+    ],
+    "limitations": [
+      {
+        "limitation_id": "limitation:example:not-real",
+        "summary": "该记录不得进入正式知识快照。",
+        "conditions": [
+          "stable_id 为 SchemaExampleDoNotIngest"
+        ],
+        "basis_fact_ids": [
+          "fact:SchemaExampleDoNotIngest:passive:base:ddragon-16.16.1"
+        ],
+        "review_status": "generated"
+      }
+    ]
+  },
+  "provenance": {
+    "sources": [
+      {
+        "source_ref_id": "source:schema-example",
+        "source_type": "internal_reference",
+        "title": "Champion Knowledge Card v1 schema example",
+        "publisher": "lol-draft-alignment",
+        "url": null,
+        "retrieved_at": "2026-08-21T00:00:00Z",
+        "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+        "usage_basis": "internal",
+        "version_namespace": "internal",
+        "source_version": "champion-knowledge-card-v1"
+      }
+    ],
+    "generation": {
+      "ingest_method": "schema_example",
+      "script_version": "not-applicable",
+      "input_hashes": [],
+      "generated_at": "2026-08-21T00:00:00Z"
+    }
+  },
+  "review": {
+    "status": "generated",
+    "reviewer_ids": [],
+    "reviewed_at": null,
+    "quality_flags": [
+      "manual_review_required"
+    ],
+    "notes": [
+      "Schema-only synthetic record. Never ingest into a knowledge snapshot."
+    ]
+  }
+}

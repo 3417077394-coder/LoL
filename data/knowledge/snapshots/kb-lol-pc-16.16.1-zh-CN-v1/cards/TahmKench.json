@@ -1,0 +1,521 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:TahmKench:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "塔姆将他那庞大身躯的分量夹杂在他的攻击和技能中，从而使他能造成基于自身总生命值的额外伤害。对敌方英雄造成伤害时，塔姆可以在目标身上叠加培养品味的层数。当敌方英雄身上的层数到达3时，塔姆可以使用大快朵颐来吞噬这名敌方英雄。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309258:4008458"
+        ]
+      },
+      "markup_tags": [
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "An Acquired Taste",
+      "name_zh": "培养品味",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TahmKench",
+        "source:ddragon:16.16.1:en_US:TahmKench",
+        "source:communitydragon:16.16:zh_cn:TahmKench",
+        "source:wiki:1309258:4008458"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Tahm Kench puts the heft of his immense body behind his attacks, gaining extra damage based on his total health. Damaging enemy champions builds stacks of An Acquired Taste. At three stacks, he can use Devour on an enemy champion.",
+      "summary_zh": "塔姆将他那庞大身躯的分量夹杂在他的攻击和技能中，从而使他能造成基于自身总生命值的额外伤害。对敌方英雄造成伤害时，塔姆可以在目标身上叠加培养品味的层数。当敌方英雄身上的层数到达3时，塔姆可以使用大快朵颐来吞噬这名敌方英雄。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309258:4008458"
+      ]
+    },
+    {
+      "ability_id": "ability:TahmKench:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "对命中的第一个敌人造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。 在命中英雄时，塔姆会回复他【数值】 +他的【数值】%已损失生命值并施加一层培养品味效果并造成【数值】额外魔法伤害。如果目标英雄已经被叠加了3层培养品味，那么该英雄还会被晕眩【数值】秒，并且层数会被消耗掉。 当你的舌头处在半空中，且命中了远处已经被叠加了3层培养品味的敌方英雄时，激活大快朵颐即可将其吞噬。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309260:4040842"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "healing",
+        "spellname",
+        "font"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Tongue Lash",
+      "name_zh": "巨舌鞭笞",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TahmKench",
+        "source:ddragon:16.16.1:en_US:TahmKench",
+        "source:communitydragon:16.16:zh_cn:TahmKench",
+        "source:wiki:1309260:4040842"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "晕眩"
+      ],
+      "summary_en": "Tahm Kench lashes out with his tongue, damaging and slowing the first unit hit and healing himself if he strikes an enemy champion. Applies a stack of An Acquired Taste to enemy champions. If the champion already has 3 stacks of An Acquired Taste, they are stunned and the stacks are consumed.",
+      "summary_zh": "塔姆用他的舌头进行猛击，对命中的第一个单位造成伤害和减速效果并在他命中一名敌方英雄时治疗自身。 对敌方英雄施加一层培养品味效果。如果目标英雄已经被叠加了3层培养品味，那么该英雄还会被晕眩，并且层数会被消耗掉。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309260:4040842"
+      ]
+    },
+    {
+      "ability_id": "ability:TahmKench:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "下潜然后重新出现在目标位置，对一个区域内的所有敌人造成【数值】魔法伤害和【数值】秒击飞效果。如果命中至少一名敌方英雄，则会返还【数值】%的冷却时间和法力消耗。 被吞噬的友方英雄能够被带着一起潜航（但总能够提前下船）。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1499414:4020963"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "scalemana",
+        "br",
+        "font"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Abyssal Dive",
+      "name_zh": "深渊潜航",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TahmKench",
+        "source:ddragon:16.16.1:en_US:TahmKench",
+        "source:communitydragon:16.16:zh_cn:TahmKench",
+        "source:wiki:1499414:4020963"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Dive down and then re-appear at target location, damaging and knocking up all enemies in an area.",
+      "summary_zh": "下潜然后重新出现在目标位置，对一个区域内的所有敌人造成魔法伤害和击飞效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1499414:4020963"
+      ]
+    },
+    {
+      "ability_id": "ability:TahmKench:e:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "被动：塔姆通过厚实表皮将他所受的【数值】%伤害储存起来，并会在附近至少有【数值】名敌方英雄时提升至【数值】%。如果塔姆在【数值】秒内没有受到伤害，厚实表皮将快速消耗来治疗塔姆，数额相当于【数值】已储存的伤害值。 主动：将厚实表皮已储存的所有伤害值转换为一层护盾，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309262:4021898"
+        ]
+      },
+      "markup_tags": [
+        "passive",
+        "spellname",
+        "br",
+        "active",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Thick Skin",
+      "name_zh": "厚实表皮",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TahmKench",
+        "source:ddragon:16.16.1:en_US:TahmKench",
+        "source:communitydragon:16.16:zh_cn:TahmKench",
+        "source:wiki:1309262:4021898"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Passive: Tahm Kench stores a percent of the damage he takes and heals based on it while out of combat. Active: Convert all stored damage into a temporary shield.",
+      "summary_zh": "被动：塔姆将他所受的一部分伤害储存起来，并在脱离战斗后基于已储存的伤害值来治疗自身。 主动：将所有已储存的伤害值转化为一个临时的护盾。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309262:4021898"
+      ]
+    },
+    {
+      "ability_id": "ability:TahmKench:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "塔姆吞噬一名英雄若干秒。他可以再次施放这个技能来将其吐出。 敌方英雄：需要3层培养品味。至多被吞噬【数值】秒并受到【数值】 (+目标【数值】最大生命值)魔法伤害。在这个效果期间，塔姆自身被减速【数值】%并被缚地。 友方英雄：至多被吞噬【数值】秒并在被吐出后获得持续衰减的【数值】护盾值。友方英雄可以选择提前离开。在这个效果期间，塔姆自身被缚地，但他可以施放深渊潜航并获得持续【数值】秒的【数值】%移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:TahmKench"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:TahmKench"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:TahmKench"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "recast",
+        "br",
+        "specialrules",
+        "spellname",
+        "magicdamage",
+        "status",
+        "keywordname",
+        "shield",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Devour",
+      "name_zh": "大快朵颐",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:TahmKench",
+        "source:ddragon:16.16.1:en_US:TahmKench",
+        "source:communitydragon:16.16:zh_cn:TahmKench"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "缚地"
+      ],
+      "summary_en": "Tahm Kench devours a champion for a few seconds, dealing magic damage if they are an enemy, or shielding them if they are an ally.",
+      "summary_zh": "塔姆吞噬一名英雄若干秒，如果该英雄是敌人则对其造成魔法伤害，如果该英雄是队友则为其提供护盾。",
+      "wiki_source_ref_ids": []
+    }
+  ],
+  "card_id": "champion:TahmKench:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Tahm Kench",
+      "TahmKench"
+    ],
+    "numeric_key": "223",
+    "official_name_en": "Tahm Kench",
+    "official_name_zh": "塔姆",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:TahmKench",
+      "source:ddragon:16.16.1:en_US:TahmKench",
+      "source:communitydragon:16.16:zh_cn:TahmKench",
+      "source:riot-champion-page:TahmKench:asof-2026-08-21"
+    ],
+    "stable_id": "TahmKench",
+    "title_zh": "河流之王"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 3,
+      "mobility": 1,
+      "utility": 3
+    },
+    "roles": [
+      "tank",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:TahmKench"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:0ed4712c3c33a0ad7c5f94d9e34b3a6049f3b94a6be4eb1b0a1241e252093df6",
+      "sha256:7191895ae764f34a2bfad30147abbd9bdda8c3da92489c03d1137eec20469c0c",
+      "sha256:4d2331ce633156fd164a24f0b81efe8618e3e1f212b5ab2cb2d8f29000d28800",
+      "sha256:154961eba3582740fefd03c5b3d906e014e0da28f5172e7547319fd887448e6c",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:0ed4712c3c33a0ad7c5f94d9e34b3a6049f3b94a6be4eb1b0a1241e252093df6",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/TahmKench.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:TahmKench",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 塔姆",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/TahmKench.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:7191895ae764f34a2bfad30147abbd9bdda8c3da92489c03d1137eec20469c0c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/TahmKench.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:TahmKench",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Tahm Kench",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/TahmKench.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:4d2331ce633156fd164a24f0b81efe8618e3e1f212b5ab2cb2d8f29000d28800",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/223.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:TahmKench",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 塔姆",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/223.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:154961eba3582740fefd03c5b3d906e014e0da28f5172e7547319fd887448e6c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/tahmkench.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:TahmKench:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Tahm Kench",
+        "url": "https://www.leagueoflegends.com/en-us/champions/tahmkench/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008458,
+        "revision_timestamp": "2026-04-14T19:19:10Z",
+        "source_ref_id": "source:wiki:1309258:4008458",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008458",
+        "title": "Template:Data Tahm Kench/An Acquired Taste",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Tahm_Kench/An_Acquired_Taste",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4040842,
+        "revision_timestamp": "2026-07-07T05:21:22Z",
+        "source_ref_id": "source:wiki:1309260:4040842",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4040842",
+        "title": "Template:Data Tahm Kench/Tongue Lash",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Tahm_Kench/Tongue_Lash",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4020963,
+        "revision_timestamp": "2026-05-20T18:53:23Z",
+        "source_ref_id": "source:wiki:1499414:4020963",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4020963",
+        "title": "Template:Data Tahm Kench/Abyssal Dive",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Tahm_Kench/Abyssal_Dive",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4021898,
+        "revision_timestamp": "2026-05-21T19:49:09Z",
+        "source_ref_id": "source:wiki:1309262:4021898",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4021898",
+        "title": "Template:Data Tahm Kench/Thick Skin",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Tahm_Kench/Thick_Skin",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "wiki_ability_gap:r",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

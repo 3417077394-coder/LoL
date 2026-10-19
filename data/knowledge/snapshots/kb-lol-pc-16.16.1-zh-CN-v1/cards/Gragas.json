@@ -1,0 +1,519 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Gragas:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "古拉加斯可周期性地使用一个技能来治疗自身。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307349:3985369"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Happy Hour",
+      "name_zh": "欢乐时光",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Gragas",
+        "source:ddragon:16.16.1:en_US:Gragas",
+        "source:communitydragon:16.16:zh_cn:Gragas",
+        "source:wiki:1307349:3985369"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Gragas periodically heals upon using a skill.",
+      "summary_zh": "古拉加斯可周期性地使用一个技能来治疗自身。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307349:3985369"
+      ]
+    },
+    {
+      "ability_id": "ability:Gragas:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "古拉加斯滚动出一个酒桶，该酒桶会在【数值】秒后爆炸， 造成【数值】魔法伤害到【数值】魔法伤害和持续【数值】秒的【数值】到【数值】%减速。伤害和减速会基于该酒桶在爆炸前的时长来提升。 古拉加斯可以再次施放这个技能来提前引爆该酒桶。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307358:3907002"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Barrel Roll",
+      "name_zh": "滚动酒桶",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Gragas",
+        "source:ddragon:16.16.1:en_US:Gragas",
+        "source:communitydragon:16.16:zh_cn:Gragas",
+        "source:wiki:1307358:3907002"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Gragas rolls his cask to a location, which can be activated to explode or will explode on its own after 4 seconds. The potency of the explosion increases over time. Enemies struck by the blast have their Move Speed slowed.",
+      "summary_zh": "古拉加斯将酒桶滚到目标地点，酒桶可以被主动引爆或在到达目标地点4秒后自行爆炸。爆炸的威力会随时间持续提升。被酒桶炸到的敌人，移动速度会被降低。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307358:3907002"
+      ]
+    },
+    {
+      "ability_id": "ability:Gragas:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "古拉加斯品尝他的最新佳酿，使即将到来的伤害降低【数值】，持续【数值】秒，此外，他的下次攻击获得强化，对目标及目标身边的敌人们造成额外的【数值】外加【数值】%最大生命值的魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307356:4013236"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Drunken Rage",
+      "name_zh": "醉酒狂暴",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Gragas",
+        "source:ddragon:16.16.1:en_US:Gragas",
+        "source:communitydragon:16.16:zh_cn:Gragas",
+        "source:wiki:1307356:4013236"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Gragas samples his latest brew for 1 second. After finishing, he becomes boisterous and belligerent, dealing magic damage to all nearby enemies on his next basic attack and reducing damage received.",
+      "summary_zh": "古拉加斯品尝他的最新佳酿，持续1秒。在喝完之后，他会变得喧闹且好斗，下次普通攻击会对附近的所有目标造成更多伤害，并且自身所受的伤害会降低。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307356:4013236"
+      ]
+    },
+    {
+      "ability_id": "ability:Gragas:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "古拉加斯向前冲锋，撞击命中的第一名敌人，使附近的敌人击飞【数值】秒并对其造成【数值】魔法伤害。 当古拉加斯撞到一个敌人时，这个技能的冷却时间会缩短【数值】%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307354:4007602"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Body Slam",
+      "name_zh": "肉弹冲击",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Gragas",
+        "source:ddragon:16.16.1:en_US:Gragas",
+        "source:communitydragon:16.16:zh_cn:Gragas",
+        "source:wiki:1307354:4007602"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Gragas charges to a location and collides with the first enemy unit he comes across, dealing damage to all nearby enemy units and stunning them.",
+      "summary_zh": "古拉加斯向目标区域冲锋，在撞上第一个敌人后，对附近的所有敌方单位造成伤害和晕眩效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307354:4007602"
+      ]
+    },
+    {
+      "ability_id": "ability:Gragas:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "古拉加斯猛抛他的酒桶，造成【数值】魔法伤害并将敌人们从爆炸中心击退。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Gragas"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Gragas"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Gragas"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307352:3906845"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Explosive Cask",
+      "name_zh": "爆破酒桶",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Gragas",
+        "source:ddragon:16.16.1:en_US:Gragas",
+        "source:communitydragon:16.16:zh_cn:Gragas",
+        "source:wiki:1307352:3906845"
+      ],
+      "status_terms_zh": [
+        "击退"
+      ],
+      "summary_en": "Gragas hurls his cask to a location, dealing damage and knocking back enemies caught in the blast radius.",
+      "summary_zh": "古拉加斯向目标区域投掷他的酒桶，对爆炸范围内的所有敌人造成伤害和击退效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307352:3906845"
+      ]
+    }
+  ],
+  "card_id": "champion:Gragas:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Gragas"
+    ],
+    "numeric_key": "79",
+    "official_name_en": "Gragas",
+    "official_name_zh": "古拉加斯",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Gragas",
+      "source:ddragon:16.16.1:en_US:Gragas",
+      "source:communitydragon:16.16:zh_cn:Gragas",
+      "source:riot-champion-page:Gragas:asof-2026-08-21"
+    ],
+    "stable_id": "Gragas",
+    "title_zh": "酒桶"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 2,
+      "durability": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Gragas"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:58f147c9b3a2dd3bacb3445858beed57e199ad3fb1e636cdc01dfb042881c634",
+      "sha256:ec341a53c33d48416a7dd6a2db42d0b8f6dada5d24cdfb32b01695a575445448",
+      "sha256:070680c14ef2d21ddb26051cfa4b18d79ffa8e759df027b575c1e4ff5a2aeb4c",
+      "sha256:e084c00bdade20fb566d2ca1c527a4d1a251640232d97d8819ab3a6c8f44a464",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:58f147c9b3a2dd3bacb3445858beed57e199ad3fb1e636cdc01dfb042881c634",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Gragas.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Gragas",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 古拉加斯",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Gragas.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:ec341a53c33d48416a7dd6a2db42d0b8f6dada5d24cdfb32b01695a575445448",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Gragas.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Gragas",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Gragas",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Gragas.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:070680c14ef2d21ddb26051cfa4b18d79ffa8e759df027b575c1e4ff5a2aeb4c",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/79.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Gragas",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 古拉加斯",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/79.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:e084c00bdade20fb566d2ca1c527a4d1a251640232d97d8819ab3a6c8f44a464",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/gragas.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Gragas:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Gragas",
+        "url": "https://www.leagueoflegends.com/en-us/champions/gragas/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3985369,
+        "revision_timestamp": "2026-01-19T21:44:51Z",
+        "source_ref_id": "source:wiki:1307349:3985369",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3985369",
+        "title": "Template:Data Gragas/Happy Hour",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Gragas/Happy_Hour",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3907002,
+        "revision_timestamp": "2025-06-06T16:30:40Z",
+        "source_ref_id": "source:wiki:1307358:3907002",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3907002",
+        "title": "Template:Data Gragas/Barrel Roll",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Gragas/Barrel_Roll",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013236,
+        "revision_timestamp": "2026-04-28T21:20:57Z",
+        "source_ref_id": "source:wiki:1307356:4013236",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013236",
+        "title": "Template:Data Gragas/Drunken Rage",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Gragas/Drunken_Rage",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007602,
+        "revision_timestamp": "2026-04-12T07:10:39Z",
+        "source_ref_id": "source:wiki:1307354:4007602",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007602",
+        "title": "Template:Data Gragas/Body Slam",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Gragas/Body_Slam",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3906845,
+        "revision_timestamp": "2025-06-06T06:14:37Z",
+        "source_ref_id": "source:wiki:1307352:3906845",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3906845",
+        "title": "Template:Data Gragas/Explosive Cask",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Gragas/Explosive_Cask",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

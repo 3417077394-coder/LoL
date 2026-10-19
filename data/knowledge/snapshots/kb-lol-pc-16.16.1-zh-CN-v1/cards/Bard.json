@@ -1,0 +1,514 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Bard:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "木灵：巴德吸引小型灵体来强化他的普攻以造成额外魔法伤害。当巴德收集到足够的调和之音时，这些木灵还会造成范围伤害并使命中的敌人减速。 调和之音：远古的调和之音会随机出现，用来让巴德收集。这些调和之音会提供经验值，回复法力值，并提供脱战状态下的移动速度加成。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306858:4034690"
+        ]
+      },
+      "markup_tags": [
+        "font",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Traveler's Call",
+      "name_zh": "旅者的召唤",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Bard",
+        "source:ddragon:16.16.1:en_US:Bard",
+        "source:communitydragon:16.16:zh_cn:Bard",
+        "source:wiki:1306858:4034690"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Meeps: Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage. When Bard has collected enough Chimes, his meeps will also deal damage in an area and slow enemies hit. Chimes: Ancient chimes randomly appear for Bard to collect. These grant experience, restore mana, and provide out of combat Move Speed.",
+      "summary_zh": "木灵：巴德吸引小型灵体来强化他的普攻以造成额外魔法伤害。当巴德收集到足够的调和之音时，这些木灵还会造成范围伤害并使命中的敌人减速。 调和之音：远古的调和之音会随机出现，用来让巴德收集。这些调和之音会提供经验值，回复法力值，并提供脱战状态下的移动速度加成。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306858:4034690"
+      ]
+    },
+    {
+      "ability_id": "ability:Bard:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "巴德发射一束能量弹，对命中的头两个敌人造成【数值】魔法伤害。第一个被命中的敌人会被施加持续【数值】秒的【数值】%减速。 如果该能量弹命中了第二个敌人或一个墙体，那么被命中的敌人都会被晕眩【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306861:4037681"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Cosmic Binding",
+      "name_zh": "星界束缚",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Bard",
+        "source:ddragon:16.16.1:en_US:Bard",
+        "source:communitydragon:16.16:zh_cn:Bard",
+        "source:wiki:1306861:4037681"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "晕眩"
+      ],
+      "summary_en": "Bard fires a missile which will slow the first enemy struck, and continue onward. If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+      "summary_zh": "巴德发射一束能量弹，减速命中的第一个敌人，并继续向前。如果能量弹命中墙体，它还会使首个目标晕眩；如果它命中了另一个敌人，那么它会让这两个敌人都晕眩。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306861:4037681"
+      ]
+    },
+    {
+      "ability_id": "ability:Bard:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "巴德升起一座生命圣坛，圣坛会为第一个进入的友方英雄提供在【数值】秒里持续衰减的【数值】移动速度并为其回复至少【数值】生命值。圣坛会不断成长，在存在【数值】秒后即可满额回复【数值】生命值。 巴德最多可同时拥有【数值】座圣坛。如果有一名敌方英雄进入圣坛，那么该圣坛就会被摧毁。 这个技能有【数值】层充能。 当前已激活的圣坛数：【数值】 / 【数值】",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306863:3960421"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "healing",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Caretaker's Shrine",
+      "name_zh": "游神圣坛",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Bard",
+        "source:ddragon:16.16.1:en_US:Bard",
+        "source:communitydragon:16.16:zh_cn:Bard",
+        "source:wiki:1306863:3960421"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Reveals a Health shrine which powers up over a short time, disappearing after healing and speeding up the first ally that touches it.",
+      "summary_zh": "升起一座生命圣坛，圣坛会在短时间内持续充能，并在治疗和加速第一个接触它的友军后消失。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306863:3960421"
+      ]
+    },
+    {
+      "ability_id": "ability:Bard:e:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "巴德在附近的地形上开启一道单向传送门，持续【数值】秒。传送门附近的任何英雄都可以通过移动到它上面来进入传送门。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306865:4007574"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Magical Journey",
+      "name_zh": "神奇旅程",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Bard",
+        "source:ddragon:16.16.1:en_US:Bard",
+        "source:communitydragon:16.16:zh_cn:Bard",
+        "source:wiki:1306865:4007574"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Bard opens a portal in nearby terrain. Allies and enemies alike can take a one-way trip through that terrain by moving into the portal.",
+      "summary_zh": "巴德在附近的地形上开启一道单向传送门。友军和敌军都可以使用传送门来穿过该地形。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306865:4007574"
+      ]
+    },
+    {
+      "ability_id": "ability:Bard:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "巴德朝一个区域投出神奇的防护能量，使命中的所有单位和建筑物都进入凝滞状态【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Bard"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Bard"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Bard"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306867:4008478"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Tempered Fate",
+      "name_zh": "调和命运",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Bard",
+        "source:ddragon:16.16.1:en_US:Bard",
+        "source:communitydragon:16.16:zh_cn:Bard",
+        "source:wiki:1306867:4008478"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
+      "summary_zh": "巴德朝目标区域发射能量弧光，使区域内的所有单位、小兵、野怪和防御塔都暂时进入凝滞状态。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306867:4008478"
+      ]
+    }
+  ],
+  "card_id": "champion:Bard:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Bard"
+    ],
+    "numeric_key": "432",
+    "official_name_en": "Bard",
+    "official_name_zh": "巴德",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Bard",
+      "source:ddragon:16.16.1:en_US:Bard",
+      "source:communitydragon:16.16:zh_cn:Bard",
+      "source:riot-champion-page:Bard:asof-2026-08-21"
+    ],
+    "stable_id": "Bard",
+    "title_zh": "星界游神"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 1,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 3
+    },
+    "roles": [
+      "support",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Bard"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:0afcfe769dbe012ba970ab142b6f5a6f33d149be8c9ded9adac0897ace4373ea",
+      "sha256:0f09673621abae049a40f8d720a17929c34cc9646ca07db51d3d15d970d8e0a4",
+      "sha256:280272d99a3e98cdc221df6633a6a5a670bf2794e6eb9c4d8fcc856630a708a7",
+      "sha256:6b25a049996c6fcd77268f57613e39df7cf502de12f00ef54b80630e502f50ef",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+      "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:0afcfe769dbe012ba970ab142b6f5a6f33d149be8c9ded9adac0897ace4373ea",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Bard.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Bard",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 巴德",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Bard.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:0f09673621abae049a40f8d720a17929c34cc9646ca07db51d3d15d970d8e0a4",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Bard.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Bard",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Bard",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Bard.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:280272d99a3e98cdc221df6633a6a5a670bf2794e6eb9c4d8fcc856630a708a7",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/432.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Bard",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 巴德",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/432.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:6b25a049996c6fcd77268f57613e39df7cf502de12f00ef54b80630e502f50ef",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/bard.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Bard:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Bard",
+        "url": "https://www.leagueoflegends.com/en-us/champions/bard/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4034690,
+        "revision_timestamp": "2026-06-23T21:10:51Z",
+        "source_ref_id": "source:wiki:1306858:4034690",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4034690",
+        "title": "Template:Data Bard/Traveler's Call",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Bard/Traveler%27s_Call",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4037681,
+        "revision_timestamp": "2026-06-29T20:42:13Z",
+        "source_ref_id": "source:wiki:1306861:4037681",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4037681",
+        "title": "Template:Data Bard/Cosmic Binding",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Bard/Cosmic_Binding",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3960421,
+        "revision_timestamp": "2025-10-21T19:45:43Z",
+        "source_ref_id": "source:wiki:1306863:3960421",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3960421",
+        "title": "Template:Data Bard/Caretaker's Shrine",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Bard/Caretaker%27s_Shrine",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3df8cd9ae0f0f94000c9290a9dbff4cf93683bd34c2f222490dc20b5a06c621f",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-002.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007574,
+        "revision_timestamp": "2026-04-12T06:39:25Z",
+        "source_ref_id": "source:wiki:1306865:4007574",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007574",
+        "title": "Template:Data Bard/Magical Journey",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Bard/Magical_Journey",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:33bde642a39c3401d26dc0e98421f09e43f45725757b554d914862170b4f42b3",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-003.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008478,
+        "revision_timestamp": "2026-04-14T20:25:32Z",
+        "source_ref_id": "source:wiki:1306867:4008478",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008478",
+        "title": "Template:Data Bard/Tempered Fate",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Bard/Tempered_Fate",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

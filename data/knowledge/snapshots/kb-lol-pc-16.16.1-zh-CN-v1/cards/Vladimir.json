@@ -1,0 +1,525 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Vladimir:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "每30生命值加成给予弗拉基米尔1法术强度，每1法术强度给予弗拉基米尔1.6生命值（不会自我循环叠加）。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308695:4010660"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Crimson Pact",
+      "name_zh": "血色契约",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vladimir",
+        "source:ddragon:16.16.1:en_US:Vladimir",
+        "source:communitydragon:16.16:zh_cn:Vladimir",
+        "source:wiki:1308695:4010660"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Every 30 points of bonus Health gives Vladimir 1 Ability Power and every 1 point of Ability Power gives Vladimir 1.6 bonus Health (does not stack with itself).",
+      "summary_zh": "每30生命值加成给予弗拉基米尔1法术强度，每1法术强度给予弗拉基米尔1.6生命值（不会自我循环叠加）。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308695:4010660"
+      ]
+    },
+    {
+      "ability_id": "ability:Vladimir:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "弗拉基米尔汲取目标的生命力，造成【数值】魔法伤害并回复【数值】生命值。在使用2次这个技能后，弗拉基米尔会获得持续0.5秒的【数值】%移动速度，并强化这个技能的下一次使用，持续【数值】秒。 这个技能的强化版会转而造成【数值】魔法伤害并回复额外的【数值】加上【数值】已损失生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308696:3997094"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "healing",
+        "speed",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Transfusion",
+      "name_zh": "鲜血转换",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vladimir",
+        "source:ddragon:16.16.1:en_US:Vladimir",
+        "source:communitydragon:16.16:zh_cn:Vladimir",
+        "source:wiki:1308696:3997094"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Vladimir steals life from the target enemy. When Vladimir's resource is full, Transfusion will benefit from massively increased damage and healing for a brief time.",
+      "summary_zh": "弗拉基米尔从目标敌人身上偷取生命值。当弗拉基米尔的资源槽攒满后，鲜血转换将暂时获得增益，提升伤害和治疗效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308696:3997094"
+      ]
+    },
+    {
+      "ability_id": "ability:Vladimir:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "弗拉基米尔化成一滩持续2秒的血池，获得【数值】%持续衰减的移动速度，持续【数值】秒，并进入无法被选取和幽灵状态，同时使血池中的敌人减速【数值】%。 弗拉基米尔在期间会持续造成【数值】魔法伤害，并且每命中一个敌人就会为弗拉基米尔回复【数值】生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308699:4034923"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "keyword",
+        "status",
+        "br",
+        "magicdamage",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Sanguine Pool",
+      "name_zh": "血红之池",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vladimir",
+        "source:ddragon:16.16.1:en_US:Vladimir",
+        "source:communitydragon:16.16:zh_cn:Vladimir",
+        "source:wiki:1308699:4034923"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Vladimir sinks into a pool of blood, becoming untargetable for 2 seconds. Additionally, enemies on the pool are slowed and Vladimir siphons life from them.",
+      "summary_zh": "弗拉基米尔潜入血泊之中，变得不可被选取，持续2秒。血泊上的敌人被减速，同时弗拉基米尔会从他们身上吸取生命。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308699:4034923"
+      ]
+    },
+    {
+      "ability_id": "ability:Vladimir:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "开始蓄力：弗拉基米尔积攒一个蓄血库，至多消耗【数值】生命值。在攒满后，弗拉基米尔会被减速20%。 释放：弗拉基米尔对附近的敌人释放一股血弹激流，基于蓄力时间造成【数值】至【数值】魔法伤害。如果这个技能蓄力了至少1秒，那么它还会对目标造成持续0.5秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308700:3853799"
+        ]
+      },
+      "markup_tags": [
+        "charge",
+        "font",
+        "status",
+        "br",
+        "release",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Tides of Blood",
+      "name_zh": "血之潮汐",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vladimir",
+        "source:ddragon:16.16.1:en_US:Vladimir",
+        "source:communitydragon:16.16:zh_cn:Vladimir",
+        "source:wiki:1308700:3853799"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Vladimir pays his own health to charge up a reservoir of blood which, when released, deals damage in the area around him but can be blocked by enemy units.",
+      "summary_zh": "弗拉基米尔消耗他的生命值来持续灌注一个蓄血库，蓄血库在释放时会对他身边的敌人造成伤害，但会被敌方单位所阻挡。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308700:3853799"
+      ]
+    },
+    {
+      "ability_id": "ability:Vladimir:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "弗拉基米尔生成一个剧毒瘟疫，使他的目标们所受伤害(所有来源)提高【数值】%，持续【数值】秒。在它消散后，弗拉基米尔对所有被感染的目标造成【数值】魔法伤害。如果弗拉基米尔命中了一名敌方英雄，那么就会回复自身【数值】生命值，此后每命中一名敌方英雄会回复自身额外的 【数值】生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Vladimir"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Vladimir"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Vladimir"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308701:4039794"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Hemoplague",
+      "name_zh": "血之瘟疫",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Vladimir",
+        "source:ddragon:16.16.1:en_US:Vladimir",
+        "source:communitydragon:16.16:zh_cn:Vladimir",
+        "source:wiki:1308701:4039794"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Vladimir infects an area with a virulent plague. Affected enemies take increased damage for the duration. After a few seconds, Hemoplague deals magic damage to infected enemies and heals Vladimir for each enemy Champion hit.",
+      "summary_zh": "弗拉基米尔令一片区域感染上剧毒瘟疫，增加受感染敌人所受的伤害。在几秒后，血之瘟疫会对被感染的敌人造成魔法伤害，并根据命中的敌方英雄数来治疗弗拉基米尔。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308701:4039794"
+      ]
+    }
+  ],
+  "card_id": "champion:Vladimir:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Vladimir"
+    ],
+    "numeric_key": "8",
+    "official_name_en": "Vladimir",
+    "official_name_zh": "弗拉基米尔",
+    "resource_type_zh": "猩红冲刺",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Vladimir",
+      "source:ddragon:16.16.1:en_US:Vladimir",
+      "source:communitydragon:16.16:zh_cn:Vladimir",
+      "source:riot-champion-page:Vladimir:asof-2026-08-21"
+    ],
+    "stable_id": "Vladimir",
+    "title_zh": "猩红收割者"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 2,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "mage",
+      "fighter"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Vladimir"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:c6117abf6c49ab34aedbd4084fcc17a911a887b7b76de2664b6233a0e136b7c9",
+      "sha256:d363e7ca5f13ede6df1a8729cffcd2b5800b78a2ba324624d66954cbc9ef63c9",
+      "sha256:013b98f12ba9ff1456176cef0e9cf8aac9e4f20c5996e7690ea3dc9394955b65",
+      "sha256:0de751f4e86681516e8ecdc1733254e00a4b7a63de3c76543c093aba259517cd",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:c6117abf6c49ab34aedbd4084fcc17a911a887b7b76de2664b6233a0e136b7c9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Vladimir.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Vladimir",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 弗拉基米尔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Vladimir.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:d363e7ca5f13ede6df1a8729cffcd2b5800b78a2ba324624d66954cbc9ef63c9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Vladimir.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Vladimir",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Vladimir",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Vladimir.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:013b98f12ba9ff1456176cef0e9cf8aac9e4f20c5996e7690ea3dc9394955b65",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/8.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Vladimir",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 弗拉基米尔",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/8.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:0de751f4e86681516e8ecdc1733254e00a4b7a63de3c76543c093aba259517cd",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/vladimir.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Vladimir:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Vladimir",
+        "url": "https://www.leagueoflegends.com/en-us/champions/vladimir/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4010660,
+        "revision_timestamp": "2026-04-20T04:15:19Z",
+        "source_ref_id": "source:wiki:1308695:4010660",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4010660",
+        "title": "Template:Data Vladimir/Crimson Pact",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vladimir/Crimson_Pact",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3997094,
+        "revision_timestamp": "2026-03-06T17:23:54Z",
+        "source_ref_id": "source:wiki:1308696:3997094",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3997094",
+        "title": "Template:Data Vladimir/Transfusion",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vladimir/Transfusion",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4034923,
+        "revision_timestamp": "2026-06-24T05:29:20Z",
+        "source_ref_id": "source:wiki:1308699:4034923",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4034923",
+        "title": "Template:Data Vladimir/Sanguine Pool",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vladimir/Sanguine_Pool",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3853799,
+        "revision_timestamp": "2025-01-17T17:25:10Z",
+        "source_ref_id": "source:wiki:1308700:3853799",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3853799",
+        "title": "Template:Data Vladimir/Tides of Blood",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vladimir/Tides_of_Blood",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e80935b8d63d62ca9f544b58bf688a2920050e09eea91f65c7e5fccff6c27b0d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-022.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4039794,
+        "revision_timestamp": "2026-07-05T11:15:06Z",
+        "source_ref_id": "source:wiki:1308701:4039794",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4039794",
+        "title": "Template:Data Vladimir/Hemoplague",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Vladimir/Hemoplague",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

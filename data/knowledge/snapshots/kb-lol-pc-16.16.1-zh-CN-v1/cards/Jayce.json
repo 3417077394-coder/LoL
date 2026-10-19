@@ -1,0 +1,589 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Jayce:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "每当杰斯切换武器时，他会获得短暂持续的移动速度加成。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307329:4042868"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Hextech Capacitor",
+      "name_zh": "海克斯科技电容",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jayce",
+        "source:ddragon:16.16.1:en_US:Jayce",
+        "source:communitydragon:16.16:zh_cn:Jayce",
+        "source:wiki:1307329:4042868"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "When Jayce swaps weapons he gains Move Speed for a short duration.",
+      "summary_zh": "每当杰斯切换武器时，他会获得短暂持续的移动速度加成。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307329:4042868"
+      ]
+    },
+    {
+      "ability_id": "ability:Jayce:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "墨丘利之锤：杰斯跳向一名敌人，对周围的敌人造成【数值】物理伤害和持续【数值】秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1331682:3989865",
+          "source:wiki:1331683:4007609"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "To the Skies! / Shock Blast",
+      "name_zh": "苍穹之跃 / 电能震荡",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jayce",
+        "source:ddragon:16.16.1:en_US:Jayce",
+        "source:communitydragon:16.16:zh_cn:Jayce",
+        "source:wiki:1331682:3989865",
+        "source:wiki:1331683:4007609"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Hammer Stance: Leaps to an enemy dealing physical damage and slowing enemies. Cannon Stance: Fires an orb of electricity that detonates upon hitting an enemy (or reaching the end of its path) dealing physical damage to all enemies hit.",
+      "summary_zh": "锤形态：跳向一个敌人，对敌人造成物理伤害和减速效果。 炮形态：发射一团电球，在命中一名敌人或者到达最大射程后爆炸，对命中的敌人造成物理伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1331682:3989865",
+        "source:wiki:1331683:4007609"
+      ]
+    },
+    {
+      "ability_id": "ability:Jayce:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "墨丘利之锤 - 被动：杰斯的战锤攻击会提供【数值】法力值。 墨丘利之锤 - 主动：杰斯创造一个电能光环，在【数值】秒里持续造成共【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1331685:3948933",
+          "source:wiki:1331686:3965005"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "scalemana",
+        "br",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Lightning Field / Hyper Charge",
+      "name_zh": "闪电领域 / 超能电荷",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jayce",
+        "source:ddragon:16.16.1:en_US:Jayce",
+        "source:communitydragon:16.16:zh_cn:Jayce",
+        "source:wiki:1331685:3948933",
+        "source:wiki:1331686:3965005"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Hammer Stance: Passive: Restores Mana per strike. Active: Creates a field of lightning damaging nearby enemies for several seconds. Cannon Stance: Gains a burst of energy, increasing Attack Speed to maximum for several attacks.",
+      "summary_zh": "锤形态：被动：每次攻击回复法力。主动：创造一个闪电领域，在数秒内对附近的敌人造成伤害。 炮形态：杰斯的活力暴涨，将攻击速度提升至最大值，此效果在若干次攻击后消失。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1331685:3948933",
+        "source:wiki:1331686:3965005"
+      ]
+    },
+    {
+      "ability_id": "ability:Jayce:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "战锤形态：杰斯挥舞他的战锤，击退他的目标并造成【数值】外加【数值】%最大生命值的魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1331688:3965179",
+          "source:wiki:1331689:4005101"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Thundering Blow / Acceleration Gate",
+      "name_zh": "雷霆一击 / 加速之门",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jayce",
+        "source:ddragon:16.16.1:en_US:Jayce",
+        "source:communitydragon:16.16:zh_cn:Jayce",
+        "source:wiki:1331688:3965179",
+        "source:wiki:1331689:4005101"
+      ],
+      "status_terms_zh": [
+        "击退"
+      ],
+      "summary_en": "Hammer Stance: Deals magic damage to an enemy and knocks them back a short distance. Cannon Stance: Deploys an Acceleration Gate increasing the Move Speed of all allied champions who pass through it. If Shock Blast is fired through the gate the missile speed, range, and damage will increase.",
+      "summary_zh": "锤形态：对一个敌人造成魔法伤害，并将目标击退一小段距离。 炮形态：展开一个加速之门，所有穿过它的友军英雄都会得到移动速度加成。如果电能震荡穿过这个门发射，那么它的弹道速度和射程都会得到提高，并且伤害会提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1331688:3965179",
+        "source:wiki:1331689:4005101"
+      ]
+    },
+    {
+      "ability_id": "ability:Jayce:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "墨丘利之锤：杰斯将他的武器变形为墨丘利之炮，获得攻击距离和全新的一套技能。杰斯的下一个攻击移除【数值】护甲和魔法抗性，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jayce"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jayce"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jayce"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1331691:3989867",
+          "source:wiki:1331692:4049966"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "scalearmor",
+        "scalemr"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Mercury Cannon / Mercury Hammer",
+      "name_zh": "墨丘利之炮 / 墨丘利之锤",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jayce",
+        "source:ddragon:16.16.1:en_US:Jayce",
+        "source:communitydragon:16.16:zh_cn:Jayce",
+        "source:wiki:1331691:3989867",
+        "source:wiki:1331692:4049966"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Hammer Stance: Transforms the Mercury Hammer into the Mercury Cannon gaining new abilities and increased range. The first attack in this form reduces the target's Armor and Magic Resist. Cannon Stance: Transforms the Mercury Cannon into the Mercury Hammer gaining new abilities and increasing Armor and Magic Resist. The first attack in this form deals additional magic damage.",
+      "summary_zh": "锤形态：将墨丘利之锤变成墨丘利之炮，获得新的技能和远程攻击能力。切换至这个形态后的第一下攻击将会减少目标的护甲和魔法抗性。 炮形态：将墨丘利之炮变成墨丘利之锤，获得新的技能和护甲与魔法抗性加成，切换至这个形态后的第一下攻击将会造成额外的魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1331691:3989867",
+        "source:wiki:1331692:4049966"
+      ]
+    }
+  ],
+  "card_id": "champion:Jayce:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Jayce"
+    ],
+    "numeric_key": "126",
+    "official_name_en": "Jayce",
+    "official_name_zh": "杰斯",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Jayce",
+      "source:ddragon:16.16.1:en_US:Jayce",
+      "source:communitydragon:16.16:zh_cn:Jayce",
+      "source:riot-champion-page:Jayce:asof-2026-08-21"
+    ],
+    "stable_id": "Jayce",
+    "title_zh": "未来守护者"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 2
+    },
+    "roles": [
+      "fighter",
+      "marksman"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Jayce"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:f16d07f613eba91b278217eaf1f095091fac7e9313dd851ff02f443649cb795e",
+      "sha256:8eb6c3940b2fdf5d21dc9068752da22790a1559fe05d8e694034e11e9c6129b5",
+      "sha256:1e87c4f669330d40080e39659cfa1114bd91b85f1142cdc40d5084e065ef53eb",
+      "sha256:3d1436204601c7614f46c4c5b837360601382f942b372372371c76c133283129",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:f16d07f613eba91b278217eaf1f095091fac7e9313dd851ff02f443649cb795e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Jayce.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Jayce",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 杰斯",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Jayce.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:8eb6c3940b2fdf5d21dc9068752da22790a1559fe05d8e694034e11e9c6129b5",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Jayce.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Jayce",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Jayce",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Jayce.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:1e87c4f669330d40080e39659cfa1114bd91b85f1142cdc40d5084e065ef53eb",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/126.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Jayce",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 杰斯",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/126.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:3d1436204601c7614f46c4c5b837360601382f942b372372371c76c133283129",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/jayce.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Jayce:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Jayce",
+        "url": "https://www.leagueoflegends.com/en-us/champions/jayce/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4042868,
+        "revision_timestamp": "2026-07-14T19:36:28Z",
+        "source_ref_id": "source:wiki:1307329:4042868",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4042868",
+        "title": "Template:Data Jayce/Hextech Capacitor",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/Hextech_Capacitor",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3989865,
+        "revision_timestamp": "2026-02-03T23:20:40Z",
+        "source_ref_id": "source:wiki:1331682:3989865",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3989865",
+        "title": "Template:Data Jayce/To the Skies!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/To_the_Skies!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007609,
+        "revision_timestamp": "2026-04-12T07:21:34Z",
+        "source_ref_id": "source:wiki:1331683:4007609",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007609",
+        "title": "Template:Data Jayce/Shock Blast",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/Shock_Blast",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3948933,
+        "revision_timestamp": "2025-08-20T14:28:04Z",
+        "source_ref_id": "source:wiki:1331685:3948933",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3948933",
+        "title": "Template:Data Jayce/Lightning Field",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/Lightning_Field",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3965005,
+        "revision_timestamp": "2025-11-11T03:43:22Z",
+        "source_ref_id": "source:wiki:1331686:3965005",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3965005",
+        "title": "Template:Data Jayce/Hyper Charge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/Hyper_Charge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3965179,
+        "revision_timestamp": "2025-11-11T19:00:26Z",
+        "source_ref_id": "source:wiki:1331688:3965179",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3965179",
+        "title": "Template:Data Jayce/Thundering Blow",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/Thundering_Blow",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4005101,
+        "revision_timestamp": "2026-04-03T21:09:19Z",
+        "source_ref_id": "source:wiki:1331689:4005101",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4005101",
+        "title": "Template:Data Jayce/Acceleration Gate",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/Acceleration_Gate",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3989867,
+        "revision_timestamp": "2026-02-03T23:21:18Z",
+        "source_ref_id": "source:wiki:1331691:3989867",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3989867",
+        "title": "Template:Data Jayce/Transform Mercury Cannon",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/Transform_Mercury_Cannon",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4049966,
+        "revision_timestamp": "2026-08-04T04:16:57Z",
+        "source_ref_id": "source:wiki:1331692:4049966",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4049966",
+        "title": "Template:Data Jayce/Transform Mercury Hammer",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jayce/Transform_Mercury_Hammer",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "complex_ability_structure",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

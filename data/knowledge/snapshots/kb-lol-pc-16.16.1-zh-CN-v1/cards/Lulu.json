@@ -1,0 +1,524 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Lulu:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "每当皮克斯正在跟随的英雄进行攻击时，皮克斯就会发射魔法飞弹。这些飞弹会自动寻敌，但也会被其它单位所拦截。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308191:4046485"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Pix, Faerie Companion",
+      "name_zh": "皮克斯，仙灵伙伴",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lulu",
+        "source:ddragon:16.16.1:en_US:Lulu",
+        "source:communitydragon:16.16:zh_cn:Lulu",
+        "source:wiki:1308191:4046485"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit. These bolts are homing, but can be intercepted by other units.",
+      "summary_zh": "每当皮克斯正在跟随的英雄进行攻击时，皮克斯就会发射魔法飞弹。这些飞弹会自动寻敌，但也会被其它单位所拦截。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308191:4046485"
+      ]
+    },
+    {
+      "ability_id": "ability:Lulu:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "璐璐和皮克斯各发射一束贯穿魔弹，造成【数值】魔法伤害和在【数值】秒里持续衰减的【数值】%减速。 如果两束魔弹都命中了相同的一名敌人，那么会对其造成额外的【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308190:3881438"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Glitterlance",
+      "name_zh": "闪耀长枪",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lulu",
+        "source:ddragon:16.16.1:en_US:Lulu",
+        "source:communitydragon:16.16:zh_cn:Lulu",
+        "source:wiki:1308190:3881438"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Pix and Lulu each fire a bolt of magical energy that damages and heavily slows all enemies it hits.",
+      "summary_zh": "璐璐和皮克斯各自发射一个穿刺飞弹，对命中的所有敌人造成伤害和重度减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308190:3881438"
+      ]
+    },
+    {
+      "ability_id": "ability:Lulu:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "当用在一名友方身上时，璐璐提供【数值】移动速度和【数值】%攻击速度，持续【数值】秒。 当用在一名敌人身上时，璐璐会将其变形【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308188:4007673"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "attackspeed",
+        "br",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Whimsy",
+      "name_zh": "奇思妙想",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lulu",
+        "source:ddragon:16.16.1:en_US:Lulu",
+        "source:communitydragon:16.16:zh_cn:Lulu",
+        "source:wiki:1308188:4007673"
+      ],
+      "status_terms_zh": [
+        "变形"
+      ],
+      "summary_en": "If cast on an ally, grants them Attack Speed and Move Speed for a short time. If cast on an enemy, turns them into an adorable critter that can't attack or cast spells.",
+      "summary_zh": "如果对友军施放，会暂时增加目标友军的攻击速度和移动速度。如果对敌人施放，会将一名敌方英雄变成可爱的动物，使其无法攻击或施法。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308188:4007673"
+      ]
+    },
+    {
+      "ability_id": "ability:Lulu:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "在对一名友方施放时，皮克斯会跳到该友方处并提供持续【数值】秒的皮克斯，仙灵伙伴。如果该友方是一名英雄，那么皮克斯还会提供持续【数值】秒的【数值】护盾值。 在对一名敌方英雄使用时，皮克斯会妨碍该英雄，造成【数值】魔法伤害，并提供其真实视野，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308186:3945270"
+        ]
+      },
+      "markup_tags": [
+        "spellname",
+        "shield",
+        "br",
+        "magicdamage",
+        "keywordstealth"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Help, Pix!",
+      "name_zh": "帮忙，皮克斯！",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lulu",
+        "source:ddragon:16.16.1:en_US:Lulu",
+        "source:communitydragon:16.16:zh_cn:Lulu",
+        "source:wiki:1308186:3945270"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "If cast on an ally, commands Pix to jump to an ally and shield them. He then follows them and aids their attacks. If cast on an enemy, commands Pix to jump to an enemy and damage them. He then follows them and grants you vision of that enemy.",
+      "summary_zh": "如果对友军施放，会命令皮克斯跳到一名友军身上进行保护，之后会跟随并协助目标（而不是璐璐）进行攻击。如果对敌人施放，皮克斯会跳到敌人身上造成伤害，之后会跟随并提供目标的视野。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308186:3945270"
+      ]
+    },
+    {
+      "ability_id": "ability:Lulu:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "璐璐使一名友方英雄巨大化，并击飞周围的敌人【数值】秒。巨大化的友方英雄会获得【数值】最大生命值并使周围的敌人们减速【数值】%，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lulu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lulu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308184:4007674"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Wild Growth",
+      "name_zh": "狂野生长",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lulu",
+        "source:ddragon:16.16.1:en_US:Lulu",
+        "source:communitydragon:16.16:zh_cn:Lulu",
+        "source:wiki:1308184:4007674"
+      ],
+      "status_terms_zh": [
+        "击飞",
+        "减速"
+      ],
+      "summary_en": "Lulu enlarges an ally, knocking nearby enemies into the air and granting the ally a large amount of bonus health. For the next few seconds, that ally gains an aura that slows nearby enemies.",
+      "summary_zh": "璐璐让她的友军变大，击飞目标附近的敌人，同时为她的友军提供大量生命值加成。接下来的数秒内，该友军会获得一个减少附近敌人速度的光环。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308184:4007674"
+      ]
+    }
+  ],
+  "card_id": "champion:Lulu:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Lulu"
+    ],
+    "numeric_key": "117",
+    "official_name_en": "Lulu",
+    "official_name_zh": "璐璐",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Lulu",
+      "source:ddragon:16.16.1:en_US:Lulu",
+      "source:communitydragon:16.16:zh_cn:Lulu",
+      "source:riot-champion-page:Lulu:asof-2026-08-21"
+    ],
+    "stable_id": "Lulu",
+    "title_zh": "仙灵女巫"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 3
+    },
+    "roles": [
+      "support",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Lulu"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:a7a8a2f3abab56acfc651e92b8aeab637e94c33eba8eee5da21455aad878aefc",
+      "sha256:c711a2b50588a2110ee4c374a0280a0e811dada5fa449f412cebce5674a825e9",
+      "sha256:9ac1a2cfbbe4afb9b4635a424ce416766e2213707286e1cbebdec14b02612005",
+      "sha256:eafabb340e2c5fc62f38abdbe4fedc02fa078b0515daeb3238c2a77de383ebd9",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:a7a8a2f3abab56acfc651e92b8aeab637e94c33eba8eee5da21455aad878aefc",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Lulu.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Lulu",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 璐璐",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Lulu.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:c711a2b50588a2110ee4c374a0280a0e811dada5fa449f412cebce5674a825e9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Lulu.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Lulu",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Lulu",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Lulu.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:9ac1a2cfbbe4afb9b4635a424ce416766e2213707286e1cbebdec14b02612005",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/117.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Lulu",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 璐璐",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/117.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:eafabb340e2c5fc62f38abdbe4fedc02fa078b0515daeb3238c2a77de383ebd9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/lulu.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Lulu:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Lulu",
+        "url": "https://www.leagueoflegends.com/en-us/champions/lulu/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4046485,
+        "revision_timestamp": "2026-07-28T12:15:31Z",
+        "source_ref_id": "source:wiki:1308191:4046485",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4046485",
+        "title": "Template:Data Lulu/Pix, Faerie Companion",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lulu/Pix%2C_Faerie_Companion",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3881438,
+        "revision_timestamp": "2025-04-02T20:03:13Z",
+        "source_ref_id": "source:wiki:1308190:3881438",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3881438",
+        "title": "Template:Data Lulu/Glitterlance",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lulu/Glitterlance",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007673,
+        "revision_timestamp": "2026-04-12T10:46:57Z",
+        "source_ref_id": "source:wiki:1308188:4007673",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007673",
+        "title": "Template:Data Lulu/Whimsy",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lulu/Whimsy",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3945270,
+        "revision_timestamp": "2025-08-12T20:39:09Z",
+        "source_ref_id": "source:wiki:1308186:3945270",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3945270",
+        "title": "Template:Data Lulu/Help, Pix!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lulu/Help%2C_Pix!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007674,
+        "revision_timestamp": "2026-04-12T10:48:29Z",
+        "source_ref_id": "source:wiki:1308184:4007674",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007674",
+        "title": "Template:Data Lulu/Wild Growth",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lulu/Wild_Growth",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

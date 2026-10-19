@@ -1,0 +1,567 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:RekSai:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "雷克塞可通过攻击和命中基础技能来生成怒气。她在位于地下时可消耗怒气来回复生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308592:4007776"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Fury of the Xer'Sai",
+      "name_zh": "艾克塞之怒",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:RekSai",
+        "source:ddragon:16.16.1:en_US:RekSai",
+        "source:communitydragon:16.16:zh_cn:RekSai",
+        "source:wiki:1308592:4007776"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Rek'Sai generates Fury by Attacking and hitting with basic Abilities. She consumes this Fury while Burrowed to restore health.",
+      "summary_zh": "雷克塞可通过攻击和命中基础技能来生成怒气。她在位于地下时可消耗怒气来回复生命值。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308592:4007776"
+      ]
+    },
+    {
+      "ability_id": "ability:RekSai:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "位于地表：雷克塞在【数值】秒内的下3次普攻会获得【数值】%攻击速度并对附近的敌人造成额外的【数值】物理伤害。攻击会刷新这个技能的持续时长。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1331717:3983369",
+          "source:wiki:1331716:3961898"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "attackspeed",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Queen's Wrath / Prey Seeker",
+      "name_zh": "女王之怒 / 猎物搜寻",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:RekSai",
+        "source:ddragon:16.16.1:en_US:RekSai",
+        "source:communitydragon:16.16:zh_cn:RekSai",
+        "source:wiki:1331717:3983369",
+        "source:wiki:1331716:3961898"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Rek'Sai's next 3 basic attacks deal bonus Physical Damage to nearby enemies. While Burrowed, Rek'Sai launches a burst of void-charged earth that damages and reveals enemies hit.",
+      "summary_zh": "雷克塞的下3次普攻会对身边的敌人造成额外物理伤害。 在地底时，雷克塞发射一道充满虚空能量的冲击波，对命中的敌人造成伤害并使其显形。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1331717:3983369",
+        "source:wiki:1331716:3961898"
+      ]
+    },
+    {
+      "ability_id": "ability:RekSai:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "位于地表：雷克塞遁入地下，获得全新的一套技能但不能攻击。她获得【数值】移动速度，视野距离被降低【数值】%，并且附近不可见的敌人在移动时会将其位置显形给雷克塞和她的友军。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1331719:3980688",
+          "source:wiki:1331720:4008007"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Burrow / Un-burrow",
+      "name_zh": "遁地 / 破土而出",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:RekSai",
+        "source:ddragon:16.16.1:en_US:RekSai",
+        "source:communitydragon:16.16:zh_cn:RekSai",
+        "source:wiki:1331719:3980688",
+        "source:wiki:1331720:4008007"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Rek'Sai burrows into the ground, gaining new abilities and increased Move Speed. Her vision range is reduced and she cannot use basic attacks. While Burrowed, Rek'Sai may cast Unburrow to knock up and damage nearby enemies.",
+      "summary_zh": "雷克塞遁入地下，提供新的技能并提升移动速度。她的视野距离会被降低并且无法进行普攻。 在地底时，雷克塞可以施放破土而出，击飞并伤害身边的敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1331719:3980688",
+        "source:wiki:1331720:4008007"
+      ]
+    },
+    {
+      "ability_id": "ability:RekSai:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "true"
+      ],
+      "detailed_description_zh": "位于地表：雷克塞撕咬一个目标，造成【数值】物理伤害。在满额怒气时，这次撕咬会转而造成【数值】真实伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1331722:4034704",
+          "source:wiki:1331723:4007778"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "physicaldamage",
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Furious Bite / Tunnel",
+      "name_zh": "狂野之噬 / 挖掘隧道",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:RekSai",
+        "source:ddragon:16.16.1:en_US:RekSai",
+        "source:communitydragon:16.16:zh_cn:RekSai",
+        "source:wiki:1331722:4034704",
+        "source:wiki:1331723:4007778"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Rek'Sai bites her target, dealing physical damage, or bonus true damage if she has max Fury. While Burrowed, Rek'Sai creates a re-usable, long lasting tunnel. Enemies can destroy it by standing on top of either entrance.",
+      "summary_zh": "雷克塞噬咬她的目标，造成物理伤害，或是在满怒时造成额外真实伤害。 在地底时，雷克塞挖掘出一个可重复使用、长期存在的隧道。敌人踩在任一入口上即可摧毁整条隧道。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1331722:4034704",
+        "source:wiki:1331723:4007778"
+      ]
+    },
+    {
+      "ability_id": "ability:RekSai:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "雷克塞将一个之前【数值】秒内被她造成过伤害的敌人选为目标，随后遁入地下，进入不可选取状态。片刻之后，她会不可阻挡地跃向目标，造成【数值】加上【数值】%最大生命值的物理伤害并重置遁地 / 破土而出的冷却时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:RekSai"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:RekSai"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:RekSai"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308594:4004938"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Void Rush",
+      "name_zh": "虚空猛冲",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:RekSai",
+        "source:ddragon:16.16.1:en_US:RekSai",
+        "source:communitydragon:16.16:zh_cn:RekSai",
+        "source:wiki:1308594:4004938"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Rek'Sai passively marks targets by damaging them. She can activate this ability to become briefly untargetable and lunge at a marked target for heavy damage based on their maximum health.",
+      "summary_zh": "雷克塞对目标造成伤害即可将其标记。她可以激活这个技能，暂时变成不可被选取状态，并扑向一个被标记的目标，并基于其最大生命值造成大量伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308594:4004938"
+      ]
+    }
+  ],
+  "card_id": "champion:RekSai:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Rek'Sai",
+      "RekSai"
+    ],
+    "numeric_key": "421",
+    "official_name_en": "Rek'Sai",
+    "official_name_zh": "雷克塞",
+    "resource_type_zh": "怒气",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:RekSai",
+      "source:ddragon:16.16.1:en_US:RekSai",
+      "source:communitydragon:16.16:zh_cn:RekSai",
+      "source:riot-champion-page:RekSai:asof-2026-08-21"
+    ],
+    "stable_id": "RekSai",
+    "title_zh": "虚空遁地兽"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 2,
+      "mobility": 2,
+      "utility": 2
+    },
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:RekSai"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:d228b88ffcab15a46a702ec5e67c470df0d1ac2ef092242ca434709d0e2cc8df",
+      "sha256:4a6f9a47f22984c070dc15d69003748d41e841868681fa84562f7af3f389a7af",
+      "sha256:96062c5a5fb31efb13315e606d61057c4427321f613c2cdbe43efd588c4c8829",
+      "sha256:85bf3ca53976820cd4caa63d6e909d13fbcc58b950234687614b0c67b9443375",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:d228b88ffcab15a46a702ec5e67c470df0d1ac2ef092242ca434709d0e2cc8df",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/RekSai.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:RekSai",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 雷克塞",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/RekSai.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:4a6f9a47f22984c070dc15d69003748d41e841868681fa84562f7af3f389a7af",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/RekSai.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:RekSai",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Rek'Sai",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/RekSai.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:96062c5a5fb31efb13315e606d61057c4427321f613c2cdbe43efd588c4c8829",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/421.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:RekSai",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 雷克塞",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/421.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:85bf3ca53976820cd4caa63d6e909d13fbcc58b950234687614b0c67b9443375",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/reksai.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:RekSai:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Rek'Sai",
+        "url": "https://www.leagueoflegends.com/en-us/champions/reksai/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007776,
+        "revision_timestamp": "2026-04-12T14:52:45Z",
+        "source_ref_id": "source:wiki:1308592:4007776",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007776",
+        "title": "Template:Data Rek'Sai/Fury of the Xer'Sai",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Rek%27Sai/Fury_of_the_Xer%27Sai",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3983369,
+        "revision_timestamp": "2026-01-11T16:00:02Z",
+        "source_ref_id": "source:wiki:1331717:3983369",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3983369",
+        "title": "Template:Data Rek'Sai/Queen's Wrath",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Rek%27Sai/Queen%27s_Wrath",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3961898,
+        "revision_timestamp": "2025-10-30T12:55:22Z",
+        "source_ref_id": "source:wiki:1331716:3961898",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3961898",
+        "title": "Template:Data Rek'Sai/Prey Seeker",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Rek%27Sai/Prey_Seeker",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3980688,
+        "revision_timestamp": "2026-01-01T15:31:36Z",
+        "source_ref_id": "source:wiki:1331719:3980688",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3980688",
+        "title": "Template:Data Rek'Sai/Burrow",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Rek%27Sai/Burrow",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008007,
+        "revision_timestamp": "2026-04-13T03:19:08Z",
+        "source_ref_id": "source:wiki:1331720:4008007",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008007",
+        "title": "Template:Data Rek'Sai/Unburrow",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Rek%27Sai/Unburrow",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4034704,
+        "revision_timestamp": "2026-06-23T21:20:23Z",
+        "source_ref_id": "source:wiki:1331722:4034704",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4034704",
+        "title": "Template:Data Rek'Sai/Furious Bite",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Rek%27Sai/Furious_Bite",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007778,
+        "revision_timestamp": "2026-04-12T14:57:12Z",
+        "source_ref_id": "source:wiki:1331723:4007778",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007778",
+        "title": "Template:Data Rek'Sai/Tunnel",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Rek%27Sai/Tunnel",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:1c877f23555f45f0d7a8fc5648b1a8eec8f7735ad15f7e7c1bd9231ca28fcbfb",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-016.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4004938,
+        "revision_timestamp": "2026-04-02T19:26:15Z",
+        "source_ref_id": "source:wiki:1308594:4004938",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4004938",
+        "title": "Template:Data Rek'Sai/Void Rush",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Rek%27Sai/Void_Rush",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "complex_ability_structure",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

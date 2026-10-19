@@ -1,0 +1,515 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Lux:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "拉克丝的伤害类技能会对敌人施加【启明】效果，持续若干秒。拉克丝的下一次攻击将会消耗【启明】效果，来对目标造成额外魔法伤害（基于拉克丝等级）。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308048:4038408"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Illumination",
+      "name_zh": "光芒四射",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lux",
+        "source:ddragon:16.16.1:en_US:Lux",
+        "source:communitydragon:16.16:zh_cn:Lux",
+        "source:wiki:1308048:4038408"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Lux's damaging spells charge the target with energy for a few seconds. Lux's next attack ignites the energy, dealing bonus magic damage (depending on Lux's level) to the target.",
+      "summary_zh": "拉克丝的伤害类技能会对敌人施加【启明】效果，持续若干秒。拉克丝的下一次攻击将会消耗【启明】效果，来对目标造成额外魔法伤害（基于拉克丝等级）。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308048:4038408"
+      ]
+    },
+    {
+      "ability_id": "ability:Lux:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "拉克丝朝目标地点发射一团光球，束缚前2名敌人【数值】秒并对每个敌人造【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308049:4007675"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Light Binding",
+      "name_zh": "光之束缚",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lux",
+        "source:ddragon:16.16.1:en_US:Lux",
+        "source:communitydragon:16.16:zh_cn:Lux",
+        "source:wiki:1308049:4007675"
+      ],
+      "status_terms_zh": [
+        "束缚"
+      ],
+      "summary_en": "Lux releases a sphere of light that binds and deals damage to up to two enemy units.",
+      "summary_zh": "拉克丝释放一个光球，束缚并伤害最多两个敌方单位。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308049:4007675"
+      ]
+    },
+    {
+      "ability_id": "ability:Lux:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "拉克丝扔出她的魔杖，为它途经的友军提供持续【数值】秒的【数值】护盾。随后它会折返，为它途经的友军提供等额的护盾。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308052:3992656"
+        ]
+      },
+      "markup_tags": [
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Prismatic Barrier",
+      "name_zh": "曲光屏障",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lux",
+        "source:ddragon:16.16.1:en_US:Lux",
+        "source:communitydragon:16.16:zh_cn:Lux",
+        "source:wiki:1308052:3992656"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Lux throws her wand and bends the light around any friendly target it touches, protecting them from enemy damage.",
+      "summary_zh": "拉克丝掷出她的魔杖，魔杖所触及的友方单位会有光环环绕，保护他们免受敌方伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308052:3992656"
+      ]
+    },
+    {
+      "ability_id": "ability:Lux:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "拉克丝创造一个光明地带，显形该区域并使区域中的敌人减速【数值】%。在【数值】秒后或再次施放这个技能后，它会爆炸，造成【数值】魔法伤害并减速额外的【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308054:4007677"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "recast",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Lucent Singularity",
+      "name_zh": "透光奇点",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lux",
+        "source:ddragon:16.16.1:en_US:Lux",
+        "source:communitydragon:16.16:zh_cn:Lux",
+        "source:wiki:1308054:4007677"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Fires an anomaly of twisted light to an area, which slows nearby enemies. Lux can detonate it to damage enemies in the area of effect.",
+      "summary_zh": "朝一个区域发射一个不规则的扭曲之光，减速附近敌人。拉克丝可以引爆它，对敌人造成区域性伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308054:4007677"
+      ]
+    },
+    {
+      "ability_id": "ability:Lux:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "拉克丝发射一束耀目的光能射线，对一条直线上的所有敌人造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lux"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lux"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lux"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308056:3919833"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Final Spark",
+      "name_zh": "终极闪光",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lux",
+        "source:ddragon:16.16.1:en_US:Lux",
+        "source:communitydragon:16.16:zh_cn:Lux",
+        "source:wiki:1308056:3919833"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "After gathering energy, Lux fires a beam of light that deals damage to all targets in the area. In addition, triggers Lux's passive ability and refreshes the Illumination debuff duration.",
+      "summary_zh": "在积蓄能量之后，拉克丝发射一束光波，对该区域所有目标造成伤害。此外，该技能触发拉克丝的被动技能并刷新光芒四射减益的持续时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308056:3919833"
+      ]
+    }
+  ],
+  "card_id": "champion:Lux:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Lux"
+    ],
+    "numeric_key": "99",
+    "official_name_en": "Lux",
+    "official_name_zh": "拉克丝",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Lux",
+      "source:ddragon:16.16.1:en_US:Lux",
+      "source:communitydragon:16.16:zh_cn:Lux",
+      "source:riot-champion-page:Lux:asof-2026-08-21"
+    ],
+    "stable_id": "Lux",
+    "title_zh": "光辉女郎"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "roles": [
+      "mage",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Lux"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:2e92a683389c499cbc45be8fcfdcd0a2cd09f986f781ac2e34f7adeb05daf1cc",
+      "sha256:3261674b9f679bd9ce4c031d11257c39c5edce5a3075796281a38d0719f4e89c",
+      "sha256:6c2ee10f350aa19ac9c4166cc6637f8af64c8033fd3fd9afee9ac1c33aa18974",
+      "sha256:61f97637c033d5deb0c86db86ee0d9c5705646d5f99355f29a24de812bfed06b",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+      "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:2e92a683389c499cbc45be8fcfdcd0a2cd09f986f781ac2e34f7adeb05daf1cc",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Lux.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Lux",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 拉克丝",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Lux.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:3261674b9f679bd9ce4c031d11257c39c5edce5a3075796281a38d0719f4e89c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Lux.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Lux",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Lux",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Lux.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6c2ee10f350aa19ac9c4166cc6637f8af64c8033fd3fd9afee9ac1c33aa18974",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/99.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Lux",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 拉克丝",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/99.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:61f97637c033d5deb0c86db86ee0d9c5705646d5f99355f29a24de812bfed06b",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/lux.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Lux:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Lux",
+        "url": "https://www.leagueoflegends.com/en-us/champions/lux/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038408,
+        "revision_timestamp": "2026-06-30T09:46:39Z",
+        "source_ref_id": "source:wiki:1308048:4038408",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038408",
+        "title": "Template:Data Lux/Illumination",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lux/Illumination",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007675,
+        "revision_timestamp": "2026-04-12T10:48:49Z",
+        "source_ref_id": "source:wiki:1308049:4007675",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007675",
+        "title": "Template:Data Lux/Light Binding",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lux/Light_Binding",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3992656,
+        "revision_timestamp": "2026-02-18T20:41:20Z",
+        "source_ref_id": "source:wiki:1308052:3992656",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3992656",
+        "title": "Template:Data Lux/Prismatic Barrier",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lux/Prismatic_Barrier",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007677,
+        "revision_timestamp": "2026-04-12T10:50:17Z",
+        "source_ref_id": "source:wiki:1308054:4007677",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007677",
+        "title": "Template:Data Lux/Lucent Singularity",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lux/Lucent_Singularity",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3919833,
+        "revision_timestamp": "2025-06-25T23:12:33Z",
+        "source_ref_id": "source:wiki:1308056:3919833",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3919833",
+        "title": "Template:Data Lux/Final Spark",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lux/Final_Spark",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

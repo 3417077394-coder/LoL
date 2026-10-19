@@ -1,0 +1,2460 @@
+{
+  "aggregate": {
+    "char_ratio": 0.6426,
+    "compact_char_count": 77906,
+    "full_char_count": 121234
+  },
+  "context_count": 173,
+  "context_view_id": "compact-mechanics-v1",
+  "contexts": [
+    {
+      "card_id": "champion:Aatrox:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Aatrox",
+      "context_char_count": 442,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Aatrox.md",
+      "context_sha256": "7fe8ae7be9b203eb8e2486d2cae0ed505aa5077b2b11b31abecf5390574e134a",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "93827c7643a2b513c64908384d005f36b7e826a6b6eb0414b1d260e1ca0d10ff"
+    },
+    {
+      "card_id": "champion:Ahri:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ahri",
+      "context_char_count": 422,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ahri.md",
+      "context_sha256": "d52852c04a82a0b87d6cb80f40bdacc70ba27786341fb1810af952a6c03b26fc",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "4b6aed4eec85b1480abc838838017063207ec1e002ddbcbae9acd4032414ed6f"
+    },
+    {
+      "card_id": "champion:Akali:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Akali",
+      "context_char_count": 456,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Akali.md",
+      "context_sha256": "2ea6dfd0fd22aaaa596cc72514c2f7012c5e3c04feac218a5218cf5cb57a6196",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "06e60521a97e963dcfff3a84d5a7fd8fbf0392bd58283b830345e9d6cb93e524"
+    },
+    {
+      "card_id": "champion:Akshan:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Akshan",
+      "context_char_count": 556,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Akshan.md",
+      "context_sha256": "dff0e3fc8378eb40d92b7545a7016518d19931b59a6c2f4c62e1d7b586b93d2a",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "36337c64756c33963f701b82cfa7cf79f2bb95ad6387bb53b36f72d20ec99010"
+    },
+    {
+      "card_id": "champion:Alistar:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Alistar",
+      "context_char_count": 369,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Alistar.md",
+      "context_sha256": "1fa457fada477e618e70c17d817c3eaa92df8c665eefe287a9e7c5958c1bc2d7",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "b586c8cd1e41efbe92784d8c663e86ff9c6d44f4a4220661317d6182535250be"
+    },
+    {
+      "card_id": "champion:Ambessa:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ambessa",
+      "context_char_count": 587,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ambessa.md",
+      "context_sha256": "e78c79e0e8a46be595f9eba50ba75c9bd147854ecc626e9beb6a374e61f7c076",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "7a225e933a9c31c17f04e45982faacbe2256eac563e208280964f1cef0c06311"
+    },
+    {
+      "card_id": "champion:Amumu:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Amumu",
+      "context_char_count": 346,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Amumu.md",
+      "context_sha256": "2206760f900178d51ca69a5477771c233b4267802e04977cb17f92afc94e389d",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "64ef099c9d64e72b5cd5f22aa8c609df72048696f37da713f0731e3b7eeb1c3d"
+    },
+    {
+      "card_id": "champion:Anivia:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Anivia",
+      "context_char_count": 418,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Anivia.md",
+      "context_sha256": "3f10edcc0ae6489666d494a8a55cd416ecd11a708868b2fa6ff460cf143721b1",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "7bfde8cfbe01e467c383f9f21c9cc832759c70136b7092db7e639b2484ca84f3"
+    },
+    {
+      "card_id": "champion:Annie:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Annie",
+      "context_char_count": 389,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Annie.md",
+      "context_sha256": "e5d8816c899af8bac900d8652a4c0b89671f78f4a46a35bb38bdb952794db1ad",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "cadfb70a661ad968a4683f978dd436d23f51ffc4ef7fee506477d24b775de887"
+    },
+    {
+      "card_id": "champion:Aphelios:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Aphelios",
+      "context_char_count": 610,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Aphelios.md",
+      "context_sha256": "92374d9ed6d9a65070e412889e8d975ddf846489c2e4b4e149a07d9559aedc2a",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "3c8bc8eece0c7f275f59bce633f21598545c0c9ca04f9645d5763939afd449a0"
+    },
+    {
+      "card_id": "champion:Ashe:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ashe",
+      "context_char_count": 491,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ashe.md",
+      "context_sha256": "d31135d33e4a26e3d112415c1fe10bbdf70c3eddc6e000c3b143a77eae0898c6",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "b4491ee9fcb08159eeb40b6af2ffab85c10330d4aec1b39d25ba5be8d3cc8cf9"
+    },
+    {
+      "card_id": "champion:AurelionSol:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "AurelionSol",
+      "context_char_count": 866,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/AurelionSol.md",
+      "context_sha256": "b26042de00a3c6bef52f9c7a104abedc15d4ca2ae533ade244ad80434bdf63f1",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "d4fe269d32523abb407fd777692f26357cba666d3f895d332673bc0273274507"
+    },
+    {
+      "card_id": "champion:Aurora:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Aurora",
+      "context_char_count": 436,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Aurora.md",
+      "context_sha256": "674e8b1aec3b459e6d0c911e97d7fe6616d004e7d279814c543acb6867989ba8",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f28196b9c7263f1eb47ea5e4ae4009b6e1f326dad72ad2520bbea604b2bcaaa1"
+    },
+    {
+      "card_id": "champion:Azir:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Azir",
+      "context_char_count": 375,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Azir.md",
+      "context_sha256": "e3fb745ff48a68bbab6d4bd520ed6a36fecf267d47ec42a7b6969a34c6c454af",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "ca35972d70f13282942be95b8d21e14a2e0e897ff279dbe10fa22d1e6bc9e27c"
+    },
+    {
+      "card_id": "champion:Bard:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Bard",
+      "context_char_count": 494,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Bard.md",
+      "context_sha256": "1e76a77b4296881834bde9cbd3ee7d19adff34ddc1a1e0d67e61a229fd3e92ad",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "ead0c87a796fe9215b1ad62388c2342ab648effca05d4af0a6bfce78808b9a15"
+    },
+    {
+      "card_id": "champion:Belveth:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Belveth",
+      "context_char_count": 419,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Belveth.md",
+      "context_sha256": "b26e899077cb7574e7ece1192479e331e68d2f7ccd2a1cff01a53ffcd3907208",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "916ea51c75c4fd8981a14a3ae98306198e420ac00f7646bcf5029f8b5d48de4e"
+    },
+    {
+      "card_id": "champion:Blitzcrank:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Blitzcrank",
+      "context_char_count": 423,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Blitzcrank.md",
+      "context_sha256": "df04a63b5e84ff6e03e951870ddb32d982a26b1d1e2e3743187962546e49ef36",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "8294fa7c9a8bd487bb8f522dab1d34b7007618f1c728ce36c826402b974aa868"
+    },
+    {
+      "card_id": "champion:Brand:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Brand",
+      "context_char_count": 571,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Brand.md",
+      "context_sha256": "79052845ecf54f598b294cde97be6d4612fe44eec70044428823d7706bc7bda8",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "93186d5b8b0faefd96a3e248103b457f64a46d6f2a6bb37fe8c03e7e7d4cfed3"
+    },
+    {
+      "card_id": "champion:Braum:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Braum",
+      "context_char_count": 462,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Braum.md",
+      "context_sha256": "614e06a320bdec50dbacd36a169b9e8215b5d5f519f840b5a38abd552efa4081",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "6ce1b642b849c8f6cafabe8e97c0fb4215f2ce23fb5ff9564b74636efb303908"
+    },
+    {
+      "card_id": "champion:Briar:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Briar",
+      "context_char_count": 769,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Briar.md",
+      "context_sha256": "8f12c01ea957837fb1b27dfdc2b25401960fa48a9f551bdeb5e3f33e6eaf1444",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "39b434c3eab090a1b53aa2583089ba873dd66477e20c5e62a2754ddd9532f23a"
+    },
+    {
+      "card_id": "champion:Caitlyn:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Caitlyn",
+      "context_char_count": 439,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Caitlyn.md",
+      "context_sha256": "7e96e33f4e108bc2b206e593d73eace824c158d273e844aba262c90430281108",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "64f480b0f2a80679b2becc0f6ff734d7b5c93766b9b64814eeefca62db223350"
+    },
+    {
+      "card_id": "champion:Camille:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Camille",
+      "context_char_count": 464,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Camille.md",
+      "context_sha256": "869610e4164d20b4d3e89d7f7bc59894b98467045dc55fd01a7cf8741100e4b0",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "0e09fbc6c040cf99b3ff572cd0fc57ac1880630d52ac0256a1b8b3dab64ec114"
+    },
+    {
+      "card_id": "champion:Cassiopeia:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Cassiopeia",
+      "context_char_count": 406,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Cassiopeia.md",
+      "context_sha256": "2b0bafb2c5382f356426b2c5cd6a415b376a240a12275efe99147e1c19753cc5",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "d3318cbaf744d54545f423c4ca3645504d949f0d830efd11523862dec5bb0aab"
+    },
+    {
+      "card_id": "champion:Chogath:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Chogath",
+      "context_char_count": 338,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Chogath.md",
+      "context_sha256": "7dc8cb7c4d53cec9cdf608c6a4acff055b757a785aa6336c27da0c7529ccdf1a",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "71e36e39b36f4b62fc37f13951daf08b7e7c9530ae1473b2ed23739eb8f61454"
+    },
+    {
+      "card_id": "champion:Corki:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Corki",
+      "context_char_count": 410,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Corki.md",
+      "context_sha256": "33e2d33a0358f1843ed2ca0c595a0b3a20ad66400d863d31df3bfb23fed21bb2",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "8ba51bf2ae11183f290c602f668c74d4f6cf55532de375bc7795d5748fc0c442"
+    },
+    {
+      "card_id": "champion:Darius:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Darius",
+      "context_char_count": 496,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Darius.md",
+      "context_sha256": "fcff53ead56a15cbe4e1f931593a82143e3c1817ea8a4bde9f3e2b8eb6b27a1a",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "de6a9d630961112670d17d7901db008f15875e973f56611e4856da301e5529ce"
+    },
+    {
+      "card_id": "champion:Diana:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Diana",
+      "context_char_count": 508,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Diana.md",
+      "context_sha256": "6282758c1d6037c47ad25e3cc4efd967c50de4bbe4d7e04d059294f96f235be0",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "24fea7affa5a3224673ac6b735df7dbec11f821a04a6113f0304de39d708a766"
+    },
+    {
+      "card_id": "champion:DrMundo:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "DrMundo",
+      "context_char_count": 533,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/DrMundo.md",
+      "context_sha256": "b35b7e820f13a40d478096f617828c3dfc762894d245a5c66960c850662065ee",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "adb64ded1791937089a87d00f997bef5765071ffdb97dbf3913463acfbb90f9b"
+    },
+    {
+      "card_id": "champion:Draven:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Draven",
+      "context_char_count": 548,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Draven.md",
+      "context_sha256": "659bc460a7d2f13bcc2d0104e12b47fd6d0d707d315780b0a9f25b4d3bee2bc8",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f75fa51e7a0fbc693844a8b639932974560d7f9e1549872817521670600fa454"
+    },
+    {
+      "card_id": "champion:Ekko:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ekko",
+      "context_char_count": 576,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ekko.md",
+      "context_sha256": "c114cc69693097e729bf109c4750013da9796abb77679d8a71a9311ee319f147",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "09b99a4dc261636a05fa540ae83315d0401792b85167830fd5c697b955c8d349"
+    },
+    {
+      "card_id": "champion:Elise:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Elise",
+      "context_char_count": 543,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Elise.md",
+      "context_sha256": "915008b2d181a7d2a5d4965b18eb1123448ac27afb737ab70a951c5467529513",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "40b26ccead429d1ece0b464ddf175ab07910b549ac804a15a3d6a100657ff9e9"
+    },
+    {
+      "card_id": "champion:Evelynn:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Evelynn",
+      "context_char_count": 413,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Evelynn.md",
+      "context_sha256": "4f4cd1bcc3c70b29810761ce9ec6327b62bb45cc0f7140ef8064bd1e360d339d",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "a3d923362015c041c534814b17cb21cef0b5de8a31170c735f38b0ec31fd6f05"
+    },
+    {
+      "card_id": "champion:Ezreal:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ezreal",
+      "context_char_count": 381,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ezreal.md",
+      "context_sha256": "154d11864c9a0a72243e13a5e39cdd030d9afbdc48284ca091f4342852404abe",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "ec36c960c8d946417e762d35603e94c47e9a14d9b8c9ca6cfceb77ee4536768f"
+    },
+    {
+      "card_id": "champion:Fiddlesticks:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Fiddlesticks",
+      "context_char_count": 389,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Fiddlesticks.md",
+      "context_sha256": "f903e3a9a038554eafbc513160091e05ab042eaa11873bec9ec67d1cbd420b72",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "675e4e581e9cd492c9b236faf3ec2f859567e783e90ce285d746e06fcee1fb31"
+    },
+    {
+      "card_id": "champion:Fiora:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Fiora",
+      "context_char_count": 518,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Fiora.md",
+      "context_sha256": "ab7c0e179f68b9aefadeec623077426bbce1ab1be6f83ad639a39da681d66aa2",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "32301eb5a471315264d753f65730fa78533b96ceb05c58268d0cda9deeaecbca"
+    },
+    {
+      "card_id": "champion:Fizz:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Fizz",
+      "context_char_count": 514,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Fizz.md",
+      "context_sha256": "b641091664dac798f41bcb9749c13f93a379ee8b24b817bc35363b957a64c35c",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "40d4a681ba16259bae3482093c5d3aaeafe9e9fe96ba4887f952d786f0e3ebb3"
+    },
+    {
+      "card_id": "champion:Galio:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Galio",
+      "context_char_count": 385,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Galio.md",
+      "context_sha256": "f28880f808c7d89b22ef8444f12c2d463e70dc0b55d0cc7b9851785c35f47479",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "9ccdc78a03153fe26db98ba0be478f06fc39810c4ac8ca993e8b0468b9004312"
+    },
+    {
+      "card_id": "champion:Gangplank:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Gangplank",
+      "context_char_count": 360,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Gangplank.md",
+      "context_sha256": "691587377594727e6b271dbd002b8326964ee5c690c66f132d02f72417676ad7",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "1cba7e1140f7a8746a86047f9f70ed4a70d018632ddb5b92b099e88803ca04fb"
+    },
+    {
+      "card_id": "champion:Garen:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Garen",
+      "context_char_count": 404,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Garen.md",
+      "context_sha256": "fab45208b20427ebd3aea5c188a4c5eb0125e12bc15af8502afff0756deb62e6",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "72f64c06f1afbe47f51b15197dff304bb6b545085e9f5f15629d1864e6c997e1"
+    },
+    {
+      "card_id": "champion:Gnar:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Gnar",
+      "context_char_count": 648,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Gnar.md",
+      "context_sha256": "c462aa8975bb8fce93d6d527c5096ca161b2244aae2ff0f266623c635e8d6b52",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "ab326937ec163533903b107858bea39c7b4fbc4678fdb4c998d8911f7fa89413"
+    },
+    {
+      "card_id": "champion:Gragas:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Gragas",
+      "context_char_count": 383,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Gragas.md",
+      "context_sha256": "6aea9927bde6069143ed92dc862fceb714d8d155e8a372d9c25e022953266251",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "81e6ca65457a6360390387d23742301fbb60051eef30fbd850012ace15966950"
+    },
+    {
+      "card_id": "champion:Graves:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Graves",
+      "context_char_count": 507,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Graves.md",
+      "context_sha256": "6931e55d8ae91035aad61f59991e67981c5f0f2b9f2a15bc79725f8230c0e43f",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f561aaf6f90e960fe2ccaee6d2a906d53413fab8635f1bcbe887837c42194e70"
+    },
+    {
+      "card_id": "champion:Gwen:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Gwen",
+      "context_char_count": 458,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Gwen.md",
+      "context_sha256": "b5418993abfe212c308b830f08c9aa1ba51e1dccaa014ae174d52edbec4d42f4",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "c23f4a22b74d86685916c1df2a153470c16b8d6840a074f154a3f1efc63dcecc"
+    },
+    {
+      "card_id": "champion:Hecarim:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Hecarim",
+      "context_char_count": 438,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Hecarim.md",
+      "context_sha256": "f626732ff034fb56308f4936a2f60bd800d734a1b72f69edc6e700e4671361af",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "9471a6de239f2af27d9e2bc4d9c5a0981ea3959766e08ffeef2fdf8fe9f7a442"
+    },
+    {
+      "card_id": "champion:Heimerdinger:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Heimerdinger",
+      "context_char_count": 412,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Heimerdinger.md",
+      "context_sha256": "9ff95d45694fbdcab91019932f4107d48a3f3528e68961b0cbc8f1df7f2de8bf",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e235080f53c59b0700ef771fdad276f6eb3576cc0449d5903ae08c121b757d27"
+    },
+    {
+      "card_id": "champion:Hwei:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Hwei",
+      "context_char_count": 455,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Hwei.md",
+      "context_sha256": "34ac3bd0761a95c548540954fd488f34859ee9b9ba48bb2be688b4485f7e0812",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "de6ab5d217ecbeb19c523f7d4f064d6112f69c98a0f993963bdf1cc3cfc6ca97"
+    },
+    {
+      "card_id": "champion:Illaoi:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Illaoi",
+      "context_char_count": 445,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Illaoi.md",
+      "context_sha256": "f805cc711811e72306c45657ff3e65b5d55c8d54d1bf4cf22a7bc15cc010b7b3",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "3b36f54888ce5a1db289b055a384e360d6a103c5ea25bcd52155be3ed91fa124"
+    },
+    {
+      "card_id": "champion:Irelia:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Irelia",
+      "context_char_count": 441,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Irelia.md",
+      "context_sha256": "9453677c799b6fe87a433edb06472723ca0103bdca3de895d50d96359c6babfb",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "939e0ac4ff0177cf251c835b91c2b10c5d6f63618cc72811ce39e363b2d9a8e0"
+    },
+    {
+      "card_id": "champion:Ivern:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ivern",
+      "context_char_count": 423,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ivern.md",
+      "context_sha256": "a1afe255e8405a941a9c9b1b9a323dc3d07fc850772c6ca774649e45a722e8bb",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "eb5b4dfbb9b208c85ea26cffcc59a2852f44f10ea3c0c816999e40b2c0701ba0"
+    },
+    {
+      "card_id": "champion:Janna:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Janna",
+      "context_char_count": 465,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Janna.md",
+      "context_sha256": "aedb2fd23b76c5e1dab1e3b0d24e7761775a15fb2b066ba18ea27db6930d497a",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "7deb5334cdf3e5ade791b175dd65633561ba0ad22dd4853ae12debd1be7bd5b8"
+    },
+    {
+      "card_id": "champion:JarvanIV:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "JarvanIV",
+      "context_char_count": 477,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/JarvanIV.md",
+      "context_sha256": "cf800337fce1b23dc1ff5df7ddbeb7133fea7b0d8ac4d133cf9b7a295f8bea58",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "cae1ea0d7f873b53be9cfacc76692429657b35c4904c9303e18c9037158e01bb"
+    },
+    {
+      "card_id": "champion:Jax:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Jax",
+      "context_char_count": 390,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Jax.md",
+      "context_sha256": "1798b510acef7a4d11efab440a036680a0f8331522d1beae964ade9750e707b7",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f0d769c47c1b20905276b335600ff72e1803583c99f4447d31fde0f4276ecee8"
+    },
+    {
+      "card_id": "champion:Jayce:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Jayce",
+      "context_char_count": 645,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Jayce.md",
+      "context_sha256": "aa9013436bde3fcfb43b53dc4df54e995699baac652239e6b6caf4e009b3c13b",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "4b0fbfa604fc5d84c3e8619ca9d4dc650469e7ef402eb3006bb3f311df3fff8b"
+    },
+    {
+      "card_id": "champion:Jhin:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Jhin",
+      "context_char_count": 628,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Jhin.md",
+      "context_sha256": "66ddb00f5df0666ede0274b4b5a02fb2be9b65223dc75a9e577d63577b10a513",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "c0d45255796dacfeb35faa1abbb59a2d7277eba473d479d7b3727a4b6086fad8"
+    },
+    {
+      "card_id": "champion:Jinx:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Jinx",
+      "context_char_count": 468,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Jinx.md",
+      "context_sha256": "9cc32279c01982a8a18e2c8117ed7d238cbbcf6c611b2f637202b00452e964e2",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "7c509c42a540620c427deeeb1cb1280ce1975e50875734b48c0d0e6f5978d9a7"
+    },
+    {
+      "card_id": "champion:KSante:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "KSante",
+      "context_char_count": 543,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/KSante.md",
+      "context_sha256": "530b8dcb8b261a3517f9563273e77ba57ce311f888ad181c123ba7e1581e6590",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "2f1283e7f8b5f3aee1497e8f0fa860f8b51d0bd72372ba78ed6bf4a2a0e05d80"
+    },
+    {
+      "card_id": "champion:Kaisa:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Kaisa",
+      "context_char_count": 412,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Kaisa.md",
+      "context_sha256": "94fad0e580f4ae874b7f2fc00eb5c5a581d5349a1aa3efde2725ecda2cf9fd35",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e57a42cd62ec116a80ae6d3c8214d59c3a3f44378bcc8bce85759f67000d9466"
+    },
+    {
+      "card_id": "champion:Kalista:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Kalista",
+      "context_char_count": 395,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Kalista.md",
+      "context_sha256": "06256e11352b541bc200104f5ca511efa95f5ecba41d3c8536d2e7580fc6363b",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f4edb23515ab96b94f0e390164f6349536919d7f5552b7f9097186fb67a3fb2e"
+    },
+    {
+      "card_id": "champion:Karma:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Karma",
+      "context_char_count": 519,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Karma.md",
+      "context_sha256": "306561546bd5efa9971d51f0f27bc40a6e60dbc2fc987a0b5039589f30977bf8",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e2cd128bc37400a744fe4e64f1c9e108b7c58928bc07fdfb3cc17547e9c43092"
+    },
+    {
+      "card_id": "champion:Karthus:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Karthus",
+      "context_char_count": 344,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Karthus.md",
+      "context_sha256": "926902122eca362455c355c7354b15285d5705bb5a6e9f1fac733a6f19e1bf0c",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "0bb6bc489b13855a5a9368f7819675b1109c98e329f2fa371fec8e4f5e472503"
+    },
+    {
+      "card_id": "champion:Kassadin:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Kassadin",
+      "context_char_count": 414,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Kassadin.md",
+      "context_sha256": "377861b505a0cac974da0ad1bff04434a341446d8c0605bdc821d73ef5eec9d9",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "9f0b26d1311552d5808ef119c2512925165854666a30a470b577824fb1719be8"
+    },
+    {
+      "card_id": "champion:Katarina:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Katarina",
+      "context_char_count": 398,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Katarina.md",
+      "context_sha256": "fb6f1a6963369ada64c747caddc8417cab1c548f909732cdc20923cf3a8340e0",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "c667c613738b845955a4a1d32ac0ec87ac07c1928206edf99cfd4d3b11a23994"
+    },
+    {
+      "card_id": "champion:Kayle:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Kayle",
+      "context_char_count": 397,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Kayle.md",
+      "context_sha256": "678a091c713757ab2ea60a8578cd3fe509b3153adda4937d2e1336b6d1b3f5cb",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "85f48282f88c354b74ecba6d6f46f4a23df2d458196e127c1b554576487007b0"
+    },
+    {
+      "card_id": "champion:Kayn:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Kayn",
+      "context_char_count": 400,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Kayn.md",
+      "context_sha256": "dc330c31a38fae3e187603897957caaa2bc951b0f11738ab2d40b6a6dadd33c0",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "88fe4026156bd663af2431423cb0522eba8227c26c28024e5b5ea4dc4541fe43"
+    },
+    {
+      "card_id": "champion:Kennen:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Kennen",
+      "context_char_count": 426,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Kennen.md",
+      "context_sha256": "c87944330e8e7dbced7d65521946f76a200e7665a7ac583d49618faebf0180e7",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "daa9d9017839da9a8e12e5b6e8167a99fe51100b572c63c6d0cafcb993fad089"
+    },
+    {
+      "card_id": "champion:Khazix:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Khazix",
+      "context_char_count": 612,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Khazix.md",
+      "context_sha256": "8d581c16768d2fdec6b54c9577d142b21b6b02d886cfa4350d237e42c789c2eb",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "6682058743bd4eb3fce848c70774ef9a128cafde65399369417247b6962aba52"
+    },
+    {
+      "card_id": "champion:Kindred:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Kindred",
+      "context_char_count": 435,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Kindred.md",
+      "context_sha256": "dd1dcbb56f049fc56bb186662536f86732af50200821fa77897f4adfe5517481",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "0330f7c824ead5e890f619a7c087eaa223fb57c55e84079060b8c452d50e4921"
+    },
+    {
+      "card_id": "champion:Kled:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Kled",
+      "context_char_count": 645,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Kled.md",
+      "context_sha256": "a0829e7556466d74bc16293f87ea03826cea765250d21016a3c8daba054f97d9",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "72b22d2d526f72e229dd62b04be5174a903172a6c0d67d0507c8ebecca8aa8cc"
+    },
+    {
+      "card_id": "champion:KogMaw:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "KogMaw",
+      "context_char_count": 423,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/KogMaw.md",
+      "context_sha256": "c369fd51b7c1f3a909db779c79a6b1820aee452a1ac1f684b93bdf97346dccb1",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "439ecc7f26491625c30bdff1149712607170e7c49b0757f5b482ccb4ba27e3e7"
+    },
+    {
+      "card_id": "champion:Leblanc:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Leblanc",
+      "context_char_count": 393,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Leblanc.md",
+      "context_sha256": "86c04b2716fac9c2df9f4b533ccba0838846bc702890f6ac592ffa09a3a59bed",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "ef29a72b4f97c0b89f3bccd366c23404337d1a6410e19e48126c15ec7be459fe"
+    },
+    {
+      "card_id": "champion:LeeSin:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "LeeSin",
+      "context_char_count": 668,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/LeeSin.md",
+      "context_sha256": "28217f6c4d7cb34a10befa0cbeba507e3efad7ad23d957e4b7ed41779e8f6e40",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "77761e8a2d38d18863ac8ed0b8b8690f6439085979bc591a35017de3353addf8"
+    },
+    {
+      "card_id": "champion:Leona:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Leona",
+      "context_char_count": 397,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Leona.md",
+      "context_sha256": "4df896dac386beccf8911282d0317e207375d3ac4b9fc3dbf6763c88873831d1",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "86d8568091defd06748fdbbf4a496672fdbe83af16c6c107372f8059b6ac30a9"
+    },
+    {
+      "card_id": "champion:Lillia:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Lillia",
+      "context_char_count": 424,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Lillia.md",
+      "context_sha256": "f77e32651cc8739e28d317044bb822df55c87189438e41d8cbb4770580c2e1bb",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "93e0683b81ce0512b7d5cb1e622e75daedd2b53b111e62e971bffeda18b8dc08"
+    },
+    {
+      "card_id": "champion:Lissandra:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Lissandra",
+      "context_char_count": 505,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Lissandra.md",
+      "context_sha256": "6d839a0c53be84154e22aa336873cd34f33dd4443ff18eb5ea8356270cf61055",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "54d3a9939911b591733e865b91764df7689829b51613ac5f46673e58cf866799"
+    },
+    {
+      "card_id": "champion:Locke:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Locke",
+      "context_char_count": 415,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Locke.md",
+      "context_sha256": "b49d1d3a98630ba08886bb14d9b7ebf23b8b0f5b7425e1bf89daea5d69076a5b",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "6f4b02bc653f46e5286d84ffa21888e2014738987ba413ac2227f2699cb8357f"
+    },
+    {
+      "card_id": "champion:Lucian:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Lucian",
+      "context_char_count": 388,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Lucian.md",
+      "context_sha256": "7bc16879c4a3db29cf72f4a4a3181916b2e5174c43ff97156b017d95b2dee6f0",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e9bc554c056e5a6d94d6e522e3192b19591d8000548d476fbacaac954968f80a"
+    },
+    {
+      "card_id": "champion:Lulu:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Lulu",
+      "context_char_count": 476,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Lulu.md",
+      "context_sha256": "e463662e23efb0b3bafbe8cb7b72dfd2266fc234a230bec8980e247981e4f504",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "85c473865ce98a07a9e1ae51d054ea39f4ef2344139ae22aef82ad354c03da03"
+    },
+    {
+      "card_id": "champion:Lux:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Lux",
+      "context_char_count": 370,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Lux.md",
+      "context_sha256": "570c18a655861c9c8eaefdc93e8fa02baf738f969a1e7b528f2e4f2c3e758fcb",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "12627e4b99d1fb155cfe3a13fe933f037976d550e9b20acf80d2b8dc711e53b4"
+    },
+    {
+      "card_id": "champion:Malphite:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Malphite",
+      "context_char_count": 394,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Malphite.md",
+      "context_sha256": "d6d6c64941bac0437bd31140bb19e03236dfc80e4469c1866647aa1ed6327c4e",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "4d7e7fa5df63b238890f5110258efd5e2d7475bebb8246f61cccf6e4a57544e1"
+    },
+    {
+      "card_id": "champion:Malzahar:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Malzahar",
+      "context_char_count": 373,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Malzahar.md",
+      "context_sha256": "c7519f7847662898f78ca220f563bba0f42d30261f06a907a04d95cb65e18c14",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "e2284d9c4384c93a9e874a11f6dbeca1c1b95f57b45e6e1e0ea38f43649ecf6a"
+    },
+    {
+      "card_id": "champion:Maokai:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Maokai",
+      "context_char_count": 341,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Maokai.md",
+      "context_sha256": "b34e5b49c1f7278cdffc5ef512846cd3a9d8313f3ecb354ce6bf4b6de80f7bde",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "354ca7af34a368e36898e3ed1416c61efb827f9594acd65d6c2766bc8d9d2400"
+    },
+    {
+      "card_id": "champion:MasterYi:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "MasterYi",
+      "context_char_count": 497,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/MasterYi.md",
+      "context_sha256": "f68cb5432921a7843136a9bf281d1a0f1b6f6c0f8d69b3bc52502aa24176a472",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "17f83c21aad00f4ec72407c6d3ee18ebd37165753d11ee0efb84cf4e9945332e"
+    },
+    {
+      "card_id": "champion:Mel:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Mel",
+      "context_char_count": 479,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Mel.md",
+      "context_sha256": "23efe4f0456769695a64ba76bf7e04bac1403049a1a3c6d8777ed0659223f72a",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a4536b0fba2ce54e2b5ac0a68e71faa2deae82f6f7094291a44639b39dcb62d4"
+    },
+    {
+      "card_id": "champion:Milio:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Milio",
+      "context_char_count": 402,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Milio.md",
+      "context_sha256": "7851c89f063240320525f05d8084f426beb79b52417382c16a1a281bb2ef8ab5",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "816b13bd5440bc948d5d90a83f5fb46a210689ac7bbe5d0589cbe7c19afabca8"
+    },
+    {
+      "card_id": "champion:MissFortune:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "MissFortune",
+      "context_char_count": 433,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/MissFortune.md",
+      "context_sha256": "277fbcf9638a064c961d651cbaa0ae14db55cf0bec6a473f460fafa54a5ce2a1",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "01ba8a23708f15f719fd6476fd2305cf9040f1da14fb3a4192b08fcaede3913c"
+    },
+    {
+      "card_id": "champion:MonkeyKing:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "MonkeyKing",
+      "context_char_count": 380,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/MonkeyKing.md",
+      "context_sha256": "940eab6599a0fe26110d1eb94a6ea9ed9565fb6e219469864265eba4533e5514",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a69580342f9fd1745ec588b24ca2fb1a71964b4f535a17513e6a25cef2c84976"
+    },
+    {
+      "card_id": "champion:Mordekaiser:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Mordekaiser",
+      "context_char_count": 382,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Mordekaiser.md",
+      "context_sha256": "468da1e3d7579435f7d801c123a96afa9b2df26414a1c99b75e5405e45d8cf8d",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "b428eff683d95ce6bde5a852ab555d1cd277bfae3594c788a2a5d60e275f29f1"
+    },
+    {
+      "card_id": "champion:Morgana:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Morgana",
+      "context_char_count": 457,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Morgana.md",
+      "context_sha256": "d49e1a79306db420899272492e2331b57e4e1e57664b9eaa8175889b49aea47d",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f3ccf011fcfd491440bb16f9ec5a1bb424041717ca48190cfbb67f8189450995"
+    },
+    {
+      "card_id": "champion:Naafiri:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Naafiri",
+      "context_char_count": 454,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Naafiri.md",
+      "context_sha256": "71240ac3b5ef4ddbb2a87d94b1af24145bb5d4d645174aa969c683c75c7a4da8",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "1ca980c574c6ee66fe52fd09cb7c496af36ecbf103dd7b0df37113b0e3531b30"
+    },
+    {
+      "card_id": "champion:Nami:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Nami",
+      "context_char_count": 359,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Nami.md",
+      "context_sha256": "604287af674bb0d5be5e2167b2b3a240fe7e9e5e929b7596e215820b5515f326",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "7423b2951930b40652ebda836aae22b741066a2742dde72c071466f70806b9a4"
+    },
+    {
+      "card_id": "champion:Nasus:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Nasus",
+      "context_char_count": 372,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Nasus.md",
+      "context_sha256": "4f19fdfc1cc93705e0d37241673269e21eb16b94d18ac3960a7bb0ae065dd21e",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "dbb67f5f576f6c931dbd685e724400b5052317dc2e0d38f6fb18a54078873783"
+    },
+    {
+      "card_id": "champion:Nautilus:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Nautilus",
+      "context_char_count": 432,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Nautilus.md",
+      "context_sha256": "1cdff82aec0f07f094d968cabc5c8d73f16f97c02a19e146af0ec2df59b9b3a6",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "52f02c146ca89ba11a304a8423156f818da75ac3c15d1a65f45039ba4efdc314"
+    },
+    {
+      "card_id": "champion:Neeko:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Neeko",
+      "context_char_count": 521,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Neeko.md",
+      "context_sha256": "192fcc7be5352f6719d274989e69f56c8e577e059bf3ef269a000f079b793c14",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "45664284753c5ef567430688b831f047240b8f6ea5222012b4338cd9bb70eeec"
+    },
+    {
+      "card_id": "champion:Nidalee:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Nidalee",
+      "context_char_count": 667,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Nidalee.md",
+      "context_sha256": "d08028eb0349b4f7d24a187aded2aa4892caf6f171002775c5a691ff289bea0b",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "6b688ae2beff621b38cdd5da330450e37bdcbe6266f33cea78ed1dd00513ba55"
+    },
+    {
+      "card_id": "champion:Nilah:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Nilah",
+      "context_char_count": 433,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Nilah.md",
+      "context_sha256": "4cc760c0691b0c598d229a9cbbdf8baa5cd585ea24c712e322abd7e2cee7295e",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "f35f0ad47d60c8109ef9a9064e918857a5ec0f13cc2a92b9dacc21fabc8dc1d1"
+    },
+    {
+      "card_id": "champion:Nocturne:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Nocturne",
+      "context_char_count": 475,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Nocturne.md",
+      "context_sha256": "4514c20af66f91582daa54d3272f9097d565ee3937107b3932360e065a906188",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "1745b60516aae9329232b7ed9cea396d4c1d899f3bed1ceb01c22b01225ccbe5"
+    },
+    {
+      "card_id": "champion:Nunu:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Nunu",
+      "context_char_count": 405,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Nunu.md",
+      "context_sha256": "9c350e2cd9d3864a6b5dd072de8057d2a7cfabbd4b8b18c8aff09be3c7878662",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "6a090e7948641c17d6380f90272f269f5253955c750480225ee8d9735952a569"
+    },
+    {
+      "card_id": "champion:Olaf:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Olaf",
+      "context_char_count": 376,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Olaf.md",
+      "context_sha256": "7d6c69f4b6be12717ab10a62c1d20b8b7863ca6efe2ae41de912c37056509738",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "0e7c6392891cb41ad85d0fe4ea61581d3a09cceb0760d2f9cf03fecff62a4c6c"
+    },
+    {
+      "card_id": "champion:Orianna:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Orianna",
+      "context_char_count": 415,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Orianna.md",
+      "context_sha256": "e792937ee9f5c92369b8bf080a1d63dfa459c9994244d153ea401a25b2322a02",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a01356adc3bc78fcdcbe63459579ea494929a2ad49d8553579e936bb96ff9956"
+    },
+    {
+      "card_id": "champion:Ornn:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ornn",
+      "context_char_count": 523,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ornn.md",
+      "context_sha256": "e8fc345688266ac9442706bf6a4cac8581c34b6c4e0a5f3d063d172690f8f552",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "c8f509abcfa981fef0dab7fa14ab4912e94dc210d49ae21d8485107a84384756"
+    },
+    {
+      "card_id": "champion:Pantheon:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Pantheon",
+      "context_char_count": 322,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Pantheon.md",
+      "context_sha256": "bfb8c1d7d9d7839331aca9360316d6f5de299872afec6adbbefca5099220b189",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f1e668955896c1b203904bbea266b19b12f07911c82b079a75a5e70419247499"
+    },
+    {
+      "card_id": "champion:Poppy:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Poppy",
+      "context_char_count": 403,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Poppy.md",
+      "context_sha256": "0a949530411e930c26334624bb4d7500cb0c8775ee5b91a7a52018851ec97ba6",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "1b9ab2c527f566715d48e5b3e5dfa7f2870052be11bfff3eb8596916206cbbf3"
+    },
+    {
+      "card_id": "champion:Pyke:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Pyke",
+      "context_char_count": 357,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Pyke.md",
+      "context_sha256": "029203591a3612ed69acc97d1fcea576936323768017336a8e63fa50665cd4fe",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "14fc532eff267f459aeb4c80700e73b5b3f484964dad18b971ee9bee8d1bc45e"
+    },
+    {
+      "card_id": "champion:Qiyana:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Qiyana",
+      "context_char_count": 405,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Qiyana.md",
+      "context_sha256": "086952f999d784432598cc682013a142df2643a5d610c51b2143022cb519fa7e",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a00fda81d4e6ccae38c3eaaa44eb0137373d33f835748a94216ae9e788bf3bf0"
+    },
+    {
+      "card_id": "champion:Quinn:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Quinn",
+      "context_char_count": 439,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Quinn.md",
+      "context_sha256": "6ec36865c321cb30a159e69774858794c70b8e25bb58e64e9dc6e5663843740d",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "0bc15a39fda047cbe62c536245c32b414dcb0f1d5f72b7c4701c4ac9fa394290"
+    },
+    {
+      "card_id": "champion:Rakan:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Rakan",
+      "context_char_count": 336,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Rakan.md",
+      "context_sha256": "1f4ca26b54a7765a90136ad32c2f6095968211290bad75f9dbedfbdfd9b12ee2",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "4bfefde06befe755e8f30977c3e26a892145f1b5408deb6988d6d71a386cbd1c"
+    },
+    {
+      "card_id": "champion:Rammus:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Rammus",
+      "context_char_count": 360,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Rammus.md",
+      "context_sha256": "fb831abefe3085b12fc3a2613c234ebcd8ecfb0eca0eee5abddb57cb24f9bc94",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "d4e83985ebf3e29a4722ed73363dcd4808d7178a9d6fbd1d40847feae3a1ca68"
+    },
+    {
+      "card_id": "champion:RekSai:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "RekSai",
+      "context_char_count": 558,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/RekSai.md",
+      "context_sha256": "356f1a91146167f3725d7fcce954c5fb5f17b6907dd1794ed51da49be6ac900f",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e9ba8d6af7d99341e7672ef3106dfbe1daaa35ebbfee6cf1ff66f168f2e850fb"
+    },
+    {
+      "card_id": "champion:Rell:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Rell",
+      "context_char_count": 502,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Rell.md",
+      "context_sha256": "ba6d7e63a5eb1dc6c447d901eab8005bdc42b783cfacc9dcf4747402f3480202",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "7b083127575de416aba18cc26088b6ac73bdc5b355a84d04e5d64179c0cd044d"
+    },
+    {
+      "card_id": "champion:Renata:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Renata",
+      "context_char_count": 398,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Renata.md",
+      "context_sha256": "f4fbc5c1dd775cdf3676e8f429846c764e9c259f8c37cd1ae0fec328d3afc07d",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "002dc0d4920397918a488a4aec418a054da53d45a3d5018f5be17033538acbee"
+    },
+    {
+      "card_id": "champion:Renekton:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Renekton",
+      "context_char_count": 480,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Renekton.md",
+      "context_sha256": "d7e243bb4edac3909304ba0e52134f2e5c0c3d43ce2c31ce88ccbc69331ea971",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "461e51fef437e022b2bba4c4756ebecafb8b253cb43b8582920540c96ee5d8d3"
+    },
+    {
+      "card_id": "champion:Rengar:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Rengar",
+      "context_char_count": 532,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Rengar.md",
+      "context_sha256": "841dcb6e53ee923775284550fe9c86411403fe8b923e5d8985872b46e9fea4c8",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e49c5fadf5298987015e73edf2f3bd7a8b220db1264e5f7b4ad078059e0aefda"
+    },
+    {
+      "card_id": "champion:Riven:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Riven",
+      "context_char_count": 375,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Riven.md",
+      "context_sha256": "8db40908c20a6ba831d0f3c2427a9c493cc30c003478aec69f4055c71156a992",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "96cda3155faba12f4efb42447d419d6153c42687404d57d21f83dd6660c02e9b"
+    },
+    {
+      "card_id": "champion:Rumble:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Rumble",
+      "context_char_count": 473,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Rumble.md",
+      "context_sha256": "6f8abd11c4e1da97a23e02773ac10269f05c14b5388c0002ee1dc70222585466",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e6823760607170692ae31d863be032fd0d98bc51f55e4ca497999bdfd626c0f6"
+    },
+    {
+      "card_id": "champion:Ryze:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ryze",
+      "context_char_count": 542,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ryze.md",
+      "context_sha256": "4d922bd439b609f4c6757001c0098926cc0fc0698b74cd06f4c19ff1873c3663",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "bf9d434aa0e0999cd663a352b0ea4419070d39280dc99ee52d13949ea79a8c2d"
+    },
+    {
+      "card_id": "champion:Samira:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Samira",
+      "context_char_count": 443,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Samira.md",
+      "context_sha256": "bcdab7afea522748d5bab7bc2d720551809b8cfc944c521bbe231a300e9473fd",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "9ae531add135f1e7b49d428faddb5f747f88ad6c4e3a1c8f9a4f45639452d956"
+    },
+    {
+      "card_id": "champion:Sejuani:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Sejuani",
+      "context_char_count": 335,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Sejuani.md",
+      "context_sha256": "e9f89e425c5a18f8d18617eff07a3d60d3c2053a81f8ddc1ef02366b0ac518b7",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "64333ca10f78226a6821f56f77bbed257337f450fa22584d272cc20ec57621ba"
+    },
+    {
+      "card_id": "champion:Senna:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Senna",
+      "context_char_count": 502,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Senna.md",
+      "context_sha256": "4ae9a67f6e0ea6a4f9a50d21c8b20ac6f39d69f4fdc9f753262bf23907e89cf8",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "1404931dbd3e8c4a6b40753f465b30fdff2121d33879cb744dc25f295e1d9ece"
+    },
+    {
+      "card_id": "champion:Seraphine:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Seraphine",
+      "context_char_count": 404,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Seraphine.md",
+      "context_sha256": "b3238a9791d2430bf78644ef0f5d8c376727812427fc9d43ae0ce4847fc620d1",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "b2a655a947dfaeee048a8658986263ad641a1c6330b5782287f90da0dabb0ae2"
+    },
+    {
+      "card_id": "champion:Sett:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Sett",
+      "context_char_count": 444,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Sett.md",
+      "context_sha256": "dffb74adcdbad7c66a18c5a3329860a39428778c5064d319fd89670a49860224",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "b0d23ffe1afac40372dc71ce48b0daa2fdaec799e4dec5801492044fbcb7cb08"
+    },
+    {
+      "card_id": "champion:Shaco:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Shaco",
+      "context_char_count": 450,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Shaco.md",
+      "context_sha256": "6d1f09a3382d40b77d6a1c82ff30009620544e79a38d0f94f18a75b67579a3b8",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e4b840a32a8a8e5d49dea35bcbe2bc3b7501cde544af65d22539489c95de5602"
+    },
+    {
+      "card_id": "champion:Shen:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Shen",
+      "context_char_count": 403,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Shen.md",
+      "context_sha256": "7c1ab63f92035a9c3e4aeaed713ffd3d7d5091f5d7673849ba43ae3617caa851",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "ddd22c2037623b0a26557f5e88b21f8560a9ea17a34d71c8e84ce21340a8f306"
+    },
+    {
+      "card_id": "champion:Shyvana:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Shyvana",
+      "context_char_count": 465,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Shyvana.md",
+      "context_sha256": "ff8513e5860d65365f185dc8e745e549028efb8ea7634c8c02aab32bcb6cdb01",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "d71b0402799cc758e63f053dae8ec30bf03fe46d0c65f4278b5210aec026355d"
+    },
+    {
+      "card_id": "champion:Singed:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Singed",
+      "context_char_count": 364,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Singed.md",
+      "context_sha256": "328baad9b57a5b5775de0ba7a25dcca31e7fd4ae20d0a479bb4457cdaa0ffa32",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "eea52dddd980d2e65bed6cb34d969d6013e189324f3e7bad497f9ddb4c8fa986"
+    },
+    {
+      "card_id": "champion:Sion:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Sion",
+      "context_char_count": 522,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Sion.md",
+      "context_sha256": "dafaa79142511333e2898b6eaf9ec52a40f48ebe3569dc97010ed36a3bdd6337",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a5df350858288525a6f6c1bc879750c72b47b3763d32a1677bbb0d7468144896"
+    },
+    {
+      "card_id": "champion:Sivir:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Sivir",
+      "context_char_count": 396,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Sivir.md",
+      "context_sha256": "faf93888e0f232f72690dce17a26d88bf633b78e0b76bdaf6fa9fb0bcedb7e48",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "7ecbcf6912d9c7429bff3b39412f741b714e5ea063bec8662743bcc026f6ec27"
+    },
+    {
+      "card_id": "champion:Skarner:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Skarner",
+      "context_char_count": 466,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Skarner.md",
+      "context_sha256": "0811ff40af8fc0e550c0fe03a956e581be799bfd9951aa2a63f5f077d868c0ff",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "859220830e50edfb0febacb2e96230cbdff80f72289b059efaf2e22611c07eb3"
+    },
+    {
+      "card_id": "champion:Smolder:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Smolder",
+      "context_char_count": 363,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Smolder.md",
+      "context_sha256": "6790afe81e18229e58eeb6ed121165377920405f7766ef6fde95f16915710906",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "9de183994df99b2ab108b69ad074922b89e41925250f7fd088eca1d21f6ad6ba"
+    },
+    {
+      "card_id": "champion:Sona:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Sona",
+      "context_char_count": 440,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Sona.md",
+      "context_sha256": "3a727201ad451f4ed3311f6457c70471c595d0eda5266390d5fcbbafcf3feb8e",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f6ba6b3d129670768d85efaa1e5c600847849ddc5af4b3ce56a9b895b4971994"
+    },
+    {
+      "card_id": "champion:Soraka:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Soraka",
+      "context_char_count": 376,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Soraka.md",
+      "context_sha256": "7cfdcdf2330a46b884c9e852d29ffbdf90c3d03abb7edcdae24b0c8cfb28cb18",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f341ebff52b43a02632c6637f5fac9b98f8e7315d76a5bf23182f3c394978917"
+    },
+    {
+      "card_id": "champion:Swain:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Swain",
+      "context_char_count": 465,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Swain.md",
+      "context_sha256": "bd7bfe66dd29305b3124a4e80ef2332e4b88dcc70edba098ab2a384579ce3e28",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "8889f24606dcd0e9714e595ae1cd570815aece618b5687bc0f82ee170742509e"
+    },
+    {
+      "card_id": "champion:Sylas:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Sylas",
+      "context_char_count": 489,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Sylas.md",
+      "context_sha256": "607ee555c834dc75bcfa80dec1b13bb4050f0b492c12786a52fdb7d4382d878a",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a7cf6c2baa800d12e8d357d776ed72ecf0ae15d1f8277a3c5a7dc53a256f11a3"
+    },
+    {
+      "card_id": "champion:Syndra:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Syndra",
+      "context_char_count": 418,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Syndra.md",
+      "context_sha256": "d7b4b4db3ab291038c6e7159e4afad3e7b903e986626b9191d3293cd49efd852",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "cfacbd64724283dcdbe5b556cf35cab00567132903551f626d67a76bbab2dc15"
+    },
+    {
+      "card_id": "champion:TahmKench:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "TahmKench",
+      "context_char_count": 534,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/TahmKench.md",
+      "context_sha256": "abb67d2a5fbf0a512e9c93f5a5dba2b712db0fb4f736c9b1a1d861ef11556882",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "da4014cadb910f492d7fa765fdb3a8309ebbdb911d6a4d2c5cc9b67d2d0f27b7"
+    },
+    {
+      "card_id": "champion:Taliyah:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Taliyah",
+      "context_char_count": 396,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Taliyah.md",
+      "context_sha256": "3a9b7b8abecda2b845cfc7c8a6fef7f6196b8316118f3a741b0c4ea6e9f7cf23",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "9e823b53739ecd73d19d0a520ddf5228d5a027e52527e00e12bc4c1d7d3afe9b"
+    },
+    {
+      "card_id": "champion:Talon:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Talon",
+      "context_char_count": 476,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Talon.md",
+      "context_sha256": "19d1c9c4ec7bf2ce1c030af46f6777e96214f045c51fa63798aebc15f7d2775d",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "c6f6b1951be11d0c02ea97002765c034f2e62f1fde73a60c7f6bd79699b4edf8"
+    },
+    {
+      "card_id": "champion:Taric:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Taric",
+      "context_char_count": 431,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Taric.md",
+      "context_sha256": "786cdc675a537e4de10437d11ba7e475027c91422ff97e8a43c866203490a656",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "4e7b578dafb97f050221960726f68a6348744588561aa1a2b2ee3ffca8399eac"
+    },
+    {
+      "card_id": "champion:Teemo:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Teemo",
+      "context_char_count": 522,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Teemo.md",
+      "context_sha256": "138ef1cbcd57536616177148e48bce1688075adcf927f27ad8cfd107fdbfc0a0",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "3c8401b82a3e6d18bff166c97298f4eb97a026123120bd222817fe1b04b13ee5"
+    },
+    {
+      "card_id": "champion:Thresh:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Thresh",
+      "context_char_count": 405,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Thresh.md",
+      "context_sha256": "085d7c9a635836060c912c4f78e2fff5e16c9be194150f4448814fe78fe17f91",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a3c7f477c11f5aaf128ac945d93eeaca39aae0209d529189f142e82893bdc2fc"
+    },
+    {
+      "card_id": "champion:Tristana:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Tristana",
+      "context_char_count": 350,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Tristana.md",
+      "context_sha256": "7da9bf3fbec4c13ffc93b14537fdff50db1cb0291905816645b3ad1fe7096a40",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "667b3d0de149e7444cc235f0aba7f0dc4ad695e3bca4785985ca6b4519b0d122"
+    },
+    {
+      "card_id": "champion:Trundle:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Trundle",
+      "context_char_count": 411,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Trundle.md",
+      "context_sha256": "8fdd1172ab7e0d04b6cfc027f8af22941ea18a35d6a1f1211918be1ab9d577af",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "93dc68c662fe40d1760cffac3f62167f64e399c0721f6e63e9d2ff87d2d6c238"
+    },
+    {
+      "card_id": "champion:Tryndamere:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Tryndamere",
+      "context_char_count": 381,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Tryndamere.md",
+      "context_sha256": "e42d2b774ce5d92eaf7f9208166f3d7af964cc138d12a776ec3012a515b48a08",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "80335bd86ae78cb3a4613becc5ab6fb3d798b668daee212c73892aeac67d7ac6"
+    },
+    {
+      "card_id": "champion:TwistedFate:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "TwistedFate",
+      "context_char_count": 382,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/TwistedFate.md",
+      "context_sha256": "192c951c1b74889236fa1c23b59e6ee4129115b4373804891d04d56e1a7b031c",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e2657621acce7e0cdb528953e86ad02fd70f212fa11015394849a2504327793f"
+    },
+    {
+      "card_id": "champion:Twitch:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Twitch",
+      "context_char_count": 435,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Twitch.md",
+      "context_sha256": "06fa901ee3176db0252b721d20462667fb97867eefefbf40f22197354a4f0b81",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "c7f787a4cd200c753c144df8d28f03507422abeb7994b73c292f4de6e100855a"
+    },
+    {
+      "card_id": "champion:Udyr:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Udyr",
+      "context_char_count": 467,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Udyr.md",
+      "context_sha256": "c485412061790017beda8e644c31e071b2dde2851ff391abf2df41b66334fc7b",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "f8e2802b2b92e7b875d3e7ca40cbd08de2d152fe5af04152389cd72469d9d00d"
+    },
+    {
+      "card_id": "champion:Urgot:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Urgot",
+      "context_char_count": 435,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Urgot.md",
+      "context_sha256": "3e277a35d80ad4fe48a7722129a2f67077d1ac6aa7c1e27cd41d57427ad0cda8",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "724b5bfb7ba55932006192c648ce0a55b6427b605a9fdf94676ef2898b89407a"
+    },
+    {
+      "card_id": "champion:Varus:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Varus",
+      "context_char_count": 403,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Varus.md",
+      "context_sha256": "1b8354a013e01f64bd798f9343b7cc51d0db70a89c5c785d654fb62fbed2ee4f",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "d87ada5b5a9ce61d00e26628c3d563be8bc7c337eb4e4852d2daa2cf1086e7fb"
+    },
+    {
+      "card_id": "champion:Vayne:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Vayne",
+      "context_char_count": 422,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Vayne.md",
+      "context_sha256": "32b64a4515d56c99425a43f9dc19298c64efaa22cca30a69c6d19a2429a1a000",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "cce842a91dfb903074705501e7205555f3f349bbdd1304dfa778b0a61100398b"
+    },
+    {
+      "card_id": "champion:Veigar:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Veigar",
+      "context_char_count": 375,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Veigar.md",
+      "context_sha256": "55fd516ca38a780e11248c6dc916a8d4d3c806aadcca634a7a7a9c638b8732da",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "59b2bd0ddd04d70802c6c145831b7beeeedee3e80142308bced4f7c51f8a594f"
+    },
+    {
+      "card_id": "champion:Velkoz:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Velkoz",
+      "context_char_count": 418,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Velkoz.md",
+      "context_sha256": "ea7dd1d97bac39de64c50f7c91273b936da3581061f240d79e55eeec26efc4f2",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "b06c3e7d7863e69eb31d51026528eafce9f7e3503bd8920a955f71157099e494"
+    },
+    {
+      "card_id": "champion:Vex:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Vex",
+      "context_char_count": 357,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Vex.md",
+      "context_sha256": "0ce808eb0e3bbafc3045102011e7bd9f311d9640d15c74a022b77237bf3fd964",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "d545177f0dfb36b9e96e8255a0d8c7abb198390ed37f4ed157449a381cdb5b96"
+    },
+    {
+      "card_id": "champion:Vi:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Vi",
+      "context_char_count": 384,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Vi.md",
+      "context_sha256": "d4c0d64189f1cbd702ca75b11a3390e6fa9c554098a9c205a5a2e91de389940f",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "3e7b29d4c65f6039b66becb33663e976b215b6583aacb1e481da72280fb65c9e"
+    },
+    {
+      "card_id": "champion:Viego:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Viego",
+      "context_char_count": 495,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Viego.md",
+      "context_sha256": "acd533120b7867eefe26d56fe0358c78a783f0937689fd79ba4fc7c6c28e3c94",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "40476a39ba58a01cda9b724a1c8695de21db3dd9de2a7797133e8bfc3830f8cd"
+    },
+    {
+      "card_id": "champion:Viktor:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Viktor",
+      "context_char_count": 570,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Viktor.md",
+      "context_sha256": "f28e5e427840dcdf35dee594c84dfa630f4ff849f31e2f810cb5a8d73ba52fe9",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "82c47d7f693b704635eb9563bb2fe89ab2101621a9e1f8789efe7085033a8503"
+    },
+    {
+      "card_id": "champion:Vladimir:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Vladimir",
+      "context_char_count": 464,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Vladimir.md",
+      "context_sha256": "fbd6c4f353320e4718704e05b007063754a6538aca981684e2688220b0d01630",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "be1523d77799b6da89200ad588b5fe935ee76052797025dd57fdc484f6b51434"
+    },
+    {
+      "card_id": "champion:Volibear:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Volibear",
+      "context_char_count": 447,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Volibear.md",
+      "context_sha256": "e23aa9620f04307c035c16ff103888304536114a91f96cc95a31fbde22a2a895",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "c060e3f6101de14f8021e12f6f1bbc2384e4f8b082669ff5149427cb875cb09f"
+    },
+    {
+      "card_id": "champion:Warwick:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Warwick",
+      "context_char_count": 445,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Warwick.md",
+      "context_sha256": "0227f07dbba79889df5b537b628ef370ab26db133833cc8ae80c7ca8f0dacff0",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "439904d91ce37698a1060f57505885cdb675d994bf224f1f256d05f15d1f0c10"
+    },
+    {
+      "card_id": "champion:Xayah:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Xayah",
+      "context_char_count": 347,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Xayah.md",
+      "context_sha256": "5d367d3d99f456f11dfa59cf24dfa78e87dc3d846558fda968764c1944a3a605",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "683f21e842a7075910b04c76b3f0a79a81b904def79fdaf027563dcdd14c6c92"
+    },
+    {
+      "card_id": "champion:Xerath:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Xerath",
+      "context_char_count": 366,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Xerath.md",
+      "context_sha256": "17a08fc09f564e17bd4e393722852fe8dc179db66f1c6558f891bb4eff2d73ed",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "ff289a8d631b127a6f6273926e142a4344d5ea06e2a053d1c3b72c01727072fb"
+    },
+    {
+      "card_id": "champion:XinZhao:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "XinZhao",
+      "context_char_count": 453,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/XinZhao.md",
+      "context_sha256": "50cabbfcd18203b3ee9ade75912ca8ab0d95df22137372d6f03b336a22dadca6",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "168baf946c7cadab842c6c4b1b678d2efec094582f0eef0e0836253a8f81ee19"
+    },
+    {
+      "card_id": "champion:Yasuo:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Yasuo",
+      "context_char_count": 531,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Yasuo.md",
+      "context_sha256": "93236fa9707dbcf0bbcf95ba98af66e68c80c26b887ee5050c6e0eb1dceb9e67",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "d3d24677ac528a1e8060c0a9367fee5322b4d28aa0348f6359cffe107def7183"
+    },
+    {
+      "card_id": "champion:Yone:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Yone",
+      "context_char_count": 474,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Yone.md",
+      "context_sha256": "08719cf28b71250ce516b23c5b4fb6d5c282be209b00082ead51caeadded8890",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "4eba52983ce2ddbacb79b0925c1f880a16645350fc363b645354fe8e57c75a37"
+    },
+    {
+      "card_id": "champion:Yorick:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Yorick",
+      "context_char_count": 408,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Yorick.md",
+      "context_sha256": "4732d2b5896f92f7c9f5af9a0fa41185f950bef34424648b0b94fa2179d7c801",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "2c43e4d81c86a8a91c218c0576d1e0b2f205ec27dc4b90dc2c91110e893cb424"
+    },
+    {
+      "card_id": "champion:Yunara:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Yunara",
+      "context_char_count": 326,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Yunara.md",
+      "context_sha256": "30ff22cc0b2d50399b68a28a48c86b89f4f1558cac9ed40574208f5e9afcedec",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "687870d75d6a3f12bbb7c86ecd885c7410df19ee3cdc5cf0ed81e41d9917bdec"
+    },
+    {
+      "card_id": "champion:Yuumi:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Yuumi",
+      "context_char_count": 544,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Yuumi.md",
+      "context_sha256": "73d964d8feb55ce7c9722e56cc1b7c21c0d78ede192f69b429e0343d1f12815a",
+      "selected_ability_slots": [
+        "q",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "e1be55786367507e99c5df410f77cfbc41c397394f656befab7e4985631c3d35"
+    },
+    {
+      "card_id": "champion:Zaahen:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Zaahen",
+      "context_char_count": 413,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Zaahen.md",
+      "context_sha256": "76687c0cc87d136a3cf0e05b1f9731c4208e4828d5da4150a52fc28ac34dd73b",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "w",
+        "r"
+      ],
+      "source_card_sha256": "5fb114abe3e16962dff4d4c21a4874319ac76cb2d4c85554ba920619702f1e6e"
+    },
+    {
+      "card_id": "champion:Zac:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Zac",
+      "context_char_count": 460,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Zac.md",
+      "context_sha256": "b216eb0711eecb5f1535d099f0ddde9dc6c6e4cb2a3f802f0c56817c4c7a4948",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "6305228c75633657793ab388c72cc0dbf170bd2e75ede675ba04066136ea0d7b"
+    },
+    {
+      "card_id": "champion:Zed:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Zed",
+      "context_char_count": 498,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Zed.md",
+      "context_sha256": "d73fe364f4280484e28a0896c038be8207212ac36caed88d8ac2bb3806652a0f",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "81ff983cb68ca7b55f2f547998df825ba0d7ddd1c8c1bcfbf0006a012b46ca33"
+    },
+    {
+      "card_id": "champion:Zeri:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Zeri",
+      "context_char_count": 483,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Zeri.md",
+      "context_sha256": "3546651ee6d172fde1e23ab017367959464f02b4ad114616d32527a6b62b82da",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "06943a7e18cf2b5720b1da7ada751bef39e7a36a708b3bd223ede22e3447c050"
+    },
+    {
+      "card_id": "champion:Ziggs:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Ziggs",
+      "context_char_count": 477,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Ziggs.md",
+      "context_sha256": "3291ed995a31f5421f56e90899b82d6e2f4150e41f2db651e7c8fa764bcf5ad9",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a6e2a0a696a393a54e49d7bd48bc3b15437178e4619a42a63f08ee7012d78dcd"
+    },
+    {
+      "card_id": "champion:Zilean:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Zilean",
+      "context_char_count": 438,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Zilean.md",
+      "context_sha256": "8dbc5f41ab308451c7f5d7996af35a72e72d580a6f78722d6302e9d1138de6f8",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "a99550a2bbfa3a6c3d7c802371515ec2f3bf7430ff6a3501b5dba5b6f3c78b7c"
+    },
+    {
+      "card_id": "champion:Zoe:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Zoe",
+      "context_char_count": 355,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Zoe.md",
+      "context_sha256": "35ccce418ab256bb5bff62c8384407090a8ce82948e8e5889827e641d140c868",
+      "selected_ability_slots": [
+        "passive",
+        "q",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "87707d67f58215b9ca63be341452673777466a8e436ed8ce76e317b602fdf850"
+    },
+    {
+      "card_id": "champion:Zyra:ddragon-16.16.1:zh-CN:v2",
+      "champion_id": "Zyra",
+      "context_char_count": 523,
+      "context_path": "data/knowledge/context_views/kb-lol-pc-16.16.1-zh-CN-v1/compact-mechanics-v1/contexts/Zyra.md",
+      "context_sha256": "a688b581df9e3b1e2f9087f40e131f057dc822d038f7a2d0d755fec843571e58",
+      "selected_ability_slots": [
+        "passive",
+        "w",
+        "e",
+        "r"
+      ],
+      "source_card_sha256": "575554c8ba11c4cda8285b38029690e01eb20bdc85f62f9c53d28c3b14626ad5"
+    }
+  ],
+  "contexts_jsonl_sha256": "3cb5a98912adf59ffa57098468b78572376374552b713371870fa9e7ea00a906",
+  "knowledge_manifest_sha256": "0fd8214dcdeae6c16437a4b173161ec9eb12740763f95a11b1c000bc94f7f36e",
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "renderer_version": "deterministic-compact-mechanics-v1",
+  "schema_version": "knowledge-context-view-manifest-v1",
+  "selection_policy": {
+    "complex_max_abilities": 5,
+    "displayed_indexes": "direct client damage/status/markup only",
+    "llm_generated_fields": false,
+    "ordinary_max_abilities": 4,
+    "summary_source": "Champion Knowledge Card v2 summary_zh"
+  },
+  "source_card_count": 173
+}

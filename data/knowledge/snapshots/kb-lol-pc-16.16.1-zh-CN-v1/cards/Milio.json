@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Milio:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "米利欧的技能可以为队友提供增益，让他们下一次伤害造成更多伤害，并点燃目标。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1576460:4046868"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Fired Up!",
+      "name_zh": "热情洋溢！",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Milio",
+        "source:ddragon:16.16.1:en_US:Milio",
+        "source:communitydragon:16.16:zh_cn:Milio",
+        "source:wiki:1576460:4046868"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Milio's abilities enchant allies on touch, making their next damage deal a burst of extra damage and burn the target.",
+      "summary_zh": "米利欧的技能可以为队友提供增益，让他们下一次伤害造成更多伤害，并点燃目标。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1576460:4046868"
+      ]
+    },
+    {
+      "ability_id": "ability:Milio:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "米利欧踢出一团火球，这个火球会击退命中的第一个敌人。如果它命中了敌人，则会弹至目标身后并爆炸，对周围的敌人们造成【数值】魔法伤害和持续【数值】秒的【数值】减速。 用火爆飞踢命中至少一个敌方英雄时，会返还其【数值】%法力消耗。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1576461:4007693"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "br",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Ultra Mega Fire Kick",
+      "name_zh": "火爆飞踢",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Milio",
+        "source:ddragon:16.16.1:en_US:Milio",
+        "source:communitydragon:16.16:zh_cn:Milio",
+        "source:wiki:1576461:4007693"
+      ],
+      "status_terms_zh": [
+        "击退",
+        "减速"
+      ],
+      "summary_en": "Kick a ball that knocks back an enemy. The ball launches upward on hit and falls toward the enemy, damaging and slowing enemies in the area upon impact.",
+      "summary_zh": "踢出一团火球，这个火球可击退一名敌人。火球在击中敌人时会弹至目标身后，对落地范围内的所有敌人造成伤害和减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1576461:4007693"
+      ]
+    },
+    {
+      "ability_id": "ability:Milio:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "米利欧创造一团炉火来跟随友方英雄们，持续【数值】秒。炉火附近的友方英雄们会在持续期间获得【数值】攻击距离并且持续回复共【数值】生命值。炉火还会每【数值】秒施加热情洋溢！。 再次施放：改变炉火跟随的友方英雄。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1576462:4007694"
+        ]
+      },
+      "markup_tags": [
+        "healing",
+        "spellname",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Cozy Campfire",
+      "name_zh": "依依不舍",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Milio",
+        "source:ddragon:16.16.1:en_US:Milio",
+        "source:communitydragon:16.16:zh_cn:Milio",
+        "source:wiki:1576462:4007694"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Create an empowering zone that heals allies and increases attack range to those inside. The zone follows the ally nearest to the cast point.",
+      "summary_zh": "创造一个强化地带，为地带中的友军们提供治疗效果并提升攻击距离。地带会跟随距离施法点最近的那名友方英雄。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1576462:4007694"
+      ]
+    },
+    {
+      "ability_id": "ability:Milio:e:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "米利欧将一名友方英雄裹入护体火焰之中，提供【数值】护盾值和持续【数值】秒的【数值】%移动速度。 这个技能有2层充能并且它的各种效果可在目标上堆叠。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1576463:3908079"
+        ]
+      },
+      "markup_tags": [
+        "shield",
+        "speed",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Warm Hugs",
+      "name_zh": "融融情谊",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Milio",
+        "source:ddragon:16.16.1:en_US:Milio",
+        "source:communitydragon:16.16:zh_cn:Milio",
+        "source:wiki:1576463:3908079"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Milio tosses a shield to an ally, temporarily increasing their movement speed. This ability has 2 charges.",
+      "summary_zh": "米利欧为一名队友提供护盾，并暂时提升队友的移动速度。这个技能有2层充能。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1576463:3908079"
+      ]
+    },
+    {
+      "ability_id": "ability:Milio:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "米利欧释放一道舒心火焰波纹给附近的友方英雄们，净化限制和定身效果，回复【数值】生命值，并提供持续【数值】秒的【数值】%韧性。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Milio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Milio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Milio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1576464:3908080"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "healing"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Breath of Life",
+      "name_zh": "生生不息",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Milio",
+        "source:ddragon:16.16.1:en_US:Milio",
+        "source:communitydragon:16.16:zh_cn:Milio",
+        "source:wiki:1576464:3908080"
+      ],
+      "status_terms_zh": [
+        "限制",
+        "定身"
+      ],
+      "summary_en": "Milio unleashes a wave of soothing flames that heal and remove crowd control effects from allies in range.",
+      "summary_zh": "米利欧释放一道舒心火焰波纹，治疗范围内的队友并净化他们身上的控制效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1576464:3908080"
+      ]
+    }
+  ],
+  "card_id": "champion:Milio:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Milio"
+    ],
+    "numeric_key": "902",
+    "official_name_en": "Milio",
+    "official_name_zh": "米利欧",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Milio",
+      "source:ddragon:16.16.1:en_US:Milio",
+      "source:communitydragon:16.16:zh_cn:Milio",
+      "source:riot-champion-page:Milio:asof-2026-08-21"
+    ],
+    "stable_id": "Milio",
+    "title_zh": "明烛"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 1,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 3
+    },
+    "roles": [
+      "support",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Milio"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:8051d94748b8226c8f11a223e6450e75595a833b10c3405d1303904635692b94",
+      "sha256:67d75588a81a815b1b72a3d3a6f699b9ab27f2c9aaeeabbb8ab6e90c59f9dd5d",
+      "sha256:a8aaff573b4e534ff4bc88fa86381cf196dbf98c06ac46c2c76a7639ed5f4cfd",
+      "sha256:8f79b31ce95558de706e57b3fa82f4653e20fd2ed10b1859e927030efc476551",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:8051d94748b8226c8f11a223e6450e75595a833b10c3405d1303904635692b94",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Milio.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Milio",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 米利欧",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Milio.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:67d75588a81a815b1b72a3d3a6f699b9ab27f2c9aaeeabbb8ab6e90c59f9dd5d",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Milio.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Milio",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Milio",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Milio.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:a8aaff573b4e534ff4bc88fa86381cf196dbf98c06ac46c2c76a7639ed5f4cfd",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/902.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Milio",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 米利欧",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/902.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:8f79b31ce95558de706e57b3fa82f4653e20fd2ed10b1859e927030efc476551",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/milio.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Milio:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Milio",
+        "url": "https://www.leagueoflegends.com/en-us/champions/milio/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4046868,
+        "revision_timestamp": "2026-07-28T22:51:39Z",
+        "source_ref_id": "source:wiki:1576460:4046868",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4046868",
+        "title": "Template:Data Milio/Fired Up!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Milio/Fired_Up!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007693,
+        "revision_timestamp": "2026-04-12T12:04:07Z",
+        "source_ref_id": "source:wiki:1576461:4007693",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007693",
+        "title": "Template:Data Milio/Ultra Mega Fire Kick",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Milio/Ultra_Mega_Fire_Kick",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007694,
+        "revision_timestamp": "2026-04-12T12:04:58Z",
+        "source_ref_id": "source:wiki:1576462:4007694",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007694",
+        "title": "Template:Data Milio/Cozy Campfire",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Milio/Cozy_Campfire",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3908079,
+        "revision_timestamp": "2025-06-08T03:14:26Z",
+        "source_ref_id": "source:wiki:1576463:3908079",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3908079",
+        "title": "Template:Data Milio/Warm Hugs",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Milio/Warm_Hugs",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3908080,
+        "revision_timestamp": "2025-06-08T03:15:48Z",
+        "source_ref_id": "source:wiki:1576464:3908080",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3908080",
+        "title": "Template:Data Milio/Breath of Life",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Milio/Breath_of_Life",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

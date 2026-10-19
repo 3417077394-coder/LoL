@@ -1,0 +1,517 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:MasterYi:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "易大师每攻击数次，就会同时对目标进行2次打击。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308371:3999525"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Double Strike",
+      "name_zh": "双重打击",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:MasterYi",
+        "source:ddragon:16.16.1:en_US:MasterYi",
+        "source:communitydragon:16.16:zh_cn:MasterYi",
+        "source:wiki:1308371:3999525"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Every few consecutive basic attack, Master Yi strikes twice.",
+      "summary_zh": "易大师每攻击数次，就会同时对目标进行2次打击。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308371:3999525"
+      ]
+    },
+    {
+      "ability_id": "ability:MasterYi:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "易变得【不可被选取】并对他目标附近的敌人发起快速打击，对命中的所有敌人造成【数值】物理伤害，至多命中【数值】名敌人。 如果没有其他目标，那么这个技能可以重复打击相同敌人，每次后续打击造成【数值】%物理伤害(【数值】)，对单个目标的最大伤害值为【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308373:4032850"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Alpha Strike",
+      "name_zh": "阿尔法突袭",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:MasterYi",
+        "source:ddragon:16.16.1:en_US:MasterYi",
+        "source:communitydragon:16.16:zh_cn:MasterYi",
+        "source:wiki:1308373:4032850"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Master Yi teleports across the battlefield with blinding speed, dealing physical damage to multiple units in his path, while simultaneously becoming untargetable. Alpha Strike can critically strike and deals bonus physical damage to monsters. Basic attacks reduce Alpha Strike's cooldown.",
+      "summary_zh": "易以肉眼难以发觉的速度穿梭于战场，对多个敌人造成物理伤害，同时处于不可被选取的状态下。阿尔法突袭可以暴击，并对野怪造成额外物理伤害。普通攻击可以减少阿尔法突袭的冷却时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308373:4032850"
+      ]
+    },
+    {
+      "ability_id": "ability:MasterYi:w:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "易开始引导，并在【数值】秒里持续回复共【数值】生命值。这个治疗效果可基于易大师的已损失生命值而提升，最多可提升至【数值】%。 在引导时和随后的【数值】秒里，他还会获得【数值】伤害减免，这个效果会在最初的【数值】秒后降低至【数值】%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308376:4039653"
+        ]
+      },
+      "markup_tags": [
+        "healing",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Meditate",
+      "name_zh": "冥想",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:MasterYi",
+        "source:ddragon:16.16.1:en_US:MasterYi",
+        "source:communitydragon:16.16:zh_cn:MasterYi",
+        "source:wiki:1308376:4039653"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Master Yi rejuvenates his body by focus of mind, restoring Health and taking reduced damage for a short time. In addition, Master Yi will gain stacks of Double Strike and pause the remaining duration on Wuju Style and Highlander for each second he channels.",
+      "summary_zh": "易通过集中念力来活化他的身体，从而回复生命值，并暂时减少所受的伤害。此外，易还会为双重打击充能，并暂停无极剑道和高原血统的持续时长。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308376:4039653"
+      ]
+    },
+    {
+      "ability_id": "ability:MasterYi:e:ddragon-16.16.1",
+      "damage_types": [
+        "true"
+      ],
+      "detailed_description_zh": "易的攻击造成额外的【数值】真实伤害，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308378:3959670"
+        ]
+      },
+      "markup_tags": [
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Wuju Style",
+      "name_zh": "无极剑道",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:MasterYi",
+        "source:ddragon:16.16.1:en_US:MasterYi",
+        "source:communitydragon:16.16:zh_cn:MasterYi",
+        "source:wiki:1308378:3959670"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Grants bonus true damage on basic attacks.",
+      "summary_zh": "提供额外真实伤害至普攻",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308378:3959670"
+      ]
+    },
+    {
+      "ability_id": "ability:MasterYi:r:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "被动：在参与击杀后，易大师的普通技能的剩余冷却时间会减少【数值】%。 主动：获得【数值】%移动速度，【数值】%攻击速度，并且免疫减速效果，持续【数值】秒。每次参与击杀后都会使此技能的持续时间延长【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:MasterYi"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:MasterYi"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:MasterYi"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1308380:4001544"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "br",
+        "spellactive",
+        "speed",
+        "attackspeed",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Highlander",
+      "name_zh": "高原血统",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:MasterYi",
+        "source:ddragon:16.16.1:en_US:MasterYi",
+        "source:communitydragon:16.16:zh_cn:MasterYi",
+        "source:wiki:1308380:4001544"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Master Yi moves with unparalleled agility, temporarily increasing his Move Speed and Attack Speed as well as making him immune to all slowing effects. While active, Champion kills or assists extend Highlander's duration. Passively reduces cooldown for his other abilities on a kill or assist.",
+      "summary_zh": "易以超乎想象的身法进行移动，短时间内提升移动速度和攻击速度，并免疫减速效果。该技能激活期间，易在参与击杀一名敌方英雄的同时，会延长该技能的持续时间。在击杀和助攻后，也会被动地减少易其它技能的冷却时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1308380:4001544"
+      ]
+    }
+  ],
+  "card_id": "champion:MasterYi:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Master Yi",
+      "MasterYi"
+    ],
+    "numeric_key": "11",
+    "official_name_en": "Master Yi",
+    "official_name_zh": "易",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:MasterYi",
+      "source:ddragon:16.16.1:en_US:MasterYi",
+      "source:communitydragon:16.16:zh_cn:MasterYi",
+      "source:riot-champion-page:MasterYi:asof-2026-08-21"
+    ],
+    "stable_id": "MasterYi",
+    "title_zh": "无极剑圣"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:MasterYi"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:17fb4e1e3c9358ed46a70400b8a4ad0fcfc8dc0a81ec49480ae7071aec06868a",
+      "sha256:4b5d5aabc05b2c9aba5705d2f175ea5aad807d7e256bfa619842f9d157ce9e1a",
+      "sha256:b6e525371eb8b95fc5d479fa0de9f92c3d2f709e7c307e4d6d223793891485a8",
+      "sha256:d6ee29bf7a4da226fd64c5b9f100953905eb800564701e709329e0816cdc16a0",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:17fb4e1e3c9358ed46a70400b8a4ad0fcfc8dc0a81ec49480ae7071aec06868a",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/MasterYi.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:MasterYi",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 易",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/MasterYi.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:4b5d5aabc05b2c9aba5705d2f175ea5aad807d7e256bfa619842f9d157ce9e1a",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/MasterYi.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:MasterYi",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Master Yi",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/MasterYi.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:b6e525371eb8b95fc5d479fa0de9f92c3d2f709e7c307e4d6d223793891485a8",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/11.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:MasterYi",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 易",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/11.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:d6ee29bf7a4da226fd64c5b9f100953905eb800564701e709329e0816cdc16a0",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/masteryi.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:MasterYi:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Master Yi",
+        "url": "https://www.leagueoflegends.com/en-us/champions/masteryi/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3999525,
+        "revision_timestamp": "2026-03-14T08:41:53Z",
+        "source_ref_id": "source:wiki:1308371:3999525",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3999525",
+        "title": "Template:Data Master Yi/Double Strike",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Master_Yi/Double_Strike",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4032850,
+        "revision_timestamp": "2026-06-20T16:52:55Z",
+        "source_ref_id": "source:wiki:1308373:4032850",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4032850",
+        "title": "Template:Data Master Yi/Alpha Strike",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Master_Yi/Alpha_Strike",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4039653,
+        "revision_timestamp": "2026-07-04T18:34:04Z",
+        "source_ref_id": "source:wiki:1308376:4039653",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4039653",
+        "title": "Template:Data Master Yi/Meditate",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Master_Yi/Meditate",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3959670,
+        "revision_timestamp": "2025-10-15T06:23:00Z",
+        "source_ref_id": "source:wiki:1308378:3959670",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3959670",
+        "title": "Template:Data Master Yi/Wuju Style",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Master_Yi/Wuju_Style",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3a7a07687948eb9231cf2438a3daf139e9b4ab16cc8fd22b9d1baf7ab5b24cea",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-012.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4001544,
+        "revision_timestamp": "2026-03-21T09:12:44Z",
+        "source_ref_id": "source:wiki:1308380:4001544",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4001544",
+        "title": "Template:Data Master Yi/Highlander",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Master_Yi/Highlander",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Jhin:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "烬的手枪，“低语”，是一台精密的设备，用来造成出色的伤害。它会以一个固定的频率发射子弹，并且只能装四颗子弹。烬会将黑暗魔法注入最后一颗子弹，来让它产生暴击并造成额外斩杀伤害。当“低语”暴击时，它会为烬提供一个爆发性的移动速度加成。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307577:3998238"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Whisper",
+      "name_zh": "低语",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jhin",
+        "source:ddragon:16.16.1:en_US:Jhin",
+        "source:communitydragon:16.16:zh_cn:Jhin",
+        "source:wiki:1307577:3998238"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Jhin's hand cannon, Whisper, is a precise instrument designed to deal superior damage. It fires at a fixed rate and carries only four shots. Jhin imbues the final bullet with dark magics to critically strike and deal bonus execute damage. Whenever Whisper crits, it inspires Jhin with a burst of Move Speed.",
+      "summary_zh": "烬的手枪，“低语”，是一台精密的设备，用来造成出色的伤害。它会以一个固定的频率发射子弹，并且只能装四颗子弹。烬会将黑暗魔法注入最后一颗子弹，来让它产生暴击并造成额外斩杀伤害。当“低语”暴击时，它会为烬提供一个爆发性的移动速度加成。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307577:3998238"
+      ]
+    },
+    {
+      "ability_id": "ability:Jhin:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "烬扔出一颗手雷，手雷会造成【数值】物理伤害，然后弹跳到附近的一个还未被此技能命中的目标上。 手雷最多可命中【数值】个目标。手雷每击杀一个单位，它的后续弹跳伤害就会提升【数值】%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307579:4007611"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Dancing Grenade",
+      "name_zh": "曼舞手雷",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jhin",
+        "source:ddragon:16.16.1:en_US:Jhin",
+        "source:communitydragon:16.16:zh_cn:Jhin",
+        "source:wiki:1307579:4007611"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Jhin launches a magical cartridge at an enemy. It can hit up to four targets and gains damage each time it kills.",
+      "summary_zh": "烬朝敌人扔出一颗迷人的手雷。它最多可以命中四个目标，并在每次击杀单位后获得伤害提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307579:4007611"
+      ]
+    },
+    {
+      "ability_id": "ability:Jhin:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "烬进行一次远程射击，对命中的第一个英雄和沿途的其它敌人造成【数值】物理伤害。 如果被【W致命华彩】命中的敌方英雄在前【数值】秒受到过来自烬的友方英雄的伤害，那么这个英雄还会被禁锢【数值】秒，并为烬提供低语的移动速度加成。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307581:4021795"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br",
+        "status",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Deadly Flourish",
+      "name_zh": "致命华彩",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jhin",
+        "source:ddragon:16.16.1:en_US:Jhin",
+        "source:communitydragon:16.16:zh_cn:Jhin",
+        "source:wiki:1307581:4021795"
+      ],
+      "status_terms_zh": [
+        "禁锢"
+      ],
+      "summary_en": "Jhin brandishes his cane, firing a single shot with incredible range. It pierces through minions and monsters, but stops on the first champion hit. If the target was recently struck by Jhin's allies, lotus traps, or damaged by Jhin, they are rooted.",
+      "summary_zh": "烬挥舞他的长枪，进行一次射程极远的射击。它可穿透小兵和野怪，但会在命中第一个敌方英雄后停下。如果目标最近踩到了烬的陷阱、承受过烬的伤害或被烬的队友给命中过，那么还会受到禁锢效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307581:4021795"
+      ]
+    },
+    {
+      "ability_id": "ability:Jhin:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：被烬击杀的英雄，将在其所在位置生成并引爆一个莲花陷阱。 主动：烬放置一个持续【数值】分钟的隐形莲花陷阱，陷阱会在被敌人踩中时生成一个区域，使区域内的敌人减速【数值】%。在【数值】秒后，陷阱会爆炸，造成【数值】魔法伤害。 这个技能有2层充能(【数值】秒刷新时间)。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307583:4007613"
+        ]
+      },
+      "markup_tags": [
+        "passive",
+        "br",
+        "active",
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Captive Audience",
+      "name_zh": "万众倾倒",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jhin",
+        "source:ddragon:16.16.1:en_US:Jhin",
+        "source:communitydragon:16.16:zh_cn:Jhin",
+        "source:wiki:1307583:4007613"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Jhin places an invisible lotus trap that blooms when walked over. It slows nearby enemies before dealing damage with an explosion of serrated petals. Beauty in Death - When Jhin kills an enemy champion, a lotus trap will bloom near their corpse.",
+      "summary_zh": "烬放置一个隐形的莲花陷阱，陷阱会在敌人经过时绽放。它会减速附近的敌人，然后爆炸为一阵飘零的花瓣并对敌人造成伤害。 绚葬之华 - 当烬击杀掉一名敌方英雄时，一个莲花陷阱将在该英雄的尸体附近爆炸。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307583:4007613"
+      ]
+    },
+    {
+      "ability_id": "ability:Jhin:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "烬架好武器，固定在原地，并获得4颗超级子弹。每颗超级子弹会在命中第一个敌方英雄时对其造成【数值】到【数值】物理伤害（伤害会基于目标的已损失生命值而提升）并使其减速【数值】%，持续【数值】秒。第四颗子弹会暴击，造成【数值】%伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jhin"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jhin"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jhin"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307585:4007615"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Curtain Call",
+      "name_zh": "完美谢幕",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jhin",
+        "source:ddragon:16.16.1:en_US:Jhin",
+        "source:communitydragon:16.16:zh_cn:Jhin",
+        "source:wiki:1307585:4007615"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Jhin channels, transforming Whisper into a shoulder-mounted mega-cannon. It is able to fire 4 super shots at extreme range that pierce through minions and monsters, but stop on the first champion impacted. Whisper cripples enemies hit, which slows them and deals execute damage. The 4th shot is perfectly crafted, epically powerful, and guaranteed to critically strike.",
+      "summary_zh": "烬开始引导，将“低语”切换成一个肩扛式重炮。它能够进行四次超级射击，超级射击的射程极远，可穿透小兵和野怪，但会在命中第一个敌方英雄后停下。“低语”会让命中的敌方单位怯场，也就是对它们造成减速效果和斩杀伤害。第四次射击是经过精心调制的，所以威力特别大，并且必定会造成暴击。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307585:4007615"
+      ]
+    }
+  ],
+  "card_id": "champion:Jhin:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Jhin"
+    ],
+    "numeric_key": "202",
+    "official_name_en": "Jhin",
+    "official_name_zh": "烬",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Jhin",
+      "source:ddragon:16.16.1:en_US:Jhin",
+      "source:communitydragon:16.16:zh_cn:Jhin",
+      "source:riot-champion-page:Jhin:asof-2026-08-21"
+    ],
+    "stable_id": "Jhin",
+    "title_zh": "戏命师"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Jhin"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:9fcc46604720251e39aeb267bd8feb01078c45df7b8f2e66e0751ef332640be1",
+      "sha256:f75d907afdef8a50e9082fd7e662f4ca28ea19084537fd80f04459dbaaba2a35",
+      "sha256:e0e78191b7198ede67bb43d26d7316ebb2c2453130d50db353d1761d00dda78b",
+      "sha256:31033a89ade53b8b5110b88e85d8ea5b110328ffcc3873577500889900baef75",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:9fcc46604720251e39aeb267bd8feb01078c45df7b8f2e66e0751ef332640be1",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Jhin.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Jhin",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 烬",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Jhin.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:f75d907afdef8a50e9082fd7e662f4ca28ea19084537fd80f04459dbaaba2a35",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Jhin.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Jhin",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Jhin",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Jhin.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:e0e78191b7198ede67bb43d26d7316ebb2c2453130d50db353d1761d00dda78b",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/202.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Jhin",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 烬",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/202.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:31033a89ade53b8b5110b88e85d8ea5b110328ffcc3873577500889900baef75",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/jhin.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Jhin:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Jhin",
+        "url": "https://www.leagueoflegends.com/en-us/champions/jhin/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3998238,
+        "revision_timestamp": "2026-03-10T20:28:41Z",
+        "source_ref_id": "source:wiki:1307577:3998238",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3998238",
+        "title": "Template:Data Jhin/Whisper",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jhin/Whisper",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007611,
+        "revision_timestamp": "2026-04-12T07:23:12Z",
+        "source_ref_id": "source:wiki:1307579:4007611",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007611",
+        "title": "Template:Data Jhin/Dancing Grenade",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jhin/Dancing_Grenade",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4021795,
+        "revision_timestamp": "2026-05-21T13:25:33Z",
+        "source_ref_id": "source:wiki:1307581:4021795",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4021795",
+        "title": "Template:Data Jhin/Deadly Flourish",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jhin/Deadly_Flourish",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007613,
+        "revision_timestamp": "2026-04-12T07:25:10Z",
+        "source_ref_id": "source:wiki:1307583:4007613",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007613",
+        "title": "Template:Data Jhin/Captive Audience",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jhin/Captive_Audience",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007615,
+        "revision_timestamp": "2026-04-12T07:25:50Z",
+        "source_ref_id": "source:wiki:1307585:4007615",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007615",
+        "title": "Template:Data Jhin/Curtain Call",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jhin/Curtain_Call",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

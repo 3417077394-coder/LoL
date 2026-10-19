@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.lol-draft-alignment/schemas/lineup_analysis_output_v2.schema.json",
+  "title": "LoL Static Lineup Analysis Output v2",
+  "description": "BP结束后、仅基于双方十名英雄与位置生成的静态阵容分析输出契约；不包含逐路操作教学、实时局势或出装建议。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "team_profiles",
+    "decisive_interactions",
+    "comparative_outlook",
+    "win_conditions",
+    "risks_and_uncertainties"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "lineup-analysis-output-v2"
+    },
+    "team_profiles": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["blue_team", "red_team"],
+      "properties": {
+        "blue_team": {"$ref": "#/$defs/team_profile"},
+        "red_team": {"$ref": "#/$defs/team_profile"}
+      }
+    },
+    "decisive_interactions": {
+      "type": "array",
+      "description": "只保留对整体阵容结论最有影响的3至5条交互，不要求逐路穷举。",
+      "minItems": 3,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/decisive_interaction"}
+    },
+    "comparative_outlook": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "power_curve",
+        "teamfight_structure",
+        "fight_conditions",
+        "map_and_resource_implications"
+      ],
+      "properties": {
+        "power_curve": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["blue_team", "red_team", "comparison"],
+          "properties": {
+            "blue_team": {"$ref": "#/$defs/power_window"},
+            "red_team": {"$ref": "#/$defs/power_window"},
+            "comparison": {"$ref": "#/$defs/analysis_text"}
+          }
+        },
+        "teamfight_structure": {"$ref": "#/$defs/analysis_text"},
+        "fight_conditions": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["blue_team", "red_team"],
+          "properties": {
+            "blue_team": {"$ref": "#/$defs/fight_condition_profile"},
+            "red_team": {"$ref": "#/$defs/fight_condition_profile"}
+          }
+        },
+        "map_and_resource_implications": {"$ref": "#/$defs/analysis_text"}
+      }
+    },
+    "win_conditions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["blue_team", "red_team"],
+      "properties": {
+        "blue_team": {"$ref": "#/$defs/win_condition_list"},
+        "red_team": {"$ref": "#/$defs/win_condition_list"}
+      }
+    },
+    "risks_and_uncertainties": {
+      "type": "array",
+      "description": "只记录输入不足、版本敏感或非常规位置带来的真实不确定性；没有时允许为空数组。",
+      "minItems": 0,
+      "maxItems": 5,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/short_text"}
+    }
+  },
+  "$defs": {
+    "short_text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 240,
+      "pattern": ".*\\S.*"
+    },
+    "analysis_text": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 600,
+      "pattern": ".*\\S.*"
+    },
+    "archetype_tag": {
+      "type": "string",
+      "enum": [
+        "强开团",
+        "反开保护",
+        "前后排正面团",
+        "后排突进",
+        "消耗推进",
+        "抓单",
+        "小规模作战",
+        "保核",
+        "边线分推"
+      ]
+    },
+    "team_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "archetype_tags",
+        "composition_summary",
+        "strengths",
+        "weaknesses"
+      ],
+      "properties": {
+        "archetype_tags": {
+          "type": "array",
+          "description": "从受控枚举中选择最相关的1至3个标签；允许混合阵容，不强制唯一主类型。",
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/archetype_tag"}
+        },
+        "composition_summary": {"$ref": "#/$defs/analysis_text"},
+        "strengths": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/short_text"}
+        },
+        "weaknesses": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 5,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/short_text"}
+        }
+      }
+    },
+    "decisive_interaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["interaction_type", "actors", "mechanism", "condition", "impact"],
+      "properties": {
+        "interaction_type": {
+          "type": "string",
+          "enum": ["队内协同", "跨阵营克制", "对位影响全局"]
+        },
+        "actors": {
+          "type": "array",
+          "description": "参与该交互的具体英雄或明确的阵容单元。",
+          "minItems": 2,
+          "maxItems": 6,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60,
+            "pattern": ".*\\S.*"
+          }
+        },
+        "mechanism": {"$ref": "#/$defs/short_text"},
+        "condition": {"$ref": "#/$defs/short_text"},
+        "impact": {"$ref": "#/$defs/analysis_text"}
+      }
+    },
+    "stage_tag": {
+      "type": "string",
+      "enum": ["前期", "中期", "后期"]
+    },
+    "power_window": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strong_stage_tags", "explanation"],
+      "properties": {
+        "strong_stage_tags": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/stage_tag"}
+        },
+        "explanation": {"$ref": "#/$defs/analysis_text"}
+      }
+    },
+    "fight_condition_tag": {
+      "type": "string",
+      "enum": [
+        "正面五人团",
+        "小规模遭遇",
+        "先手抓单",
+        "反手接团",
+        "消耗拉扯",
+        "侧翼夹击",
+        "边线牵制",
+        "狭窄资源区",
+        "开阔地形",
+        "推进或守塔",
+        "提前占据视野",
+        "迫使对方探视野"
+      ]
+    },
+    "fight_condition_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "preferred_condition_tags",
+        "unfavorable_condition_tags",
+        "explanation"
+      ],
+      "properties": {
+        "preferred_condition_tags": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/fight_condition_tag"}
+        },
+        "unfavorable_condition_tags": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/fight_condition_tag"}
+        },
+        "explanation": {"$ref": "#/$defs/analysis_text"}
+      }
+    },
+    "win_condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["goal", "execution", "key_condition", "failure_risk"],
+      "properties": {
+        "goal": {"$ref": "#/$defs/short_text"},
+        "execution": {"$ref": "#/$defs/analysis_text"},
+        "key_condition": {"$ref": "#/$defs/short_text"},
+        "failure_risk": {"$ref": "#/$defs/short_text"}
+      }
+    },
+    "win_condition_list": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "items": {"$ref": "#/$defs/win_condition"}
+    }
+  }
+}

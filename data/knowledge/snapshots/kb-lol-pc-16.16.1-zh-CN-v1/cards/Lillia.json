@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Lillia:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "用一个技能命中一位英雄或野怪，将持续造成额外的最大生命值伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1448424:4038402"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Dream-Laden Bough",
+      "name_zh": "梦满枝",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lillia",
+        "source:ddragon:16.16.1:en_US:Lillia",
+        "source:communitydragon:16.16:zh_cn:Lillia",
+        "source:wiki:1448424:4038402"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Hitting a champion or monster with a skill will deal additional max Health damage over time.",
+      "summary_zh": "用一个技能命中一位英雄或野怪，将持续造成额外的最大生命值伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1448424:4038402"
+      ]
+    },
+    {
+      "ability_id": "ability:Lillia:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic",
+        "true"
+      ],
+      "detailed_description_zh": "被动：莉莉娅的技能在命中时会提供【数值】移动速度，持续【数值】秒，可叠加【数值】层。 主动：莉莉娅猛掷她的香炉，造成【数值】魔法伤害，并在外侧边缘造成额外的【数值】真实伤害 。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1448425:4007646"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "speed",
+        "br",
+        "spellactive",
+        "magicdamage",
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blooming Blows",
+      "name_zh": "飞花挞",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lillia",
+        "source:ddragon:16.16.1:en_US:Lillia",
+        "source:communitydragon:16.16:zh_cn:Lillia",
+        "source:wiki:1448425:4007646"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Passively, Lillia gains stacking Move Speed when hitting enemies with spells. She can activate this to deal magic damage to nearby enemies, dealing extra true damage on the edge.",
+      "summary_zh": "被动部分：莉莉娅在用技能命中敌人时，会获得移动速度。主动部分：莉莉娅对附近的敌人造成魔法伤害，并对边缘的敌人造成额外真实伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1448425:4007646"
+      ]
+    },
+    {
+      "ability_id": "ability:Lillia:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "莉莉娅进行一次巨大打击，在一个区域内造成【数值】魔法伤害。区域中心的敌人会受到【数值】伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1448427:4007660"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Watch Out! Eep!",
+      "name_zh": "惊惶木",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lillia",
+        "source:ddragon:16.16.1:en_US:Lillia",
+        "source:communitydragon:16.16:zh_cn:Lillia",
+        "source:wiki:1448427:4007660"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Lillia deals damage in a nearby area, dealing heavy damage in the center.",
+      "summary_zh": "莉莉娅在附近的一个区域内造成伤害，并在该区域的中心造成大量伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1448427:4007660"
+      ]
+    },
+    {
+      "ability_id": "ability:Lillia:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "莉莉娅投出一枚种子，种子在着陆时会显形并造成【数值】魔法伤害和【数值】%减速效果，持续【数值】秒，期间还会使目标显形。如果种子未能命中任何东西，那么它将继续滚动，直到命中墙体或一名敌人为止。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1448428:4007662"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Swirlseed",
+      "name_zh": "流涡种",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lillia",
+        "source:ddragon:16.16.1:en_US:Lillia",
+        "source:communitydragon:16.16:zh_cn:Lillia",
+        "source:wiki:1448428:4007662"
+      ],
+      "status_terms_zh": [
+        "减速效果"
+      ],
+      "summary_en": "Lillia hurls a seed that damages and slows those it lands on. If it doesn't hit anything, it will continue rolling until it hits a wall or target.",
+      "summary_zh": "莉莉娅猛掷出一枚种子，种子在着陆时会造成伤害和减速效果。如果种子未能命中任何东西，那么它将继续滚动，直到命中墙体或一名敌人为止。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1448428:4007662"
+      ]
+    },
+    {
+      "ability_id": "ability:Lillia:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "莉莉娅使所有带着梦尘的敌人陷入困倦状态【数值】秒。此后，他们会陷入昏睡状态【数值】秒。 在被伤害惊醒时，他们会受到额外的【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Lillia"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Lillia"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Lillia"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1448429:3996458"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "status",
+        "br",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Lilting Lullaby",
+      "name_zh": "夜阑谣",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Lillia",
+        "source:ddragon:16.16.1:en_US:Lillia",
+        "source:communitydragon:16.16:zh_cn:Lillia",
+        "source:wiki:1448429:3996458"
+      ],
+      "status_terms_zh": [
+        "困倦状态",
+        "昏睡状态"
+      ],
+      "summary_en": "Lillia causes all enemies with Dream Dust on them to become Drowsy before falling asleep. Those enemies will take extra damage on being forcibly woken up.",
+      "summary_zh": "莉莉娅使所有带着【梦尘】的敌人陷入困倦状态，然后陷入昏睡状态。这些敌人在被强制唤醒时会受到额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1448429:3996458"
+      ]
+    }
+  ],
+  "card_id": "champion:Lillia:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Lillia"
+    ],
+    "numeric_key": "876",
+    "official_name_en": "Lillia",
+    "official_name_zh": "莉莉娅",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Lillia",
+      "source:ddragon:16.16.1:en_US:Lillia",
+      "source:communitydragon:16.16:zh_cn:Lillia",
+      "source:riot-champion-page:Lillia:asof-2026-08-21"
+    ],
+    "stable_id": "Lillia",
+    "title_zh": "含羞蓓蕾"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 2
+    },
+    "roles": [
+      "fighter",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Lillia"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:dfd351e170302d13a07c02d6d66a0edcbe0e6871284b7bf2e5d100959b74f2ab",
+      "sha256:c79f454972f6ac2a769082e14999cdbcbac1be7820846a14458efe5852cefe96",
+      "sha256:6cf7f7ed98a07309c0689be4c53c8a7954dab64deb4cee75536a0d1dd34154c9",
+      "sha256:f2d46e535bec166c32e6dec859cb1bdeaf20337d1b5552c27ecb3b0b9c32fd27",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:dfd351e170302d13a07c02d6d66a0edcbe0e6871284b7bf2e5d100959b74f2ab",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Lillia.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Lillia",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 莉莉娅",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Lillia.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:c79f454972f6ac2a769082e14999cdbcbac1be7820846a14458efe5852cefe96",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Lillia.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Lillia",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Lillia",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Lillia.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6cf7f7ed98a07309c0689be4c53c8a7954dab64deb4cee75536a0d1dd34154c9",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/876.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Lillia",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 莉莉娅",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/876.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:f2d46e535bec166c32e6dec859cb1bdeaf20337d1b5552c27ecb3b0b9c32fd27",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/lillia.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Lillia:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Lillia",
+        "url": "https://www.leagueoflegends.com/en-us/champions/lillia/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038402,
+        "revision_timestamp": "2026-06-30T09:40:52Z",
+        "source_ref_id": "source:wiki:1448424:4038402",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038402",
+        "title": "Template:Data Lillia/Dream-Laden Bough",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lillia/Dream-Laden_Bough",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007646,
+        "revision_timestamp": "2026-04-12T09:59:43Z",
+        "source_ref_id": "source:wiki:1448425:4007646",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007646",
+        "title": "Template:Data Lillia/Blooming Blows",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lillia/Blooming_Blows",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007660,
+        "revision_timestamp": "2026-04-12T10:19:38Z",
+        "source_ref_id": "source:wiki:1448427:4007660",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007660",
+        "title": "Template:Data Lillia/Watch Out! Eep!",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lillia/Watch_Out!_Eep!",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007662,
+        "revision_timestamp": "2026-04-12T10:23:25Z",
+        "source_ref_id": "source:wiki:1448428:4007662",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007662",
+        "title": "Template:Data Lillia/Swirlseed",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lillia/Swirlseed",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:b786c5be40edefbcf590acff4fcbb46f58c358010fb83bfe73a1f6aaf09777f7",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-011.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3996458,
+        "revision_timestamp": "2026-03-04T19:38:09Z",
+        "source_ref_id": "source:wiki:1448429:3996458",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3996458",
+        "title": "Template:Data Lillia/Lilting Lullaby",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Lillia/Lilting_Lullaby",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

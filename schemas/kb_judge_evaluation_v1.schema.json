@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.lol-draft-alignment/schemas/kb_judge_evaluation_v1.schema.json",
+  "title": "KB Judge Evaluation v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "judge_summary",
+    "criterion_results",
+    "kb_criterion_results",
+    "applied_caps",
+    "cross_entity_confusion",
+    "unsupported_mechanism_claims"
+  ],
+  "properties": {
+    "judge_summary": {"type": "string", "minLength": 1},
+    "criterion_results": {
+      "type": "array",
+      "minItems": 25,
+      "maxItems": 25,
+      "items": {"$ref": "#/$defs/criterionResult"}
+    },
+    "kb_criterion_results": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {"$ref": "#/$defs/kbCriterionResult"}
+    },
+    "applied_caps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["dimension_id", "max_score", "reason"],
+        "properties": {
+          "dimension_id": {"enum": ["E2", "E3", "E4", "E5"]},
+          "max_score": {"type": "number", "enum": [2, 2.5, 3]},
+          "reason": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "cross_entity_confusion": {"type": "boolean"},
+    "unsupported_mechanism_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["evidence_quote", "explanation"],
+        "properties": {
+          "evidence_quote": {"type": "string", "minLength": 1},
+          "explanation": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "score": {
+      "oneOf": [
+        {"type": "number", "enum": [0, 0.5, 1]},
+        {"type": "string", "const": "NA"}
+      ]
+    },
+    "baseCriterion": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "criterion_id",
+        "score",
+        "evidence_quote",
+        "explanation",
+        "severity",
+        "confidence"
+      ],
+      "properties": {
+        "criterion_id": {"type": "string"},
+        "score": {"$ref": "#/$defs/score"},
+        "evidence_quote": {"type": "string"},
+        "explanation": {"type": "string", "minLength": 1},
+        "severity": {"enum": ["none", "minor", "major", "critical"]},
+        "confidence": {"enum": ["low", "medium", "high"]}
+      }
+    },
+    "criterionResult": {
+      "allOf": [
+        {"$ref": "#/$defs/baseCriterion"},
+        {
+          "type": "object",
+          "required": ["capability_id"],
+          "properties": {
+            "criterion_id": {"pattern": "^E[1-5]\\.[1-5]$"},
+            "capability_id": {
+              "enum": [
+                "B01", "B02", "K01", "K02", "K03", "R01", "R02",
+                "R03", "C01", "C02", "T01", "T02", "P01", "P02",
+                "P03", "P04", "Q01", "Q02", "Q03"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "kbCriterionResult": {
+      "allOf": [
+        {"$ref": "#/$defs/baseCriterion"},
+        {
+          "type": "object",
+          "properties": {
+            "criterion_id": {"pattern": "^KB[1-5]$"}
+          }
+        }
+      ]
+    }
+  }
+}

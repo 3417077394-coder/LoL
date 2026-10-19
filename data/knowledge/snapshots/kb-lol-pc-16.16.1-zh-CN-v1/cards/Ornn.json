@@ -1,0 +1,528 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Ornn:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "奥恩可使所有来源的护甲和魔抗加成获得额外提升。 奥恩可在地图的任意位置上花费金钱来锻造非消耗品的装备。 此外，他能为他自己和友方英雄打造杰作武器。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1332180:4025779"
+        ]
+      },
+      "markup_tags": [
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Living Forge",
+      "name_zh": "活体锻炉",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ornn",
+        "source:ddragon:16.16.1:en_US:Ornn",
+        "source:communitydragon:16.16:zh_cn:Ornn",
+        "source:wiki:1332180:4025779"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ornn gains an additional bonus Armor and Magic Resist from all sources. Ornn can spend gold to forge non-consumable items anywhere. Additionally, he can create masterwork items for himself and for his allies.",
+      "summary_zh": "奥恩可使所有来源的护甲和魔抗加成获得额外提升。 奥恩可在地图的任意位置上花费金钱来锻造非消耗品的装备。 此外，他能为他自己和友方英雄打造杰作武器。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1332180:4025779"
+      ]
+    },
+    {
+      "ability_id": "ability:Ornn:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "奥恩猛砸地面，创造一道裂隙来造成【数值】物理伤害，以及持续【数值】秒的【数值】%减速。一根熔岩之柱会在裂隙的终点处形成，持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1332181:3998234"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Volcanic Rupture",
+      "name_zh": "火山突堑",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ornn",
+        "source:ddragon:16.16.1:en_US:Ornn",
+        "source:communitydragon:16.16:zh_cn:Ornn",
+        "source:wiki:1332181:3998234"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Ornn slams the ground, sending out a fissure dealing damage and slowing enemies hit. After a small delay, a magma pillar forms at the end location.",
+      "summary_zh": "奥恩猛砸地面，形成一道裂隙来伤害并减速被击中的敌人们。在一阵短暂的延迟后，一个熔岩之柱会在裂隙的终点处形成。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1332181:3998234"
+      ]
+    },
+    {
+      "ability_id": "ability:Ornn:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "奥恩向前不可阻挡地重踏，同时喷吐炎息，在【数值】秒里持续造成共【数值】%最大生命值的魔法伤害。被最后一道炎息命中的敌人，会变成易碎效果，持续【数值】秒。 对易碎状态的敌人施加的下一个定身效果将使该效果的持续时间提升30%并对目标造成额外的【数值】最大生命值的魔法伤害。奥恩的普攻会击退易碎状态下的目标，并造成额外伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1332182:4011962"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "keywordmajor",
+        "br",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Bellows Breath",
+      "name_zh": "风箱炎息",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ornn",
+        "source:ddragon:16.16.1:en_US:Ornn",
+        "source:communitydragon:16.16:zh_cn:Ornn",
+        "source:wiki:1332182:4011962"
+      ],
+      "status_terms_zh": [
+        "定身",
+        "击退"
+      ],
+      "summary_en": "Ornn advances, breathing fire. Enemies hit by the final gout of flame become Brittle.",
+      "summary_zh": "奥恩向前进发，喷出炎息。被最后一阵炎息命中的敌人将变为易碎状态。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1332182:4011962"
+      ]
+    },
+    {
+      "ability_id": "ability:Ornn:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "奥恩冲锋，造成【数值】物理伤害。如果奥恩撞到了地形，则会引发冲击波，击飞敌人【数值】秒并将此技能的伤害施加给那些未被冲锋命中的敌人们。 奥恩的冲锋会摧毁熔岩之柱和由敌方英雄创造的地形。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1332183:4007982"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Searing Charge",
+      "name_zh": "炽烈冲锋",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ornn",
+        "source:ddragon:16.16.1:en_US:Ornn",
+        "source:communitydragon:16.16:zh_cn:Ornn",
+        "source:wiki:1332183:4007982"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Ornn charges, dealing damage to enemies he passes through. If Ornn collides with terrain while charging, the impact creates a shockwave around him which deals damage and knocks up enemies.",
+      "summary_zh": "奥恩冲锋，对他途经的敌人造成伤害。如果奥恩在冲锋状态下与地形产生碰撞，那么这次碰撞就会在他四周生成一道冲击波，来对敌人造成伤害和击飞效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1332183:4007982"
+      ]
+    },
+    {
+      "ability_id": "ability:Ornn:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "奥恩召唤一个巨大的岩浆元素来疾奔向他，造成【数值】魔法伤害，对命中的敌人们施加持续【数值】秒的易碎和【数值】%减速。 奥恩可以再次施放这个技能来用头槌进行冲刺。如果他冲刺到了岩浆元素，那么他可以使它重新导向并强化它，使它击飞首个命中的敌方英雄【数值】秒和后续的英雄们【数值】秒。岩浆元素还会造成【数值】魔法伤害并施加易碎。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ornn"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ornn"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ornn"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1332184:4007985"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "keywordmajor",
+        "status",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Call of the Forge God",
+      "name_zh": "熔铸之神的召唤",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ornn",
+        "source:ddragon:16.16.1:en_US:Ornn",
+        "source:communitydragon:16.16:zh_cn:Ornn",
+        "source:wiki:1332184:4007985"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "击飞"
+      ],
+      "summary_en": "Ornn summons a massive elemental at a location which travels toward him with increasing speed. Enemies run over by the elemental take damage, are slowed and are made Brittle. Ornn can recast the ability to charge into the elemental, redirecting it in the direction he hits it, causing the elemental to affect any enemies it runs over to be knocked up, dealing the same damage and re-applying Brittle.",
+      "summary_zh": "奥恩在目标位置召唤一个巨大的岩浆元素，岩浆元素会以逐渐提升的速度跑向奥恩。被岩浆元素途经的敌人会受到伤害、减速效果并被施加易碎效果。奥恩可以再次施放这个技能，以冲向岩浆元素，并在命中岩浆元素时重新导向岩浆元素，使岩浆元素可将途经的任何敌人击飞，造成等额的伤害并再次施加易碎效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1332184:4007985"
+      ]
+    }
+  ],
+  "card_id": "champion:Ornn:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Ornn"
+    ],
+    "numeric_key": "516",
+    "official_name_en": "Ornn",
+    "official_name_zh": "奥恩",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Ornn",
+      "source:ddragon:16.16.1:en_US:Ornn",
+      "source:communitydragon:16.16:zh_cn:Ornn",
+      "source:riot-champion-page:Ornn:asof-2026-08-21"
+    ],
+    "stable_id": "Ornn",
+    "title_zh": "山隐之焰"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 1,
+      "durability": 3,
+      "mobility": 1,
+      "utility": 2
+    },
+    "roles": [
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Ornn"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:db1ce510655ef119b2bae8ef00af12c8e2f0357d980912c7203d5f1d007de804",
+      "sha256:0e782e14854d561de850ea64bb4a1a135eef30365c026d4041e285862a747b5e",
+      "sha256:8e22cd71330617dc264071c6d822f19535006ff8fad9cf10442750e4c934754e",
+      "sha256:dfd046f2625b2a37d4a52cee57fdfe05fceb08b1158ed0890ef9c2e120bed5b1",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:db1ce510655ef119b2bae8ef00af12c8e2f0357d980912c7203d5f1d007de804",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Ornn.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Ornn",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 奥恩",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Ornn.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:0e782e14854d561de850ea64bb4a1a135eef30365c026d4041e285862a747b5e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Ornn.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Ornn",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Ornn",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Ornn.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:8e22cd71330617dc264071c6d822f19535006ff8fad9cf10442750e4c934754e",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/516.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Ornn",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 奥恩",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/516.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:dfd046f2625b2a37d4a52cee57fdfe05fceb08b1158ed0890ef9c2e120bed5b1",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/ornn.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Ornn:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Ornn",
+        "url": "https://www.leagueoflegends.com/en-us/champions/ornn/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4025779,
+        "revision_timestamp": "2026-06-07T09:21:04Z",
+        "source_ref_id": "source:wiki:1332180:4025779",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4025779",
+        "title": "Template:Data Ornn/Living Forge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ornn/Living_Forge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3998234,
+        "revision_timestamp": "2026-03-10T20:08:53Z",
+        "source_ref_id": "source:wiki:1332181:3998234",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3998234",
+        "title": "Template:Data Ornn/Volcanic Rupture",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ornn/Volcanic_Rupture",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4011962,
+        "revision_timestamp": "2026-04-24T08:40:56Z",
+        "source_ref_id": "source:wiki:1332182:4011962",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4011962",
+        "title": "Template:Data Ornn/Bellows Breath",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ornn/Bellows_Breath",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007982,
+        "revision_timestamp": "2026-04-13T02:25:31Z",
+        "source_ref_id": "source:wiki:1332183:4007982",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007982",
+        "title": "Template:Data Ornn/Searing Charge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ornn/Searing_Charge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:e8158b251462d7a4d9047d8917e051f4da0d102c1d5cb313e10888c59ca54dc8",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-015.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007985,
+        "revision_timestamp": "2026-04-13T02:32:34Z",
+        "source_ref_id": "source:wiki:1332184:4007985",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007985",
+        "title": "Template:Data Ornn/Call of the Forge God",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ornn/Call_of_the_Forge_God",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

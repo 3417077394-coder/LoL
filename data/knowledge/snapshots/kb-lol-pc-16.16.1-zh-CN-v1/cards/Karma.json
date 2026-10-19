@@ -1,0 +1,468 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Karma:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "卡尔玛的伤害型技能将缩短梵咒的冷却时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307680:3985386"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Gathering Fire",
+      "name_zh": "聚能之炎",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Karma",
+        "source:ddragon:16.16.1:en_US:Karma",
+        "source:communitydragon:16.16:zh_cn:Karma",
+        "source:wiki:1307680:3985386"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Karma's damaging abilities will reduce the cooldown of Mantra.",
+      "summary_zh": "卡尔玛的伤害型技能将缩短梵咒的冷却时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307680:3985386"
+      ]
+    },
+    {
+      "ability_id": "ability:Karma:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "卡尔玛发射一团能量，对命中的第一个目标及其周围的敌人们造成【数值】魔法伤害，以及持续【数值】秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Inner Flame",
+      "name_zh": "心灵烈焰",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Karma",
+        "source:ddragon:16.16.1:en_US:Karma",
+        "source:communitydragon:16.16:zh_cn:Karma"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Karma sends forth a ball of spirit energy that explodes and deals damage upon hitting an enemy unit. Mantra Bonus: In addition to the explosion, Mantra increases the destructive power of her Inner Flame, creating a cataclysm which deals damage after a short delay.",
+      "summary_zh": "卡尔玛向前方发射一枚灵能法球。这枚法球会在命中第一个敌人时爆炸，并造成伤害。 梵咒增效：除爆炸之外，梵咒还会提升她的心灵烈焰的破坏力，同时创造出一个火环，火环会在短暂的延时后造成伤害。",
+      "wiki_source_ref_ids": []
+    },
+    {
+      "ability_id": "ability:Karma:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "卡尔玛用灵链来连接她和一名敌方英雄或野怪，造成【数值】魔法伤害并使其显形【数值】秒。如果灵链一直未断裂，那么目标会再次受到【数值】魔法伤害并被禁锢【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Focused Resolve",
+      "name_zh": "坚定不移",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Karma",
+        "source:ddragon:16.16.1:en_US:Karma",
+        "source:communitydragon:16.16:zh_cn:Karma"
+      ],
+      "status_terms_zh": [
+        "禁锢"
+      ],
+      "summary_en": "Karma creates a tether between herself and a targeted enemy, dealing damage and revealing them. If the tether is not broken, the enemy will be rooted and damaged again. Mantra Bonus: Karma strengthens the link, healing herself and extending the root duration.",
+      "summary_zh": "卡尔玛在她和目标敌人之间产生一条灵链，同时造成伤害，并使目标暴露。如果灵链在一段时间内没有被破坏，那么目标敌人就会被束缚在原地并再次受到伤害。 梵咒增效：卡尔玛强化灵链，治疗自身并延长禁锢时长。",
+      "wiki_source_ref_ids": []
+    },
+    {
+      "ability_id": "ability:Karma:e:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "卡尔玛为一名友方英雄提供持续【数值】秒的【数值】护盾值和持续【数值】秒的【数值】%移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "wiki_supplement": []
+      },
+      "markup_tags": [
+        "shield",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Inspire",
+      "name_zh": "鼓舞",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Karma",
+        "source:ddragon:16.16.1:en_US:Karma",
+        "source:communitydragon:16.16:zh_cn:Karma"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Karma summons a protective shield that absorbs incoming damage and increases the Move Speed of the protected ally. Mantra Bonus: Energy radiates out from her target, strengthening the initial shield and applying Inspire to nearby allied champions.",
+      "summary_zh": "卡尔玛召唤一个防御性的护盾来吸收即将到来的伤害，并为目标友军提升移动速度。 梵咒增效：能量从目标处向外辐射，强化初始护盾，并对附近的友方英雄施加鼓舞效果。",
+      "wiki_source_ref_ids": []
+    },
+    {
+      "ability_id": "ability:Karma:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "卡尔玛增强她在8秒内使用的下一个技能。 心灵烈焰：造成额外的【数值】魔法伤害并留下一道烈焰圆环，减速敌人并造成额外的【数值】魔法伤害。坚定不移：卡尔玛将在灵链的开始和结束时回复【数值】已损失生命值，并且禁锢延长【数值】秒。鼓舞：卡尔玛为她的目标提供额外的【数值】护盾值，并且还会对目标附近的友军提供护盾，为他们提供【数值】护盾值和【数值】%移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Karma"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Karma"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Karma"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307692:4005102"
+        ]
+      },
+      "markup_tags": [
+        "br",
+        "li",
+        "spellname",
+        "magicdamage",
+        "status",
+        "healing",
+        "shield",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Mantra",
+      "name_zh": "梵咒",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Karma",
+        "source:ddragon:16.16.1:en_US:Karma",
+        "source:communitydragon:16.16:zh_cn:Karma",
+        "source:wiki:1307692:4005102"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "禁锢"
+      ],
+      "summary_en": "Karma empowers her next ability to do an additional effect. Mantra is available at level 1 and does not require a skill point.",
+      "summary_zh": "卡尔玛的下个技能会获得强化，造成额外特效。梵咒在1级时就可以使用，并且不需要投入技能点。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307692:4005102"
+      ]
+    }
+  ],
+  "card_id": "champion:Karma:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Karma"
+    ],
+    "numeric_key": "43",
+    "official_name_en": "Karma",
+    "official_name_zh": "卡尔玛",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Karma",
+      "source:ddragon:16.16.1:en_US:Karma",
+      "source:communitydragon:16.16:zh_cn:Karma",
+      "source:riot-champion-page:Karma:asof-2026-08-21"
+    ],
+    "stable_id": "Karma",
+    "title_zh": "天启者"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 2
+    },
+    "roles": [
+      "mage",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Karma"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:62c9bf718f798f5c6c2c5f2a8f4ab118b6bbe3b7f72553851e12086ad6408bae",
+      "sha256:69c67d947a07131fef8d170faa4dbbee6ff35de4b4e061717a97920047da2c18",
+      "sha256:bb00bc93717bbf5d8bcc135999c11c9eb1400aaba18dee45a2b17d0823de1948",
+      "sha256:9b5ff20bfa247d4e5364f78e4d191537795e263a9abd69fc45e87ad7cab2c960",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:62c9bf718f798f5c6c2c5f2a8f4ab118b6bbe3b7f72553851e12086ad6408bae",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Karma.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Karma",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 卡尔玛",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Karma.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:69c67d947a07131fef8d170faa4dbbee6ff35de4b4e061717a97920047da2c18",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Karma.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Karma",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Karma",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Karma.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:bb00bc93717bbf5d8bcc135999c11c9eb1400aaba18dee45a2b17d0823de1948",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/43.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Karma",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 卡尔玛",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/43.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:9b5ff20bfa247d4e5364f78e4d191537795e263a9abd69fc45e87ad7cab2c960",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/karma.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Karma:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Karma",
+        "url": "https://www.leagueoflegends.com/en-us/champions/karma/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3985386,
+        "revision_timestamp": "2026-01-20T00:26:28Z",
+        "source_ref_id": "source:wiki:1307680:3985386",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3985386",
+        "title": "Template:Data Karma/Gathering Fire",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Karma/Gathering_Fire",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4005102,
+        "revision_timestamp": "2026-04-03T21:44:38Z",
+        "source_ref_id": "source:wiki:1307692:4005102",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4005102",
+        "title": "Template:Data Karma/Mantra",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Karma/Mantra",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "wiki_ability_gap:q,w,e",
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

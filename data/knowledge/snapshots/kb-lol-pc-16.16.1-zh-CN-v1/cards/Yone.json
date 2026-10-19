@@ -1,0 +1,523 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Yone:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "永恩每第二次攻击造成魔法伤害。此外，他的暴击几率提升。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1451031:4051867"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Way of the Hunter",
+      "name_zh": "狩人之道",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yone",
+        "source:ddragon:16.16.1:en_US:Yone",
+        "source:communitydragon:16.16:zh_cn:Yone",
+        "source:wiki:1451031:4051867"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Yone deals magic damage with every second Attack. In addition, his critical strike chance is increased.",
+      "summary_zh": "永恩每第二次攻击造成魔法伤害。此外，他的暴击几率提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1451031:4051867"
+      ]
+    },
+    {
+      "ability_id": "ability:Yone:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "永恩向前出剑，造成【数值】物理伤害。 在命中时，提供一层持续【数值】秒的可叠加效果。在积攒2层效果后，这个技能会使永恩向前冲刺，并带着一阵能够击飞敌人【数值】秒的的旋风，造成【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1451033:4032640"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Mortal Steel",
+      "name_zh": "错玉切",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yone",
+        "source:ddragon:16.16.1:en_US:Yone",
+        "source:communitydragon:16.16:zh_cn:Yone",
+        "source:wiki:1451033:4032640"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Thrusts forward, damaging all enemies in a line. On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Mortal Steel dashes Yone forward with a gust of wind knocking enemies Airborne.",
+      "summary_zh": "向前出剑，呈直线造成伤害。 在命中时，错玉切会获得一层旋风烈斩效果，持续数秒。在2层时，错玉切会使永恩向前冲刺并带着一阵能够击飞敌人的旋风。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1451033:4032640"
+      ]
+    },
+    {
+      "ability_id": "ability:Yone:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "magic"
+      ],
+      "detailed_description_zh": "永恩向前顺劈，造成【数值】+目标【数值】%最大生命值的物理伤害和【数值】+目标【数值】%最大生命值的魔法伤害。 如果永恩命中了敌方单位，那么他会获得【数值】护盾，持续【数值】秒。每命中一名敌方英雄，护盾生命值都会提升。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1451035:4032641"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "magicdamage",
+        "br",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Spirit Cleave",
+      "name_zh": "凛神斩",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yone",
+        "source:ddragon:16.16.1:en_US:Yone",
+        "source:communitydragon:16.16:zh_cn:Yone",
+        "source:wiki:1451035:4032641"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone, the value is increased by the number of champions hit by the swipe. Spirit Cleave's cooldown and cast time scale with attack speed.",
+      "summary_zh": "向前顺劈，对锥形范围内的所有敌人造成伤害。为永恩提供一个护盾，护盾生命值会基于被顺劈到的敌方英雄的数量而得到提升。 凛神斩的冷却时间和施放时间可通过攻击速度来缩短。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1451035:4032641"
+      ]
+    },
+    {
+      "ability_id": "ability:Yone:e:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "永恩进入灵体形态【数值】秒，期间会将他的身体留在原地，并获得不断提升的【数值】%到【数值】%移动速度。 当灵体形态结束时，永恩会返回他的身体，并再次造成伤害，伤害值相当于他在此期间对英雄造成伤害的【数值】%。你可以在灵体形态期间再次施放这个技能。 再次施放：提前结束灵体形态。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1451038:4050165"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "br",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Soul Unbound",
+      "name_zh": "破障之锋",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yone",
+        "source:ddragon:16.16.1:en_US:Yone",
+        "source:communitydragon:16.16:zh_cn:Yone",
+        "source:wiki:1451038:4050165"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Yone's spirit leaves his body behind, gaining Move Speed. When this ability ends, Yone's spirit is forced back to his body and he repeats a portion of the damage he dealt as a spirit.",
+      "summary_zh": "永恩的灵体离开他的身体，并获得移动速度。当这个技能结束时，永恩的灵体会被强制返回他的身体，并且他会再次造成伤害，伤害值相当于一部分他在灵体形态中造成的伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1451038:4050165"
+      ]
+    },
+    {
+      "ability_id": "ability:Yone:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "magic"
+      ],
+      "detailed_description_zh": "永恩对一条路径上的所有敌人进行打击，造成【数值】物理伤害和【数值】魔法伤害，传送至命中的最后一名敌方英雄身后，并将命中的所有敌人击飞向永恩。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Yone"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Yone"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Yone"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1451041:4009198"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Fate Sealed",
+      "name_zh": "封尘绝念斩",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Yone",
+        "source:ddragon:16.16.1:en_US:Yone",
+        "source:communitydragon:16.16:zh_cn:Yone",
+        "source:wiki:1451041:4009198"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Yone blinks behind the last champion in a line with a slash so powerful it pulls all enemies hit towards him.",
+      "summary_zh": "永恩沿直线进行斩击，闪烁至最后一名敌方英雄身后，并将命中的所有敌人拉向他。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1451041:4009198"
+      ]
+    }
+  ],
+  "card_id": "champion:Yone:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Yone"
+    ],
+    "numeric_key": "777",
+    "official_name_en": "Yone",
+    "official_name_zh": "永恩",
+    "resource_type_zh": "剑意",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Yone",
+      "source:ddragon:16.16.1:en_US:Yone",
+      "source:communitydragon:16.16:zh_cn:Yone",
+      "source:riot-champion-page:Yone:asof-2026-08-21"
+    ],
+    "stable_id": "Yone",
+    "title_zh": "封魔剑魂"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Yone"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:753b80423f3d19ab631a3b0a3f9ec3b39f182f4b4998f82891d1a34fb076a553",
+      "sha256:28fa6eb4709898ce074f32cb3382b8289194dbb45f7ba7a1126ce0dab8d795d5",
+      "sha256:5721a95031e177d8ea44c93abebe8c4fb735cb055cefa8fa5c2cfa3a6f4eb579",
+      "sha256:594867467b79ff79f9775b445e40170afec324804a8c006bbad15650bda31e8b",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+      "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:753b80423f3d19ab631a3b0a3f9ec3b39f182f4b4998f82891d1a34fb076a553",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Yone.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Yone",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 永恩",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Yone.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:28fa6eb4709898ce074f32cb3382b8289194dbb45f7ba7a1126ce0dab8d795d5",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Yone.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Yone",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Yone",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Yone.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:5721a95031e177d8ea44c93abebe8c4fb735cb055cefa8fa5c2cfa3a6f4eb579",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/777.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Yone",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 永恩",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/777.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:594867467b79ff79f9775b445e40170afec324804a8c006bbad15650bda31e8b",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/yone.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Yone:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Yone",
+        "url": "https://www.leagueoflegends.com/en-us/champions/yone/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051867,
+        "revision_timestamp": "2026-08-14T12:16:49Z",
+        "source_ref_id": "source:wiki:1451031:4051867",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051867",
+        "title": "Template:Data Yone/Way of the Hunter",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yone/Way_of_the_Hunter",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-024.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4032640,
+        "revision_timestamp": "2026-06-19T18:03:15Z",
+        "source_ref_id": "source:wiki:1451033:4032640",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4032640",
+        "title": "Template:Data Yone/Mortal Steel",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yone/Mortal_Steel",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-024.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4032641,
+        "revision_timestamp": "2026-06-19T18:03:43Z",
+        "source_ref_id": "source:wiki:1451035:4032641",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4032641",
+        "title": "Template:Data Yone/Spirit Cleave",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yone/Spirit_Cleave",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:734f069e1a0ce64d7904b821343e13180fd14a26a04d1a2da3ff2d06b144fde6",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-023.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4050165,
+        "revision_timestamp": "2026-08-05T04:57:45Z",
+        "source_ref_id": "source:wiki:1451038:4050165",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4050165",
+        "title": "Template:Data Yone/Soul Unbound",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yone/Soul_Unbound",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:c6b1383f3a642efe8f32a8129a7b3e63658aba74819f3e7cf3436a79ff8bd72a",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-024.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4009198,
+        "revision_timestamp": "2026-04-16T00:22:53Z",
+        "source_ref_id": "source:wiki:1451041:4009198",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4009198",
+        "title": "Template:Data Yone/Fate Sealed",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Yone/Fate_Sealed",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

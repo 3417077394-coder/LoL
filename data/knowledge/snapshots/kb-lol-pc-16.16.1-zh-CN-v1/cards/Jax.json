@@ -1,0 +1,517 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Jax:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "贾克斯连续的普通攻击，会持续地提高他的攻击速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307313:4038387"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Relentless Assault",
+      "name_zh": "无情连打",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jax",
+        "source:ddragon:16.16.1:en_US:Jax",
+        "source:communitydragon:16.16:zh_cn:Jax",
+        "source:wiki:1307313:4038387"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Jax's consecutive basic attacks continuously increase his Attack Speed.",
+      "summary_zh": "贾克斯连续的普通攻击，会持续地提高他的攻击速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307313:4038387"
+      ]
+    },
+    {
+      "ability_id": "ability:Jax:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "贾克斯跳向一个友方或敌方单位或守卫，如果目标是敌人则会造成【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307315:4026413"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Leap Strike",
+      "name_zh": "跳斩",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jax",
+        "source:ddragon:16.16.1:en_US:Jax",
+        "source:communitydragon:16.16:zh_cn:Jax",
+        "source:wiki:1307315:4026413"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Jax leaps toward a unit. If they are an enemy, he strikes them with his weapon.",
+      "summary_zh": "贾克斯跳向一个单位。如果目标是敌人，贾克斯会用他的武器狠狠地抽打敌人的脸，造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307315:4026413"
+      ]
+    },
+    {
+      "ability_id": "ability:Jax:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "贾克斯给他的武器充能，使他的下次攻击或跳斩造成额外的【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307317:3973571"
+        ]
+      },
+      "markup_tags": [
+        "spellname",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Empower",
+      "name_zh": "蓄力一击",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jax",
+        "source:ddragon:16.16.1:en_US:Jax",
+        "source:communitydragon:16.16:zh_cn:Jax",
+        "source:wiki:1307317:3973571"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Jax charges his weapon with energy, causing his next attack to deal additional damage.",
+      "summary_zh": "贾克斯为武器充能，使他的下次攻击能造成额外伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307317:3973571"
+      ]
+    },
+    {
+      "ability_id": "ability:Jax:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "贾克斯进入一个最多持续【数值】秒的防御姿态，能够躲闪掉一切即将到来的攻击，并且减少【数值】%来自群体技能的伤害。在【数值】秒后，或再次施放后，贾克斯会造成【数值】 + 【数值】%最大生命值的魔法伤害并使附近的敌人晕眩【数值】秒。 贾克斯每躲掉一次攻击，这个伤害值就会提升【数值】%，最多可提升至最大值【数值】 + 【数值】%最大生命值。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307319:4026415"
+        ]
+      },
+      "markup_tags": [
+        "recast",
+        "magicdamage",
+        "status",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Counter Strike",
+      "name_zh": "反击风暴",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jax",
+        "source:ddragon:16.16.1:en_US:Jax",
+        "source:communitydragon:16.16:zh_cn:Jax",
+        "source:wiki:1307319:4026415"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Jax's combat prowess allows him to dodge all incoming attacks for a short duration and then quickly counterattack, stunning all surrounding enemies.",
+      "summary_zh": "贾克斯的武艺让他能够在短时间里躲闪掉所有即将到来的普通攻击，随后对所有周围的敌人快速发起反击，并将他们击晕。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307319:4026415"
+      ]
+    },
+    {
+      "ability_id": "ability:Jax:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：【数值】秒内的每第三次攻击造成额外的【数值】魔法伤害。 主动：贾克斯将他的灯柱砸落，对附近的敌人们造成【数值】魔法伤害。如果他命中了一名英雄，那么他会获得【数值】护甲和【数值】魔法抗性，并且每额外命中一个英雄就会获得额外的【数值】护甲和【数值】魔法抗性，持续【数值】秒。在此期间，他每第二次攻击（而非每第三次攻击）造成额外的魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Jax"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Jax"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Jax"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1572241:3973573"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicdamage",
+        "br",
+        "spellactive",
+        "scalearmor",
+        "scalemr"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Grandmaster-at-Arms",
+      "name_zh": "武器大师",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Jax",
+        "source:ddragon:16.16.1:en_US:Jax",
+        "source:communitydragon:16.16:zh_cn:Jax",
+        "source:wiki:1572241:3973573"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Every third consecutive attack deals additional Magic Damage. Additionally, Jax can activate this ability to deal damage around himself and strengthen his resolve, increasing his Armor and Magic Resist for a short duration.",
+      "summary_zh": "每连续攻击2次，第3次攻击就会造成额外的魔法伤害。另外，贾克斯可以激活这个技能来在他周围造成伤害并增强他的决心，从而暂时性地提升他的护甲和魔法抗性。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1572241:3973573"
+      ]
+    }
+  ],
+  "card_id": "champion:Jax:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Jax"
+    ],
+    "numeric_key": "24",
+    "official_name_en": "Jax",
+    "official_name_zh": "贾克斯",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Jax",
+      "source:ddragon:16.16.1:en_US:Jax",
+      "source:communitydragon:16.16:zh_cn:Jax",
+      "source:riot-champion-page:Jax:asof-2026-08-21"
+    ],
+    "stable_id": "Jax",
+    "title_zh": "武器大师"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Jax"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:be459666a4b6c25000a1c686aa016cade4e56b7fa3e0d2f44644642cb9fb3747",
+      "sha256:b3a2b54ed9a5860780134212766cc8e403eb72d57cfe8f498bd0787654faacad",
+      "sha256:eb8b8b9e0330cacb25cc88d45fd57d9942cce24862e8b2a28473a92608467d13",
+      "sha256:cd6012a93f1c4ae81af331ce6cbf2883653889566b8aa82bb9522ab8500bfe20",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:be459666a4b6c25000a1c686aa016cade4e56b7fa3e0d2f44644642cb9fb3747",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Jax.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Jax",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 贾克斯",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Jax.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:b3a2b54ed9a5860780134212766cc8e403eb72d57cfe8f498bd0787654faacad",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Jax.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Jax",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Jax",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Jax.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:eb8b8b9e0330cacb25cc88d45fd57d9942cce24862e8b2a28473a92608467d13",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/24.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Jax",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 贾克斯",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/24.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:cd6012a93f1c4ae81af331ce6cbf2883653889566b8aa82bb9522ab8500bfe20",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/jax.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Jax:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Jax",
+        "url": "https://www.leagueoflegends.com/en-us/champions/jax/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038387,
+        "revision_timestamp": "2026-06-30T09:20:04Z",
+        "source_ref_id": "source:wiki:1307313:4038387",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038387",
+        "title": "Template:Data Jax/Relentless Assault",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jax/Relentless_Assault",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4026413,
+        "revision_timestamp": "2026-06-09T21:52:26Z",
+        "source_ref_id": "source:wiki:1307315:4026413",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4026413",
+        "title": "Template:Data Jax/Leap Strike",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jax/Leap_Strike",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3973571,
+        "revision_timestamp": "2025-12-11T05:34:58Z",
+        "source_ref_id": "source:wiki:1307317:3973571",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3973571",
+        "title": "Template:Data Jax/Empower",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jax/Empower",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4026415,
+        "revision_timestamp": "2026-06-09T21:52:38Z",
+        "source_ref_id": "source:wiki:1307319:4026415",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4026415",
+        "title": "Template:Data Jax/Counter Strike",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jax/Counter_Strike",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3973573,
+        "revision_timestamp": "2025-12-11T05:37:32Z",
+        "source_ref_id": "source:wiki:1572241:3973573",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3973573",
+        "title": "Template:Data Jax/Grandmaster-at-Arms",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Jax/Grandmaster-at-Arms",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

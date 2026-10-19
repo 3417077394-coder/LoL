@@ -1,0 +1,526 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Varus:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "每完成一次击杀或助攻，韦鲁斯就会暂时获得攻击速度、攻击力和法术强度。如果敌人是个英雄，则这个加成的幅度会更大。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309982:4026465"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Living Vengeance",
+      "name_zh": "复仇之欲",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Varus",
+        "source:ddragon:16.16.1:en_US:Varus",
+        "source:communitydragon:16.16:zh_cn:Varus",
+        "source:wiki:1309982:4026465"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "On kill or assist, Varus temporarily gains Attack Damage and Ability Power. This bonus is larger if the enemy is a champion.",
+      "summary_zh": "每完成一次击杀或助攻，韦鲁斯就会暂时获得攻击速度、攻击力和法术强度。如果敌人是个英雄，则这个加成的幅度会更大。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309982:4026465"
+      ]
+    },
+    {
+      "ability_id": "ability:Varus:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "开始蓄力：韦鲁斯为一次强力射击深深挽弓，自我减速【数值】%。在【数值】秒后，如果未将箭射出去，则韦鲁斯会取消这个技能并返还其【数值】%法力消耗。 释放：韦鲁斯将箭射出，造成【数值】物理伤害，每命中一个敌人就会降低【数值】%(最低降至【数值】%)。伤害和枯萎的引爆效果会基于蓄力时间至多提升至【数值】%(最大值为【数值】) 。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309981:4026469"
+        ]
+      },
+      "markup_tags": [
+        "attention",
+        "status",
+        "br",
+        "physicaldamage",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Piercing Arrow",
+      "name_zh": "穿刺之箭",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Varus",
+        "source:ddragon:16.16.1:en_US:Varus",
+        "source:communitydragon:16.16:zh_cn:Varus",
+        "source:wiki:1309981:4026469"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Varus readies and then fires a powerful shot that gains extra range and damage the longer he spends preparing to fire.",
+      "summary_zh": "韦鲁斯开始蓄力，随后进行一次远距离的强力射击，蓄力时间越长，伤害越高。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309981:4026469"
+      ]
+    },
+    {
+      "ability_id": "ability:Varus:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：韦鲁斯的攻击造成额外的【数值】魔法伤害并施加一层持续【数值】秒的枯萎(最多至【数值】层)。 韦鲁斯的其它技能会引爆枯萎层数来造成每层【数值】最大生命值伤害(最大值为【数值】最大生命值伤害)。引爆英雄和史诗级野怪身上的枯萎时也会使他基础技能的冷却时间缩短，数额为每层【数值】%基础冷却时间。 主动：韦鲁斯的下一个穿刺之箭会造成额外的【数值】已损失生命值的魔法伤害，并且基于蓄力时间不断提升，至多可达【数值】已损失生命值伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309980:4026472"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicdamage",
+        "keywordmajor",
+        "br",
+        "spellactive",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Blighted Quiver",
+      "name_zh": "枯萎箭袋",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Varus",
+        "source:ddragon:16.16.1:en_US:Varus",
+        "source:communitydragon:16.16:zh_cn:Varus",
+        "source:wiki:1309980:4026472"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Passive: Varus' basic attacks deal bonus magic damage and apply Blight. Varus' other abilities detonate Blight, dealing magic damage based on the target's maximum Health. Active: Varus empowers his next Piercing Arrow.",
+      "summary_zh": "被动：韦鲁斯的普通攻击会造成额外的伤害，并附加枯萎效果。韦鲁斯的其它技能会引爆枯萎效果，造成基于目标最大生命值的魔法伤害。主动：韦鲁斯增强他的下一个【穿刺之箭】。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309980:4026472"
+      ]
+    },
+    {
+      "ability_id": "ability:Varus:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "韦鲁斯射出一阵箭雨，造成【数值】物理伤害，并污染地面【数值】秒，减速敌人【数值】%并施加【数值】%重伤。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309978:3969402"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Hail of Arrows",
+      "name_zh": "恶灵箭雨",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Varus",
+        "source:ddragon:16.16.1:en_US:Varus",
+        "source:communitydragon:16.16:zh_cn:Varus",
+        "source:wiki:1309978:3969402"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Varus fires a hail of arrows that deal physical damage and desecrate the ground. Desecrated ground slows enemies' Move Speed and reduces their self healing and regeneration.",
+      "summary_zh": "韦鲁斯射出一阵箭雨，造成物理伤害并污染地面。被污染的地面将会减慢敌人的移动速度，并降低他们的自我治疗效果和回复效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309978:3969402"
+      ]
+    },
+    {
+      "ability_id": "ability:Varus:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "韦鲁斯猛射出一根腐败藤蔓，禁锢命中的第一个敌方英雄【数值】秒并造成【数值】魔法伤害。被禁锢的敌人们会在此期间持续获得【数值】层枯萎。 随后腐败藤蔓会从它的目标处向附近未被感染的英雄蔓延。如果它接触到了未被感染的英雄，就会使其承受相同的伤害和禁锢。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Varus"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Varus"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Varus"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309977:4008213"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "keywordmajor",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Chain of Corruption",
+      "name_zh": "腐败锁链",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Varus",
+        "source:ddragon:16.16.1:en_US:Varus",
+        "source:communitydragon:16.16:zh_cn:Varus",
+        "source:wiki:1309977:4008213"
+      ],
+      "status_terms_zh": [
+        "禁锢"
+      ],
+      "summary_en": "Varus flings out a damaging tendril of corruption that immobilizes the first enemy champion hit and then spreads towards nearby uninfected champions, immobilizing them too on contact.",
+      "summary_zh": "韦鲁斯投掷出一个腐败藤蔓，来禁锢命中的第一个敌方英雄，随后向附近没有被感染的英雄蔓延，并在碰到后将他们也禁锢。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309977:4008213"
+      ]
+    }
+  ],
+  "card_id": "champion:Varus:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Varus"
+    ],
+    "numeric_key": "110",
+    "official_name_en": "Varus",
+    "official_name_zh": "韦鲁斯",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Varus",
+      "source:ddragon:16.16.1:en_US:Varus",
+      "source:communitydragon:16.16:zh_cn:Varus",
+      "source:riot-champion-page:Varus:asof-2026-08-21"
+    ],
+    "stable_id": "Varus",
+    "title_zh": "惩戒之箭"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Varus"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:fe130f32e2f0a460d9ecfec140789e662c3c987cfceb2c508b40ad2aac1ed652",
+      "sha256:6dae51378a3c9a7294ff7437d281622f07639d09fc9aee0b98897d6ab3724bc9",
+      "sha256:fd743b17c7f4dcbaa8910af273f4cb40dc22586d6412c2563fd3f4874368d291",
+      "sha256:771ed1c565ffe2d6e25aa29fce1d3f92c0210c04e8c783d1ce1334ad5da9d7a6",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:fe130f32e2f0a460d9ecfec140789e662c3c987cfceb2c508b40ad2aac1ed652",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Varus.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Varus",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 韦鲁斯",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Varus.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6dae51378a3c9a7294ff7437d281622f07639d09fc9aee0b98897d6ab3724bc9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Varus.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Varus",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Varus",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Varus.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:fd743b17c7f4dcbaa8910af273f4cb40dc22586d6412c2563fd3f4874368d291",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/110.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Varus",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 韦鲁斯",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/110.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:771ed1c565ffe2d6e25aa29fce1d3f92c0210c04e8c783d1ce1334ad5da9d7a6",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/varus.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Varus:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Varus",
+        "url": "https://www.leagueoflegends.com/en-us/champions/varus/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4026465,
+        "revision_timestamp": "2026-06-09T21:59:33Z",
+        "source_ref_id": "source:wiki:1309982:4026465",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4026465",
+        "title": "Template:Data Varus/Living Vengeance",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Varus/Living_Vengeance",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4026469,
+        "revision_timestamp": "2026-06-09T22:00:25Z",
+        "source_ref_id": "source:wiki:1309981:4026469",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4026469",
+        "title": "Template:Data Varus/Piercing Arrow",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Varus/Piercing_Arrow",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4026472,
+        "revision_timestamp": "2026-06-09T22:00:43Z",
+        "source_ref_id": "source:wiki:1309980:4026472",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4026472",
+        "title": "Template:Data Varus/Blighted Quiver",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Varus/Blighted_Quiver",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3969402,
+        "revision_timestamp": "2025-11-24T16:03:58Z",
+        "source_ref_id": "source:wiki:1309978:3969402",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3969402",
+        "title": "Template:Data Varus/Hail of Arrows",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Varus/Hail_of_Arrows",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:59509ba97d497853afa7b53b7aa3329da84c52794eb3fec440e8ed639944c074",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-021.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008213,
+        "revision_timestamp": "2026-04-14T05:44:24Z",
+        "source_ref_id": "source:wiki:1309977:4008213",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008213",
+        "title": "Template:Data Varus/Chain of Corruption",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Varus/Chain_of_Corruption",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

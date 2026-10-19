@@ -1,0 +1,517 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Kennen:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "凯南在用他的技能命中同一敌方3次后，会将其晕眩。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307849:3932481"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Mark of the Storm",
+      "name_zh": "【忍法！雷缚印】",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kennen",
+        "source:ddragon:16.16.1:en_US:Kennen",
+        "source:communitydragon:16.16:zh_cn:Kennen",
+        "source:wiki:1307849:3932481"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kennen stuns enemies he hits 3 times with his abilities.",
+      "summary_zh": "凯南在用他的技能命中同一敌方3次后，会将其晕眩。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307849:3932481"
+      ]
+    },
+    {
+      "ability_id": "ability:Kennen:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "凯南投掷一枚手里剑，对命中的第一个敌人造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307851:3936401"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Thundering Shuriken",
+      "name_zh": "奥义！千鸟",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kennen",
+        "source:ddragon:16.16.1:en_US:Kennen",
+        "source:communitydragon:16.16:zh_cn:Kennen",
+        "source:wiki:1307851:3936401"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kennen throws a fast moving shuriken towards a location, causing damage and adding a Mark of the Storm to any opponent that it hits.",
+      "summary_zh": "凯南向目标区域投掷手里剑，对第一个目标造成伤害并附加【忍法！雷缚印】。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307851:3936401"
+      ]
+    },
+    {
+      "ability_id": "ability:Kennen:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：每第5次攻击额外的【数值】魔法伤害%i:OnHit%攻击特效。 主动：凯南释放一道电能爆裂，对附近被施加了忍法！雷缚印的敌人们造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307853:4015581"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "magicdamage",
+        "onhit",
+        "br",
+        "spellactive",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Electrical Surge",
+      "name_zh": "奥义！电刃",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kennen",
+        "source:ddragon:16.16.1:en_US:Kennen",
+        "source:communitydragon:16.16:zh_cn:Kennen",
+        "source:wiki:1307853:4015581"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kennen passively deals extra damage and adds a Mark of the Storm to his target every few attacks, and he can activate this ability to damage and add another Mark of the Storm to targets who are already marked.",
+      "summary_zh": "凯南连续攻击附加额外伤害并对目标造成一层【忍法！雷缚印】，主动释放会对所有带有【忍法！雷缚印】的敌人造成闪电伤害，并额外附加一层【忍法！雷缚印】。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307853:4015581"
+      ]
+    },
+    {
+      "ability_id": "ability:Kennen:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "凯南变成一个闪电球，获得【数值】%移动速度，在穿过敌人时造成【数值】魔法伤害，同时变为幽灵状态，持续【数值】秒。如果凯南对至少一名敌人造成了伤害，那么他会获得【数值】能量。 在这个技能结束后，凯南会获得持续【数值】秒的【数值】%攻击速度。暴击会将这个时长延长【数值】秒。凯南可以再次施放以提前结束这个技能。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307855:4015350"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "magicdamage",
+        "br",
+        "attackspeed",
+        "recast"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Lightning Rush",
+      "name_zh": "奥义！雷铠",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kennen",
+        "source:ddragon:16.16.1:en_US:Kennen",
+        "source:communitydragon:16.16:zh_cn:Kennen",
+        "source:wiki:1307855:4015350"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kennen morphs into a lightning form, enabling him to pass through units and apply a Mark of the Storm. Kennen gains Move Speed when entering this form, and attack speed when leaving it.",
+      "summary_zh": "凯南变身为一个闪电形态，高速移动并可以穿越单位。对碰到的所有敌人造成伤害并施加一层【忍法！雷缚印】。凯南会在进入这个形态时获得移动速度，并在离开时获得攻击速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307855:4015350"
+      ]
+    },
+    {
+      "ability_id": "ability:Kennen:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "凯南释放一阵魔法风暴，每【数值】秒对附近的所有敌人造成【数值】魔法伤害，并且获得【数值】护甲和【数值】魔法抗性，持续【数值】秒。后续的每次命中会对已被影响的敌人造成【数值】%提升伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Kennen"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Kennen"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Kennen"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307857:4051345"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "scalearmor",
+        "scalemr"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Slicing Maelstrom",
+      "name_zh": "秘奥义！万雷天牢引",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Kennen",
+        "source:ddragon:16.16.1:en_US:Kennen",
+        "source:communitydragon:16.16:zh_cn:Kennen",
+        "source:wiki:1307857:4051345"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Kennen summons a storm that strikes at nearby enemy champions for magical damage.",
+      "summary_zh": "凯南召唤出一团风暴，会对周围的所有敌方英雄造成魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307857:4051345"
+      ]
+    }
+  ],
+  "card_id": "champion:Kennen:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Kennen"
+    ],
+    "numeric_key": "85",
+    "official_name_en": "Kennen",
+    "official_name_zh": "凯南",
+    "resource_type_zh": "能量",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Kennen",
+      "source:ddragon:16.16.1:en_US:Kennen",
+      "source:communitydragon:16.16:zh_cn:Kennen",
+      "source:riot-champion-page:Kennen:asof-2026-08-21"
+    ],
+    "stable_id": "Kennen",
+    "title_zh": "狂暴之心"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Kennen"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "listed",
+    "text_en": "Kennen With the reshape to Hextech Rocketbelt to prevent it from becoming the ubiquitous mage legendary, Kennen came out behind the pack. We are buffing him to compensate, making sure he is rewarded well when he does find the right flanks for those huge team-deleting ults. R - Slicing Maelstrom Bonus Resistances : 20 / 40 / 60 ⇒ 25 / 50 / 75 Damage : 40 / 75 / 110 (+22.5% AP) ⇒ 40 / 80 / 120 (+25% AP) Maximum Damage : 300 / 562.5 / 825 (+168.75% AP) ⇒ 300 / 600 / 900 (+187.5% AP)"
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:1f05a57838cfd8ff956d7dbb2fdee9e211067bbb64cb38b6c9aa7dcec0c86b7d",
+      "sha256:25e7ce9f0e98766d15294113fd6c2ada66d540cd25d15143e81f0bc55bab2987",
+      "sha256:53e6b18ea6756f3115a2d893bb640a3678b8846bc356324b7f4fef86b7e73dda",
+      "sha256:704557d92f8ff272eb6217676cdb52b1ec41248419351d5dc4fd13651d14a58b",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:1f05a57838cfd8ff956d7dbb2fdee9e211067bbb64cb38b6c9aa7dcec0c86b7d",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Kennen.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Kennen",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 凯南",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Kennen.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:25e7ce9f0e98766d15294113fd6c2ada66d540cd25d15143e81f0bc55bab2987",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Kennen.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Kennen",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Kennen",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Kennen.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:53e6b18ea6756f3115a2d893bb640a3678b8846bc356324b7f4fef86b7e73dda",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/85.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Kennen",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 凯南",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/85.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:704557d92f8ff272eb6217676cdb52b1ec41248419351d5dc4fd13651d14a58b",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/kennen.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Kennen:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Kennen",
+        "url": "https://www.leagueoflegends.com/en-us/champions/kennen/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3932481,
+        "revision_timestamp": "2025-07-19T00:51:10Z",
+        "source_ref_id": "source:wiki:1307849:3932481",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3932481",
+        "title": "Template:Data Kennen/Mark of the Storm",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kennen/Mark_of_the_Storm",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3936401,
+        "revision_timestamp": "2025-07-24T16:45:55Z",
+        "source_ref_id": "source:wiki:1307851:3936401",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3936401",
+        "title": "Template:Data Kennen/Thundering Shuriken",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kennen/Thundering_Shuriken",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015581,
+        "revision_timestamp": "2026-05-05T16:32:59Z",
+        "source_ref_id": "source:wiki:1307853:4015581",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015581",
+        "title": "Template:Data Kennen/Electrical Surge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kennen/Electrical_Surge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4015350,
+        "revision_timestamp": "2026-05-04T10:44:42Z",
+        "source_ref_id": "source:wiki:1307855:4015350",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4015350",
+        "title": "Template:Data Kennen/Lightning Rush",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kennen/Lightning_Rush",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:521360946a0fd83590e4821b2ae8122b6835e57790bfb9072d2a29da4b8667d0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-010.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051345,
+        "revision_timestamp": "2026-08-12T12:04:48Z",
+        "source_ref_id": "source:wiki:1307857:4051345",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051345",
+        "title": "Template:Data Kennen/Slicing Maelstrom",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Kennen/Slicing_Maelstrom",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

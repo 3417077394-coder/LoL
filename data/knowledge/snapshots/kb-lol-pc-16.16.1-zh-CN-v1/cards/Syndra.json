@@ -1,0 +1,536 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Syndra:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "辛德拉可通过提升等级和伤害敌人来收集【怒法碎晶】，用来使她的各技能获得强化。 暗黑法球：辛德拉可以持有额外一层充能。 驱使念力：额外真实伤害。 弱者退散：提升宽度并减速所有目标。 能量倾泻：处决低生命值的目标。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309645:3986169"
+        ]
+      },
+      "markup_tags": [
+        "br",
+        "font"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Transcendent",
+      "name_zh": "卓尔不凡",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Syndra",
+        "source:ddragon:16.16.1:en_US:Syndra",
+        "source:communitydragon:16.16:zh_cn:Syndra",
+        "source:wiki:1309645:3986169"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Syndra collects Splinters of Wrath from gaining levels and damaging enemies which upgrade her abilities. Dark Sphere: Syndra can hold an additional charge Force of Will: Bonus true damage. Scatter the Weak: Increased width and slows all targets Unleashed Power: Executes low health targets",
+      "summary_zh": "辛德拉可通过提升等级和伤害敌人来收集【怒法碎晶】，用来使她的各技能获得强化。 暗黑法球：辛德拉可以持有额外一层充能。 驱使念力：额外真实伤害。 弱者退散：提升宽度并减速所有目标。 能量倾泻：处决低生命值的目标。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309645:3986169"
+      ]
+    },
+    {
+      "ability_id": "ability:Syndra:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "辛德拉幻化出一颗暗黑法球，造成【数值】魔法伤害。这个暗黑法球可以存留【数值】秒，并且能被辛德拉的其它技能所操纵。 【数值】块怒法碎晶：辛德拉可以储存【数值】个暗黑法球充能。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309646:4026460"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "magicdamage",
+        "br",
+        "evolve"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Dark Sphere",
+      "name_zh": "暗黑法球",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Syndra",
+        "source:ddragon:16.16.1:en_US:Syndra",
+        "source:communitydragon:16.16:zh_cn:Syndra",
+        "source:wiki:1309646:4026460"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Syndra conjures a Dark Sphere dealing magic damage. The sphere remains and can be manipulated by her other powers.",
+      "summary_zh": "辛德拉幻化出一个造成魔法伤害的暗黑法球。法球会存留，并且被她的其它能力所操纵。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309646:4026460"
+      ]
+    },
+    {
+      "ability_id": "ability:Syndra:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic",
+        "true"
+      ],
+      "detailed_description_zh": "辛德拉抓取一颗暗黑法球、一个敌方小兵或一只非史诗级野怪。她在抓取后的至多5秒内可以再次施放这个技能。 再次施放：辛德拉将物体猛掷出去，造成【数值】魔法伤害和持续【数值】秒的【数值】%减速效果。 【数值】块怒法碎晶：这个技能造成额外的【数值】真实伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309649:4035699"
+        ]
+      },
+      "markup_tags": [
+        "keywordmajor",
+        "recast",
+        "br",
+        "magicdamage",
+        "status",
+        "evolve",
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Force of Will",
+      "name_zh": "驱使念力",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Syndra",
+        "source:ddragon:16.16.1:en_US:Syndra",
+        "source:communitydragon:16.16:zh_cn:Syndra",
+        "source:wiki:1309649:4035699"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Syndra picks up and throws a Dark Sphere or enemy minion dealing magic damage and slowing the Move Speed of enemies.",
+      "summary_zh": "辛德拉抓取并投掷一名敌方小兵或者暗黑法球，来对敌人造成魔法伤害，并减少他们的移动速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309649:4035699"
+      ]
+    },
+    {
+      "ability_id": "ability:Syndra:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "辛德拉投出一道原力波，击退敌人们和暗黑法球并造成【数值】魔法伤害。 被推挤的暗黑法球会晕眩敌人【数值】秒并造成【数值】魔法伤害。 【数值】块怒法碎晶：这个技能的宽度得到提升并且还会对敌人们造成持续【数值】秒的【数值】%减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309652:4008068"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "keywordmajor",
+        "magicdamage",
+        "br",
+        "evolve"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Scatter the Weak",
+      "name_zh": "弱者退散",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Syndra",
+        "source:ddragon:16.16.1:en_US:Syndra",
+        "source:communitydragon:16.16:zh_cn:Syndra",
+        "source:wiki:1309652:4008068"
+      ],
+      "status_terms_zh": [
+        "击退",
+        "晕眩",
+        "@UpgradedSlowAmount*100@%",
+        "减速"
+      ],
+      "summary_en": "Syndra knocks enemies and Dark Spheres back dealing magic damage. Enemies hit by Dark Spheres become stunned.",
+      "summary_zh": "辛德拉将敌人和暗黑法球击退，并造成魔法伤害。被暗黑法球命中的敌人会被晕眩。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309652:4008068"
+      ]
+    },
+    {
+      "ability_id": "ability:Syndra:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：每级能量倾泻都会为暗黑法球提供额外的【数值】技能急速。 辛德拉动用她洪流般的能量，将环绕于她的3颗暗黑法球外加至多4颗附近的暗黑法球轰在一名敌方英雄身上。每颗暗黑法球造成【数值】魔法伤害(最大【数值】魔法伤害)。 【数值】块怒法碎晶：这个技能处决生命值低于【数值】%的敌人。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Syndra"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Syndra"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Syndra"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309651:4024661"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "spellname",
+        "br",
+        "keywordmajor",
+        "magicdamage",
+        "evolve",
+        "danger"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Unleashed Power",
+      "name_zh": "能量倾泻",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Syndra",
+        "source:ddragon:16.16.1:en_US:Syndra",
+        "source:communitydragon:16.16:zh_cn:Syndra",
+        "source:wiki:1309651:4024661"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Syndra bombards an enemy Champion with all of her Dark Spheres.",
+      "summary_zh": "辛德拉用她的所有暗黑法球来轰击一名敌方英雄。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309651:4024661"
+      ]
+    }
+  ],
+  "card_id": "champion:Syndra:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Syndra"
+    ],
+    "numeric_key": "134",
+    "official_name_en": "Syndra",
+    "official_name_zh": "辛德拉",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Syndra",
+      "source:ddragon:16.16.1:en_US:Syndra",
+      "source:communitydragon:16.16:zh_cn:Syndra",
+      "source:riot-champion-page:Syndra:asof-2026-08-21"
+    ],
+    "stable_id": "Syndra",
+    "title_zh": "暗黑元首"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Syndra"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:e0413d6119855b4af758fb5a5eb2921468b814279127eacd24075158ec8003c1",
+      "sha256:89d2c49fecc29b14e45286d0c07754d886c34e61213459aafd8d4b320194b49a",
+      "sha256:35dbf8179649c8090ab941359a30c2703564191645c65281e64dd4f7d10c759a",
+      "sha256:fbec6cefbdd805d138566e9de83333ac5b2a879a52f7aa3debcd2b4c38ce52de",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:e0413d6119855b4af758fb5a5eb2921468b814279127eacd24075158ec8003c1",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Syndra.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Syndra",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 辛德拉",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Syndra.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:89d2c49fecc29b14e45286d0c07754d886c34e61213459aafd8d4b320194b49a",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Syndra.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Syndra",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Syndra",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Syndra.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:35dbf8179649c8090ab941359a30c2703564191645c65281e64dd4f7d10c759a",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/134.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Syndra",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 辛德拉",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/134.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:fbec6cefbdd805d138566e9de83333ac5b2a879a52f7aa3debcd2b4c38ce52de",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/syndra.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Syndra:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Syndra",
+        "url": "https://www.leagueoflegends.com/en-us/champions/syndra/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3986169,
+        "revision_timestamp": "2026-01-22T03:02:27Z",
+        "source_ref_id": "source:wiki:1309645:3986169",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3986169",
+        "title": "Template:Data Syndra/Transcendent",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Syndra/Transcendent",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4026460,
+        "revision_timestamp": "2026-06-09T21:58:51Z",
+        "source_ref_id": "source:wiki:1309646:4026460",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4026460",
+        "title": "Template:Data Syndra/Dark Sphere",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Syndra/Dark_Sphere",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4035699,
+        "revision_timestamp": "2026-06-25T03:45:51Z",
+        "source_ref_id": "source:wiki:1309649:4035699",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4035699",
+        "title": "Template:Data Syndra/Force of Will",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Syndra/Force_of_Will",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008068,
+        "revision_timestamp": "2026-04-13T04:56:40Z",
+        "source_ref_id": "source:wiki:1309652:4008068",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008068",
+        "title": "Template:Data Syndra/Scatter the Weak",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Syndra/Scatter_the_Weak",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:92fdf64f90484a88969dbb92b18932ce137ec44c4a6e814ea8d8231ee5709aff",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-019.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4024661,
+        "revision_timestamp": "2026-06-02T13:27:39Z",
+        "source_ref_id": "source:wiki:1309651:4024661",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4024661",
+        "title": "Template:Data Syndra/Unleashed Power",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Syndra/Unleashed_Power",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

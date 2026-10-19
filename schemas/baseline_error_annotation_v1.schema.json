@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.lol-draft-alignment/schemas/baseline_error_annotation_v1.schema.json",
+  "title": "Baseline atomic error annotation v1",
+  "description": "通过 sample_id 关联冻结测试集的旁路原子错误记录；不修改 canonical eval。",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "annotation_version",
+    "experiment_id",
+    "sample_id",
+    "capability_id",
+    "error_type",
+    "severity",
+    "evidence_quote",
+    "explanation",
+    "reviewer_id",
+    "confidence",
+    "created_at"
+  ],
+  "properties": {
+    "annotation_version": {"const": "baseline-error-annotation-v1"},
+    "experiment_id": {"type": "string", "minLength": 1},
+    "sample_id": {"type": "string", "minLength": 1},
+    "capability_id": {
+      "type": "string",
+      "enum": ["B01", "B02", "K01", "K02", "K03", "R01", "R02", "R03", "C01", "C02", "T01", "T02", "P01", "P02", "P03", "P04", "Q01", "Q02", "Q03"]
+    },
+    "error_type": {
+      "type": "string",
+      "enum": [
+        "factual_error",
+        "mechanism_hallucination",
+        "entity_or_side_confusion",
+        "unsupported_claim",
+        "causal_break",
+        "generic_strategy",
+        "missing_key_interaction",
+        "scope_violation",
+        "version_uncertainty",
+        "output_contract_error",
+        "no_error"
+      ]
+    },
+    "severity": {"type": "string", "enum": ["none", "minor", "major", "critical"]},
+    "evidence_quote": {"type": "string"},
+    "explanation": {"type": "string", "minLength": 1},
+    "reviewer_id": {"type": "string", "minLength": 1},
+    "confidence": {"type": "string", "enum": ["low", "medium", "high"]},
+    "patch_assumption": {"type": ["string", "null"]},
+    "created_at": {"type": "string", "format": "date-time"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"error_type": {"const": "no_error"}}, "required": ["error_type"]},
+      "then": {
+        "properties": {
+          "severity": {"const": "none"},
+          "evidence_quote": {"maxLength": 0}
+        }
+      },
+      "else": {
+        "properties": {
+          "severity": {"enum": ["minor", "major", "critical"]},
+          "evidence_quote": {"minLength": 1}
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Diana:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "每第三次攻击就会溅射周围的敌人，造成额外的魔法伤害。在施放一个技能后，黛安娜获得持续5秒的攻击速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307027:4047026"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Moonsilver Blade",
+      "name_zh": "月银之刃",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Diana",
+        "source:ddragon:16.16.1:en_US:Diana",
+        "source:communitydragon:16.16:zh_cn:Diana",
+        "source:wiki:1307027:4047026"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Every third strike cleaves nearby enemies for an additional magic damage. After casting a spell, Diana gains Attack Speed for 5 seconds.",
+      "summary_zh": "每第三次攻击就会溅射周围的敌人，造成额外的魔法伤害。在施放一个技能后，黛安娜获得持续5秒的攻击速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307027:4047026"
+      ]
+    },
+    {
+      "ability_id": "ability:Diana:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "黛安娜释放一道月能圆弧，造成【数值】魔法伤害并用月光标记【数值】秒。 月光会显形那些不在潜行状态的敌人们。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307029:4007592"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "keywordmajor",
+        "br",
+        "keywordstealth"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Crescent Strike",
+      "name_zh": "新月打击",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Diana",
+        "source:ddragon:16.16.1:en_US:Diana",
+        "source:communitydragon:16.16:zh_cn:Diana",
+        "source:wiki:1307029:4007592"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Unleashes a bolt of lunar energy in an arc dealing magic damage. Afflicts enemies struck with Moonlight, revealing them if they are not stealthed for 3 seconds.",
+      "summary_zh": "释放一道月能光束，对弧形范围内的敌人造成伤害。 会对命中的敌人施加月光效果，如果中了月光效果的敌人不在潜行状态下，就会暴露在己方视野中3秒。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307029:4007592"
+      ]
+    },
+    {
+      "ability_id": "ability:Diana:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "黛安娜生成3颗持续【数值】秒的护体法球，可在接触时爆炸，每颗造成【数值】魔法伤害，至多达到【数值】伤害。 黛安娜也会获得相同持续时间的【数值】护盾值。当最后一颗法球爆炸后，她会获得额外的【数值】护盾值并刷新持续时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307031:4022977"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "br",
+        "shield"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Pale Cascade",
+      "name_zh": "苍白之瀑",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Diana",
+        "source:ddragon:16.16.1:en_US:Diana",
+        "source:communitydragon:16.16:zh_cn:Diana",
+        "source:wiki:1307031:4022977"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Diana creates three orbiting spheres that detonate on contact with enemies to deal damage in an area. She also gains a temporary shield that absorbs damage. If her third sphere detonates, the shield gains additional strength.",
+      "summary_zh": "黛安娜召出三颗护体法球，在命中敌人后爆炸，对一个区域内的敌人造成范围伤害。她也会获得一层吸收伤害的护盾。护盾的生命值会在她的第三颗法球爆炸后得到提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307031:4022977"
+      ]
+    },
+    {
+      "ability_id": "ability:Diana:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "黛安娜成为复仇之月的活化身，冲向一名敌人并造成【数值】魔法伤害。如果目标被施加了月光，那么这个技能的冷却时间会被刷新。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307037:3937024"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Lunar Rush",
+      "name_zh": "月神冲刺",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Diana",
+        "source:ddragon:16.16.1:en_US:Diana",
+        "source:communitydragon:16.16:zh_cn:Diana",
+        "source:wiki:1307037:3937024"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage. Lunar Rush has no cooldown when used to dash to an enemy afflicted with Moonlight. All other enemies will have the Moonlight debuff removed regardless of whether they were the target of Lunar Rush.",
+      "summary_zh": "成为复仇之月的活化身，冲向一名敌人并造成魔法伤害。 【月神冲刺】在冲达一名被施加了【月光】效果的敌人时，会没有冷却时间。所有其它的敌人都将移除掉身上的【月光】效果，无论他们是否是【月神冲刺】的目标。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307037:3937024"
+      ]
+    },
+    {
+      "ability_id": "ability:Diana:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "黛安娜拽入、减速【数值】%、并显形附近的敌人 【数值】秒。 如果黛安娜命中了至少一名敌方英雄，那么她就会召唤月亮，造成【数值】魔法伤害外加【数值】x第一个之外的被拖拽英雄数，至多达到【数值】伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Diana"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Diana"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Diana"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307035:4007593"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "br",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Moonfall",
+      "name_zh": "月之降临",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Diana",
+        "source:ddragon:16.16.1:en_US:Diana",
+        "source:communitydragon:16.16:zh_cn:Diana",
+        "source:wiki:1307035:4007593"
+      ],
+      "status_terms_zh": [
+        "拽入",
+        "减速"
+      ],
+      "summary_en": "Diana reveals and draws in all nearby enemies and slows them. If Diana pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.",
+      "summary_zh": "黛安娜将附近所有敌人显形并拉拽到身边，然后使他们减速。 如果黛安娜将1个或以上的敌方英雄拉拽到身边，那么月光会在短暂延迟后倾注在她身上，在她附近的一个区域内造成魔法伤害，每拉拽一个额外目标就会使这个伤害提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307035:4007593"
+      ]
+    }
+  ],
+  "card_id": "champion:Diana:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Diana"
+    ],
+    "numeric_key": "131",
+    "official_name_en": "Diana",
+    "official_name_zh": "黛安娜",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Diana",
+      "source:ddragon:16.16.1:en_US:Diana",
+      "source:communitydragon:16.16:zh_cn:Diana",
+      "source:riot-champion-page:Diana:asof-2026-08-21"
+    ],
+    "stable_id": "Diana",
+    "title_zh": "皎月女神"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Diana"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:cb9d979d4d0e9f7e9d656c43898af382662dd82251d3840d103f40cee3e5f951",
+      "sha256:7095868d2292f0c367ac29aca9375376e80623bd2598115125683d7bf1621157",
+      "sha256:6e65584b642c484bc83d3b622030c9ad3eb34de01595387cef3a2e2269487b09",
+      "sha256:5cea2df7d2cb92dd05b2a8b6c0ba07b01a4e7f155cf578a517b235c9895530f1",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:cb9d979d4d0e9f7e9d656c43898af382662dd82251d3840d103f40cee3e5f951",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Diana.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Diana",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 黛安娜",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Diana.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:7095868d2292f0c367ac29aca9375376e80623bd2598115125683d7bf1621157",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Diana.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Diana",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Diana",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Diana.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6e65584b642c484bc83d3b622030c9ad3eb34de01595387cef3a2e2269487b09",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/131.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Diana",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 黛安娜",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/131.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:5cea2df7d2cb92dd05b2a8b6c0ba07b01a4e7f155cf578a517b235c9895530f1",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/diana.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Diana:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Diana",
+        "url": "https://www.leagueoflegends.com/en-us/champions/diana/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4047026,
+        "revision_timestamp": "2026-07-29T00:30:52Z",
+        "source_ref_id": "source:wiki:1307027:4047026",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4047026",
+        "title": "Template:Data Diana/Moonsilver Blade",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Diana/Moonsilver_Blade",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007592,
+        "revision_timestamp": "2026-04-12T06:56:56Z",
+        "source_ref_id": "source:wiki:1307029:4007592",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007592",
+        "title": "Template:Data Diana/Crescent Strike",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Diana/Crescent_Strike",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4022977,
+        "revision_timestamp": "2026-05-27T21:09:34Z",
+        "source_ref_id": "source:wiki:1307031:4022977",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4022977",
+        "title": "Template:Data Diana/Pale Cascade",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Diana/Pale_Cascade",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3937024,
+        "revision_timestamp": "2025-07-27T22:08:48Z",
+        "source_ref_id": "source:wiki:1307037:3937024",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3937024",
+        "title": "Template:Data Diana/Lunar Rush",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Diana/Lunar_Rush",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:612eeee61c98b00a5a83b48f429afda9e51a96f54fbbc5bd2ed336b289bbe50d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-004.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007593,
+        "revision_timestamp": "2026-04-12T06:58:43Z",
+        "source_ref_id": "source:wiki:1307035:4007593",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007593",
+        "title": "Template:Data Diana/Moonfall",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Diana/Moonfall",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

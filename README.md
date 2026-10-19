@@ -1,0 +1,112 @@
+# LoL 阵容分析大模型对齐项目
+
+本项目通过可复现的 baseline、few-shot 对照、SFT/QLoRA 和误差驱动
+迭代，增强大模型对英雄联盟 BP 阶段阵容的机制分析与战术推演能力。
+
+## 当前状态
+
+最后更新：2026-08-26
+
+- 当前阶段：静态阵容分析输出契约 v2 已接受；closed-book baseline 仍待完成 v2
+  Prompt、校验器和 Judge 迁移后正式运行。16.16.1 固定英雄知识快照和五轮 9 条
+  fixed-KB 开发验证已完成。
+- 本地基座模型：Qwen2.5-7B-Instruct。
+- 冻结测试集：50 条，已完成结构清洗。
+- EXP-0001 工程 ruleset：Data Dragon 16.16.1，官方补丁别名 26.16，知识截止日 2026-08-21；通过 metadata sidecar 绑定，不改 Canonical JSONL。
+- Baseline 推理、Judge、指标和人工抽查脚本：已修正并通过本地测试。
+- E1～E5 评分 Rubric：已冻结；fixed-KB 开发 Judge 已完成 18/18 有效评分，正式
+  closed-book Judge 与人工审核仍待统一适配。
+- `Lineup Analysis Output Schema v2`：机器可读 Schema、说明性示例和本地回归测试已完成；
+  第一阶段只做匹配位置的静态阵容分析，不要求逐路操作教学。现有运行代码仍使用历史
+  Baseline v1 输出，尚未迁移，也没有产生任何 v2 模型结果。
+- 正式 baseline 结果：**尚未重新运行**。
+- `experiments/LEGACY-0001/`：历史结果，只供追溯，不能作为正式基线。
+- `experiments/EXP-0001/`：修正后的正式 baseline 目录，尚未运行。
+- Champion Knowledge Card v2：16.16.1 全量来源约束快照已完成，覆盖 173 名英雄并提供中文精确上下文；728 份来源和全部卡片均有哈希，当前状态为 `source_grounded_auto`。
+- 知识检索已支持测试集使用的官方称号，50/50 条阵容均能精确解析十名英雄。
+- 前四轮 Qwen2.5-7B 开发实验均未支持直接扩到正式 fixed-KB：完整十卡的 `DEV-KB-0002`
+  隐藏 A/B 与 Judge API 均为 closed-book 6 胜、fixed-KB 3 胜；紧凑视图的
+  `DEV-KB-0003` 为 closed-book 7 胜、fixed-KB 2 胜；五技能 `DEV-KB-0004` 的
+  fixed-KB 机制接受度为 0/9 完全通过。后两轮均未调用 Judge API。
+- `DEV-KB-0005` 以 GPT-5.6-sol 生成相同 9 个 fixed-KB Prompt：API、JSON、Schema
+  均为 9/9；相对注入 KB 的机制接受度为 6/9 完全通过，端到端真实机制为 5/9。
+  结果说明模型容量/知识绑定是主要因素之一，同时暴露卡莉丝塔 R 誓约者条件的 KB 漏项。
+- 历史 `compact-mechanics-v1` 将普通英雄的五个技能槽位有损裁剪为四个；虽然在
+  `DEV-KB-0003` 降低了 token、延迟和格式失败，但漏掉亚索 W、莎弥拉 W 等核心机制，
+  已弃用且只保留用于复现实验。
+- 当前 `compact-mechanics-v2` 强制每名英雄完整包含 Passive/Q/W/E/R；`DEV-KB-0004`
+  已在同一 9 条上运行，9 个 Prompt 的技能槽位覆盖为 450/450，JSON/Schema 9/9。
+- 证据审核显示 fixed-KB 仍为 0/9 完全通过：7 条严重、2 条中等，主要错误是跨英雄模板
+  复制、技能槽位错绑和辅助遗漏。五技能排除了“未注入”混杂，但没有解决知识忠实使用。
+- 下一步：先把 Baseline Prompt、程序校验和 Judge 从历史 v1 输出迁移到静态阵容分析
+  v2；迁移完成前不重新运行正式 Baseline。KB 条件漏项和知识使用验证保留为后续工作。
+- Few-shot、SFT 和偏好对齐实验：尚未开始。
+
+本阶段不重新运行 baseline；开始正式实验前先确认
+[Baseline 设计](docs/BASELINE_DESIGN.md)中的冻结条件。
+
+## 文档导航
+
+- [整体设计](docs/PROJECT_DESIGN.md)：目标、范围、阶段和技术路线。
+- [Baseline 设计](docs/BASELINE_DESIGN.md)：baseline 的冻结条件、评估和当前状态。
+- [阵容分析输出契约](docs/LINEUP_ANALYSIS_OUTPUT_SCHEMA.md)：v2 字段、枚举、任务边界和
+  与历史 v1 的关系。
+- [评分标准](docs/EVALUATION_RUBRIC.md)：E1～E5 检查项、封顶、汇总与人工盲审协议。
+- [数据设计](docs/DATA_DESIGN.md)：数据生命周期、切分和防泄漏规则。
+- [能力分类体系](docs/CAPABILITY_TAXONOMY.md)：阵容分析能力 ID、定义和标注规则。
+- [数据需求矩阵](docs/DATA_REQUIREMENTS_MATRIX.md)：能力到数据单元、来源和 pilot 覆盖目标的映射。
+- [知识库设计](docs/KNOWLEDGE_BASE_DESIGN.md)：英雄知识卡 Schema、事实边界、版本与审核规则。
+- [实验账本](docs/EXPERIMENT_LOG.md)：正式实验的配置、结果和结论。
+- [设计决策](docs/DECISIONS.md)：记录重要决定及其理由。
+- [AGENTS.md](AGENTS.md)：未来协作者和 AI 的阅读、修改与交付约定。
+
+## 项目路线
+
+```text
+测试数据生成与清洗
+        ↓
+Closed-book Zero-shot Baseline
+        ↓
+固定知识快照与 Base+KB Baseline
+        ↓
+Few-shot 对照实验
+        ↓
+知识增强的 SFT 数据构建与 QLoRA
+        ↓
+冻结测试集对比评估
+        ↓
+误差分析与定向补数据
+        ↓
+可选：偏好对齐
+```
+
+## 主要目录
+
+```text
+.
+├── docs/                         # 项目设计、状态、实验和决策记录
+├── src/
+│   ├── baseline/                 # Baseline 推理与评估
+│   └── data_engine/              # 测试数据生成与校验
+├── tests/                        # 本地单元测试
+├── data/                         # eval、raw、processed、reference 等
+├── experiments/                  # 按实验 ID 隔离的产物
+├── configs/                      # 配置约定
+├── prompts/                      # Prompt 版本化入口
+└── schemas/                      # 机器可读 Schema 入口
+```
+
+## 信息可信度顺序
+
+遇到信息冲突时按以下顺序处理：
+
+1. 可执行代码和实际数据描述“当前实现”。
+2. `docs/` 描述“当前共识和设计意图”。
+3. `EXPERIMENT_LOG.md` 和实验产物描述“历史运行结果”。
+4. 聊天记录只用于讨论，不作为项目事实来源。
+
+模型权重和 Hugging Face 缓存位于项目外的 `../models/` 与
+`../hf_cache/`，不纳入 Git。
+
+如果代码与文档不一致，应明确记录差异并在同一次修改中修复，不能默默
+选择其中一个。

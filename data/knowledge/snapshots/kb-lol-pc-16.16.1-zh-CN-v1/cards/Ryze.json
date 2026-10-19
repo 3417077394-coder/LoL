@@ -1,0 +1,524 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Ryze:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "瑞兹的技能会造成基于他法力值加成的额外伤害，并且他的最大法力值会基于他的法术强度来获得百分比的提升。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309524:4005387"
+        ]
+      },
+      "markup_tags": [
+        "maintext"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Arcane Mastery",
+      "name_zh": "奥术专精",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ryze",
+        "source:ddragon:16.16.1:en_US:Ryze",
+        "source:communitydragon:16.16:zh_cn:Ryze",
+        "source:wiki:1309524:4005387"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ryze's spells deal extra damage based on his Bonus Mana, and he gains a percentage increase to his maximum Mana based on his Ability Power.",
+      "summary_zh": "瑞兹的技能会造成基于他法力值加成的额外伤害，并且他的最大法力值会基于他的法术强度来获得百分比的提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309524:4005387"
+      ]
+    },
+    {
+      "ability_id": "ability:Ryze:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：符文禁锢和法术涌动会刷新这个技能的冷却时间并充能一枚符文，持续【数值】秒(最多【数值】枚符文)。 主动：瑞兹释放一次魔爆，对命中的第一个敌人造成【数值】魔法伤害。如果目标带有涌动，则它会将其消耗，使这个技能造成【数值】%伤害提升并弹射至附近带有涌动的敌人们。 如果【数值】枚符文已被充能，瑞兹就会释放所有符文的能量，来为瑞兹提供持续【数值】秒的【数值】%移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309526:3936361"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "spellname",
+        "br",
+        "spellactive",
+        "magicdamage",
+        "keywordmajor",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Overload",
+      "name_zh": "超负荷",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ryze",
+        "source:ddragon:16.16.1:en_US:Ryze",
+        "source:communitydragon:16.16:zh_cn:Ryze",
+        "source:wiki:1309526:3936361"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Passively, Ryze's other basic abilities reset the cooldown of Overload and charge a rune. When Ryze casts Overload with 2 runes charged, he gains a brief burst of Move Speed. On cast, Ryze throws a charge of pure energy in a line, dealing damage to the first enemy struck. If the target has Flux on it, Overload deals extra damage and bounces to nearby enemies with Flux.",
+      "summary_zh": "被动部分：瑞兹的其它基础技能会重置【超负荷】的冷却时间并且充能一层符文。当瑞兹带着2层符文施放【超负荷】时，他会获得短暂的爆发性移动速度加成。 施放时，瑞兹会沿直线扔出一团纯粹能量，来对命中的第一个敌人造成伤害。如果目标身上有【涌动】效果，那么【超负荷】会造成额外伤害并弹射至附近带有【涌动】效果的敌人身上。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309526:3936361"
+      ]
+    },
+    {
+      "ability_id": "ability:Ryze:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "瑞兹造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。如果目标带有涌动，则它会将其消耗，使这个技能造成禁锢而非减速。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309528:3989878"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Rune Prison",
+      "name_zh": "符文禁锢",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ryze",
+        "source:ddragon:16.16.1:en_US:Ryze",
+        "source:communitydragon:16.16:zh_cn:Ryze",
+        "source:wiki:1309528:3989878"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "禁锢"
+      ],
+      "summary_en": "Ryze traps a target in a cage of runes, damaging them and slowing their movement. If the target has Flux on it, they are instead rooted.",
+      "summary_zh": "瑞兹将一个目标陷入一个符文牢笼中，来对其造成伤害和减速效果。如果目标身上带有【涌动】效果，那么减速效果会替换为禁锢效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309528:3989878"
+      ]
+    },
+    {
+      "ability_id": "ability:Ryze:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "瑞兹发射一颗法球，造成【数值】魔法伤害并施加持续【数值】秒的涌动给目标和附近的敌人们。已被涌动影响的敌人们将使其进一步扩散。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309530:4008024"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Spell Flux",
+      "name_zh": "法术涌动",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ryze",
+        "source:ddragon:16.16.1:en_US:Ryze",
+        "source:communitydragon:16.16:zh_cn:Ryze",
+        "source:wiki:1309530:4008024"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ryze releases an orb of pure magical power that damages an enemy and debuffs all nearby enemies. Ryze's spells have additional effects against the debuffed enemy.",
+      "summary_zh": "瑞兹放出一颗纯净魔法能量球，对一名敌人造成伤害并对附近的敌人造成减益效果。瑞兹的技能可以对带有该减益的敌人造成额外效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309530:4008024"
+      ]
+    },
+    {
+      "ability_id": "ability:Ryze:r:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "被动： 超负荷对带有涌动的目标的伤害加成提升至【数值】%。 主动：瑞兹开启一个前往另一个位置的传送门。在【数值】秒后，传送门附近的所有友军都会被传送到该位置。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ryze"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ryze"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ryze"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309532:4008025"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "spellname",
+        "keywordmajor",
+        "br",
+        "spellactive"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Realm Warp",
+      "name_zh": "曲境折跃",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ryze",
+        "source:ddragon:16.16.1:en_US:Ryze",
+        "source:communitydragon:16.16:zh_cn:Ryze",
+        "source:wiki:1309532:4008025"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Passively, Overload deals even more damage against targets with Flux. On cast, Ryze creates a portal to a nearby location. After a few seconds, allies standing near the portal are teleported to the target location.",
+      "summary_zh": "被动部分：【超负荷】对带有【涌动】效果的目标造成更多伤害。 施放时，瑞兹会创造一个传送门来通向一个附近的位置。在若干秒后，站在传送门附近的友军会被传送至目标位置。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309532:4008025"
+      ]
+    }
+  ],
+  "card_id": "champion:Ryze:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Ryze"
+    ],
+    "numeric_key": "13",
+    "official_name_en": "Ryze",
+    "official_name_zh": "瑞兹",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Ryze",
+      "source:ddragon:16.16.1:en_US:Ryze",
+      "source:communitydragon:16.16:zh_cn:Ryze",
+      "source:riot-champion-page:Ryze:asof-2026-08-21"
+    ],
+    "stable_id": "Ryze",
+    "title_zh": "符文法师"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 2
+    },
+    "roles": [
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Ryze"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:4ac0f1aa6b886f6b5134eb81c48dfafb58b126df2c5b1e878179f7f3dd9983bf",
+      "sha256:9436666b56942079b829d59278655e82d809331ed87e8c61d6c3ac92b85f069f",
+      "sha256:b7e5124256afd45f855751696ef55072dc8155e55c1ec5307e31702d79f5ef2a",
+      "sha256:0f666e9716f408c8713deed798d3f6657847689b6f1ff391c5ad6cc2c564e9e9",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:4ac0f1aa6b886f6b5134eb81c48dfafb58b126df2c5b1e878179f7f3dd9983bf",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Ryze.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Ryze",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 瑞兹",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Ryze.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:9436666b56942079b829d59278655e82d809331ed87e8c61d6c3ac92b85f069f",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Ryze.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Ryze",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Ryze",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Ryze.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:b7e5124256afd45f855751696ef55072dc8155e55c1ec5307e31702d79f5ef2a",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/13.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Ryze",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 瑞兹",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/13.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:0f666e9716f408c8713deed798d3f6657847689b6f1ff391c5ad6cc2c564e9e9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/ryze.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Ryze:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Ryze",
+        "url": "https://www.leagueoflegends.com/en-us/champions/ryze/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4005387,
+        "revision_timestamp": "2026-04-05T10:26:48Z",
+        "source_ref_id": "source:wiki:1309524:4005387",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4005387",
+        "title": "Template:Data Ryze/Arcane Mastery",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ryze/Arcane_Mastery",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3936361,
+        "revision_timestamp": "2025-07-24T13:45:11Z",
+        "source_ref_id": "source:wiki:1309526:3936361",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3936361",
+        "title": "Template:Data Ryze/Overload",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ryze/Overload",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3989878,
+        "revision_timestamp": "2026-02-03T23:27:46Z",
+        "source_ref_id": "source:wiki:1309528:3989878",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3989878",
+        "title": "Template:Data Ryze/Rune Prison",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ryze/Rune_Prison",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008024,
+        "revision_timestamp": "2026-04-13T03:47:55Z",
+        "source_ref_id": "source:wiki:1309530:4008024",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008024",
+        "title": "Template:Data Ryze/Spell Flux",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ryze/Spell_Flux",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008025,
+        "revision_timestamp": "2026-04-13T03:53:31Z",
+        "source_ref_id": "source:wiki:1309532:4008025",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008025",
+        "title": "Template:Data Ryze/Realm Warp",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ryze/Realm_Warp",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

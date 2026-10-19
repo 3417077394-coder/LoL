@@ -1,0 +1,538 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:KSante:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "奎桑提的技能会标记目标来使他的下一次攻击对其造成更多伤害。 在全盛姿态下，奎桑提的所有攻击和技能造成更多伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1545093:4038388"
+        ]
+      },
+      "markup_tags": [
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Dauntless Instinct",
+      "name_zh": "血性本能",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KSante",
+        "source:ddragon:16.16.1:en_US:KSante",
+        "source:communitydragon:16.16:zh_cn:KSante",
+        "source:wiki:1545093:4038388"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "K'Sante's Abilities mark targets to take more damage on his next Attack. When All Out, K'Sante deals more damage with all Attacks and Abilities.",
+      "summary_zh": "奎桑提的技能会标记目标来使他的下一次攻击对其造成更多伤害。 在全盛姿态下，奎桑提的所有攻击和技能造成更多伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1545093:4038388"
+      ]
+    },
+    {
+      "ability_id": "ability:KSante:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "奎桑提猛击他的武器，对敌人们造成【数值】物理伤害和持续【数值】秒的【数值】%减速。如果他命中了敌人，那么他会获得一层持续【数值】秒的【无双陀斧】。在2层时，他会转而发射一道冲击波来对敌人们造成持续【数值】秒的晕眩和拉拽。 全盛姿态：冷却时间缩短【数值】%。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1545094:4007617"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Ntofo Strikes",
+      "name_zh": "无双陀斧",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KSante",
+        "source:ddragon:16.16.1:en_US:KSante",
+        "source:communitydragon:16.16:zh_cn:KSante",
+        "source:wiki:1545094:4007617"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "晕眩",
+        "拉拽"
+      ],
+      "summary_en": "K'Sante strikes, damaging and slowing enemies in a short line. On hit, grants a stack of Ntofo Strikes. At 2 stacks, K'Sante fires a shockwave that pulls enemies in. When All Out, cooldown is reduced.",
+      "summary_zh": "奎桑提进行打击，对一条较短直线内的所有敌人造成伤害和减速效果。 命中敌人时会提供一层【无双陀斧】。在2层时，奎桑提会发射一道可将敌人拉近的冲击波。 在全盛姿态下，冷却时间会缩短。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1545094:4007617"
+      ]
+    },
+    {
+      "ability_id": "ability:KSante:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "true"
+      ],
+      "detailed_description_zh": "奎桑提架起武器【数值】-【数值】秒，变为不可阻挡，并使即将到来的伤害降低【数值】%。然后，他会向前猛撞，造成【数值】 + 【数值】最大生命值的物理伤害。会对命中的敌人们造成击退和【数值】-【数值】秒晕眩(基于蓄力时间)。 全盛姿态：冷却时间会刷新。造成额外的【数值】-【数值】%伤害(伤害类型为真实伤害，幅度基于蓄力时间)，伤害减免提升至【数值】%并且冲刺速度提升，但不再造成击退或晕眩。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1545095:4007618"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status",
+        "br",
+        "keywordmajor",
+        "truedamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Path Maker",
+      "name_zh": "辟路先锋",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KSante",
+        "source:ddragon:16.16.1:en_US:KSante",
+        "source:communitydragon:16.16:zh_cn:KSante",
+        "source:wiki:1545095:4007618"
+      ],
+      "status_terms_zh": [
+        "击退",
+        "晕眩"
+      ],
+      "summary_en": "K'Sante charges up, taking reduced damage, then dashes, knocking back and stunning enemies. When All Out, deals increased damage and no longer knocks back or stuns.",
+      "summary_zh": "奎桑提进行蓄力，期间获得伤害减免，然后进行冲刺，对敌人造成击退和晕眩。 在全盛姿态下，造成提升过的伤害并且不再造成击退或晕眩。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1545095:4007618"
+      ]
+    },
+    {
+      "ability_id": "ability:KSante:e:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "奎桑提进行冲刺，获得持续【数值】秒的【数值】护盾值。如果冲刺至一名友方英雄处，那么冲刺距离会显著提升并且该友方英雄也会获得护盾值。 全盛姿态：冷却时间缩短【数值】%并且冲刺速度提升。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1545096:4034698"
+        ]
+      },
+      "markup_tags": [
+        "shield",
+        "br",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Footwork",
+      "name_zh": "大步驰援",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KSante",
+        "source:ddragon:16.16.1:en_US:KSante",
+        "source:communitydragon:16.16:zh_cn:KSante",
+        "source:wiki:1545096:4034698"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "K'Sante dashes and gains a shield. If targeting an ally, K'Sante dashes to the ally with increased range and both gain a shield. When All Out, cooldown is reduced and speed is increased.",
+      "summary_zh": "奎桑提进行冲刺并获得一个护盾。如果以一个友军为目标，则奎桑提的冲刺距离会提升并冲刺至该友军处，两人都会获得一个护盾。 在全盛姿态下，冷却时间会缩短，并且速度会提升。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1545096:4034698"
+      ]
+    },
+    {
+      "ability_id": "ability:KSante:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "奎桑提分开他的陀斧以击退一名敌方英雄，造成【数值】物理伤害，然后冲刺至其后方并获得持续【数值】秒的全盛姿态。如果该敌人将要命中一段墙体，则会被击退至墙体后，并且奎桑提会对其再次造成【数值】物理伤害。 在全盛姿态下，奎桑提的技能会获得升级并且他获得【数值】%攻击速度、【数值】%额外护甲穿透、以及【数值】%全能吸血，但失去【数值】%最大生命值、【数值】%额外护甲、以及【数值】%额外魔法抗性。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:KSante"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:KSante"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:KSante"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1545097:4051537"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "physicaldamage",
+        "keywordmajor",
+        "br",
+        "attackspeed",
+        "omnivamp",
+        "healing",
+        "scalearmor",
+        "scalemr"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "All Out",
+      "name_zh": "傲岸雄姿",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:KSante",
+        "source:ddragon:16.16.1:en_US:KSante",
+        "source:communitydragon:16.16:zh_cn:KSante",
+        "source:wiki:1545097:4051537"
+      ],
+      "status_terms_zh": [
+        "击退"
+      ],
+      "summary_en": "K'Sante knocks an enemy back, launching them through any wall in their path. Then, K'Sante goes All Out and dashes after them, gaining increased damage, healing, and transformed abilities at the cost of reduced defenses.",
+      "summary_zh": "奎桑提将一个敌人击退，并带其翻越沿途的任何墙体。然后，奎桑提进入【全盛姿态】并冲刺至其身后，获得提升过的伤害、治疗效果、以及转化过的各个技能，但代价是各防御属性降低。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1545097:4051537"
+      ]
+    }
+  ],
+  "card_id": "champion:KSante:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "K'Sante",
+      "KSante"
+    ],
+    "numeric_key": "897",
+    "official_name_en": "K'Sante",
+    "official_name_zh": "奎桑提",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:KSante",
+      "source:ddragon:16.16.1:en_US:KSante",
+      "source:communitydragon:16.16:zh_cn:KSante",
+      "source:riot-champion-page:KSante:asof-2026-08-21"
+    ],
+    "stable_id": "KSante",
+    "title_zh": "纳祖芒荣耀"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 2,
+      "durability": 3,
+      "mobility": 2,
+      "utility": 2
+    },
+    "roles": [
+      "tank",
+      "fighter"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:KSante"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:f3b90035103d57c9c0493040f915b61fda20ae32bdc5335ebd3d18e5b3e4a21e",
+      "sha256:4671a9f4b01bd140fa271de68e1272c7b9ea17718552a0abce63ef26d3dd04cc",
+      "sha256:8a88bee5758fbc6982dd377c188799efa893f3677989639bd265e59433dc8e59",
+      "sha256:cb047e8f35fcf350db17c737fa2e2772ece1b21d3caa80991fe881137f037396",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+      "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:f3b90035103d57c9c0493040f915b61fda20ae32bdc5335ebd3d18e5b3e4a21e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/KSante.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:KSante",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 奎桑提",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/KSante.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:4671a9f4b01bd140fa271de68e1272c7b9ea17718552a0abce63ef26d3dd04cc",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/KSante.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:KSante",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: K'Sante",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/KSante.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:8a88bee5758fbc6982dd377c188799efa893f3677989639bd265e59433dc8e59",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/897.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:KSante",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 奎桑提",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/897.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:cb047e8f35fcf350db17c737fa2e2772ece1b21d3caa80991fe881137f037396",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/ksante.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:KSante:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: K'Sante",
+        "url": "https://www.leagueoflegends.com/en-us/champions/ksante/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038388,
+        "revision_timestamp": "2026-06-30T09:21:08Z",
+        "source_ref_id": "source:wiki:1545093:4038388",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038388",
+        "title": "Template:Data K'Sante/Dauntless Instinct",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_K%27Sante/Dauntless_Instinct",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007617,
+        "revision_timestamp": "2026-04-12T07:31:29Z",
+        "source_ref_id": "source:wiki:1545094:4007617",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007617",
+        "title": "Template:Data K'Sante/Ntofo Strikes",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_K%27Sante/Ntofo_Strikes",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007618,
+        "revision_timestamp": "2026-04-12T07:32:25Z",
+        "source_ref_id": "source:wiki:1545095:4007618",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007618",
+        "title": "Template:Data K'Sante/Path Maker",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_K%27Sante/Path_Maker",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:72e754a1074d855601c815e6f567867ff03e9a667f6d3239d7ca3f756d76ac70",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-008.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4034698,
+        "revision_timestamp": "2026-06-23T21:14:42Z",
+        "source_ref_id": "source:wiki:1545096:4034698",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4034698",
+        "title": "Template:Data K'Sante/Footwork",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_K%27Sante/Footwork",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:2b0bca774fff6b8136449dbf2053b9bde4f615e6ce43c688e6791e122c1d40a2",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-009.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4051537,
+        "revision_timestamp": "2026-08-12T20:43:25Z",
+        "source_ref_id": "source:wiki:1545097:4051537",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4051537",
+        "title": "Template:Data K'Sante/All Out",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_K%27Sante/All_Out",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

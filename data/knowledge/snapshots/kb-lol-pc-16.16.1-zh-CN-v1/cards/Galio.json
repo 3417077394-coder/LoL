@@ -1,0 +1,526 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Galio:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "每过若干秒，加里奥的下次普攻就能在小范围内造成额外魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1317917:4038336"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Colossal Smash",
+      "name_zh": "巨像重击",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Galio",
+        "source:ddragon:16.16.1:en_US:Galio",
+        "source:communitydragon:16.16:zh_cn:Galio",
+        "source:wiki:1317917:4038336"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Every few seconds, Galio's next basic attack deals bonus magic damage in an area.",
+      "summary_zh": "每过若干秒，加里奥的下次普攻就能在小范围内造成额外魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1317917:4038336"
+      ]
+    },
+    {
+      "ability_id": "ability:Galio:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "加里奥发射两道罡风，每道造成【数值】魔法伤害。当罡风汇聚时，它们会合成一股龙卷风，在【数值】秒内持续造成相当于各敌人【数值】%最大生命值的魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1317919:4016962"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Winds of War",
+      "name_zh": "战争罡风",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Galio",
+        "source:ddragon:16.16.1:en_US:Galio",
+        "source:communitydragon:16.16:zh_cn:Galio",
+        "source:wiki:1317919:4016962"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Galio fires two windblasts that converge into a large tornado that deals damage over time.",
+      "summary_zh": "加里奥发射两道罡风，罡风在汇聚后会形成一团大型龙卷风，造成持续伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1317919:4016962"
+      ]
+    },
+    {
+      "ability_id": "ability:Galio:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：如果加里奥在【数值】秒内没有受到伤害，那么他就会获得【数值】魔法护盾。 开始蓄力：加里奥使即将到来的魔法伤害降低【数值】，使即将到来的物理伤害降低【数值】，并且自身减速【数值】%。 释放：加里奥嘲讽附近的敌方英雄【数值】到【数值】秒，造成【数值】到【数值】魔法伤害，并使伤害减免的持续时长刷新至【数值】秒。嘲讽的持续时长、伤害和距离取决于他的蓄力时长。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1317921:3990299"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "shield",
+        "br",
+        "charge",
+        "status",
+        "release",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Shield of Durand",
+      "name_zh": "杜朗护盾",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Galio",
+        "source:ddragon:16.16.1:en_US:Galio",
+        "source:communitydragon:16.16:zh_cn:Galio",
+        "source:wiki:1317921:3990299"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "嘲讽"
+      ],
+      "summary_en": "Galio charges a defensive stance, moving slowly. Upon releasing the charge, Galio will taunt and damage nearby enemies.",
+      "summary_zh": "加里奥在防御姿态下蓄力，同时移动速度减慢。在蓄力得以释放时，加里奥将嘲讽并伤害附近的敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1317921:3990299"
+      ]
+    },
+    {
+      "ability_id": "ability:Galio:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "加里奥挟着一股强劲向前猛冲，将命中的第一个敌方英雄击飞【数值】秒并造成【数值】魔法伤害。沿途的其它敌人将受到【数值】魔法伤害。 加里奥的猛冲将在命中地形时停下。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1317923:4016963"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Justice Punch",
+      "name_zh": "正义冲拳",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Galio",
+        "source:ddragon:16.16.1:en_US:Galio",
+        "source:communitydragon:16.16:zh_cn:Galio",
+        "source:wiki:1317923:4016963"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Galio will briefly step back and charge, knocking up the first enemy champion he encounters.",
+      "summary_zh": "加里奥将暂时后跳然后冲锋，击飞他遇到的第一个敌方英雄。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1317923:4016963"
+      ]
+    },
+    {
+      "ability_id": "ability:Galio:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "加里奥选定一个友方英雄的位置作为他的着陆位置，并为该区域的所有友方英雄提供杜朗护盾的被动护盾，护盾持续【数值】秒。然后加里奥会飞往他的着陆地带。 当加里奥着陆时，他会造成【数值】秒击飞和【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Galio"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Galio"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Galio"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1317924:4017997"
+        ]
+      },
+      "markup_tags": [
+        "spellname",
+        "shield",
+        "br",
+        "status",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Hero's Entrance",
+      "name_zh": "英雄登场",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Galio",
+        "source:ddragon:16.16.1:en_US:Galio",
+        "source:communitydragon:16.16:zh_cn:Galio",
+        "source:wiki:1317924:4017997"
+      ],
+      "status_terms_zh": [
+        "击飞"
+      ],
+      "summary_en": "Galio designates an ally's position as his landing spot, granting all allies in the area a magic shield. After a delay Galio smashes down location, knocking up nearby enemies.",
+      "summary_zh": "加里奥将一名友军的当前位置作为他的着陆点，并为区域内的所有友军提供一个魔法护盾。在短暂的延迟后，加里奥会落到该位置上，然后击退附近的敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1317924:4017997"
+      ]
+    }
+  ],
+  "card_id": "champion:Galio:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Galio"
+    ],
+    "numeric_key": "3",
+    "official_name_en": "Galio",
+    "official_name_zh": "加里奥",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Galio",
+      "source:ddragon:16.16.1:en_US:Galio",
+      "source:communitydragon:16.16:zh_cn:Galio",
+      "source:riot-champion-page:Galio:asof-2026-08-21"
+    ],
+    "stable_id": "Galio",
+    "title_zh": "正义巨像"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 2,
+      "durability": 3,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "tank",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Galio"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:5ac81a8c19f03fa4ef6a331b26c1bfa8f28b91bdc0c07d19f4e1819a7bd20d79",
+      "sha256:4817813ca4f99df79e9fba1bc9dcfd6230e1d730d62295cf97ac85bf52957da9",
+      "sha256:1609bbef95929f1e2b8272c6cea1c363636ad1a9c659ef57c5fa292a929a59e0",
+      "sha256:79b8e0c1b94013f02dfa08a4a79fb75599918e1cb69f04e3342590976f607529",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:5ac81a8c19f03fa4ef6a331b26c1bfa8f28b91bdc0c07d19f4e1819a7bd20d79",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Galio.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Galio",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 加里奥",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Galio.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:4817813ca4f99df79e9fba1bc9dcfd6230e1d730d62295cf97ac85bf52957da9",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Galio.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Galio",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Galio",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Galio.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:1609bbef95929f1e2b8272c6cea1c363636ad1a9c659ef57c5fa292a929a59e0",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/3.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Galio",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 加里奥",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/3.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:79b8e0c1b94013f02dfa08a4a79fb75599918e1cb69f04e3342590976f607529",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/galio.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Galio:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Galio",
+        "url": "https://www.leagueoflegends.com/en-us/champions/galio/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038336,
+        "revision_timestamp": "2026-06-30T08:53:44Z",
+        "source_ref_id": "source:wiki:1317917:4038336",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038336",
+        "title": "Template:Data Galio/Colossal Smash",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Galio/Colossal_Smash",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4016962,
+        "revision_timestamp": "2026-05-13T14:26:32Z",
+        "source_ref_id": "source:wiki:1317919:4016962",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4016962",
+        "title": "Template:Data Galio/Winds of War",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Galio/Winds_of_War",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3990299,
+        "revision_timestamp": "2026-02-07T07:08:21Z",
+        "source_ref_id": "source:wiki:1317921:3990299",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3990299",
+        "title": "Template:Data Galio/Shield of Durand",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Galio/Shield_of_Durand",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4016963,
+        "revision_timestamp": "2026-05-13T14:26:54Z",
+        "source_ref_id": "source:wiki:1317923:4016963",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4016963",
+        "title": "Template:Data Galio/Justice Punch",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Galio/Justice_Punch",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:14f5aabd7efcd2b702b1ac981da21585fdd5d92f2f07722f2590fa0dfed09517",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-006.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4017997,
+        "revision_timestamp": "2026-05-14T13:57:45Z",
+        "source_ref_id": "source:wiki:1317924:4017997",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4017997",
+        "title": "Template:Data Galio/Hero's Entrance",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Galio/Hero%27s_Entrance",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

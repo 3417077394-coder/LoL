@@ -1,0 +1,509 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Ezreal:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "伊泽瑞尔的任何技能在击中目标后，都会提升他的攻击速度（最多可叠加5次）。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307105:3932280"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Rising Spell Force",
+      "name_zh": "咒能高涨",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ezreal",
+        "source:ddragon:16.16.1:en_US:Ezreal",
+        "source:communitydragon:16.16:zh_cn:Ezreal",
+        "source:wiki:1307105:3932280"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 5 times.",
+      "summary_zh": "伊泽瑞尔的任何技能在击中目标后，都会提升他的攻击速度（最多可叠加5次）。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307105:3932280"
+      ]
+    },
+    {
+      "ability_id": "ability:Ezreal:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "伊泽瑞尔发射一支能量箭，对命中的第一个敌人造成【数值】物理伤害并使他各个技能的冷却时间缩短【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307107:4013233"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Mystic Shot",
+      "name_zh": "秘术射击",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ezreal",
+        "source:ddragon:16.16.1:en_US:Ezreal",
+        "source:communitydragon:16.16:zh_cn:Ezreal",
+        "source:wiki:1307107:4013233"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ezreal fires a damaging bolt of energy which reduces all of his cooldowns slightly if it strikes an enemy unit.",
+      "summary_zh": "伊泽瑞尔发射一枚能量弹，如果它击中一个敌方单位，那么它将略微减少伊泽瑞尔所有技能的冷却时间。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307107:4013233"
+      ]
+    },
+    {
+      "ability_id": "ability:Ezreal:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "伊泽瑞尔发射一团魔法球体，魔法球体会附着在命中的第一个敌方英雄、建筑物或史诗级野怪上，持续【数值】秒。如果伊泽瑞尔用技能或攻击命中该目标，就会将球体引爆，造成【数值】魔法伤害。用技能引爆时会返还该技能的法力消耗外加【数值】法力。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307109:4013234"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "scalemana"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Essence Flux",
+      "name_zh": "精华跃动",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ezreal",
+        "source:ddragon:16.16.1:en_US:Ezreal",
+        "source:communitydragon:16.16:zh_cn:Ezreal",
+        "source:wiki:1307109:4013234"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ezreal fires an orb that sticks to the first champion or objective hit. If Ezreal hits an enemy with the orb, it detonates and deals damage.",
+      "summary_zh": "伊泽瑞尔发射一个法球，法球会附着在命中的第一个敌方英雄或战略点上。如果伊泽瑞尔用技能或攻击命中一个法球时，会将它引爆来造成伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307109:4013234"
+      ]
+    },
+    {
+      "ability_id": "ability:Ezreal:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "伊泽瑞尔传送然后向最近的敌人发射一支魔法箭，造成【数值】魔法伤害。魔法箭会优先选择受精华跃动影响的目标。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307111:3989862"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "spellname"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Arcane Shift",
+      "name_zh": "奥术跃迁",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ezreal",
+        "source:ddragon:16.16.1:en_US:Ezreal",
+        "source:communitydragon:16.16:zh_cn:Ezreal",
+        "source:wiki:1307111:3989862"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ezreal teleports to a target nearby location and fires a homing bolt which strikes the nearest enemy unit. Prioritizes enemies stuck with Essence Flux.",
+      "summary_zh": "伊泽瑞尔传送到附近的目标区域，并向最近的敌人发射一束自动寻敌的魔法箭。优先选择被【精华跃动】击中的敌人。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307111:3989862"
+      ]
+    },
+    {
+      "ability_id": "ability:Ezreal:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "伊泽瑞尔发射一道大型能量圆弧，造成【数值】魔法伤害。对小兵和非史诗级野怪降低至【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ezreal"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ezreal"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ezreal"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1307113:4013235"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Trueshot Barrage",
+      "name_zh": "精准弹幕",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ezreal",
+        "source:ddragon:16.16.1:en_US:Ezreal",
+        "source:communitydragon:16.16:zh_cn:Ezreal",
+        "source:wiki:1307113:4013235"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ezreal winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non-epic monsters).",
+      "summary_zh": "伊泽瑞尔蓄力然后向目标区域释放长程能量波，对穿过的敌人造成高额伤害（对小兵和非史诗级野怪的伤害会减少）。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1307113:4013235"
+      ]
+    }
+  ],
+  "card_id": "champion:Ezreal:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Ezreal"
+    ],
+    "numeric_key": "81",
+    "official_name_en": "Ezreal",
+    "official_name_zh": "伊泽瑞尔",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Ezreal",
+      "source:ddragon:16.16.1:en_US:Ezreal",
+      "source:communitydragon:16.16:zh_cn:Ezreal",
+      "source:riot-champion-page:Ezreal:asof-2026-08-21"
+    ],
+    "stable_id": "Ezreal",
+    "title_zh": "探险家"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 1,
+      "durability": 1,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "marksman",
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Ezreal"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:3c3dee95c713d75d776ea85e85c65afc8cbdc70951e45fe093a3ae07a204959e",
+      "sha256:189d4306a47c4d4718913c35cc64597fde3fdf14cb74ad9c87c68619e2910f39",
+      "sha256:1231f7c1aa1c83649523a583137fe92a3086d618d50162776068c7f2f5d797cc",
+      "sha256:a62ac2690202bc8b9acf4b55af3f443776985361e9537cf2659cf3539e165aec",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:3c3dee95c713d75d776ea85e85c65afc8cbdc70951e45fe093a3ae07a204959e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Ezreal.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Ezreal",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 伊泽瑞尔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Ezreal.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:189d4306a47c4d4718913c35cc64597fde3fdf14cb74ad9c87c68619e2910f39",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Ezreal.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Ezreal",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Ezreal",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Ezreal.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:1231f7c1aa1c83649523a583137fe92a3086d618d50162776068c7f2f5d797cc",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/81.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Ezreal",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 伊泽瑞尔",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/81.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:a62ac2690202bc8b9acf4b55af3f443776985361e9537cf2659cf3539e165aec",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/ezreal.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Ezreal:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Ezreal",
+        "url": "https://www.leagueoflegends.com/en-us/champions/ezreal/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3932280,
+        "revision_timestamp": "2025-07-18T21:56:34Z",
+        "source_ref_id": "source:wiki:1307105:3932280",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3932280",
+        "title": "Template:Data Ezreal/Rising Spell Force",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ezreal/Rising_Spell_Force",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013233,
+        "revision_timestamp": "2026-04-28T21:19:30Z",
+        "source_ref_id": "source:wiki:1307107:4013233",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013233",
+        "title": "Template:Data Ezreal/Mystic Shot",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ezreal/Mystic_Shot",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013234,
+        "revision_timestamp": "2026-04-28T21:19:49Z",
+        "source_ref_id": "source:wiki:1307109:4013234",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013234",
+        "title": "Template:Data Ezreal/Essence Flux",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ezreal/Essence_Flux",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3989862,
+        "revision_timestamp": "2026-02-03T23:19:20Z",
+        "source_ref_id": "source:wiki:1307111:3989862",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3989862",
+        "title": "Template:Data Ezreal/Arcane Shift",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ezreal/Arcane_Shift",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:283cc05765fa79614de8060fb913f98d8aafb01e340f243d59e2572838048d19",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-005.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013235,
+        "revision_timestamp": "2026-04-28T21:20:36Z",
+        "source_ref_id": "source:wiki:1307113:4013235",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013235",
+        "title": "Template:Data Ezreal/Trueshot Barrage",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ezreal/Trueshot_Barrage",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

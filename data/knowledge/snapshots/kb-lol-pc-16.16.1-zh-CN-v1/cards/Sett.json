@@ -1,0 +1,525 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Sett:passive:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "瑟提的普通攻击会交替使用左重拳和右重拳。右重拳稍微强一些和快一些。瑟提还很讨厌失败，因此会基于他的已损失生命值而获得额外的生命回复。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1415953:4018819"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Pit Grit",
+      "name_zh": "沙场豪情",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Sett",
+        "source:ddragon:16.16.1:en_US:Sett",
+        "source:communitydragon:16.16:zh_cn:Sett",
+        "source:wiki:1415953:4018819"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Sett's basic attacks alternate between left and right punch. Right punch is slightly stronger and faster. Sett also hates losing, gaining additional health regeneration based off of his missing health.",
+      "summary_zh": "瑟提的普通攻击会交替使用左重拳和右重拳。右重拳稍微强一些和快一些。瑟提还很讨厌失败，因此会基于他的已损失生命值而获得额外的生命回复。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1415953:4018819"
+      ]
+    },
+    {
+      "ability_id": "ability:Sett:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "瑟提手痒难耐，渴望打架，在朝着敌方英雄移动时获得【数值】%移动速度，持续【数值】秒。 此外，瑟提的下两次攻击造成额外的【数值】外加【数值】最大生命值的物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1415954:4024545"
+        ]
+      },
+      "markup_tags": [
+        "speed",
+        "br",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Knuckle Down",
+      "name_zh": "屈人之威",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Sett",
+        "source:ddragon:16.16.1:en_US:Sett",
+        "source:communitydragon:16.16:zh_cn:Sett",
+        "source:wiki:1415954:4024545"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Sett's next two attacks deal additional damage based off of the target's max health. Sett also gains Move Speed while moving towards enemy champions.",
+      "summary_zh": "瑟提的下两次攻击将基于目标的最大生命值来造成额外伤害。瑟提也会在朝着敌方英雄移动时获得移动速度加成。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1415954:4024545"
+      ]
+    },
+    {
+      "ability_id": "ability:Sett:w:ddragon-16.16.1",
+      "damage_types": [
+        "physical",
+        "true"
+      ],
+      "detailed_description_zh": "被动：瑟提将受到的【数值】%伤害储存为豪意，储量上限为【数值】。豪意在停止受到伤害的【数值】秒后会快速衰减。 主动：瑟提将所有豪意迸发出来，获得【数值】%迸发豪意值的护盾值，护盾值会在【数值】秒里持续衰减。瑟提随后会轰出一记重拳，对中央的所有敌人造成【数值】外加【数值】迸发豪意值的真实伤害(最大伤害为【数值】)。不在中央的敌人会受到物理伤害作为替代。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1415955:4008036"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "keywordmajor",
+        "br",
+        "spellactive",
+        "shield",
+        "truedamage",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Haymaker",
+      "name_zh": "蓄意轰拳",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Sett",
+        "source:ddragon:16.16.1:en_US:Sett",
+        "source:communitydragon:16.16:zh_cn:Sett",
+        "source:wiki:1415955:4008036"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Sett passively stores damage he takes as Grit. On cast, Sett expends all stored Grit to gain a shield and punch an area, dealing true damage in the center and physical damage on the sides.",
+      "summary_zh": "瑟提会被动地将他受到的伤害储存为豪意。在施放时，瑟提会释放所有已储存的豪意来提供一层护盾并且重击一个区域，在区域中心造成真实伤害并在区域边缘造成物理伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1415955:4008036"
+      ]
+    },
+    {
+      "ability_id": "ability:Sett:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "瑟提将他两侧的敌人猛撞到一起，造成【数值】物理伤害并使他们减速【数值】%，持续【数值】秒。如果瑟提在每侧都至少擒住了一名敌人，那么所有敌人还会被晕眩【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1415956:4013095"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Facebreaker",
+      "name_zh": "强手裂颅",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Sett",
+        "source:ddragon:16.16.1:en_US:Sett",
+        "source:communitydragon:16.16:zh_cn:Sett",
+        "source:wiki:1415956:4013095"
+      ],
+      "status_terms_zh": [
+        "减速",
+        "晕眩"
+      ],
+      "summary_en": "Sett pulls in all enemies on opposite sides of him, dealing damage and stunning them. If enemies were only on one side, they are slowed instead of stunned.",
+      "summary_zh": "瑟提将他两侧的所有敌人猛撞到一起，对他们造成伤害和晕眩效果。如果敌人仅位于他的一侧，那么他们只会被减速而不会被晕眩。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1415956:4013095"
+      ]
+    },
+    {
+      "ability_id": "ability:Sett:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "瑟提擒住一名敌方英雄，并在扛着该英雄前行时将其压制，然后将该英雄猛摔到地上，对着陆点附近的所有敌人造成【数值】外加【数值】%被擒英雄的额外生命值的物理伤害和持续【数值】秒的【数值】%减速。敌人离瑟提着陆的位置越远，受到的伤害越低。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Sett"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Sett"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Sett"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1415957:3936244"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "The Show Stopper",
+      "name_zh": "叹为观止",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Sett",
+        "source:ddragon:16.16.1:en_US:Sett",
+        "source:communitydragon:16.16:zh_cn:Sett",
+        "source:wiki:1415957:3936244"
+      ],
+      "status_terms_zh": [
+        "压制",
+        "减速"
+      ],
+      "summary_en": "Sett carries an enemy champion through the air and slams them into the ground, dealing damage and slowing all enemies near where they land.",
+      "summary_zh": "瑟提将一名敌方英雄带到空中，然后将其猛砸到地上，在该英雄着陆后对其附近的所有敌人造成伤害和减速效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1415957:3936244"
+      ]
+    }
+  ],
+  "card_id": "champion:Sett:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Sett"
+    ],
+    "numeric_key": "875",
+    "official_name_en": "Sett",
+    "official_name_zh": "瑟提",
+    "resource_type_zh": "豪意",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Sett",
+      "source:ddragon:16.16.1:en_US:Sett",
+      "source:communitydragon:16.16:zh_cn:Sett",
+      "source:riot-champion-page:Sett:asof-2026-08-21"
+    ],
+    "stable_id": "Sett",
+    "title_zh": "腕豪"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 2,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 2,
+      "durability": 2,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "fighter",
+      "tank"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Sett"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:ee87199eb78c2068c82e39ffc3e5daabe12559f2e0c6830642d5190af0be948d",
+      "sha256:c4b379d802b6b9183731cde4acd5856a394fea9b0f46db9a7e4b328e64b88e70",
+      "sha256:719ca494cd06bb4bcd51e8d5be23c0ed5c6eadd714425631d0a2267504b03ea7",
+      "sha256:2297fed40149079ec47198178aa8608fc97661773eed42ce2ec1dfa24aaeb45e",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+      "sha256:03da00afc2a58b1fbd9e1c32365812616fca9670d12cec99d4c0d009f2cad397"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:ee87199eb78c2068c82e39ffc3e5daabe12559f2e0c6830642d5190af0be948d",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Sett.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Sett",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 瑟提",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Sett.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:c4b379d802b6b9183731cde4acd5856a394fea9b0f46db9a7e4b328e64b88e70",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Sett.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Sett",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Sett",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Sett.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:719ca494cd06bb4bcd51e8d5be23c0ed5c6eadd714425631d0a2267504b03ea7",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/875.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Sett",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 瑟提",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/875.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:2297fed40149079ec47198178aa8608fc97661773eed42ce2ec1dfa24aaeb45e",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/sett.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Sett:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Sett",
+        "url": "https://www.leagueoflegends.com/en-us/champions/sett/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4018819,
+        "revision_timestamp": "2026-05-15T23:27:44Z",
+        "source_ref_id": "source:wiki:1415953:4018819",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4018819",
+        "title": "Template:Data Sett/Pit Grit",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Sett/Pit_Grit",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:03da00afc2a58b1fbd9e1c32365812616fca9670d12cec99d4c0d009f2cad397",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-018.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4024545,
+        "revision_timestamp": "2026-06-01T14:02:44Z",
+        "source_ref_id": "source:wiki:1415954:4024545",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4024545",
+        "title": "Template:Data Sett/Knuckle Down",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Sett/Knuckle_Down",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:03da00afc2a58b1fbd9e1c32365812616fca9670d12cec99d4c0d009f2cad397",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-018.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008036,
+        "revision_timestamp": "2026-04-13T04:12:41Z",
+        "source_ref_id": "source:wiki:1415955:4008036",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008036",
+        "title": "Template:Data Sett/Haymaker",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Sett/Haymaker",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:3724ec59bb6caa6c15d60facc6be30a761b1601173427f8632eeb2367627bef0",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-017.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4013095,
+        "revision_timestamp": "2026-04-28T17:50:24Z",
+        "source_ref_id": "source:wiki:1415956:4013095",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4013095",
+        "title": "Template:Data Sett/Facebreaker",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Sett/Facebreaker",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:03da00afc2a58b1fbd9e1c32365812616fca9670d12cec99d4c0d009f2cad397",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-018.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3936244,
+        "revision_timestamp": "2025-07-24T11:05:56Z",
+        "source_ref_id": "source:wiki:1415957:3936244",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3936244",
+        "title": "Template:Data Sett/The Show Stopper",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Sett/The_Show_Stopper",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

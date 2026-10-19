@@ -1,0 +1,396 @@
+{
+  "as_of": "2026-08-21",
+  "card_id": "champion:Camille:ddragon-16.16.1:zh-CN",
+  "champion": {
+    "aliases": [
+      "Camille"
+    ],
+    "numeric_key": "164",
+    "official_name": "卡蜜尔",
+    "resource_type": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Camille",
+      "source:ddragon:16.16.1:en_US:Camille"
+    ],
+    "stable_id": "Camille",
+    "title": "青钢影"
+  },
+  "ddragon_version": "16.16.1",
+  "knowledge_snapshot_id": "kb-ddragon-16.16.1-pilot-v1",
+  "locale": "zh-CN",
+  "normalized_mechanics": {
+    "ability_mechanics": [
+      {
+        "ability_fact_id": "fact:Camille:passive:base:ddragon-16.16.1",
+        "conditions": [
+          "护盾类型由目标伤害类型决定"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "none"
+        ],
+        "defense_types": [
+          "shield"
+        ],
+        "limitations": [
+          "一次只针对一种伤害类型"
+        ],
+        "mechanic_id": "mechanic:Camille:passive:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Camille:passive:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "passive",
+          "targeted_enemy"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Camille:q:base:ddragon-16.16.1",
+        "conditions": [
+          "第二段强化依赖施放间隔"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Camille:q:base:v1",
+        "mobility_types": [
+          "movement_speed"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Camille:q:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "targeted_enemy"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Camille:w:base:ddragon-16.16.1",
+        "conditions": [
+          "减速、额外伤害和治疗依赖外沿命中"
+        ],
+        "control_types": [
+          "slow"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "heal"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Camille:w:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Camille:w:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "cone"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Camille:e:base:ddragon-16.16.1",
+        "conditions": [
+          "第一段需要可连接的墙体",
+          "控制依赖第二段命中英雄"
+        ],
+        "control_types": [
+          "knockup"
+        ],
+        "damage_types": [
+          "physical"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Camille:e:base:v1",
+        "mobility_types": [
+          "dash"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Camille:e:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "direction",
+          "line"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Camille:r:base:ddragon-16.16.1",
+        "conditions": [
+          "只能以敌方英雄为目标"
+        ],
+        "control_types": [
+          "other"
+        ],
+        "damage_types": [
+          "magic"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [
+          "区域限制在当前控制枚举中记为 other"
+        ],
+        "mechanic_id": "mechanic:Camille:r:base:v1",
+        "mobility_types": [
+          "dash"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Camille:r:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "targeted_enemy",
+          "ground_area"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "generation": {
+      "generated_at": "2026-08-21T09:25:13+00:00",
+      "ingest_method": "semi_automatic",
+      "input_hashes": [
+        "sha256:025077c5bc7dfb29a967a0f9374c9ea119a966fda2d0715b3302379c87275fb1",
+        "sha256:1413f1db6088b8a6653033db80f3f3b6cf14a1e2b6d8cff822774206e3eb97d7"
+      ],
+      "script_version": "ddragon-importer-v1"
+    },
+    "sources": [
+      {
+        "content_hash": "sha256:025077c5bc7dfb29a967a0f9374c9ea119a966fda2d0715b3302379c87275fb1",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Camille",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN champion data: 卡蜜尔",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Camille.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:1413f1db6088b8a6653033db80f3f3b6cf14a1e2b6d8cff822774206e3eb97d7",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Camille",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US champion data: Camille",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Camille.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      }
+    ]
+  },
+  "public_patch_alias": "26.16",
+  "region_scope": "global_pc",
+  "review": {
+    "notes": [
+      "官方名称与技能描述来自固定 Data Dragon 原始响应。",
+      "机制摘要、标准化枚举与战术画像为待人工核验的模型候选，不得用于正式 fixed-KB 实验。"
+    ],
+    "quality_flags": [
+      "manual_review_required"
+    ],
+    "reviewed_at": null,
+    "reviewer_ids": [],
+    "status": "generated"
+  },
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "schema_version": "champion-knowledge-card-v1",
+  "source_facts": {
+    "ability_facts": [
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Camille:passive:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "攻击敌方英雄时，根据对方主要伤害类型获得对应的物理或魔法护盾。",
+        "official_description": "对敌方英雄发起的普攻会基于该英雄的伤害类型（物理或魔法）提供一层专门吸收该类型伤害的护盾，护盾的生命值相当于卡蜜尔的一部分最大生命值，持续一小段时间。",
+        "official_name": "适应性防御",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Camille.json",
+        "slot": "passive",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Camille",
+          "source:ddragon:16.16.1:en_US:Camille"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Camille:q:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "强化下一次普攻并短暂加速；在正确间隔后使用第二段会显著增强伤害。",
+        "official_description": "卡蜜尔的下一次普通攻击会斩击敌人，造成额外物理伤害，并为自身提供短暂的爆发性移动速度加成。这个技能可以在释放后的短时间内再次施放，并且如果两次释放之间存在一定的间隔，那么第二段攻击会造成显著的额外伤害。",
+        "official_name": "精准礼仪",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Camille.json",
+        "slot": "q",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Camille",
+          "source:ddragon:16.16.1:en_US:Camille"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Camille:w:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "延迟横扫锥形区域；外沿命中会减速、造成额外伤害并治疗自身。",
+        "official_description": "卡蜜尔在短暂延迟后引爆一个锥形范围，并造成伤害。外沿的敌人会被减速并且受到额外伤害，同时还会治疗卡蜜尔。",
+        "official_name": "战术横扫",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Camille.json",
+        "slot": "w",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Camille",
+          "source:ddragon:16.16.1:en_US:Camille"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Camille:e:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "先钩向墙体，再向指定方向跃出；命中敌方英雄时造成击飞。",
+        "official_description": "卡蜜尔将她自己拉向一个墙体，然后跳下并在落地时击飞敌方英雄。",
+        "official_name": "钩索",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Camille.json",
+        "slot": "e",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Camille",
+          "source:ddragon:16.16.1:en_US:Camille"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Camille:r:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "冲向目标英雄并生成限制其离开的区域，对该目标的普攻附加魔法伤害。",
+        "official_description": "卡蜜尔冲向目标英雄，并将该英雄锚定在区域中。她对目标英雄发起的普攻还会造成额外的魔法伤害。",
+        "official_name": "海克斯最后通牒",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Camille.json",
+        "slot": "r",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Camille",
+          "source:ddragon:16.16.1:en_US:Camille"
+        ]
+      }
+    ]
+  },
+  "tactical_profile": {
+    "attributes": [
+      {
+        "attribute_id": "attribute:Camille:engage:v1",
+        "basis_fact_ids": [
+          "fact:Camille:e:base:ddragon-16.16.1",
+          "fact:Camille:r:base:ddragon-16.16.1"
+        ],
+        "category": "engage",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "E 提供远距离进场，R 能锁定单个关键目标。"
+      },
+      {
+        "attribute_id": "attribute:Camille:pick:v1",
+        "basis_fact_ids": [
+          "fact:Camille:e:base:ddragon-16.16.1",
+          "fact:Camille:r:base:ddragon-16.16.1"
+        ],
+        "category": "pick",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "E 与 R 的组合适合隔离并限制单个目标。"
+      },
+      {
+        "attribute_id": "attribute:Camille:mobility:v1",
+        "basis_fact_ids": [
+          "fact:Camille:q:base:ddragon-16.16.1",
+          "fact:Camille:e:base:ddragon-16.16.1"
+        ],
+        "category": "mobility",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "E 的墙体位移和 Q 的加速提供高机动性。"
+      },
+      {
+        "attribute_id": "attribute:Camille:burst:v1",
+        "basis_fact_ids": [
+          "fact:Camille:q:base:ddragon-16.16.1",
+          "fact:Camille:w:base:ddragon-16.16.1",
+          "fact:Camille:e:base:ddragon-16.16.1"
+        ],
+        "category": "burst",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "Q 第二段、W 外沿与进场连招可形成爆发，但均有条件。"
+      },
+      {
+        "attribute_id": "attribute:Camille:split_push:v1",
+        "basis_fact_ids": [
+          "fact:Camille:q:base:ddragon-16.16.1",
+          "fact:Camille:e:base:ddragon-16.16.1"
+        ],
+        "category": "split_push",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "medium",
+        "review_status": "generated",
+        "summary": "强化普攻和机动能力支持边线施压；具体强度仍需战术审核。"
+      }
+    ],
+    "limitations": [
+      {
+        "basis_fact_ids": [
+          "fact:Camille:e:base:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Camille:terrain_dependency:v1",
+        "review_status": "generated",
+        "summary": "E 的主要进场距离依赖墙体位置。"
+      },
+      {
+        "basis_fact_ids": [
+          "fact:Camille:passive:base:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Camille:damage_type_shield:v1",
+        "review_status": "generated",
+        "summary": "被动护盾只吸收一种伤害类型。"
+      }
+    ],
+    "positions": []
+  }
+}

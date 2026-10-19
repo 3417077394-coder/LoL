@@ -1,0 +1,513 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Akshan:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "来自阿克尚攻击或技能的每第三次命中会造成额外伤害，并且如果目标是英雄还会为他提供一层护盾。 在阿克尚攻击时，他会进行一次额外的射击，来造成较少伤害。如果他取消掉了这次额外射击，那么他会转而获得移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1502461:4038197"
+        ]
+      },
+      "markup_tags": [
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Dirty Fighting",
+      "name_zh": "无所不用",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Akshan",
+        "source:ddragon:16.16.1:en_US:Akshan",
+        "source:communitydragon:16.16:zh_cn:Akshan",
+        "source:wiki:1502461:4038197"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion. When Akshan Attacks, he fires an additional Attack for reduced damage. If he cancels the additional Attack, he instead gains Move Speed.",
+      "summary_zh": "来自阿克尚攻击或技能的每第三次命中会造成额外伤害，并且如果目标是英雄还会为他提供一层护盾。 在阿克尚攻击时，他会进行一次额外的射击，来造成较少伤害。如果他取消掉了这次额外射击，那么他会转而获得移动速度。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1502461:4038197"
+      ]
+    },
+    {
+      "ability_id": "ability:Akshan:q:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "阿克尚掷出一个回旋镖，造成【数值】物理伤害，每次命中一名敌人时会延长其距离。 命中英雄时会为阿克尚提供在【数值】秒里持续衰减的【数值】移动速度。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1502462:4007510"
+        ]
+      },
+      "markup_tags": [
+        "physicaldamage",
+        "br",
+        "speed"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Avengerang",
+      "name_zh": "去而复还",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Akshan",
+        "source:ddragon:16.16.1:en_US:Akshan",
+        "source:communitydragon:16.16:zh_cn:Akshan",
+        "source:wiki:1502462:4007510"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Akshan throws a boomerang that deals damage going out and coming back, extending its range each time it hits an enemy.",
+      "summary_zh": "阿克尚掷出一个回旋镖，在去程和返程时造成伤害，会在它每次命中一名敌人时延长它的距离。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1502462:4007510"
+      ]
+    },
+    {
+      "ability_id": "ability:Akshan:w:ddragon-16.16.1",
+      "damage_types": [
+        "none"
+      ],
+      "detailed_description_zh": "【依当前形态或武器而定】",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1502463:3989407"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Going Rogue",
+      "name_zh": "赴险夺人",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Akshan",
+        "source:ddragon:16.16.1:en_US:Akshan",
+        "source:communitydragon:16.16:zh_cn:Akshan",
+        "source:wiki:1502463:3989407"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Akshan passively marks enemy champions as Scoundrels when they kill his ally champions. If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks. When activated, Akshan enters camouflage and gains Move Speed and Mana Regen while moving towards Scoundrels. Akshan loses the camouflage quickly while he is not in brush or near terrain.",
+      "summary_zh": "被动效果：敌方英雄在击杀了阿克尚的友方英雄时，会被标记为恶人。如果阿克尚击杀了一名恶人，那么他会复活被该恶人击杀的友方英雄，获得额外金币，并清除所有恶人标记。 主动施放时，阿克尚会进入伪装状态并在朝着恶人移动时获得移动速度和法力回复。在离开草丛或墙体附近后，阿克尚会失去伪装状态。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1502463:3989407"
+      ]
+    },
+    {
+      "ability_id": "ability:Akshan:e:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "第一段施放：阿克尚发射一个钩爪，吸附在命中的第一个地形上。 第二段施放：阿克尚在地形附近摆荡，朝相距最近的敌人进行快速射击，每次射击造成【数值】物理伤害。 第三段施放：阿克尚从绳索上荡下来，并进行一次终极射击。 与一名敌方英雄或地形产生碰撞，会提前结束摆荡。 参与击杀敌方英雄后会刷新这个技能的冷却时间。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1502464:4007412"
+        ]
+      },
+      "markup_tags": [
+        "spellactive",
+        "br",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Heroic Swing",
+      "name_zh": "骄行荡寇",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Akshan",
+        "source:ddragon:16.16.1:en_US:Akshan",
+        "source:communitydragon:16.16:zh_cn:Akshan",
+        "source:wiki:1502464:4007412"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Akshan fires a grappling hook into terrain then swings around it, repeatedly firing at the nearest enemy while swinging. He can jump off early or gets knocked off when colliding with champions or terrain.",
+      "summary_zh": "阿克尚发射一个钩爪来吸附住地形，然后围绕它进行摆荡，在摆荡时快速朝相距最近的敌人开火。他可以提前从绳索上荡下来，或在与一名敌方英雄或地形产生碰撞时落下。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1502464:4007412"
+      ]
+    },
+    {
+      "ability_id": "ability:Akshan:r:ddragon-16.16.1",
+      "damage_types": [
+        "physical"
+      ],
+      "detailed_description_zh": "阿克尚锁定一名敌方英雄并开始过载充能他的枪械至多【数值】秒，至多可储存【数值】颗子弹。 再次施放：阿克尚释放已储存的子弹，每颗子弹对命中的首个敌人或建筑物至少造成【数值】物理伤害，基于已损失生命值至多提升至【数值】物理伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Akshan"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Akshan"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Akshan"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1502466:3982549"
+        ]
+      },
+      "markup_tags": [
+        "br",
+        "recast",
+        "physicaldamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Comeuppance",
+      "name_zh": "恩怨相抵",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Akshan",
+        "source:ddragon:16.16.1:en_US:Akshan",
+        "source:communitydragon:16.16:zh_cn:Akshan",
+        "source:wiki:1502466:3982549"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Akshan locks onto an enemy champion and starts storing bullets. When released, he fires all stored bullets, dealing damage based on missing health to the first champion, minion, or structure hit.",
+      "summary_zh": "阿克尚锁定一名敌方英雄并开始储存他的子弹。在释放时，他会发射所有已储存的子弹，对命中的第一个英雄、小兵或建筑物造成基于已损失生命值的伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1502466:3982549"
+      ]
+    }
+  ],
+  "card_id": "champion:Akshan:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Akshan"
+    ],
+    "numeric_key": "166",
+    "official_name_en": "Akshan",
+    "official_name_zh": "阿克尚",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Akshan",
+      "source:ddragon:16.16.1:en_US:Akshan",
+      "source:communitydragon:16.16:zh_cn:Akshan",
+      "source:riot-champion-page:Akshan:asof-2026-08-21"
+    ],
+    "stable_id": "Akshan",
+    "title_zh": "影哨"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 3,
+    "playstyle": {
+      "crowd_control": 1,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 3,
+      "utility": 2
+    },
+    "roles": [
+      "marksman",
+      "assassin"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Akshan"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:4978e2b57f489d61b3280802743169edd73d60093e7fc17ac0b432900b106877",
+      "sha256:d6ff4305e07981c5651a764aa5221e40932560ff9c24bb8fd6eb5630b6d8a88a",
+      "sha256:6c54164260fff021b5c4cbb77d306e284f3bf2dbf885ee70de75cd65582c2a22",
+      "sha256:c8efa5174e840346bb713a25fcc0bb73d67ef9506a0f08e67138759afea3d17c",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:4978e2b57f489d61b3280802743169edd73d60093e7fc17ac0b432900b106877",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Akshan.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Akshan",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 阿克尚",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Akshan.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:d6ff4305e07981c5651a764aa5221e40932560ff9c24bb8fd6eb5630b6d8a88a",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Akshan.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Akshan",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Akshan",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Akshan.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:6c54164260fff021b5c4cbb77d306e284f3bf2dbf885ee70de75cd65582c2a22",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/166.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Akshan",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 阿克尚",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/166.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:c8efa5174e840346bb713a25fcc0bb73d67ef9506a0f08e67138759afea3d17c",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/akshan.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Akshan:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Akshan",
+        "url": "https://www.leagueoflegends.com/en-us/champions/akshan/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4038197,
+        "revision_timestamp": "2026-06-30T06:19:45Z",
+        "source_ref_id": "source:wiki:1502461:4038197",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4038197",
+        "title": "Template:Data Akshan/Dirty Fighting",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Akshan/Dirty_Fighting",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007510,
+        "revision_timestamp": "2026-04-11T22:35:01Z",
+        "source_ref_id": "source:wiki:1502462:4007510",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007510",
+        "title": "Template:Data Akshan/Avengerang",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Akshan/Avengerang",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3989407,
+        "revision_timestamp": "2026-01-31T13:12:04Z",
+        "source_ref_id": "source:wiki:1502463:3989407",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3989407",
+        "title": "Template:Data Akshan/Going Rogue",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Akshan/Going_Rogue",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007412,
+        "revision_timestamp": "2026-04-11T16:52:05Z",
+        "source_ref_id": "source:wiki:1502464:4007412",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007412",
+        "title": "Template:Data Akshan/Heroic Swing",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Akshan/Heroic_Swing",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3982549,
+        "revision_timestamp": "2026-01-09T08:48:24Z",
+        "source_ref_id": "source:wiki:1502466:3982549",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3982549",
+        "title": "Template:Data Akshan/Comeuppance",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Akshan/Comeuppance",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

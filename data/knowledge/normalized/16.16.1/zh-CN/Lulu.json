@@ -1,0 +1,403 @@
+{
+  "as_of": "2026-08-21",
+  "card_id": "champion:Lulu:ddragon-16.16.1:zh-CN",
+  "champion": {
+    "aliases": [
+      "Lulu"
+    ],
+    "numeric_key": "117",
+    "official_name": "璐璐",
+    "resource_type": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Lulu",
+      "source:ddragon:16.16.1:en_US:Lulu"
+    ],
+    "stable_id": "Lulu",
+    "title": "仙灵女巫"
+  },
+  "ddragon_version": "16.16.1",
+  "knowledge_snapshot_id": "kb-ddragon-16.16.1-pilot-v1",
+  "locale": "zh-CN",
+  "normalized_mechanics": {
+    "ability_mechanics": [
+      {
+        "ability_fact_id": "fact:Lulu:passive:base:ddragon-16.16.1",
+        "conditions": [],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "magic"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [
+          "飞弹可能被其他单位阻挡",
+          "皮克斯可能跟随璐璐或另一名友军"
+        ],
+        "mechanic_id": "mechanic:Lulu:passive:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Lulu:passive:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "passive",
+          "direction"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Lulu:q:base:ddragon-16.16.1",
+        "conditions": [
+          "两枚飞弹的起点取决于璐璐与皮克斯位置"
+        ],
+        "control_types": [
+          "slow"
+        ],
+        "damage_types": [
+          "magic"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Lulu:q:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Lulu:q:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "direction",
+          "line"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Lulu:w:base:ddragon-16.16.1",
+        "conditions": [
+          "友军和敌军目标获得不同效果"
+        ],
+        "control_types": [
+          "polymorph",
+          "silence",
+          "disarm"
+        ],
+        "damage_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Lulu:w:base:v1",
+        "mobility_types": [
+          "movement_speed"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Lulu:w:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "targeted_ally",
+          "targeted_enemy"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Lulu:e:base:ddragon-16.16.1",
+        "conditions": [
+          "友军和敌军目标获得不同效果"
+        ],
+        "control_types": [
+          "none"
+        ],
+        "damage_types": [
+          "magic"
+        ],
+        "defense_types": [
+          "shield"
+        ],
+        "limitations": [],
+        "mechanic_id": "mechanic:Lulu:e:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Lulu:e:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "targeted_ally",
+          "targeted_enemy"
+        ]
+      },
+      {
+        "ability_fact_id": "fact:Lulu:r:base:ddragon-16.16.1",
+        "conditions": [
+          "范围控制以目标友军为中心"
+        ],
+        "control_types": [
+          "knockup",
+          "slow"
+        ],
+        "damage_types": [
+          "none"
+        ],
+        "defense_types": [
+          "none"
+        ],
+        "limitations": [
+          "增加生命值不等同于普通治疗，当前防御枚举不强行归类"
+        ],
+        "mechanic_id": "mechanic:Lulu:r:base:v1",
+        "mobility_types": [
+          "none"
+        ],
+        "normalization_method": "llm_candidate",
+        "normalization_status": "generated",
+        "source_fact_ids": [
+          "fact:Lulu:r:base:ddragon-16.16.1"
+        ],
+        "targeting_types": [
+          "targeted_ally",
+          "self_area"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "generation": {
+      "generated_at": "2026-08-21T09:25:13+00:00",
+      "ingest_method": "semi_automatic",
+      "input_hashes": [
+        "sha256:a7a8a2f3abab56acfc651e92b8aeab637e94c33eba8eee5da21455aad878aefc",
+        "sha256:c711a2b50588a2110ee4c374a0280a0e811dada5fa449f412cebce5674a825e9"
+      ],
+      "script_version": "ddragon-importer-v1"
+    },
+    "sources": [
+      {
+        "content_hash": "sha256:a7a8a2f3abab56acfc651e92b8aeab637e94c33eba8eee5da21455aad878aefc",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Lulu",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN champion data: 璐璐",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Lulu.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:c711a2b50588a2110ee4c374a0280a0e811dada5fa449f412cebce5674a825e9",
+        "publisher": "Riot Games",
+        "retrieved_at": "2026-08-21T09:25:13+00:00",
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Lulu",
+        "source_type": "official_structured",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US champion data: Lulu",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Lulu.json",
+        "usage_basis": "official_public",
+        "version_namespace": "ddragon"
+      }
+    ]
+  },
+  "public_patch_alias": "26.16",
+  "region_scope": "global_pc",
+  "review": {
+    "notes": [
+      "官方名称与技能描述来自固定 Data Dragon 原始响应。",
+      "机制摘要、标准化枚举与战术画像为待人工核验的模型候选，不得用于正式 fixed-KB 实验。"
+    ],
+    "quality_flags": [
+      "manual_review_required"
+    ],
+    "reviewed_at": null,
+    "reviewer_ids": [],
+    "status": "generated"
+  },
+  "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+  "schema_version": "champion-knowledge-card-v1",
+  "source_facts": {
+    "ability_facts": [
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Lulu:passive:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "皮克斯跟随的英雄攻击时会发射可被其他单位阻挡的魔法飞弹。",
+        "official_description": "每当皮克斯正在跟随的英雄进行攻击时，皮克斯就会发射魔法飞弹。这些飞弹会自动寻敌，但也会被其它单位所拦截。",
+        "official_name": "皮克斯，仙灵伙伴",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Lulu.json",
+        "slot": "passive",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Lulu",
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Lulu:q:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "璐璐和皮克斯分别发射穿刺飞弹，对沿途敌人造成魔法伤害和强减速。",
+        "official_description": "璐璐和皮克斯各自发射一个穿刺飞弹，对命中的所有敌人造成伤害和重度减速效果。",
+        "official_name": "闪耀长枪",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Lulu.json",
+        "slot": "q",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Lulu",
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Lulu:w:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "对友军提供攻速与移速；对敌方英雄施加变形，使其暂时无法攻击或施法。",
+        "official_description": "如果对友军施放，会暂时增加目标友军的攻击速度和移动速度。如果对敌人施放，会将一名敌方英雄变成可爱的动物，使其无法攻击或施法。",
+        "official_name": "奇思妙想",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Lulu.json",
+        "slot": "w",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Lulu",
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Lulu:e:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "对友军提供护盾并转移皮克斯；对敌人造成魔法伤害并提供其视野。",
+        "official_description": "如果对友军施放，会命令皮克斯跳到一名友军身上进行保护，之后会跟随并协助目标（而不是璐璐）进行攻击。如果对敌人施放，皮克斯会跳到敌人身上造成伤害，之后会跟随并提供目标的视野。",
+        "official_name": "帮忙，皮克斯！",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Lulu.json",
+        "slot": "e",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Lulu",
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ]
+      },
+      {
+        "effective_ddragon_version": "16.16.1",
+        "effective_public_patch_alias": "26.16",
+        "fact_id": "fact:Lulu:r:base:ddragon-16.16.1",
+        "form_id": "base",
+        "mechanics_summary": "使友军变大、击飞附近敌人、增加目标生命值，并提供持续减速光环。",
+        "official_description": "璐璐让她的友军变大，击飞目标附近的敌人，同时为她的友军提供大量生命值加成。接下来的数秒内，该友军会获得一个减少附近敌人速度的光环。",
+        "official_name": "狂野生长",
+        "raw_payload_path": "data/knowledge/raw/16.16.1/zh_CN/champion/Lulu.json",
+        "slot": "r",
+        "source_ref_ids": [
+          "source:ddragon:16.16.1:zh_CN:Lulu",
+          "source:ddragon:16.16.1:en_US:Lulu"
+        ]
+      }
+    ]
+  },
+  "tactical_profile": {
+    "attributes": [
+      {
+        "attribute_id": "attribute:Lulu:peel:v1",
+        "basis_fact_ids": [
+          "fact:Lulu:w:base:ddragon-16.16.1",
+          "fact:Lulu:e:base:ddragon-16.16.1",
+          "fact:Lulu:r:base:ddragon-16.16.1"
+        ],
+        "category": "peel",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "W 变形、E 护盾和 R 击飞能够连续保护核心。"
+      },
+      {
+        "attribute_id": "attribute:Lulu:disengage:v1",
+        "basis_fact_ids": [
+          "fact:Lulu:q:base:ddragon-16.16.1",
+          "fact:Lulu:w:base:ddragon-16.16.1",
+          "fact:Lulu:r:base:ddragon-16.16.1"
+        ],
+        "category": "disengage",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "high",
+        "review_status": "generated",
+        "summary": "Q 减速、W 变形和 R 范围击飞能阻断敌方进场。"
+      },
+      {
+        "attribute_id": "attribute:Lulu:engage:v1",
+        "basis_fact_ids": [
+          "fact:Lulu:r:base:ddragon-16.16.1"
+        ],
+        "category": "engage",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "conditional",
+        "review_status": "generated",
+        "summary": "R 可配合已进场友军制造击飞，但依赖友军位置。"
+      },
+      {
+        "attribute_id": "attribute:Lulu:poke:v1",
+        "basis_fact_ids": [
+          "fact:Lulu:q:base:ddragon-16.16.1",
+          "fact:Lulu:e:base:ddragon-16.16.1"
+        ],
+        "category": "poke",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "medium",
+        "review_status": "generated",
+        "summary": "Q 和敌军 E 提供远程消耗，但需要管理皮克斯位置。"
+      },
+      {
+        "attribute_id": "attribute:Lulu:siege:v1",
+        "basis_fact_ids": [
+          "fact:Lulu:q:base:ddragon-16.16.1",
+          "fact:Lulu:w:base:ddragon-16.16.1",
+          "fact:Lulu:e:base:ddragon-16.16.1"
+        ],
+        "category": "siege",
+        "conditions": [],
+        "derivation_method": "llm_candidate",
+        "rating": "medium",
+        "review_status": "generated",
+        "summary": "加速、护盾和远程减速能辅助核心推进与拉扯。"
+      }
+    ],
+    "limitations": [
+      {
+        "basis_fact_ids": [
+          "fact:Lulu:w:base:ddragon-16.16.1",
+          "fact:Lulu:e:base:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Lulu:dual_target_modes:v1",
+        "review_status": "generated",
+        "summary": "W 和 E 对友军与敌军效果不同，不能在一次施放中同时获得。"
+      },
+      {
+        "basis_fact_ids": [
+          "fact:Lulu:passive:base:ddragon-16.16.1",
+          "fact:Lulu:q:base:ddragon-16.16.1",
+          "fact:Lulu:e:base:ddragon-16.16.1"
+        ],
+        "conditions": [],
+        "limitation_id": "limitation:Lulu:pix_position:v1",
+        "review_status": "generated",
+        "summary": "Q 与被动效果受皮克斯当前跟随目标和位置影响。"
+      }
+    ],
+    "positions": []
+  }
+}

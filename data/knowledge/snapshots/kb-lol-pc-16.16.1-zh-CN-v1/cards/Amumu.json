@@ -1,0 +1,522 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Amumu:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "阿木木的普通攻击会诅咒他的敌人，使敌人会从即将到来的魔法伤害中承受额外真实伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306438:4046475"
+        ]
+      },
+      "markup_tags": [
+        "font"
+      ],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Cursed Touch",
+      "name_zh": "诅咒之触",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Amumu",
+        "source:ddragon:16.16.1:en_US:Amumu",
+        "source:communitydragon:16.16:zh_cn:Amumu",
+        "source:wiki:1306438:4046475"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+      "summary_zh": "阿木木的普通攻击会诅咒他的敌人，使敌人会从即将到来的魔法伤害中承受额外真实伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306438:4046475"
+      ]
+    },
+    {
+      "ability_id": "ability:Amumu:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "阿木木掷出一条绷带，然后将他拉向命中的第一个敌人，使其晕眩【数值】秒，并造成【数值】魔法伤害。 这个技能有2层充能。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306440:4007564"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Bandage Toss",
+      "name_zh": "绷带牵引",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Amumu",
+        "source:ddragon:16.16.1:en_US:Amumu",
+        "source:communitydragon:16.16:zh_cn:Amumu",
+        "source:wiki:1306440:4007564"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.",
+      "summary_zh": "阿木木向目标投掷粘稠的绷带，将自己拉向目标，并对目标造成伤害和眩晕效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306440:4007564"
+      ]
+    },
+    {
+      "ability_id": "ability:Amumu:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "开启：阿木木开始哭泣，每秒对附近的敌人们造成【数值】外加【数值】%最大生命值的魔法伤害并刷新诅咒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306442:4006735"
+        ]
+      },
+      "markup_tags": [
+        "toggle",
+        "magicdamage",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Despair",
+      "name_zh": "绝望光环",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Amumu",
+        "source:ddragon:16.16.1:en_US:Amumu",
+        "source:communitydragon:16.16:zh_cn:Amumu",
+        "source:wiki:1306442:4006735"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed.",
+      "summary_zh": "附近的敌人陷入绝望，每秒损失一定百分比的最大生命值并刷新身上的诅咒效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306442:4006735"
+      ]
+    },
+    {
+      "ability_id": "ability:Amumu:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "被动：阿木木受到的物理伤害降低【数值】。此外，当阿木木被一次攻击命中时，这个技能的冷却时间会缩短【数值】秒。 主动：阿木木大发脾气，对附近的敌人们造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306444:3996197"
+        ]
+      },
+      "markup_tags": [
+        "spellpassive",
+        "br",
+        "spellactive",
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Tantrum",
+      "name_zh": "阿木木的愤怒",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Amumu",
+        "source:ddragon:16.16.1:en_US:Amumu",
+        "source:communitydragon:16.16:zh_cn:Amumu",
+        "source:wiki:1306444:3996197"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on Tantrum is reduced.",
+      "summary_zh": "永久减少阿木木所受的物理伤害。主动施放时，阿木木可以发泄他的怒火，对周围的敌人造成伤害。阿木木每被攻击一次，该技能的冷却时间就会缩短。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306444:3996197"
+      ]
+    },
+    {
+      "ability_id": "ability:Amumu:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "阿木木用绷带将周围敌方单位通通缠住，将其晕眩【数值】秒，造成【数值】魔法伤害并施加诅咒效果。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Amumu"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Amumu"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Amumu"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1306446:3953818"
+        ]
+      },
+      "markup_tags": [
+        "status",
+        "magicdamage",
+        "keywordmajor"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Curse of the Sad Mummy",
+      "name_zh": "木乃伊之咒",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Amumu",
+        "source:ddragon:16.16.1:en_US:Amumu",
+        "source:communitydragon:16.16:zh_cn:Amumu",
+        "source:wiki:1306446:3953818"
+      ],
+      "status_terms_zh": [
+        "晕眩"
+      ],
+      "summary_en": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
+      "summary_zh": "阿木木用绷带将附近敌方单位通通缠住，对他们施加诅咒效果，并造成伤害和晕眩效果。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1306446:3953818"
+      ]
+    }
+  ],
+  "card_id": "champion:Amumu:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Amumu"
+    ],
+    "numeric_key": "32",
+    "official_name_en": "Amumu",
+    "official_name_zh": "阿木木",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Amumu",
+      "source:ddragon:16.16.1:en_US:Amumu",
+      "source:communitydragon:16.16:zh_cn:Amumu",
+      "source:riot-champion-page:Amumu:asof-2026-08-21"
+    ],
+    "stable_id": "Amumu",
+    "title_zh": "殇之木乃伊"
+  },
+  "client_classification": {
+    "attack_type": "melee",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 3,
+      "damage": 2,
+      "durability": 3,
+      "mobility": 1,
+      "utility": 1
+    },
+    "roles": [
+      "tank",
+      "support"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Amumu"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:431c6d98435c99a1a1b18a2945aeb6e15bff51b3ddf0e7253bb0aa2b55367329",
+      "sha256:b89cd3f61e8f8ffe2afcc3778df35a39eaf77aca34de184b8904959cf8b65f37",
+      "sha256:b4c53296bedc673bcc21f81c9e3ef29480b714e060c78f47afbd64059d08dbb2",
+      "sha256:2510317d07e631b860853e5bee16bb767da7475587f91264a64c397edc7a85b5",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:431c6d98435c99a1a1b18a2945aeb6e15bff51b3ddf0e7253bb0aa2b55367329",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Amumu.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Amumu",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 阿木木",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Amumu.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:b89cd3f61e8f8ffe2afcc3778df35a39eaf77aca34de184b8904959cf8b65f37",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Amumu.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Amumu",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Amumu",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Amumu.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:b4c53296bedc673bcc21f81c9e3ef29480b714e060c78f47afbd64059d08dbb2",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/32.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Amumu",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 阿木木",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/32.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:2510317d07e631b860853e5bee16bb767da7475587f91264a64c397edc7a85b5",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/amumu.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Amumu:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Amumu",
+        "url": "https://www.leagueoflegends.com/en-us/champions/amumu/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4046475,
+        "revision_timestamp": "2026-07-28T11:26:00Z",
+        "source_ref_id": "source:wiki:1306438:4046475",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4046475",
+        "title": "Template:Data Amumu/Cursed Touch",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Amumu/Cursed_Touch",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4007564,
+        "revision_timestamp": "2026-04-12T06:24:24Z",
+        "source_ref_id": "source:wiki:1306440:4007564",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4007564",
+        "title": "Template:Data Amumu/Bandage Toss",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Amumu/Bandage_Toss",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4006735,
+        "revision_timestamp": "2026-04-07T16:34:08Z",
+        "source_ref_id": "source:wiki:1306442:4006735",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4006735",
+        "title": "Template:Data Amumu/Despair",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Amumu/Despair",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3996197,
+        "revision_timestamp": "2026-03-04T03:07:18Z",
+        "source_ref_id": "source:wiki:1306444:3996197",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3996197",
+        "title": "Template:Data Amumu/Tantrum",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Amumu/Tantrum",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:9901f510c2c4bfd71d4c0214be7333b6d232b6a4b83277265974a2e6ebd6e2aa",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-001.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 3953818,
+        "revision_timestamp": "2025-09-15T09:42:57Z",
+        "source_ref_id": "source:wiki:1306446:3953818",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:3953818",
+        "title": "Template:Data Amumu/Curse of the Sad Mummy",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Amumu/Curse_of_the_Sad_Mummy",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}

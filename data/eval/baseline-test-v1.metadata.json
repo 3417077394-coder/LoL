@@ -1,0 +1,29 @@
+{
+  "schema_version": "eval-dataset-metadata-v2",
+  "dataset_id": "baseline-test-v1",
+  "dataset_path": "data/eval/baseline-test-v1.jsonl",
+  "dataset_sha256": "e5b4e0d0a590ae64bad31ed7be272f3d7acb919441f1a2ff0b9f9671832e5682",
+  "row_count": 50,
+  "evaluation_ruleset": {
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "as_of": "2026-08-21",
+    "region_scope": "global_pc",
+    "locale": "zh-CN",
+    "ddragon_locale": "zh_CN"
+  },
+  "authored_ruleset": null,
+  "version_binding": "retroactive_evaluation_target",
+  "version_sources": {
+    "patch_notes_url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+    "ddragon_versions_url": "https://ddragon.leagueoflegends.com/api/versions.json",
+    "realm_url": "https://ddragon.leagueoflegends.com/realms/na.json"
+  },
+  "frozen_at": "2026-08-21",
+  "notes": [
+    "Data Dragon 16.16.1 is the canonical engineering version for EXP-0001; public patch 26.16 is retained only as an official patch-notes alias.",
+    "The ruleset includes official corrections known as of 2026-08-21; the canonical JSONL was not authored specifically for this ruleset and remains unchanged.",
+    "scenario_type labels such as standard_meta are structural scenario categories, not expert-validated claims about the 16.16.1 ruleset or 26.16 competitive meta."
+  ]
+}

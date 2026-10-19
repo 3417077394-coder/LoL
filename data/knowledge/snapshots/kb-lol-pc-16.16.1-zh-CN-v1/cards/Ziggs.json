@@ -1,0 +1,515 @@
+{
+  "abilities": [
+    {
+      "ability_id": "ability:Ziggs:passive:ddragon-16.16.1",
+      "damage_types": [
+        "unknown"
+      ],
+      "detailed_description_zh": "每过一段时间，吉格斯的下次普通攻击就会造成额外的魔法伤害。这个冷却时间会在吉格斯每用一次技能时得到减少。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309289:4005222"
+        ]
+      },
+      "markup_tags": [],
+      "mechanism_critical_numbers_preserved": true,
+      "name_en": "Short Fuse",
+      "name_zh": "一触即发",
+      "slot": "passive",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ziggs",
+        "source:ddragon:16.16.1:en_US:Ziggs",
+        "source:communitydragon:16.16:zh_cn:Ziggs",
+        "source:wiki:1309289:4005222"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Periodically, Ziggs' next basic attack deals bonus magic damage. This cooldown is reduced whenever Ziggs uses an ability.",
+      "summary_zh": "每过一段时间，吉格斯的下次普通攻击就会造成额外的魔法伤害。这个冷却时间会在吉格斯每用一次技能时得到减少。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309289:4005222"
+      ]
+    },
+    {
+      "ability_id": "ability:Ziggs:q:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "吉格斯扔出一个会弹跳的炸弹，对敌人造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309290:4008669"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Bouncing Bomb",
+      "name_zh": "弹跳炸弹",
+      "slot": "q",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ziggs",
+        "source:ddragon:16.16.1:en_US:Ziggs",
+        "source:communitydragon:16.16:zh_cn:Ziggs",
+        "source:wiki:1309290:4008669"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ziggs throws a bouncing bomb that deals magic damage.",
+      "summary_zh": "吉格斯扔出一个会弹跳的炸弹，对敌人造成魔法伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309290:4008669"
+      ]
+    },
+    {
+      "ability_id": "ability:Ziggs:w:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "吉格斯扔出一个炸药包，会在【数值】秒后或者在再次施放该技能后爆炸。爆炸会对敌人造成【数值】魔法伤害，并将他们击退。吉格斯也会被震开，但不会受到伤害。 【定点爆破】会自动摧毁生命值低于【数值】%的防御塔。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309291:4008672"
+        ]
+      },
+      "markup_tags": [
+        "recast",
+        "magicdamage",
+        "status",
+        "br"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Satchel Charge",
+      "name_zh": "定点爆破",
+      "slot": "w",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ziggs",
+        "source:ddragon:16.16.1:en_US:Ziggs",
+        "source:communitydragon:16.16:zh_cn:Ziggs",
+        "source:wiki:1309291:4008672"
+      ],
+      "status_terms_zh": [
+        "击",
+        "退"
+      ],
+      "summary_en": "Ziggs flings an explosive charge that detonates after a delay, or when this ability is activated again. The explosion deals magic damage to enemies, knocking them away. Ziggs is also knocked away, but takes no damage. Ziggs can use the Satchel to hexplode vulnerable enemy turrets.",
+      "summary_zh": "吉格斯扔出一个炸药包，会在一段延迟后爆炸，或者在再次施放该技能后爆炸。爆炸会对敌人造成魔法伤害，并将他们击退。吉格斯也会被击退，但不会受到伤害。 吉格斯可以用这个技能来爆破敌方摇摇欲坠的防御塔。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309291:4008672"
+      ]
+    },
+    {
+      "ability_id": "ability:Ziggs:e:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "吉格斯布下敌人一踩就炸的感应雷区，对踩中地雷的敌人造成【数值】魔法伤害和持续【数值】秒的【数值】%减速。地雷持续【数值】秒。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309292:4008673"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage",
+        "status"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Hexplosive Minefield",
+      "name_zh": "海克斯爆破雷区",
+      "slot": "e",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ziggs",
+        "source:ddragon:16.16.1:en_US:Ziggs",
+        "source:communitydragon:16.16:zh_cn:Ziggs",
+        "source:wiki:1309292:4008673"
+      ],
+      "status_terms_zh": [
+        "减速"
+      ],
+      "summary_en": "Ziggs scatters proximity mines that detonate on enemy contact, dealing magic damage and slowing. Successive mine detonations on the same target deal reduced damage.",
+      "summary_zh": "吉格斯布下敌人一踩就炸的感应雷区，对踩中地雷的敌人造成魔法伤害和减速效果。对相同目标的后续爆炸将造成较少伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309292:4008673"
+      ]
+    },
+    {
+      "ability_id": "ability:Ziggs:r:ddragon-16.16.1",
+      "damage_types": [
+        "magic"
+      ],
+      "detailed_description_zh": "吉格斯扔出他的终极造物，在爆炸范围的中心区域造成【数值】魔法伤害，或在边缘区域造成【数值】魔法伤害。",
+      "extraction": {
+        "method": "deterministic_client_markup_v1",
+        "notes": [
+          "详细中文机制来自固定 CommunityDragon 客户端数据；数值占位符统一显示为【数值】。",
+          "伤害类型和状态词只从客户端标记确定性提取，不由模型补写。"
+        ],
+        "status": "source_grounded"
+      },
+      "field_sources": {
+        "detailed_description_zh": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "deterministic_hints": [
+          "source:communitydragon:16.16:zh_cn:Ziggs"
+        ],
+        "name_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "name_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "summary_en": [
+          "source:ddragon:16.16.1:en_US:Ziggs"
+        ],
+        "summary_zh": [
+          "source:ddragon:16.16.1:zh_CN:Ziggs"
+        ],
+        "wiki_supplement": [
+          "source:wiki:1309293:4008677"
+        ]
+      },
+      "markup_tags": [
+        "magicdamage"
+      ],
+      "mechanism_critical_numbers_preserved": false,
+      "name_en": "Mega Inferno Bomb",
+      "name_zh": "科学的地狱火炮",
+      "slot": "r",
+      "source_ref_ids": [
+        "source:ddragon:16.16.1:zh_CN:Ziggs",
+        "source:ddragon:16.16.1:en_US:Ziggs",
+        "source:communitydragon:16.16:zh_cn:Ziggs",
+        "source:wiki:1309293:4008677"
+      ],
+      "status_terms_zh": [],
+      "summary_en": "Ziggs deploys his ultimate creation, the Mega Inferno Bomb, hurling it an enormous distance. Enemies in the primary blast zone take more damage than those farther away.",
+      "summary_zh": "吉格斯部署他的尖端发明，科学的地狱火炮，将它推送一段极远的距离。在主要爆炸区域里的敌人会比在其它爆炸区域里的敌人受到更多的伤害。",
+      "wiki_source_ref_ids": [
+        "source:wiki:1309293:4008677"
+      ]
+    }
+  ],
+  "card_id": "champion:Ziggs:ddragon-16.16.1:zh-CN:v2",
+  "champion": {
+    "aliases": [
+      "Ziggs"
+    ],
+    "numeric_key": "115",
+    "official_name_en": "Ziggs",
+    "official_name_zh": "吉格斯",
+    "resource_type_zh": "法力",
+    "source_ref_ids": [
+      "source:ddragon:16.16.1:zh_CN:Ziggs",
+      "source:ddragon:16.16.1:en_US:Ziggs",
+      "source:communitydragon:16.16:zh_cn:Ziggs",
+      "source:riot-champion-page:Ziggs:asof-2026-08-21"
+    ],
+    "stable_id": "Ziggs",
+    "title_zh": "爆破鬼才"
+  },
+  "client_classification": {
+    "attack_type": "ranged",
+    "difficulty": 1,
+    "playstyle": {
+      "crowd_control": 2,
+      "damage": 3,
+      "durability": 1,
+      "mobility": 2,
+      "utility": 1
+    },
+    "roles": [
+      "mage"
+    ],
+    "source_ref_ids": [
+      "source:communitydragon:16.16:zh_cn:Ziggs"
+    ]
+  },
+  "knowledge_snapshot_id": "kb-lol-pc-16.16.1-zh-CN-v1",
+  "locale": "zh-CN",
+  "patch_change": {
+    "source_ref_id": "source:riot-patch-notes:26.16",
+    "status": "not_listed",
+    "text_en": null
+  },
+  "provenance": {
+    "builder_version": "full-kb-builder-v1",
+    "generated_at": "2026-08-21T14:01:58+00:00",
+    "input_hashes": [
+      "sha256:65f282bd24b3fc05e58a59f5db778335614e0fc79dbff63584b6c030b34b13ff",
+      "sha256:a6bd2f984d1063a9cd7bf65827317415a1d79bd4e1ed49b1ac88bab7a8659e6f",
+      "sha256:46886ec04b04b2165b98b4905f20c96b4f7c1a6f7cbbb718248fd2fbaf5cdee9",
+      "sha256:9a7bd602f03ff6b00548b8d30c4f6048ccaba7fdc8fdfc0eed824a941d92955a",
+      "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+      "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d"
+    ],
+    "sources": [
+      {
+        "content_hash": "sha256:65f282bd24b3fc05e58a59f5db778335614e0fc79dbff63584b6c030b34b13ff",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/zh_CN/champion/Ziggs.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:zh_CN:Ziggs",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 zh_CN: 吉格斯",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/zh_CN/champion/Ziggs.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:a6bd2f984d1063a9cd7bf65827317415a1d79bd4e1ed49b1ac88bab7a8659e6f",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/ddragon/en_US/champion/Ziggs.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:ddragon:16.16.1:en_US:Ziggs",
+        "source_type": "riot_ddragon",
+        "source_version": "16.16.1",
+        "title": "Data Dragon 16.16.1 en_US: Ziggs",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.16.1/data/en_US/champion/Ziggs.json",
+        "version_namespace": "ddragon"
+      },
+      {
+        "content_hash": "sha256:46886ec04b04b2165b98b4905f20c96b4f7c1a6f7cbbb718248fd2fbaf5cdee9",
+        "publisher": "CommunityDragon",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/communitydragon/zh_cn/champions/115.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:communitydragon:16.16:zh_cn:Ziggs",
+        "source_type": "communitydragon_client_extract",
+        "source_version": "16.16",
+        "title": "LoL client game-data 16.16 zh_cn: 吉格斯",
+        "url": "https://raw.communitydragon.org/16.16/plugins/rcp-be-lol-game-data/global/zh_cn/v1/champions/115.json",
+        "version_namespace": "communitydragon_patch"
+      },
+      {
+        "content_hash": "sha256:9a7bd602f03ff6b00548b8d30c4f6048ccaba7fdc8fdfc0eed824a941d92955a",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/champions/ziggs.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-champion-page:Ziggs:asof-2026-08-21",
+        "source_type": "riot_champion_page",
+        "source_version": "2026-08-21",
+        "title": "Riot champion page: Ziggs",
+        "url": "https://www.leagueoflegends.com/en-us/champions/ziggs/",
+        "version_namespace": "live_as_of"
+      },
+      {
+        "content_hash": "sha256:ee0c15e99530f3f4f0747e8d00bd3f8adf7cf67af0ea9eff6b6a92081977cd57",
+        "publisher": "Riot Games",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/riot/patch-26.16-notes.html",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": null,
+        "revision_timestamp": null,
+        "source_ref_id": "source:riot-patch-notes:26.16",
+        "source_type": "riot_patch_notes",
+        "source_version": "26.16",
+        "title": "League of Legends Patch 26.16 Notes",
+        "url": "https://www.leagueoflegends.com/en-gb/news/game-updates/league-of-legends-patch-26-16-notes/",
+        "version_namespace": "public_patch"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4005222,
+        "revision_timestamp": "2026-04-04T06:53:28Z",
+        "source_ref_id": "source:wiki:1309289:4005222",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4005222",
+        "title": "Template:Data Ziggs/Short Fuse",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ziggs/Short_Fuse",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008669,
+        "revision_timestamp": "2026-04-15T01:25:41Z",
+        "source_ref_id": "source:wiki:1309290:4008669",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008669",
+        "title": "Template:Data Ziggs/Bouncing Bomb",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ziggs/Bouncing_Bomb",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008672,
+        "revision_timestamp": "2026-04-15T01:27:59Z",
+        "source_ref_id": "source:wiki:1309291:4008672",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008672",
+        "title": "Template:Data Ziggs/Satchel Charge",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ziggs/Satchel_Charge",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008673,
+        "revision_timestamp": "2026-04-15T01:28:53Z",
+        "source_ref_id": "source:wiki:1309292:4008673",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008673",
+        "title": "Template:Data Ziggs/Hexplosive Minefield",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ziggs/Hexplosive_Minefield",
+        "version_namespace": "wiki_revision"
+      },
+      {
+        "content_hash": "sha256:54a73531653e66aa0c850e49b96e2feede6b1b477c8679fab352e341fd510a4d",
+        "publisher": "League of Legends Wiki community (Riot-supported)",
+        "raw_snapshot_path": "data/knowledge/source_snapshots/sources-lol-pc-16.16.1-asof-2026-08-21-v1/wiki/abilities/batch-025.json",
+        "retrieved_at": "2026-08-21T14:01:58+00:00",
+        "revision_id": 4008677,
+        "revision_timestamp": "2026-04-15T01:31:12Z",
+        "source_ref_id": "source:wiki:1309293:4008677",
+        "source_type": "official_wiki_community_maintained",
+        "source_version": "revision:4008677",
+        "title": "Template:Data Ziggs/Mega Inferno Bomb",
+        "url": "https://wiki.leagueoflegends.com/en-us/Template:Data_Ziggs/Mega_Inferno_Bomb",
+        "version_namespace": "wiki_revision"
+      }
+    ]
+  },
+  "quality": {
+    "human_reviewed": false,
+    "quality_flags": [
+      "exact_values_omitted_from_context"
+    ],
+    "source_coverage": {
+      "communitydragon": true,
+      "ddragon": true,
+      "official_wiki": true,
+      "patch_notes": true,
+      "riot_champion_page": true
+    },
+    "status": "source_grounded_auto",
+    "usage_policy": "可用于来源约束的中文 RAG；自动提示不等同于人工专家结论。"
+  },
+  "ruleset": {
+    "as_of": "2026-08-21",
+    "ddragon_version": "16.16.1",
+    "public_patch_alias": "26.16",
+    "region_scope": "global_pc",
+    "ruleset_id": "lol-pc-ddragon-16.16.1-asof-2026-08-21"
+  },
+  "schema_version": "champion-knowledge-card-v2"
+}
